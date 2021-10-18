@@ -4,7236 +4,4409 @@ using System.Text;
 
 namespace XFluent.Resources.Fonts
 {
-    public static class FluentIconsFilled
-    {
-        public static readonly string access_time_24 = "\uf101";
-        public static readonly string accessibility_16 = "\uf102";
-        public static readonly string accessibility_20 = "\uf103";
-        public static readonly string accessibility_24 = "\uf104";
-        public static readonly string accessibility_28 = "\uf105";
-        public static readonly string accessibility_32 = "\ufcc0";
-        public static readonly string accessibility_checkmark_24 = "\ufcc1";
-        public static readonly string add_12 = "\uf107";
-        public static readonly string add_16 = "\uf108";
-        public static readonly string add_20 = "\uf109";
-        public static readonly string add_24 = "\uf10a";
-        public static readonly string add_28 = "\uf10b";
-        public static readonly string add_circle_16 = "\ufcc2";
-        public static readonly string add_circle_20 = "\uf10c";
-        public static readonly string add_circle_24 = "\uf10d";
-        public static readonly string add_circle_28 = "\uf10e";
-        public static readonly string add_circle_32 = "\ufcc3";
-        public static readonly string add_square_24 = "\uf8e2";
-        public static readonly string add_square_multiple_16 = "\ufea6";
-        public static readonly string add_square_multiple_20 = "\ufea7";
-        public static readonly string add_subtract_circle_16 = "\ufd19";
-        public static readonly string add_subtract_circle_20 = "\ufd1a";
-        public static readonly string add_subtract_circle_24 = "\ufd1b";
-        public static readonly string add_subtract_circle_28 = "\ufd1c";
-        public static readonly string add_subtract_circle_48 = "\ufd1d";
-        public static readonly string airplane_20 = "\uf10f";
-        public static readonly string airplane_24 = "\uf110";
-        public static readonly string airplane_take_off_16 = "\uf111";
-        public static readonly string airplane_take_off_20 = "\uf112";
-        public static readonly string airplane_take_off_24 = "\uf113";
-        public static readonly string album_24 = "\ufb72";
-        public static readonly string album_add_24 = "\ufb73";
-        public static readonly string alert_16 = "\ufb29";
-        public static readonly string alert_20 = "\uf114";
-        public static readonly string alert_24 = "\uf115";
-        public static readonly string alert_28 = "\uf116";
-        public static readonly string alert_32 = "\ufda6";
-        public static readonly string alert_off_16 = "\uf117";
-        public static readonly string alert_off_20 = "\uf118";
-        public static readonly string alert_off_24 = "\uf119";
-        public static readonly string alert_off_28 = "\uf11a";
-        public static readonly string alert_on_24 = "\uf11b";
-        public static readonly string alert_snooze_20 = "\uf11c";
-        public static readonly string alert_snooze_24 = "\uf11d";
-        public static readonly string alert_urgent_16 = "\ufb74";
-        public static readonly string alert_urgent_20 = "\uf11e";
-        public static readonly string alert_urgent_24 = "\uf11f";
-        public static readonly string align_bottom_16 = "\ufe00";
-        public static readonly string align_bottom_20 = "\ufe01";
-        public static readonly string align_bottom_24 = "\ufe02";
-        public static readonly string align_bottom_28 = "\ufe03";
-        public static readonly string align_bottom_32 = "\ufe04";
-        public static readonly string align_bottom_48 = "\ufe05";
-        public static readonly string align_center_horizontal_16 = "\ufe06";
-        public static readonly string align_center_horizontal_20 = "\ufe07";
-        public static readonly string align_center_horizontal_24 = "\ufe08";
-        public static readonly string align_center_horizontal_28 = "\ufe09";
-        public static readonly string align_center_horizontal_32 = "\ufe0a";
-        public static readonly string align_center_horizontal_48 = "\ufe0b";
-        public static readonly string align_center_vertical_16 = "\ufe0c";
-        public static readonly string align_center_vertical_20 = "\ufe0d";
-        public static readonly string align_center_vertical_24 = "\ufe0e";
-        public static readonly string align_center_vertical_28 = "\ufe0f";
-        public static readonly string align_center_vertical_32 = "\ufe10";
-        public static readonly string align_center_vertical_48 = "\ufe11";
-        public static readonly string align_left_16 = "\ufe12";
-        public static readonly string align_left_20 = "\ufe13";
-        public static readonly string align_left_24 = "\ufe14";
-        public static readonly string align_left_28 = "\ufe15";
-        public static readonly string align_left_32 = "\ufe16";
-        public static readonly string align_left_48 = "\ufe17";
-        public static readonly string align_right_16 = "\ufe18";
-        public static readonly string align_right_20 = "\ufe19";
-        public static readonly string align_right_24 = "\ufe1a";
-        public static readonly string align_right_28 = "\ufe1b";
-        public static readonly string align_right_32 = "\ufe1c";
-        public static readonly string align_right_48 = "\ufe1d";
-        public static readonly string align_top_16 = "\ufe1e";
-        public static readonly string align_top_20 = "\ufe1f";
-        public static readonly string align_top_24 = "\ufe20";
-        public static readonly string align_top_28 = "\ufe21";
-        public static readonly string align_top_32 = "\ufe22";
-        public static readonly string align_top_48 = "\ufe23";
-        public static readonly string animal_cat_16 = "\uf106";
-        public static readonly string animal_cat_20 = "\uf126";
-        public static readonly string animal_cat_24 = "\uf127";
-        public static readonly string animal_cat_28 = "\uf128";
-        public static readonly string animal_dog_20 = "\uf120";
-        public static readonly string animal_dog_24 = "\uf121";
-        public static readonly string animal_rabbit_16 = "\ufcc4";
-        public static readonly string animal_rabbit_20 = "\ufcc5";
-        public static readonly string animal_rabbit_24 = "\ufcc6";
-        public static readonly string animal_rabbit_28 = "\ufcc7";
-        public static readonly string animal_turtle_16 = "\ufcc8";
-        public static readonly string animal_turtle_20 = "\ufcc9";
-        public static readonly string animal_turtle_24 = "\ufcca";
-        public static readonly string animal_turtle_28 = "\ufccb";
-        public static readonly string app_folder_20 = "\uf122";
-        public static readonly string app_folder_24 = "\uf123";
-        public static readonly string app_generic_24 = "\uf124";
-        public static readonly string app_recent_24 = "\uf125";
-        public static readonly string app_store_24 = "\uf12a";
-        public static readonly string app_title_24 = "\uf12b";
-        public static readonly string approval_app_32 = "\ufda7";
-        public static readonly string approvals_app_16 = "\ufb2a";
-        public static readonly string approvals_app_20 = "\ufb2b";
-        public static readonly string approvals_app_24 = "\uf130";
-        public static readonly string approvals_app_28 = "\uf131";
-        public static readonly string apps_16 = "\uf132";
-        public static readonly string apps_20 = "\uf133";
-        public static readonly string apps_24 = "\uf134";
-        public static readonly string apps_28 = "\uf135";
-        public static readonly string apps_add_in_16 = "\ufe3e";
-        public static readonly string apps_add_in_20 = "\uf136";
-        public static readonly string apps_add_in_24 = "\uf137";
-        public static readonly string apps_add_in_28 = "\ufe3f";
-        public static readonly string apps_list_20 = "\uf8e3";
-        public static readonly string apps_list_24 = "\uf138";
-        public static readonly string archive_16 = "\uf8e4";
-        public static readonly string archive_20 = "\uf139";
-        public static readonly string archive_24 = "\uf13a";
-        public static readonly string archive_28 = "\uf13b";
-        public static readonly string archive_48 = "\uf13c";
-        public static readonly string archive_settings_16 = "\uf129";
-        public static readonly string arrow_autofit_height_24 = "\uf8e5";
-        public static readonly string arrow_autofit_height_dotted_24 = "\uff21";
-        public static readonly string arrow_autofit_width_24 = "\uf8e6";
-        public static readonly string arrow_autofit_width_dotted_24 = "\uff22";
-        public static readonly string arrow_bounce_16 = "\ufb2c";
-        public static readonly string arrow_bounce_24 = "\ufb2d";
-        public static readonly string arrow_circle_down_20 = "\uf12c";
-        public static readonly string arrow_circle_down_24 = "\uf12d";
-        public static readonly string arrow_circle_down_double_20 = "\uf12e";
-        public static readonly string arrow_circle_down_double_24 = "\uf12f";
-        public static readonly string arrow_circle_down_right_16 = "\ufbc7";
-        public static readonly string arrow_circle_down_right_24 = "\ufbc8";
-        public static readonly string arrow_circle_down_split_20 = "\uf143";
-        public static readonly string arrow_circle_down_split_24 = "\uf144";
-        public static readonly string arrow_circle_right_24 = "\ufbc9";
-        public static readonly string arrow_circle_up_16 = "\ufbca";
-        public static readonly string arrow_circle_up_20 = "\ufbcb";
-        public static readonly string arrow_circle_up_24 = "\ufbcc";
-        public static readonly string arrow_circle_up_left_24 = "\ufbcd";
-        public static readonly string arrow_clockwise_20 = "\uf13d";
-        public static readonly string arrow_clockwise_24 = "\uf13e";
-        public static readonly string arrow_counterclockwise_20 = "\uf13f";
-        public static readonly string arrow_counterclockwise_24 = "\uf140";
-        public static readonly string arrow_counterclockwise_28 = "\uf8e7";
-        public static readonly string arrow_curve_down_left_16 = "\ufe40";
-        public static readonly string arrow_curve_down_left_20 = "\uf141";
-        public static readonly string arrow_curve_down_left_24 = "\ufe41";
-        public static readonly string arrow_curve_down_left_28 = "\ufe42";
-        public static readonly string arrow_curve_down_right_20 = "\uf142";
-        public static readonly string arrow_curve_up_left_20 = "\uf145";
-        public static readonly string arrow_curve_up_right_20 = "\uf146";
-        public static readonly string arrow_down_12 = "\uf8e8";
-        public static readonly string arrow_down_16 = "\uf147";
-        public static readonly string arrow_down_20 = "\uf148";
-        public static readonly string arrow_down_24 = "\uf149";
-        public static readonly string arrow_down_28 = "\uf14a";
-        public static readonly string arrow_down_32 = "\uf14c";
-        public static readonly string arrow_down_48 = "\uf14d";
-        public static readonly string arrow_down_left_16 = "\uf8e9";
-        public static readonly string arrow_down_left_20 = "\ufda8";
-        public static readonly string arrow_down_left_24 = "\uf14b";
-        public static readonly string arrow_download_16 = "\uf14f";
-        public static readonly string arrow_download_20 = "\uf150";
-        public static readonly string arrow_download_24 = "\uf151";
-        public static readonly string arrow_download_48 = "\uf152";
-        public static readonly string arrow_enter_left_20 = "\ufbce";
-        public static readonly string arrow_enter_left_24 = "\ufbcf";
-        public static readonly string arrow_enter_up_20 = "\ufb2f";
-        public static readonly string arrow_enter_up_24 = "\ufb30";
-        public static readonly string arrow_expand_24 = "\uf154";
-        public static readonly string arrow_export_ltr_20 = "\ufbd0";
-        public static readonly string arrow_export_ltr_24 = "\ufbd1";
-        public static readonly string arrow_export_rtl_20 = "\uf8ea";
-        public static readonly string arrow_fit_16 = "\uf14e";
-        public static readonly string arrow_forward_16 = "\uf156";
-        public static readonly string arrow_forward_20 = "\uf157";
-        public static readonly string arrow_forward_24 = "\uf158";
-        public static readonly string arrow_forward_48 = "\ufea8";
-        public static readonly string arrow_growth_20 = "\uf153";
-        public static readonly string arrow_growth_24 = "\uf155";
-        public static readonly string arrow_hook_down_left_16 = "\uf8ed";
-        public static readonly string arrow_hook_down_left_20 = "\uf8ee";
-        public static readonly string arrow_hook_down_left_24 = "\uf8ef";
-        public static readonly string arrow_hook_down_left_28 = "\uf8f0";
-        public static readonly string arrow_hook_down_right_16 = "\uf8f1";
-        public static readonly string arrow_hook_down_right_20 = "\uf8f2";
-        public static readonly string arrow_hook_down_right_24 = "\uf8f3";
-        public static readonly string arrow_hook_down_right_28 = "\uf8f4";
-        public static readonly string arrow_hook_up_left_16 = "\uf8f5";
-        public static readonly string arrow_hook_up_left_20 = "\uf8f6";
-        public static readonly string arrow_hook_up_left_24 = "\uf8f7";
-        public static readonly string arrow_hook_up_left_28 = "\uf8f8";
-        public static readonly string arrow_hook_up_right_16 = "\uf8f9";
-        public static readonly string arrow_hook_up_right_20 = "\uf8fa";
-        public static readonly string arrow_hook_up_right_24 = "\uf8fb";
-        public static readonly string arrow_hook_up_right_28 = "\uf8fc";
-        public static readonly string arrow_import_20 = "\uf159";
-        public static readonly string arrow_import_24 = "\uf15a";
-        public static readonly string arrow_left_16 = "\uf184";
-        public static readonly string arrow_left_20 = "\uf15b";
-        public static readonly string arrow_left_24 = "\uf15c";
-        public static readonly string arrow_left_28 = "\uf15d";
-        public static readonly string arrow_left_32 = "\uf189";
-        public static readonly string arrow_left_48 = "\uf19e";
-        public static readonly string arrow_maximize_16 = "\uf15e";
-        public static readonly string arrow_maximize_20 = "\uf15f";
-        public static readonly string arrow_maximize_24 = "\uf160";
-        public static readonly string arrow_maximize_28 = "\uf161";
-        public static readonly string arrow_maximize_vertical_20 = "\uf162";
-        public static readonly string arrow_maximize_vertical_24 = "\uf163";
-        public static readonly string arrow_minimize_16 = "\uf164";
-        public static readonly string arrow_minimize_20 = "\uf165";
-        public static readonly string arrow_minimize_24 = "\uf166";
-        public static readonly string arrow_minimize_28 = "\uf167";
-        public static readonly string arrow_minimize_vertical_24 = "\uf168";
-        public static readonly string arrow_move_20 = "\uf8fd";
-        public static readonly string arrow_move_24 = "\uf169";
-        public static readonly string arrow_next_20 = "\uf16a";
-        public static readonly string arrow_next_24 = "\uf16b";
-        public static readonly string arrow_previous_20 = "\uf16c";
-        public static readonly string arrow_previous_24 = "\uf16d";
-        public static readonly string arrow_redo_20 = "\uf16e";
-        public static readonly string arrow_redo_24 = "\uf16f";
-        public static readonly string arrow_redo_32 = "\uf8fe";
-        public static readonly string arrow_redo_48 = "\uf8ff";
-        public static readonly string arrow_repeat_all_16 = "\uf170";
-        public static readonly string arrow_repeat_all_20 = "\uf171";
-        public static readonly string arrow_repeat_all_24 = "\uf172";
-        public static readonly string arrow_repeat_all_off_16 = "\uf173";
-        public static readonly string arrow_repeat_all_off_20 = "\uf174";
-        public static readonly string arrow_repeat_all_off_24 = "\uf175";
-        public static readonly string arrow_reply_16 = "\uf176";
-        public static readonly string arrow_reply_20 = "\uf177";
-        public static readonly string arrow_reply_24 = "\uf178";
-        public static readonly string arrow_reply_48 = "\uf179";
-        public static readonly string arrow_reply_all_16 = "\uf17a";
-        public static readonly string arrow_reply_all_20 = "\uf17b";
-        public static readonly string arrow_reply_all_24 = "\uf17c";
-        public static readonly string arrow_reply_all_48 = "\uf17d";
-        public static readonly string arrow_reply_down_16 = "\uf17e";
-        public static readonly string arrow_reply_down_20 = "\uf17f";
-        public static readonly string arrow_reply_down_24 = "\uf180";
-        public static readonly string arrow_reset_20 = "\uf19f";
-        public static readonly string arrow_reset_24 = "\uf1a0";
-        public static readonly string arrow_right_16 = "\ufb75";
-        public static readonly string arrow_right_20 = "\uf181";
-        public static readonly string arrow_right_24 = "\uf182";
-        public static readonly string arrow_right_28 = "\uf183";
-        public static readonly string arrow_right_32 = "\uf1a2";
-        public static readonly string arrow_right_48 = "\uf1a7";
-        public static readonly string arrow_rotate_clockwise_20 = "\uf185";
-        public static readonly string arrow_rotate_clockwise_24 = "\uf186";
-        public static readonly string arrow_rotate_counterclockwise_20 = "\uf187";
-        public static readonly string arrow_rotate_counterclockwise_24 = "\uf188";
-        public static readonly string arrow_sort_16 = "\uf1ab";
-        public static readonly string arrow_sort_20 = "\uf18a";
-        public static readonly string arrow_sort_24 = "\uf18b";
-        public static readonly string arrow_sort_28 = "\uf18c";
-        public static readonly string arrow_sort_down_16 = "\uf1ac";
-        public static readonly string arrow_sort_down_20 = "\uf81e";
-        public static readonly string arrow_sort_down_24 = "\uf82a";
-        public static readonly string arrow_sort_down_lines_16 = "\uf1ad";
-        public static readonly string arrow_sort_up_16 = "\uf1b3";
-        public static readonly string arrow_sort_up_20 = "\uf82b";
-        public static readonly string arrow_sort_up_24 = "\uf83a";
-        public static readonly string arrow_square_down_24 = "\ufbd2";
-        public static readonly string arrow_step_back_16 = "\ufda9";
-        public static readonly string arrow_step_in_16 = "\ufdaa";
-        public static readonly string arrow_step_out_16 = "\ufdab";
-        public static readonly string arrow_step_over_16 = "\ufdac";
-        public static readonly string arrow_swap_20 = "\uf18d";
-        public static readonly string arrow_swap_24 = "\uf18e";
-        public static readonly string arrow_sync_12 = "\uf18f";
-        public static readonly string arrow_sync_16 = "\ufea9";
-        public static readonly string arrow_sync_20 = "\uf190";
-        public static readonly string arrow_sync_24 = "\uf191";
-        public static readonly string arrow_sync_circle_16 = "\uf192";
-        public static readonly string arrow_sync_circle_20 = "\uf193";
-        public static readonly string arrow_sync_circle_24 = "\uf194";
-        public static readonly string arrow_sync_off_12 = "\uf195";
-        public static readonly string arrow_trending_16 = "\uf196";
-        public static readonly string arrow_trending_20 = "\uf197";
-        public static readonly string arrow_trending_24 = "\uf198";
-        public static readonly string arrow_turn_bidirectional_down_right_24 = "\uf83b";
-        public static readonly string arrow_turn_right_24 = "\uf851";
-        public static readonly string arrow_undo_16 = "\ufb76";
-        public static readonly string arrow_undo_20 = "\uf199";
-        public static readonly string arrow_undo_24 = "\uf19a";
-        public static readonly string arrow_undo_32 = "\ufbd3";
-        public static readonly string arrow_undo_48 = "\ufbd4";
-        public static readonly string arrow_up_16 = "\uf1b4";
-        public static readonly string arrow_up_20 = "\uf19b";
-        public static readonly string arrow_up_24 = "\uf19c";
-        public static readonly string arrow_up_28 = "\uf19d";
-        public static readonly string arrow_up_32 = "\uf1b8";
-        public static readonly string arrow_up_48 = "\uf1b9";
-        public static readonly string arrow_up_left_16 = "\ufb77";
-        public static readonly string arrow_up_left_20 = "\ufb78";
-        public static readonly string arrow_up_left_24 = "\uf1a1";
-        public static readonly string arrow_up_right_16 = "\uf903";
-        public static readonly string arrow_up_right_20 = "\ufdad";
-        public static readonly string arrow_up_right_24 = "\uf1a3";
-        public static readonly string arrow_upload_16 = "\ufe43";
-        public static readonly string arrow_upload_20 = "\uf1a4";
-        public static readonly string arrow_upload_24 = "\uf1a5";
-        public static readonly string arrows_bidirectional_24 = "\uf1a6";
-        public static readonly string attach_12 = "\ufe44";
-        public static readonly string attach_16 = "\uf1a8";
-        public static readonly string attach_20 = "\uf1a9";
-        public static readonly string attach_24 = "\uf1aa";
-        public static readonly string attach_arrow_right_20 = "\uf904";
-        public static readonly string attach_arrow_right_24 = "\uf905";
-        public static readonly string attach_text_24 = "\uf906";
-        public static readonly string auto_fit_height_24 = "\ufbd7";
-        public static readonly string auto_fit_width_24 = "\ufbd8";
-        public static readonly string autocorrect_24 = "\uf1ae";
-        public static readonly string autofit_content_24 = "\uf907";
-        public static readonly string autosum_20 = "\uf1af";
-        public static readonly string autosum_24 = "\uf1b0";
-        public static readonly string backpack_12 = "\uf908";
-        public static readonly string backpack_16 = "\uf909";
-        public static readonly string backpack_20 = "\uf90a";
-        public static readonly string backpack_24 = "\uf90b";
-        public static readonly string backpack_28 = "\uf90c";
-        public static readonly string backpack_32 = "\ufdae";
-        public static readonly string backpack_48 = "\uf90d";
-        public static readonly string backpack_add_20 = "\ufb79";
-        public static readonly string backpack_add_24 = "\ufb7a";
-        public static readonly string backpack_add_28 = "\ufb7b";
-        public static readonly string backpack_add_48 = "\ufb7c";
-        public static readonly string backspace_20 = "\uf1b1";
-        public static readonly string backspace_24 = "\uf1b2";
-        public static readonly string badge_24 = "\uf1b5";
-        public static readonly string balloon_16 = "\uf90e";
-        public static readonly string balloon_20 = "\uf1b6";
-        public static readonly string balloon_24 = "\uf1b7";
-        public static readonly string barcode_scanner_20 = "\uf1ba";
-        public static readonly string barcode_scanner_24 = "\uf1e4";
-        public static readonly string battery_0_20 = "\uf1bb";
-        public static readonly string battery_0_24 = "\uf1bc";
-        public static readonly string battery_1_20 = "\uf1bd";
-        public static readonly string battery_1_24 = "\uf1be";
-        public static readonly string battery_2_20 = "\uf1bf";
-        public static readonly string battery_2_24 = "\uf1c0";
-        public static readonly string battery_3_20 = "\uf1c1";
-        public static readonly string battery_3_24 = "\uf1c2";
-        public static readonly string battery_4_20 = "\uf1c3";
-        public static readonly string battery_4_24 = "\uf1c4";
-        public static readonly string battery_5_20 = "\uf1c5";
-        public static readonly string battery_5_24 = "\uf1c6";
-        public static readonly string battery_6_20 = "\uf1c7";
-        public static readonly string battery_6_24 = "\uf1c8";
-        public static readonly string battery_7_20 = "\uf1c9";
-        public static readonly string battery_7_24 = "\uf1ca";
-        public static readonly string battery_8_20 = "\uf1cb";
-        public static readonly string battery_8_24 = "\uf1cc";
-        public static readonly string battery_9_20 = "\uf1cd";
-        public static readonly string battery_9_24 = "\uf1ce";
-        public static readonly string battery_charge_20 = "\uf1cf";
-        public static readonly string battery_charge_24 = "\uf1d0";
-        public static readonly string battery_full_20 = "\uf1d1";
-        public static readonly string battery_full_24 = "\uf1d2";
-        public static readonly string battery_saver_20 = "\uf1d3";
-        public static readonly string battery_saver_24 = "\uf1d4";
-        public static readonly string battery_warning_24 = "\uf1d5";
-        public static readonly string beach_16 = "\ufd1e";
-        public static readonly string beach_20 = "\ufd1f";
-        public static readonly string beach_24 = "\ufd20";
-        public static readonly string beach_28 = "\ufd21";
-        public static readonly string beaker_16 = "\uf1d6";
-        public static readonly string beaker_20 = "\uf1d7";
-        public static readonly string beaker_24 = "\uf1d8";
-        public static readonly string beaker_edit_20 = "\uf1e5";
-        public static readonly string beaker_edit_24 = "\uf1e6";
-        public static readonly string bed_16 = "\uf90f";
-        public static readonly string bed_20 = "\uf1d9";
-        public static readonly string bed_24 = "\uf1da";
-        public static readonly string block_16 = "\uf1db";
-        public static readonly string block_20 = "\uf1dc";
-        public static readonly string block_24 = "\uf1dd";
-        public static readonly string bluetooth_20 = "\uf1de";
-        public static readonly string bluetooth_24 = "\uf1df";
-        public static readonly string bluetooth_28 = "\uf910";
-        public static readonly string bluetooth_connected_24 = "\uf1e0";
-        public static readonly string bluetooth_disabled_24 = "\uf1e1";
-        public static readonly string bluetooth_searching_24 = "\uf1e2";
-        public static readonly string blur_16 = "\uf911";
-        public static readonly string blur_20 = "\uf912";
-        public static readonly string blur_24 = "\uf913";
-        public static readonly string blur_28 = "\uf914";
-        public static readonly string board_16 = "\ufe45";
-        public static readonly string board_20 = "\ufe46";
-        public static readonly string board_24 = "\uf1e3";
-        public static readonly string board_28 = "\ufe47";
-        public static readonly string board_split_16 = "\ufe48";
-        public static readonly string board_split_20 = "\ufe49";
-        public static readonly string board_split_24 = "\ufe4a";
-        public static readonly string board_split_28 = "\ufe4b";
-        public static readonly string board_split_48 = "\ufe4c";
-        public static readonly string book_20 = "\uf915";
-        public static readonly string book_24 = "\uf916";
-        public static readonly string book_add_20 = "\uf917";
-        public static readonly string book_add_24 = "\uf918";
-        public static readonly string book_clock_24 = "\uf919";
-        public static readonly string book_coins_24 = "\uf91a";
-        public static readonly string book_compass_24 = "\uf91b";
-        public static readonly string book_contacts_20 = "\ufccc";
-        public static readonly string book_contacts_24 = "\ufccd";
-        public static readonly string book_contacts_28 = "\ufcce";
-        public static readonly string book_contacts_32 = "\ufdaf";
-        public static readonly string book_database_24 = "\uf91c";
-        public static readonly string book_exclamation_mark_24 = "\uf91d";
-        public static readonly string book_globe_24 = "\uf1f0";
-        public static readonly string book_information_24 = "\uf91e";
-        public static readonly string book_letter_24 = "\uf91f";
-        public static readonly string book_number_16 = "\uf1f1";
-        public static readonly string book_number_20 = "\uf1f2";
-        public static readonly string book_number_24 = "\uf1f3";
-        public static readonly string book_open_20 = "\uf920";
-        public static readonly string book_open_24 = "\uf921";
-        public static readonly string book_open_28 = "\ufeaa";
-        public static readonly string book_open_32 = "\ufeab";
-        public static readonly string book_open_48 = "\ufeac";
-        public static readonly string book_open_globe_20 = "\ufccf";
-        public static readonly string book_open_globe_24 = "\uf922";
-        public static readonly string book_open_microphone_20 = "\ufead";
-        public static readonly string book_open_microphone_24 = "\ufeae";
-        public static readonly string book_open_microphone_28 = "\ufeaf";
-        public static readonly string book_open_microphone_32 = "\ufeb0";
-        public static readonly string book_open_microphone_48 = "\ufeb1";
-        public static readonly string book_pulse_24 = "\uf923";
-        public static readonly string book_question_mark_24 = "\uf924";
-        public static readonly string book_question_mark_rtl_24 = "\uf852";
-        public static readonly string book_search_24 = "\uf925";
-        public static readonly string book_star_24 = "\uf926";
-        public static readonly string book_theta_24 = "\uf927";
-        public static readonly string book_toolbox_20 = "\uf1e7";
-        public static readonly string bookmark_16 = "\uf1f4";
-        public static readonly string bookmark_20 = "\uf1f5";
-        public static readonly string bookmark_24 = "\uf1f6";
-        public static readonly string bookmark_28 = "\uf1f7";
-        public static readonly string bookmark_32 = "\ufdb0";
-        public static readonly string bookmark_add_20 = "\uf1e8";
-        public static readonly string bookmark_add_24 = "\uf1e9";
-        public static readonly string bookmark_multiple_20 = "\ufb31";
-        public static readonly string bookmark_multiple_24 = "\ufdb1";
-        public static readonly string bookmark_off_24 = "\uf1f8";
-        public static readonly string border_24 = "\ufbd9";
-        public static readonly string border_all_24 = "\uf928";
-        public static readonly string border_bottom_24 = "\uf929";
-        public static readonly string border_bottom_double_24 = "\uf92a";
-        public static readonly string border_bottom_thick_24 = "\uf92b";
-        public static readonly string border_left_24 = "\uf92c";
-        public static readonly string border_outside_24 = "\uf92e";
-        public static readonly string border_outside_thick_24 = "\uf92f";
-        public static readonly string border_right_24 = "\uf930";
-        public static readonly string border_top_24 = "\uf931";
-        public static readonly string border_top_bottom_24 = "\uf932";
-        public static readonly string border_top_bottom_double_24 = "\uf933";
-        public static readonly string border_top_bottom_thick_24 = "\uf934";
-        public static readonly string bot_20 = "\ufb7d";
-        public static readonly string bot_24 = "\uf1f9";
-        public static readonly string bot_add_20 = "\ufd94";
-        public static readonly string bot_add_24 = "\uf1fa";
-        public static readonly string bowl_chopsticks_16 = "\uf1ea";
-        public static readonly string bowl_chopsticks_20 = "\uf1eb";
-        public static readonly string bowl_chopsticks_24 = "\uf1ec";
-        public static readonly string bowl_chopsticks_28 = "\uf1ed";
-        public static readonly string brain_circuit_20 = "\uf1ee";
-        public static readonly string brain_circuit_24 = "\uf853";
-        public static readonly string branch_24 = "\uf1fb";
-        public static readonly string branch_compare_16 = "\ufdb2";
-        public static readonly string branch_compare_20 = "\ufdb3";
-        public static readonly string branch_compare_24 = "\ufdb4";
-        public static readonly string branch_fork_16 = "\ufdb5";
-        public static readonly string branch_fork_20 = "\ufdb6";
-        public static readonly string branch_fork_24 = "\ufdb7";
-        public static readonly string breakout_room_20 = "\ufbb4";
-        public static readonly string briefcase_12 = "\uf935";
-        public static readonly string briefcase_20 = "\uf1fc";
-        public static readonly string briefcase_24 = "\uf1fd";
-        public static readonly string briefcase_28 = "\ufb32";
-        public static readonly string briefcase_32 = "\uf936";
-        public static readonly string briefcase_48 = "\ufb33";
-        public static readonly string briefcase_medical_20 = "\uf1ef";
-        public static readonly string briefcase_medical_24 = "\ufbda";
-        public static readonly string briefcase_medical_32 = "\ufbdb";
-        public static readonly string briefcase_off_16 = "\ufeb2";
-        public static readonly string briefcase_off_20 = "\ufeb3";
-        public static readonly string briefcase_off_24 = "\ufeb4";
-        public static readonly string briefcase_off_28 = "\ufeb5";
-        public static readonly string briefcase_off_32 = "\ufeb6";
-        public static readonly string briefcase_off_48 = "\ufeb7";
-        public static readonly string broad_activity_feed_24 = "\uf200";
-        public static readonly string broom_16 = "\uf1fe";
-        public static readonly string broom_20 = "\uf201";
-        public static readonly string broom_24 = "\uf202";
-        public static readonly string bug_16 = "\uf939";
-        public static readonly string bug_20 = "\uf93a";
-        public static readonly string bug_24 = "\uf93b";
-        public static readonly string building_16 = "\ufd22";
-        public static readonly string building_20 = "\ufb34";
-        public static readonly string building_24 = "\uf205";
-        public static readonly string building_bank_16 = "\uf93c";
-        public static readonly string building_bank_20 = "\uf93d";
-        public static readonly string building_bank_24 = "\uf93e";
-        public static readonly string building_bank_28 = "\ufeb8";
-        public static readonly string building_bank_48 = "\ufeb9";
-        public static readonly string building_bank_link_16 = "\ufeba";
-        public static readonly string building_bank_link_20 = "\ufebb";
-        public static readonly string building_bank_link_24 = "\ufebc";
-        public static readonly string building_bank_link_28 = "\ufebd";
-        public static readonly string building_bank_link_48 = "\ufebe";
-        public static readonly string building_bank_toolbox_20 = "\uf1ff";
-        public static readonly string building_bank_toolbox_24 = "\uf854";
-        public static readonly string building_factory_24 = "\ufbdc";
-        public static readonly string building_government_24 = "\uf93f";
-        public static readonly string building_government_32 = "\uf940";
-        public static readonly string building_multiple_24 = "\uf941";
-        public static readonly string building_retail_24 = "\uf209";
-        public static readonly string building_shop_16 = "\uf942";
-        public static readonly string building_shop_20 = "\uf943";
-        public static readonly string building_shop_24 = "\uf944";
-        public static readonly string building_skyscraper_16 = "\uf945";
-        public static readonly string building_skyscraper_20 = "\uf946";
-        public static readonly string building_skyscraper_24 = "\uf947";
-        public static readonly string calculator_20 = "\uf20a";
-        public static readonly string calculator_24 = "\ufe24";
-        public static readonly string calendar_3_day_20 = "\uf20e";
-        public static readonly string calendar_3_day_24 = "\uf20f";
-        public static readonly string calendar_3_day_28 = "\uf210";
-        public static readonly string calendar_add_20 = "\uf211";
-        public static readonly string calendar_add_24 = "\uf212";
-        public static readonly string calendar_agenda_20 = "\uf213";
-        public static readonly string calendar_agenda_24 = "\uf214";
-        public static readonly string calendar_agenda_28 = "\uf215";
-        public static readonly string calendar_arrow_down_24 = "\ufbdd";
-        public static readonly string calendar_arrow_right_20 = "\uf216";
-        public static readonly string calendar_assistant_20 = "\uf217";
-        public static readonly string calendar_assistant_24 = "\uf218";
-        public static readonly string calendar_cancel_16 = "\uf948";
-        public static readonly string calendar_cancel_20 = "\uf219";
-        public static readonly string calendar_cancel_24 = "\uf21a";
-        public static readonly string calendar_checkmark_16 = "\uf21b";
-        public static readonly string calendar_checkmark_20 = "\uf21c";
-        public static readonly string calendar_checkmark_24 = "\uf8e1";
-        public static readonly string calendar_checkmark_28 = "\uf877";
-        public static readonly string calendar_clock_16 = "\uf949";
-        public static readonly string calendar_clock_20 = "\uf21d";
-        public static readonly string calendar_clock_24 = "\uf21e";
-        public static readonly string calendar_day_20 = "\uf222";
-        public static readonly string calendar_day_24 = "\uf223";
-        public static readonly string calendar_day_28 = "\uf224";
-        public static readonly string calendar_edit_16 = "\ufd23";
-        public static readonly string calendar_edit_20 = "\ufd24";
-        public static readonly string calendar_edit_24 = "\ufd25";
-        public static readonly string calendar_empty_16 = "\uf225";
-        public static readonly string calendar_empty_20 = "\uf226";
-        public static readonly string calendar_empty_24 = "\uf227";
-        public static readonly string calendar_empty_28 = "\uf228";
-        public static readonly string calendar_empty_32 = "\ufe4d";
-        public static readonly string calendar_info_16 = "\uf203";
-        public static readonly string calendar_ltr_12 = "\ufe4e";
-        public static readonly string calendar_ltr_16 = "\ufdb8";
-        public static readonly string calendar_ltr_20 = "\ufd26";
-        public static readonly string calendar_ltr_24 = "\ufd27";
-        public static readonly string calendar_ltr_28 = "\ufd28";
-        public static readonly string calendar_ltr_32 = "\ufdb9";
-        public static readonly string calendar_mail_16 = "\ufebf";
-        public static readonly string calendar_mention_20 = "\uf94a";
-        public static readonly string calendar_month_20 = "\uf22a";
-        public static readonly string calendar_month_24 = "\uf22b";
-        public static readonly string calendar_month_28 = "\uf22c";
-        public static readonly string calendar_multiple_16 = "\uf204";
-        public static readonly string calendar_multiple_20 = "\uf22d";
-        public static readonly string calendar_multiple_24 = "\uf22e";
-        public static readonly string calendar_multiple_32 = "\ufe4f";
-        public static readonly string calendar_overdue_24 = "\uf22f";
-        public static readonly string calendar_patterns_16 = "\uf206";
-        public static readonly string calendar_person_20 = "\uf230";
-        public static readonly string calendar_person_24 = "\uf94b";
-        public static readonly string calendar_question_mark_16 = "\uf94c";
-        public static readonly string calendar_question_mark_20 = "\uf94d";
-        public static readonly string calendar_question_mark_24 = "\uf94e";
-        public static readonly string calendar_reply_16 = "\uf231";
-        public static readonly string calendar_reply_20 = "\uf232";
-        public static readonly string calendar_reply_24 = "\uf233";
-        public static readonly string calendar_reply_28 = "\uf234";
-        public static readonly string calendar_rtl_12 = "\ufec0";
-        public static readonly string calendar_rtl_16 = "\ufec1";
-        public static readonly string calendar_rtl_20 = "\ufd29";
-        public static readonly string calendar_rtl_24 = "\ufd2a";
-        public static readonly string calendar_rtl_28 = "\ufd2b";
-        public static readonly string calendar_rtl_32 = "\ufdba";
-        public static readonly string calendar_search_16 = "\uf878";
-        public static readonly string calendar_settings_20 = "\uf235";
-        public static readonly string calendar_star_20 = "\uf236";
-        public static readonly string calendar_star_24 = "\uf237";
-        public static readonly string calendar_sync_16 = "\uf238";
-        public static readonly string calendar_sync_20 = "\uf239";
-        public static readonly string calendar_sync_24 = "\uf23a";
-        public static readonly string calendar_today_16 = "\uf23b";
-        public static readonly string calendar_today_20 = "\uf23c";
-        public static readonly string calendar_today_24 = "\uf23d";
-        public static readonly string calendar_today_28 = "\uf23e";
-        public static readonly string calendar_week_numbers_24 = "\uf23f";
-        public static readonly string calendar_week_start_20 = "\uf240";
-        public static readonly string calendar_week_start_24 = "\uf241";
-        public static readonly string calendar_week_start_28 = "\uf242";
-        public static readonly string calendar_work_week_16 = "\uf243";
-        public static readonly string calendar_work_week_20 = "\uf244";
-        public static readonly string calendar_work_week_24 = "\uf245";
-        public static readonly string call_16 = "\ufbde";
-        public static readonly string call_20 = "\ufbdf";
-        public static readonly string call_24 = "\ufbe0";
-        public static readonly string call_28 = "\ufbe1";
-        public static readonly string call_32 = "\ufdbb";
-        public static readonly string call_add_24 = "\uf246";
-        public static readonly string call_checkmark_20 = "\uf207";
-        public static readonly string call_connecting_20 = "\ufb7e";
-        public static readonly string call_dismiss_20 = "\uf208";
-        public static readonly string call_dismiss_24 = "\uf20b";
-        public static readonly string call_end_20 = "\uf247";
-        public static readonly string call_end_24 = "\uf248";
-        public static readonly string call_end_28 = "\uf249";
-        public static readonly string call_exclamation_20 = "\ufb7f";
-        public static readonly string call_forward_16 = "\uf954";
-        public static readonly string call_forward_20 = "\uf955";
-        public static readonly string call_forward_24 = "\uf24a";
-        public static readonly string call_forward_28 = "\uf956";
-        public static readonly string call_forward_48 = "\uf957";
-        public static readonly string call_inbound_16 = "\uf24b";
-        public static readonly string call_inbound_20 = "\uf958";
-        public static readonly string call_inbound_24 = "\uf24c";
-        public static readonly string call_inbound_28 = "\uf959";
-        public static readonly string call_inbound_48 = "\uf95a";
-        public static readonly string call_missed_16 = "\uf24d";
-        public static readonly string call_missed_20 = "\ufbe2";
-        public static readonly string call_missed_24 = "\uf24e";
-        public static readonly string call_missed_28 = "\uf95b";
-        public static readonly string call_missed_48 = "\uf95c";
-        public static readonly string call_outbound_16 = "\uf24f";
-        public static readonly string call_outbound_20 = "\uf95d";
-        public static readonly string call_outbound_24 = "\uf250";
-        public static readonly string call_outbound_28 = "\uf95e";
-        public static readonly string call_outbound_48 = "\uf95f";
-        public static readonly string call_park_16 = "\uf960";
-        public static readonly string call_park_20 = "\uf961";
-        public static readonly string call_park_24 = "\uf251";
-        public static readonly string call_park_28 = "\uf962";
-        public static readonly string call_park_32 = "\uf879";
-        public static readonly string call_park_48 = "\uf963";
-        public static readonly string call_pause_20 = "\uf20c";
-        public static readonly string call_pause_24 = "\uf20d";
-        public static readonly string call_prohibited_16 = "\ufbe3";
-        public static readonly string call_prohibited_20 = "\ufbe4";
-        public static readonly string call_prohibited_24 = "\ufbe5";
-        public static readonly string call_prohibited_28 = "\ufbe6";
-        public static readonly string call_prohibited_48 = "\ufbe7";
-        public static readonly string call_transfer_20 = "\ufb80";
-        public static readonly string calligraphy_pen_20 = "\uf252";
-        public static readonly string calligraphy_pen_24 = "\uf253";
-        public static readonly string calligraphy_pen_checkmark_20 = "\ufcd0";
-        public static readonly string calligraphy_pen_error_20 = "\ufdbc";
-        public static readonly string calligraphy_pen_question_mark_20 = "\ufcd1";
-        public static readonly string camera_16 = "\ufe25";
-        public static readonly string camera_20 = "\uf254";
-        public static readonly string camera_24 = "\uf255";
-        public static readonly string camera_28 = "\uf256";
-        public static readonly string camera_add_20 = "\uf257";
-        public static readonly string camera_add_24 = "\uf258";
-        public static readonly string camera_add_48 = "\uf259";
-        public static readonly string camera_edit_20 = "\uf964";
-        public static readonly string camera_off_24 = "\ufb81";
-        public static readonly string camera_switch_24 = "\uf25a";
-        public static readonly string caret_12 = "\uf25b";
-        public static readonly string caret_16 = "\uf25c";
-        public static readonly string caret_20 = "\uf25d";
-        public static readonly string caret_24 = "\uf25e";
-        public static readonly string caret_down_12 = "\uf25f";
-        public static readonly string caret_down_16 = "\uf260";
-        public static readonly string caret_down_20 = "\uf261";
-        public static readonly string caret_down_24 = "\uf262";
-        public static readonly string caret_down_left_24 = "\ufbeb";
-        public static readonly string caret_left_12 = "\uf263";
-        public static readonly string caret_left_16 = "\uf264";
-        public static readonly string caret_left_20 = "\uf265";
-        public static readonly string caret_left_24 = "\uf266";
-        public static readonly string caret_right_12 = "\uf267";
-        public static readonly string caret_right_16 = "\uf268";
-        public static readonly string caret_right_20 = "\uf269";
-        public static readonly string caret_right_24 = "\uf26a";
-        public static readonly string caret_up_12 = "\uf965";
-        public static readonly string caret_up_16 = "\uf966";
-        public static readonly string caret_up_20 = "\uf967";
-        public static readonly string caret_up_24 = "\uf968";
-        public static readonly string cart_16 = "\uf969";
-        public static readonly string cart_20 = "\uf96a";
-        public static readonly string cart_24 = "\uf26b";
-        public static readonly string cast_20 = "\uf26c";
-        public static readonly string cast_24 = "\uf26d";
-        public static readonly string cast_28 = "\uf26e";
-        public static readonly string cellular_3g_24 = "\uf26f";
-        public static readonly string cellular_4g_24 = "\uf270";
-        public static readonly string cellular_5g_24 = "\ufcd2";
-        public static readonly string cellular_data_1_20 = "\uf271";
-        public static readonly string cellular_data_1_24 = "\uf272";
-        public static readonly string cellular_data_2_20 = "\uf273";
-        public static readonly string cellular_data_2_24 = "\uf274";
-        public static readonly string cellular_data_3_20 = "\uf275";
-        public static readonly string cellular_data_3_24 = "\uf276";
-        public static readonly string cellular_data_4_20 = "\uf277";
-        public static readonly string cellular_data_4_24 = "\uf278";
-        public static readonly string cellular_data_5_20 = "\uf279";
-        public static readonly string cellular_data_5_24 = "\uf27a";
-        public static readonly string cellular_data_cellular_off_24 = "\ufbec";
-        public static readonly string cellular_data_cellular_unavailable_24 = "\ufbed";
-        public static readonly string cellular_data_unavailable_24 = "\uf21f";
-        public static readonly string center_horizontal_24 = "\ufbee";
-        public static readonly string center_vertical_24 = "\ufbef";
-        public static readonly string certificate_20 = "\uf27e";
-        public static readonly string certificate_24 = "\uf27f";
-        public static readonly string channel_16 = "\uf280";
-        public static readonly string channel_20 = "\uf281";
-        public static readonly string channel_24 = "\uf282";
-        public static readonly string channel_28 = "\uf96d";
-        public static readonly string channel_48 = "\uf96e";
-        public static readonly string channel_add_16 = "\uf96f";
-        public static readonly string channel_add_20 = "\uf970";
-        public static readonly string channel_add_24 = "\uf971";
-        public static readonly string channel_add_28 = "\uf972";
-        public static readonly string channel_add_48 = "\uf973";
-        public static readonly string channel_alert_16 = "\uf974";
-        public static readonly string channel_alert_20 = "\uf975";
-        public static readonly string channel_alert_24 = "\uf976";
-        public static readonly string channel_alert_28 = "\uf977";
-        public static readonly string channel_alert_48 = "\uf978";
-        public static readonly string channel_arrow_left_16 = "\uf979";
-        public static readonly string channel_arrow_left_20 = "\uf97a";
-        public static readonly string channel_arrow_left_24 = "\uf97b";
-        public static readonly string channel_arrow_left_28 = "\uf97c";
-        public static readonly string channel_arrow_left_48 = "\uf97d";
-        public static readonly string channel_dismiss_16 = "\uf97e";
-        public static readonly string channel_dismiss_20 = "\uf97f";
-        public static readonly string channel_dismiss_24 = "\uf980";
-        public static readonly string channel_dismiss_28 = "\uf981";
-        public static readonly string channel_dismiss_48 = "\uf982";
-        public static readonly string channel_share_12 = "\ufbb9";
-        public static readonly string channel_share_16 = "\ufbba";
-        public static readonly string channel_share_20 = "\ufbbb";
-        public static readonly string channel_share_24 = "\ufbbc";
-        public static readonly string channel_share_28 = "\ufbbd";
-        public static readonly string channel_share_48 = "\ufbbe";
-        public static readonly string chart_person_20 = "\ufd95";
-        public static readonly string chart_person_24 = "\ufd96";
-        public static readonly string chart_person_28 = "\ufd97";
-        public static readonly string chart_person_48 = "\ufd98";
-        public static readonly string chat_16 = "\uf983";
-        public static readonly string chat_20 = "\uf286";
-        public static readonly string chat_24 = "\uf287";
-        public static readonly string chat_28 = "\uf288";
-        public static readonly string chat_32 = "\ufdbd";
-        public static readonly string chat_48 = "\ufb35";
-        public static readonly string chat_bubbles_question_16 = "\uf8c0";
-        public static readonly string chat_bubbles_question_20 = "\ufb82";
-        public static readonly string chat_bubbles_question_24 = "\uf289";
-        public static readonly string chat_help_20 = "\uf220";
-        public static readonly string chat_help_24 = "\uf28a";
-        public static readonly string chat_mail_20 = "\ufb83";
-        public static readonly string chat_multiple_16 = "\uf8c1";
-        public static readonly string chat_multiple_20 = "\uf8e0";
-        public static readonly string chat_multiple_24 = "\uf8eb";
-        public static readonly string chat_off_20 = "\ufb84";
-        public static readonly string chat_off_24 = "\uf28b";
-        public static readonly string chat_settings_20 = "\uf221";
-        public static readonly string chat_settings_24 = "\uf229";
-        public static readonly string chat_warning_24 = "\uf28c";
-        public static readonly string check_20 = "\uf27b";
-        public static readonly string checkbox_1_24 = "\ufcd3";
-        public static readonly string checkbox_2_24 = "\ufcd4";
-        public static readonly string checkbox_arrow_right_24 = "\ufcd5";
-        public static readonly string checkbox_checked_16 = "\uf27c";
-        public static readonly string checkbox_checked_20 = "\uf28d";
-        public static readonly string checkbox_checked_24 = "\uf28e";
-        public static readonly string checkbox_checked_sync_16 = "\uf27d";
-        public static readonly string checkbox_person_24 = "\ufcd6";
-        public static readonly string checkbox_unchecked_12 = "\uf28f";
-        public static readonly string checkbox_unchecked_16 = "\uf290";
-        public static readonly string checkbox_unchecked_20 = "\uf291";
-        public static readonly string checkbox_unchecked_24 = "\uf292";
-        public static readonly string checkbox_warning_24 = "\ufcd7";
-        public static readonly string checkmark_12 = "\uf293";
-        public static readonly string checkmark_16 = "\uf984";
-        public static readonly string checkmark_20 = "\uf294";
-        public static readonly string checkmark_24 = "\uf295";
-        public static readonly string checkmark_28 = "\uf296";
-        public static readonly string checkmark_32 = "\uf8ec";
-        public static readonly string checkmark_48 = "\ufb85";
-        public static readonly string checkmark_circle_12 = "\ufea5";
-        public static readonly string checkmark_circle_16 = "\uf297";
-        public static readonly string checkmark_circle_20 = "\uf298";
-        public static readonly string checkmark_circle_24 = "\uf299";
-        public static readonly string checkmark_circle_32 = "\uf900";
-        public static readonly string checkmark_circle_48 = "\uf29a";
-        public static readonly string checkmark_lock_16 = "\uf29b";
-        public static readonly string checkmark_lock_20 = "\uf29c";
-        public static readonly string checkmark_lock_24 = "\uf29d";
-        public static readonly string checkmark_square_24 = "\uf29e";
-        public static readonly string checkmark_starburst_16 = "\uf283";
-        public static readonly string checkmark_underline_circle_16 = "\uf29f";
-        public static readonly string checkmark_underline_circle_20 = "\uf2a0";
-        public static readonly string chevron_circle_down_24 = "\ufbf0";
-        public static readonly string chevron_circle_right_24 = "\ufbf1";
-        public static readonly string chevron_double_down_16 = "\uf284";
-        public static readonly string chevron_double_left_16 = "\uf285";
-        public static readonly string chevron_double_right_16 = "\uf2a7";
-        public static readonly string chevron_double_up_16 = "\ufec2";
-        public static readonly string chevron_double_up_20 = "\ufec3";
-        public static readonly string chevron_down_12 = "\uf2a1";
-        public static readonly string chevron_down_16 = "\uf2a2";
-        public static readonly string chevron_down_20 = "\uf2a3";
-        public static readonly string chevron_down_24 = "\uf2a4";
-        public static readonly string chevron_down_28 = "\uf2a5";
-        public static readonly string chevron_down_48 = "\uf2a6";
-        public static readonly string chevron_left_12 = "\uf2a8";
-        public static readonly string chevron_left_16 = "\uf2a9";
-        public static readonly string chevron_left_20 = "\uf2aa";
-        public static readonly string chevron_left_24 = "\uf2ab";
-        public static readonly string chevron_left_28 = "\uf2ac";
-        public static readonly string chevron_left_48 = "\uf2ad";
-        public static readonly string chevron_right_12 = "\uf2ae";
-        public static readonly string chevron_right_16 = "\uf2af";
-        public static readonly string chevron_right_20 = "\uf2b0";
-        public static readonly string chevron_right_24 = "\uf2b1";
-        public static readonly string chevron_right_28 = "\uf2b2";
-        public static readonly string chevron_right_48 = "\uf2b3";
-        public static readonly string chevron_up_12 = "\uf2b4";
-        public static readonly string chevron_up_16 = "\uf2b5";
-        public static readonly string chevron_up_20 = "\uf2b6";
-        public static readonly string chevron_up_24 = "\uf2b7";
-        public static readonly string chevron_up_28 = "\uf2b8";
-        public static readonly string chevron_up_48 = "\uf2b9";
-        public static readonly string chevron_up_down_20 = "\ufe50";
-        public static readonly string chevron_up_down_24 = "\ufe51";
-        public static readonly string circle_12 = "\ufe52";
-        public static readonly string circle_16 = "\uf2ba";
-        public static readonly string circle_20 = "\uf2bb";
-        public static readonly string circle_24 = "\uf2bc";
-        public static readonly string circle_edit_24 = "\ufcd8";
-        public static readonly string circle_half_fill_12 = "\ufe53";
-        public static readonly string circle_half_fill_16 = "\uf30a";
-        public static readonly string circle_half_fill_20 = "\uf2bd";
-        public static readonly string circle_half_fill_24 = "\uf2be";
-        public static readonly string circle_line_12 = "\ufe54";
-        public static readonly string circle_line_24 = "\uf2bf";
-        public static readonly string circle_small_20 = "\ufd2c";
-        public static readonly string circle_small_24 = "\uf2c0";
-        public static readonly string circle_subtract_arrow_back_16 = "\uf901";
-        public static readonly string circle_subtract_arrow_forward_16 = "\uf902";
-        public static readonly string city_16 = "\uf2c1";
-        public static readonly string city_20 = "\uf2c2";
-        public static readonly string city_24 = "\uf2c3";
-        public static readonly string class_24 = "\uf2c4";
-        public static readonly string classification_16 = "\uf2c5";
-        public static readonly string classification_20 = "\uf2c6";
-        public static readonly string classification_24 = "\uf2c7";
-        public static readonly string clear_formatting_24 = "\uf2c8";
-        public static readonly string clipboard_16 = "\ufd2d";
-        public static readonly string clipboard_20 = "\uf2c9";
-        public static readonly string clipboard_24 = "\uf2ca";
-        public static readonly string clipboard_arrow_right_16 = "\ufd2e";
-        public static readonly string clipboard_arrow_right_20 = "\ufd2f";
-        public static readonly string clipboard_arrow_right_24 = "\ufd30";
-        public static readonly string clipboard_bullet_list_ltr_16 = "\uf92d";
-        public static readonly string clipboard_bullet_list_rtl_16 = "\uf937";
-        public static readonly string clipboard_code_16 = "\uf2cb";
-        public static readonly string clipboard_code_20 = "\uf2cc";
-        public static readonly string clipboard_code_24 = "\uf2cd";
-        public static readonly string clipboard_data_bar_32 = "\ufdbe";
-        public static readonly string clipboard_heart_20 = "\uf30b";
-        public static readonly string clipboard_image_24 = "\ufbf2";
-        public static readonly string clipboard_letter_16 = "\uf2ce";
-        public static readonly string clipboard_letter_20 = "\uf2cf";
-        public static readonly string clipboard_letter_24 = "\uf2d0";
-        public static readonly string clipboard_link_16 = "\uf2d1";
-        public static readonly string clipboard_link_20 = "\uf2d2";
-        public static readonly string clipboard_link_24 = "\uf2d3";
-        public static readonly string clipboard_more_24 = "\uf2d4";
-        public static readonly string clipboard_paste_16 = "\uf986";
-        public static readonly string clipboard_paste_20 = "\uf2d5";
-        public static readonly string clipboard_paste_24 = "\uf2d6";
-        public static readonly string clipboard_pulse_20 = "\uf322";
-        public static readonly string clipboard_search_20 = "\uf2d7";
-        public static readonly string clipboard_search_24 = "\uf2d8";
-        public static readonly string clipboard_settings_20 = "\uf32d";
-        public static readonly string clipboard_text_ltr_20 = "\ufd31";
-        public static readonly string clipboard_text_ltr_24 = "\ufd32";
-        public static readonly string clipboard_text_rtl_20 = "\ufd33";
-        public static readonly string clipboard_text_rtl_24 = "\ufd34";
-        public static readonly string clock_12 = "\uf2db";
-        public static readonly string clock_16 = "\uf2dc";
-        public static readonly string clock_20 = "\uf2dd";
-        public static readonly string clock_24 = "\uf2de";
-        public static readonly string clock_28 = "\uf2df";
-        public static readonly string clock_32 = "\ufcd9";
-        public static readonly string clock_48 = "\uf2e0";
-        public static readonly string clock_alarm_20 = "\uf2e1";
-        public static readonly string clock_alarm_24 = "\uf2e2";
-        public static readonly string clock_alarm_32 = "\ufdbf";
-        public static readonly string clock_arrow_download_20 = "\uf32e";
-        public static readonly string clock_dismiss_24 = "\uf987";
-        public static readonly string closed_caption_16 = "\uf988";
-        public static readonly string closed_caption_20 = "\uf989";
-        public static readonly string closed_caption_24 = "\uf2e3";
-        public static readonly string closed_caption_28 = "\uf98a";
-        public static readonly string closed_caption_48 = "\uf98b";
-        public static readonly string closed_caption_off_16 = "\ufe55";
-        public static readonly string closed_caption_off_20 = "\ufe56";
-        public static readonly string closed_caption_off_24 = "\ufe57";
-        public static readonly string closed_caption_off_28 = "\ufe58";
-        public static readonly string closed_caption_off_48 = "\ufe59";
-        public static readonly string cloud_16 = "\ufcda";
-        public static readonly string cloud_20 = "\uf2e4";
-        public static readonly string cloud_24 = "\uf2e5";
-        public static readonly string cloud_28 = "\ufec4";
-        public static readonly string cloud_32 = "\ufcdb";
-        public static readonly string cloud_48 = "\uf2e6";
-        public static readonly string cloud_add_16 = "\uf32f";
-        public static readonly string cloud_backup_16 = "\ufec5";
-        public static readonly string cloud_backup_20 = "\ufec6";
-        public static readonly string cloud_backup_24 = "\uf2e7";
-        public static readonly string cloud_backup_28 = "\ufec7";
-        public static readonly string cloud_backup_32 = "\ufec8";
-        public static readonly string cloud_backup_48 = "\uf2e8";
-        public static readonly string cloud_download_16 = "\ufe5a";
-        public static readonly string cloud_download_20 = "\ufe5b";
-        public static readonly string cloud_download_24 = "\uf2e9";
-        public static readonly string cloud_download_28 = "\ufec9";
-        public static readonly string cloud_download_32 = "\uf98c";
-        public static readonly string cloud_download_48 = "\uf98d";
-        public static readonly string cloud_edit_16 = "\uf330";
-        public static readonly string cloud_flow_20 = "\uf337";
-        public static readonly string cloud_link_16 = "\uf338";
-        public static readonly string cloud_off_16 = "\ufeca";
-        public static readonly string cloud_off_20 = "\ufecb";
-        public static readonly string cloud_off_24 = "\uf2ea";
-        public static readonly string cloud_off_28 = "\ufecc";
-        public static readonly string cloud_off_32 = "\ufecd";
-        public static readonly string cloud_off_48 = "\uf2eb";
-        public static readonly string cloud_offline_24 = "\uf2ec";
-        public static readonly string cloud_sync_16 = "\ufece";
-        public static readonly string cloud_sync_20 = "\ufb86";
-        public static readonly string cloud_sync_24 = "\ufecf";
-        public static readonly string cloud_sync_28 = "\ufed0";
-        public static readonly string cloud_sync_32 = "\ufed1";
-        public static readonly string cloud_sync_48 = "\ufed2";
-        public static readonly string cloud_sync_complete_16 = "\ufed3";
-        public static readonly string cloud_sync_complete_20 = "\ufed4";
-        public static readonly string cloud_sync_complete_24 = "\uf2ed";
-        public static readonly string cloud_sync_complete_28 = "\ufed5";
-        public static readonly string cloud_sync_complete_32 = "\ufed6";
-        public static readonly string cloud_sync_complete_48 = "\uf2ee";
-        public static readonly string code_16 = "\uf339";
-        public static readonly string code_20 = "\uf2ef";
-        public static readonly string code_24 = "\uf2f0";
-        public static readonly string collections_20 = "\uf2f1";
-        public static readonly string collections_24 = "\uf2f2";
-        public static readonly string collections_add_20 = "\uf2f3";
-        public static readonly string collections_add_24 = "\uf2f4";
-        public static readonly string color_20 = "\uf2f5";
-        public static readonly string color_24 = "\uf2f6";
-        public static readonly string color_background_20 = "\uf2f7";
-        public static readonly string color_background_24 = "\uf2f8";
-        public static readonly string color_fill_20 = "\uf2f9";
-        public static readonly string color_fill_24 = "\uf2fa";
-        public static readonly string color_line_16 = "\uf98e";
-        public static readonly string color_line_20 = "\uf2fb";
-        public static readonly string color_line_24 = "\uf2fc";
-        public static readonly string column_edit_20 = "\uf938";
-        public static readonly string column_edit_24 = "\uf94f";
-        public static readonly string column_triple_24 = "\uf2fd";
-        public static readonly string comment_12 = "\uf98f";
-        public static readonly string comment_16 = "\uf2fe";
-        public static readonly string comment_20 = "\uf2ff";
-        public static readonly string comment_24 = "\uf300";
-        public static readonly string comment_28 = "\uf990";
-        public static readonly string comment_48 = "\uf991";
-        public static readonly string comment_add_12 = "\uf992";
-        public static readonly string comment_add_16 = "\uf993";
-        public static readonly string comment_add_20 = "\uf994";
-        public static readonly string comment_add_24 = "\uf301";
-        public static readonly string comment_add_28 = "\uf995";
-        public static readonly string comment_add_48 = "\uf996";
-        public static readonly string comment_arrow_left_12 = "\uf997";
-        public static readonly string comment_arrow_left_16 = "\uf998";
-        public static readonly string comment_arrow_left_20 = "\uf999";
-        public static readonly string comment_arrow_left_24 = "\ufbf3";
-        public static readonly string comment_arrow_left_28 = "\uf99a";
-        public static readonly string comment_arrow_left_48 = "\uf99b";
-        public static readonly string comment_arrow_right_12 = "\uf99c";
-        public static readonly string comment_arrow_right_16 = "\uf99d";
-        public static readonly string comment_arrow_right_20 = "\uf99e";
-        public static readonly string comment_arrow_right_24 = "\ufbf4";
-        public static readonly string comment_arrow_right_28 = "\uf99f";
-        public static readonly string comment_arrow_right_48 = "\uf9a0";
-        public static readonly string comment_checkmark_12 = "\uf9a1";
-        public static readonly string comment_checkmark_16 = "\uf9a2";
-        public static readonly string comment_checkmark_20 = "\uf9a3";
-        public static readonly string comment_checkmark_24 = "\uf9a4";
-        public static readonly string comment_checkmark_28 = "\uf9a5";
-        public static readonly string comment_checkmark_48 = "\uf9a6";
-        public static readonly string comment_dismiss_24 = "\ufbf5";
-        public static readonly string comment_edit_20 = "\uf9a7";
-        public static readonly string comment_edit_24 = "\uf9a8";
-        public static readonly string comment_error_16 = "\uf350";
-        public static readonly string comment_lightning_20 = "\uf351";
-        public static readonly string comment_lightning_24 = "\uf361";
-        public static readonly string comment_mention_16 = "\uf303";
-        public static readonly string comment_mention_20 = "\uf304";
-        public static readonly string comment_mention_24 = "\uf305";
-        public static readonly string comment_multiple_16 = "\uf306";
-        public static readonly string comment_multiple_20 = "\uf307";
-        public static readonly string comment_multiple_24 = "\uf308";
-        public static readonly string comment_note_24 = "\ufcdc";
-        public static readonly string comment_off_16 = "\uf9a9";
-        public static readonly string comment_off_20 = "\uf9aa";
-        public static readonly string comment_off_24 = "\uf9ab";
-        public static readonly string comment_off_28 = "\uf9ac";
-        public static readonly string comment_off_48 = "\uf9ad";
-        public static readonly string communication_16 = "\uf30c";
-        public static readonly string communication_20 = "\uf30d";
-        public static readonly string communication_24 = "\uf30e";
-        public static readonly string compass_northwest_16 = "\uf30f";
-        public static readonly string compass_northwest_20 = "\uf310";
-        public static readonly string compass_northwest_24 = "\uf311";
-        public static readonly string compass_northwest_28 = "\uf312";
-        public static readonly string component_2_double_tap_swipe_down_24 = "\ufbf6";
-        public static readonly string component_2_double_tap_swipe_up_24 = "\ufbf7";
-        public static readonly string compose_16 = "\uf313";
-        public static readonly string compose_20 = "\uf314";
-        public static readonly string compose_24 = "\uf315";
-        public static readonly string compose_28 = "\uf316";
-        public static readonly string conference_room_16 = "\uf317";
-        public static readonly string conference_room_20 = "\uf318";
-        public static readonly string conference_room_24 = "\uf319";
-        public static readonly string conference_room_28 = "\uf31a";
-        public static readonly string conference_room_48 = "\uf31b";
-        public static readonly string connector_16 = "\uf31c";
-        public static readonly string connector_20 = "\uf31d";
-        public static readonly string connector_24 = "\uf31e";
-        public static readonly string contact_card_16 = "\uf362";
-        public static readonly string contact_card_20 = "\uf31f";
-        public static readonly string contact_card_24 = "\uf320";
-        public static readonly string contact_card_28 = "\uf950";
-        public static readonly string contact_card_32 = "\uf951";
-        public static readonly string contact_card_48 = "\uf952";
-        public static readonly string contact_card_group_16 = "\uf9ae";
-        public static readonly string contact_card_group_20 = "\uf9af";
-        public static readonly string contact_card_group_24 = "\uf321";
-        public static readonly string contact_card_group_28 = "\uf9b0";
-        public static readonly string contact_card_group_48 = "\uf9b1";
-        public static readonly string contact_card_link_16 = "\uf363";
-        public static readonly string content_settings_16 = "\uf323";
-        public static readonly string content_settings_20 = "\uf324";
-        public static readonly string content_settings_24 = "\uf325";
-        public static readonly string content_settings_32 = "\ufcdd";
-        public static readonly string content_view_20 = "\ufb87";
-        public static readonly string content_view_32 = "\ufdc0";
-        public static readonly string content_view_gallery_20 = "\ufbb5";
-        public static readonly string contract_down_left_16 = "\uf364";
-        public static readonly string contract_down_left_20 = "\uf373";
-        public static readonly string contract_down_left_24 = "\uf374";
-        public static readonly string contract_down_left_28 = "\uf375";
-        public static readonly string contract_down_left_32 = "\uf37b";
-        public static readonly string contract_down_left_48 = "\uf397";
-        public static readonly string convert_range_24 = "\uf9b2";
-        public static readonly string convert_to_table_24 = "\uf326";
-        public static readonly string convert_to_text_24 = "\uf327";
-        public static readonly string convert_to_type_20 = "\ufd35";
-        public static readonly string convert_to_type_24 = "\ufd36";
-        public static readonly string convert_to_type_off_20 = "\ufd99";
-        public static readonly string cookies_20 = "\uf328";
-        public static readonly string cookies_24 = "\uf329";
-        public static readonly string copy_16 = "\uf32a";
-        public static readonly string copy_20 = "\uf32b";
-        public static readonly string copy_24 = "\uf32c";
-        public static readonly string copy_add_24 = "\uf9b3";
-        public static readonly string copy_arrow_right_16 = "\ufbf8";
-        public static readonly string copy_arrow_right_24 = "\ufbf9";
-        public static readonly string copy_select_20 = "\uf9b4";
-        public static readonly string couch_12 = "\uf9b5";
-        public static readonly string couch_24 = "\uf9b6";
-        public static readonly string credit_card_toolbox_20 = "\uf398";
-        public static readonly string crop_20 = "\uf9b7";
-        public static readonly string crop_24 = "\uf331";
-        public static readonly string crop_interim_24 = "\uf332";
-        public static readonly string crop_interim_off_24 = "\uf333";
-        public static readonly string cube_16 = "\uf334";
-        public static readonly string cube_20 = "\uf335";
-        public static readonly string cube_24 = "\uf336";
-        public static readonly string cube_rotate_20 = "\ufb88";
-        public static readonly string cube_sync_24 = "\ufd37";
-        public static readonly string currency_dollar_euro_16 = "\ufbfa";
-        public static readonly string currency_dollar_euro_20 = "\ufbfb";
-        public static readonly string currency_dollar_euro_24 = "\ufbfc";
-        public static readonly string currency_dollar_rupee_16 = "\uf9b8";
-        public static readonly string currency_dollar_rupee_20 = "\uf9b9";
-        public static readonly string currency_dollar_rupee_24 = "\uf9ba";
-        public static readonly string cursor_20 = "\uf9bb";
-        public static readonly string cursor_24 = "\uf9bc";
-        public static readonly string cursor_hover_16 = "\uf9bd";
-        public static readonly string cursor_hover_20 = "\uf9be";
-        public static readonly string cursor_hover_24 = "\uf9bf";
-        public static readonly string cursor_hover_28 = "\uf9c0";
-        public static readonly string cursor_hover_32 = "\uf9c1";
-        public static readonly string cursor_hover_48 = "\uf9c2";
-        public static readonly string cursor_hover_off_16 = "\uf9c3";
-        public static readonly string cursor_hover_off_20 = "\uf9c4";
-        public static readonly string cursor_hover_off_24 = "\uf9c5";
-        public static readonly string cursor_hover_off_28 = "\uf9c6";
-        public static readonly string cursor_hover_off_48 = "\uf9c7";
-        public static readonly string cut_20 = "\uf33a";
-        public static readonly string cut_24 = "\uf33b";
-        public static readonly string dark_theme_24 = "\uf33c";
-        public static readonly string data_area_24 = "\uf33d";
-        public static readonly string data_bar_horizontal_20 = "\uf39b";
-        public static readonly string data_bar_horizontal_24 = "\uf33e";
-        public static readonly string data_bar_vertical_20 = "\uf33f";
-        public static readonly string data_bar_vertical_24 = "\uf340";
-        public static readonly string data_bar_vertical_add_24 = "\uf9c8";
-        public static readonly string data_funnel_24 = "\uf341";
-        public static readonly string data_histogram_24 = "\uf342";
-        public static readonly string data_line_20 = "\ufb89";
-        public static readonly string data_line_24 = "\uf343";
-        public static readonly string data_pie_20 = "\uf344";
-        public static readonly string data_pie_24 = "\uf345";
-        public static readonly string data_scatter_24 = "\uf346";
-        public static readonly string data_sunburst_24 = "\uf347";
-        public static readonly string data_treemap_24 = "\uf348";
-        public static readonly string data_usage_20 = "\uf9c9";
-        public static readonly string data_usage_24 = "\uf349";
-        public static readonly string data_usage_edit_20 = "\uf3b2";
-        public static readonly string data_waterfall_24 = "\uf34a";
-        public static readonly string data_whisker_24 = "\uf34b";
-        public static readonly string decimal_arrow_left_24 = "\uf9ca";
-        public static readonly string decimal_arrow_right_24 = "\uf9cb";
-        public static readonly string delete_16 = "\uf9cc";
-        public static readonly string delete_20 = "\uf34c";
-        public static readonly string delete_24 = "\uf34d";
-        public static readonly string delete_28 = "\uf34e";
-        public static readonly string delete_48 = "\uf34f";
-        public static readonly string delete_dismiss_24 = "\ufbfd";
-        public static readonly string delete_dismiss_28 = "\ufbfe";
-        public static readonly string delete_off_20 = "\uf352";
-        public static readonly string delete_off_24 = "\uf353";
-        public static readonly string dentist_12 = "\uf9cd";
-        public static readonly string dentist_16 = "\uf9ce";
-        public static readonly string dentist_20 = "\uf9cf";
-        public static readonly string dentist_24 = "\uf354";
-        public static readonly string dentist_28 = "\uf9d0";
-        public static readonly string dentist_48 = "\uf9d1";
-        public static readonly string design_ideas_16 = "\uf355";
-        public static readonly string design_ideas_20 = "\uf356";
-        public static readonly string design_ideas_24 = "\uf357";
-        public static readonly string desktop_16 = "\uf358";
-        public static readonly string desktop_20 = "\uf359";
-        public static readonly string desktop_24 = "\uf35a";
-        public static readonly string desktop_28 = "\uf35b";
-        public static readonly string desktop_32 = "\ufdc1";
-        public static readonly string desktop_arrow_right_16 = "\ufb38";
-        public static readonly string desktop_arrow_right_20 = "\ufb39";
-        public static readonly string desktop_arrow_right_24 = "\ufb3a";
-        public static readonly string desktop_mac_16 = "\ufcde";
-        public static readonly string desktop_mac_32 = "\ufcdf";
-        public static readonly string desktop_pulse_16 = "\ufe5c";
-        public static readonly string desktop_pulse_20 = "\ufe5d";
-        public static readonly string desktop_pulse_24 = "\ufe5e";
-        public static readonly string desktop_pulse_28 = "\ufe5f";
-        public static readonly string desktop_pulse_32 = "\ufe60";
-        public static readonly string desktop_pulse_48 = "\ufe61";
-        public static readonly string desktop_speaker_20 = "\ufb3b";
-        public static readonly string desktop_speaker_24 = "\ufb3c";
-        public static readonly string desktop_speaker_off_20 = "\ufb3d";
-        public static readonly string desktop_speaker_off_24 = "\ufb3e";
-        public static readonly string desktop_sync_16 = "\uf3b3";
-        public static readonly string developer_board_20 = "\ufe62";
-        public static readonly string developer_board_24 = "\uf35c";
-        public static readonly string device_eq_24 = "\uf35d";
-        public static readonly string device_meeting_room_16 = "\uf3b4";
-        public static readonly string device_meeting_room_20 = "\ufb8a";
-        public static readonly string device_meeting_room_24 = "\uf3b5";
-        public static readonly string device_meeting_room_28 = "\uf3b6";
-        public static readonly string device_meeting_room_32 = "\uf3b7";
-        public static readonly string device_meeting_room_48 = "\uf3bc";
-        public static readonly string device_meeting_room_remote_16 = "\uf3bd";
-        public static readonly string device_meeting_room_remote_20 = "\ufb8b";
-        public static readonly string device_meeting_room_remote_24 = "\uf3c2";
-        public static readonly string device_meeting_room_remote_28 = "\uf3cd";
-        public static readonly string device_meeting_room_remote_32 = "\uf3ec";
-        public static readonly string device_meeting_room_remote_48 = "\uf3ed";
-        public static readonly string diagram_24 = "\uf953";
-        public static readonly string dialpad_20 = "\uf35e";
-        public static readonly string dialpad_24 = "\uf35f";
-        public static readonly string dialpad_off_24 = "\uf360";
-        public static readonly string directions_20 = "\uf365";
-        public static readonly string directions_24 = "\uf366";
-        public static readonly string dismiss_12 = "\uf367";
-        public static readonly string dismiss_16 = "\uf368";
-        public static readonly string dismiss_20 = "\uf369";
-        public static readonly string dismiss_24 = "\uf36a";
-        public static readonly string dismiss_28 = "\uf36b";
-        public static readonly string dismiss_32 = "\uf3f2";
-        public static readonly string dismiss_48 = "\uf3ff";
-        public static readonly string dismiss_circle_16 = "\uf36c";
-        public static readonly string dismiss_circle_20 = "\uf36d";
-        public static readonly string dismiss_circle_24 = "\uf36e";
-        public static readonly string dismiss_circle_28 = "\uf9d2";
-        public static readonly string dismiss_circle_32 = "\uf96b";
-        public static readonly string dismiss_circle_48 = "\uf36f";
-        public static readonly string dismiss_square_20 = "\ufed7";
-        public static readonly string dismiss_square_24 = "\ufe63";
-        public static readonly string dismiss_square_multiple_16 = "\ufdc2";
-        public static readonly string divider_short_24 = "\uf370";
-        public static readonly string divider_tall_24 = "\uf371";
-        public static readonly string dock_24 = "\uf372";
-        public static readonly string dock_panel_left_16 = "\ufbff";
-        public static readonly string dock_panel_left_20 = "\ufc00";
-        public static readonly string dock_panel_left_24 = "\ufc01";
-        public static readonly string dock_panel_left_28 = "\ufc02";
-        public static readonly string dock_panel_left_48 = "\ufc03";
-        public static readonly string dock_panel_right_16 = "\ufc04";
-        public static readonly string dock_panel_right_20 = "\ufc05";
-        public static readonly string dock_panel_right_24 = "\ufc06";
-        public static readonly string dock_panel_right_28 = "\ufc07";
-        public static readonly string dock_panel_right_48 = "\ufc08";
-        public static readonly string dock_row_24 = "\uf376";
-        public static readonly string doctor_12 = "\uf9da";
-        public static readonly string doctor_16 = "\uf9db";
-        public static readonly string doctor_20 = "\uf9dc";
-        public static readonly string doctor_24 = "\uf377";
-        public static readonly string doctor_28 = "\uf9dd";
-        public static readonly string doctor_48 = "\uf9de";
-        public static readonly string document_16 = "\uf9df";
-        public static readonly string document_20 = "\uf378";
-        public static readonly string document_24 = "\uf379";
-        public static readonly string document_28 = "\uf37a";
-        public static readonly string document_32 = "\ufdc3";
-        public static readonly string document_48 = "\uf9e0";
-        public static readonly string document_add_16 = "\uf9e1";
-        public static readonly string document_add_20 = "\uf9e2";
-        public static readonly string document_add_24 = "\uf9e3";
-        public static readonly string document_add_28 = "\uf9e4";
-        public static readonly string document_add_48 = "\uf9e5";
-        public static readonly string document_arrow_down_16 = "\uf96c";
-        public static readonly string document_arrow_left_16 = "\uf9e6";
-        public static readonly string document_arrow_left_20 = "\uf9e7";
-        public static readonly string document_arrow_left_24 = "\uf9e8";
-        public static readonly string document_arrow_left_28 = "\uf9e9";
-        public static readonly string document_arrow_left_48 = "\uf9ea";
-        public static readonly string document_arrow_right_24 = "\ufce0";
-        public static readonly string document_arrow_up_16 = "\uf400";
-        public static readonly string document_briefcase_20 = "\uf37c";
-        public static readonly string document_briefcase_24 = "\uf37d";
-        public static readonly string document_bullet_list_20 = "\uf401";
-        public static readonly string document_bullet_list_24 = "\uf402";
-        public static readonly string document_bullet_list_clock_20 = "\uf985";
-        public static readonly string document_bullet_list_clock_24 = "\uf9d3";
-        public static readonly string document_bullet_list_off_24 = "\uf9d4";
-        public static readonly string document_catch_up_16 = "\uf9eb";
-        public static readonly string document_catch_up_20 = "\uf9ec";
-        public static readonly string document_catch_up_24 = "\uf37e";
-        public static readonly string document_checkmark_24 = "\ufce1";
-        public static readonly string document_copy_16 = "\uf37f";
-        public static readonly string document_copy_20 = "\uf380";
-        public static readonly string document_copy_24 = "\uf381";
-        public static readonly string document_copy_48 = "\uf382";
-        public static readonly string document_dismiss_20 = "\uf383";
-        public static readonly string document_dismiss_24 = "\uf384";
-        public static readonly string document_edit_16 = "\uf385";
-        public static readonly string document_edit_20 = "\uf386";
-        public static readonly string document_edit_24 = "\uf387";
-        public static readonly string document_endnote_20 = "\uf388";
-        public static readonly string document_endnote_24 = "\uf389";
-        public static readonly string document_error_16 = "\uf38a";
-        public static readonly string document_error_20 = "\uf38b";
-        public static readonly string document_error_24 = "\uf38c";
-        public static readonly string document_footer_16 = "\ufed8";
-        public static readonly string document_footer_24 = "\uf38d";
-        public static readonly string document_footer_dismiss_24 = "\ufed9";
-        public static readonly string document_footer_remove_24 = "\uf38e";
-        public static readonly string document_header_16 = "\ufeda";
-        public static readonly string document_header_24 = "\uf38f";
-        public static readonly string document_header_arrow_down_16 = "\ufedb";
-        public static readonly string document_header_dismiss_24 = "\ufedc";
-        public static readonly string document_header_footer_16 = "\ufedd";
-        public static readonly string document_header_footer_20 = "\uf390";
-        public static readonly string document_header_footer_24 = "\uf391";
-        public static readonly string document_header_remove_24 = "\uf392";
-        public static readonly string document_landscape_20 = "\uf393";
-        public static readonly string document_landscape_24 = "\uf394";
-        public static readonly string document_landscape_data_24 = "\uf9ed";
-        public static readonly string document_landscape_split_20 = "\uf9ee";
-        public static readonly string document_landscape_split_hint_20 = "\uf9ef";
-        public static readonly string document_link_20 = "\uf403";
-        public static readonly string document_link_24 = "\uf404";
-        public static readonly string document_margins_20 = "\uf395";
-        public static readonly string document_margins_24 = "\uf396";
-        public static readonly string document_multiple_16 = "\uf9d5";
-        public static readonly string document_one_page_20 = "\uf399";
-        public static readonly string document_one_page_24 = "\uf39a";
-        public static readonly string document_page_bottom_center_20 = "\uf39c";
-        public static readonly string document_page_bottom_center_24 = "\uf39d";
-        public static readonly string document_page_bottom_left_20 = "\uf39e";
-        public static readonly string document_page_bottom_left_24 = "\uf39f";
-        public static readonly string document_page_bottom_right_20 = "\uf3a0";
-        public static readonly string document_page_bottom_right_24 = "\uf3a1";
-        public static readonly string document_page_break_20 = "\uf9f0";
-        public static readonly string document_page_break_24 = "\uf3a2";
-        public static readonly string document_page_number_20 = "\uf3a3";
-        public static readonly string document_page_number_24 = "\uf3a4";
-        public static readonly string document_page_top_center_20 = "\uf3a5";
-        public static readonly string document_page_top_center_24 = "\uf3a6";
-        public static readonly string document_page_top_left_20 = "\uf3a7";
-        public static readonly string document_page_top_left_24 = "\uf3a8";
-        public static readonly string document_page_top_right_20 = "\uf3a9";
-        public static readonly string document_page_top_right_24 = "\uf3aa";
-        public static readonly string document_pdf_16 = "\uf3ab";
-        public static readonly string document_pdf_20 = "\uf3ac";
-        public static readonly string document_pdf_24 = "\uf3ad";
-        public static readonly string document_pdf_32 = "\ufdc4";
-        public static readonly string document_person_16 = "\uf425";
-        public static readonly string document_pill_20 = "\uf9d6";
-        public static readonly string document_pill_24 = "\uf9d7";
-        public static readonly string document_prohibited_20 = "\ufc09";
-        public static readonly string document_prohibited_24 = "\ufc0a";
-        public static readonly string document_question_mark_16 = "\ufd38";
-        public static readonly string document_question_mark_20 = "\ufd39";
-        public static readonly string document_question_mark_24 = "\ufd3a";
-        public static readonly string document_ribbon_16 = "\ufede";
-        public static readonly string document_ribbon_20 = "\ufedf";
-        public static readonly string document_ribbon_24 = "\ufee0";
-        public static readonly string document_ribbon_28 = "\ufee1";
-        public static readonly string document_ribbon_32 = "\ufee2";
-        public static readonly string document_ribbon_48 = "\ufee3";
-        public static readonly string document_save_20 = "\uf9d8";
-        public static readonly string document_save_24 = "\uf9d9";
-        public static readonly string document_search_20 = "\uf3ae";
-        public static readonly string document_search_24 = "\uf3af";
-        public static readonly string document_settings_16 = "\uf426";
-        public static readonly string document_split_hint_24 = "\uf427";
-        public static readonly string document_split_hint_off_24 = "\uf428";
-        public static readonly string document_sync_24 = "\ufc0b";
-        public static readonly string document_toolbox_20 = "\uf3b0";
-        public static readonly string document_toolbox_24 = "\uf3b1";
-        public static readonly string document_width_20 = "\uf3b8";
-        public static readonly string document_width_24 = "\uf3b9";
-        public static readonly string door_16 = "\ufa06";
-        public static readonly string door_arrow_left_16 = "\ufee4";
-        public static readonly string door_arrow_left_20 = "\ufd3b";
-        public static readonly string door_arrow_left_24 = "\ufe64";
-        public static readonly string door_tag_24 = "\ufbb6";
-        public static readonly string double_swipe_down_24 = "\uf3ba";
-        public static readonly string double_swipe_up_24 = "\uf3bb";
-        public static readonly string drafts_16 = "\uf3be";
-        public static readonly string drafts_20 = "\uf3bf";
-        public static readonly string drafts_24 = "\uf3c0";
-        public static readonly string drag_24 = "\uf3c1";
-        public static readonly string draw_shape_24 = "\ufb8c";
-        public static readonly string draw_text_24 = "\ufb8d";
-        public static readonly string drink_beer_16 = "\uf9f1";
-        public static readonly string drink_beer_20 = "\uf9f2";
-        public static readonly string drink_beer_24 = "\uf3c3";
-        public static readonly string drink_coffee_16 = "\uf9f3";
-        public static readonly string drink_coffee_20 = "\uf3c4";
-        public static readonly string drink_coffee_24 = "\uf3c5";
-        public static readonly string drink_margarita_16 = "\uf9f4";
-        public static readonly string drink_margarita_20 = "\uf9f5";
-        public static readonly string drink_margarita_24 = "\uf3c6";
-        public static readonly string drink_to_go_24 = "\ufc0c";
-        public static readonly string drink_wine_16 = "\uf9f6";
-        public static readonly string drink_wine_20 = "\uf9f7";
-        public static readonly string drink_wine_24 = "\uf3c7";
-        public static readonly string drive_train_24 = "\ufee5";
-        public static readonly string drop_12 = "\ufd3c";
-        public static readonly string drop_16 = "\ufd3d";
-        public static readonly string drop_20 = "\ufd3e";
-        public static readonly string drop_24 = "\ufd3f";
-        public static readonly string drop_28 = "\ufd40";
-        public static readonly string drop_48 = "\ufd41";
-        public static readonly string dual_screen_24 = "\uf3c8";
-        public static readonly string dual_screen_add_24 = "\uf3c9";
-        public static readonly string dual_screen_arrow_right_24 = "\uf3ca";
-        public static readonly string dual_screen_arrow_up_24 = "\ufa07";
-        public static readonly string dual_screen_clock_24 = "\uf3cb";
-        public static readonly string dual_screen_closed_alert_24 = "\ufa08";
-        public static readonly string dual_screen_desktop_24 = "\uf3cc";
-        public static readonly string dual_screen_dismiss_24 = "\ufce2";
-        public static readonly string dual_screen_group_24 = "\uf3ce";
-        public static readonly string dual_screen_header_24 = "\ufc0d";
-        public static readonly string dual_screen_lock_24 = "\uf3cf";
-        public static readonly string dual_screen_mirror_24 = "\uf3d0";
-        public static readonly string dual_screen_pagination_24 = "\uf3d1";
-        public static readonly string dual_screen_settings_24 = "\uf3d2";
-        public static readonly string dual_screen_span_24 = "\uf9f8";
-        public static readonly string dual_screen_speaker_24 = "\ufce3";
-        public static readonly string dual_screen_status_bar_24 = "\uf3d3";
-        public static readonly string dual_screen_tablet_24 = "\uf3d4";
-        public static readonly string dual_screen_update_24 = "\uf3d5";
-        public static readonly string dual_screen_vertical_scroll_24 = "\uf3d6";
-        public static readonly string dual_screen_vibrate_24 = "\uf3d7";
-        public static readonly string dumbbell_16 = "\ufd42";
-        public static readonly string dumbbell_20 = "\ufd43";
-        public static readonly string dumbbell_24 = "\ufd44";
-        public static readonly string dumbbell_28 = "\ufd45";
-        public static readonly string earth_16 = "\uf3d8";
-        public static readonly string earth_20 = "\uf3d9";
-        public static readonly string earth_24 = "\uf3da";
-        public static readonly string edit_16 = "\uf3db";
-        public static readonly string edit_20 = "\uf3dc";
-        public static readonly string edit_24 = "\uf3dd";
-        public static readonly string edit_32 = "\uf9f9";
-        public static readonly string edit_arrow_back_16 = "\uf42d";
-        public static readonly string edit_off_16 = "\uf9fa";
-        public static readonly string edit_off_20 = "\ufd46";
-        public static readonly string edit_off_24 = "\uf9fb";
-        public static readonly string edit_settings_24 = "\uf9fc";
-        public static readonly string emoji_16 = "\uf3de";
-        public static readonly string emoji_20 = "\uf3df";
-        public static readonly string emoji_24 = "\uf3e0";
-        public static readonly string emoji_add_16 = "\uf9fd";
-        public static readonly string emoji_add_20 = "\ufb3f";
-        public static readonly string emoji_add_24 = "\uf3e1";
-        public static readonly string emoji_angry_20 = "\uf3e2";
-        public static readonly string emoji_angry_24 = "\uf3e3";
-        public static readonly string emoji_hand_20 = "\ufe65";
-        public static readonly string emoji_hand_24 = "\uf9fe";
-        public static readonly string emoji_hand_28 = "\uf9ff";
-        public static readonly string emoji_laugh_20 = "\uf3e4";
-        public static readonly string emoji_laugh_24 = "\uf3e5";
-        public static readonly string emoji_meh_20 = "\uf3e6";
-        public static readonly string emoji_meh_24 = "\uf3e7";
-        public static readonly string emoji_multiple_20 = "\ufa18";
-        public static readonly string emoji_multiple_24 = "\ufa47";
-        public static readonly string emoji_sad_20 = "\uf3e8";
-        public static readonly string emoji_sad_24 = "\uf3e9";
-        public static readonly string emoji_surprise_20 = "\uf3ea";
-        public static readonly string emoji_surprise_24 = "\uf3eb";
-        public static readonly string engine_24 = "\ufee6";
-        public static readonly string equal_off_20 = "\uf42e";
-        public static readonly string eraser_20 = "\ufa00";
-        public static readonly string eraser_24 = "\ufa01";
-        public static readonly string eraser_medium_24 = "\ufa02";
-        public static readonly string eraser_segment_24 = "\ufa03";
-        public static readonly string eraser_small_24 = "\ufa04";
-        public static readonly string eraser_tool_24 = "\uf3ee";
-        public static readonly string error_circle_12 = "\ufa05";
-        public static readonly string error_circle_16 = "\uf3ef";
-        public static readonly string error_circle_20 = "\uf3f0";
-        public static readonly string error_circle_24 = "\uf3f1";
-        public static readonly string error_circle_settings_16 = "\uf42f";
-        public static readonly string expand_up_left_16 = "\uf430";
-        public static readonly string expand_up_left_20 = "\uf435";
-        public static readonly string expand_up_left_24 = "\uf436";
-        public static readonly string expand_up_left_28 = "\uf437";
-        public static readonly string expand_up_left_32 = "\uf44f";
-        public static readonly string expand_up_left_48 = "\uf450";
-        public static readonly string expand_up_right_16 = "\uf453";
-        public static readonly string expand_up_right_20 = "\uf454";
-        public static readonly string expand_up_right_24 = "\uf471";
-        public static readonly string expand_up_right_28 = "\uf49c";
-        public static readonly string expand_up_right_32 = "\uf49d";
-        public static readonly string expand_up_right_48 = "\uf49e";
-        public static readonly string extended_dock_24 = "\uf3f3";
-        public static readonly string extension_20 = "\uf3f4";
-        public static readonly string extension_24 = "\uf3f5";
-        public static readonly string eye_hide_20 = "\uf3f6";
-        public static readonly string eye_hide_24 = "\uf3f7";
-        public static readonly string eye_show_12 = "\uf3f8";
-        public static readonly string eye_show_16 = "\uf3f9";
-        public static readonly string eye_show_20 = "\uf3fa";
-        public static readonly string eye_show_24 = "\uf3fb";
-        public static readonly string eye_tracking_off_16 = "\ufa09";
-        public static readonly string eye_tracking_off_20 = "\ufa0a";
-        public static readonly string eye_tracking_off_24 = "\ufa0b";
-        public static readonly string eye_tracking_on_16 = "\ufc0e";
-        public static readonly string eye_tracking_on_20 = "\ufc0f";
-        public static readonly string eye_tracking_on_24 = "\ufc10";
-        public static readonly string eyedropper_20 = "\ufd47";
-        public static readonly string eyedropper_24 = "\ufd48";
-        public static readonly string f_stop_16 = "\ufa0c";
-        public static readonly string f_stop_20 = "\ufa0d";
-        public static readonly string f_stop_24 = "\ufa0e";
-        public static readonly string f_stop_28 = "\ufa0f";
-        public static readonly string fast_acceleration_24 = "\uf3fc";
-        public static readonly string fast_forward_20 = "\uf3fd";
-        public static readonly string fast_forward_24 = "\uf3fe";
-        public static readonly string fax_16 = "\uf4b8";
-        public static readonly string filter_16 = "\ufe66";
-        public static readonly string filter_20 = "\uf405";
-        public static readonly string filter_24 = "\uf406";
-        public static readonly string filter_28 = "\uf407";
-        public static readonly string filter_dismiss_24 = "\ufce4";
-        public static readonly string filter_sync_24 = "\ufce5";
-        public static readonly string fingerprint_24 = "\uf408";
-        public static readonly string fingerprint_48 = "\ufa10";
-        public static readonly string fixed_width_24 = "\ufa11";
-        public static readonly string flag_16 = "\uf409";
-        public static readonly string flag_20 = "\uf40a";
-        public static readonly string flag_24 = "\uf40b";
-        public static readonly string flag_28 = "\uf40c";
-        public static readonly string flag_48 = "\uf40d";
-        public static readonly string flag_off_16 = "\ufd49";
-        public static readonly string flag_off_20 = "\ufd4a";
-        public static readonly string flag_off_24 = "\uf40e";
-        public static readonly string flag_off_28 = "\uf40f";
-        public static readonly string flag_off_48 = "\uf410";
-        public static readonly string flag_pride_16 = "\uf411";
-        public static readonly string flag_pride_20 = "\uf412";
-        public static readonly string flag_pride_24 = "\uf413";
-        public static readonly string flag_pride_28 = "\uf414";
-        public static readonly string flag_pride_48 = "\uf415";
-        public static readonly string flash_16 = "\ufe67";
-        public static readonly string flash_28 = "\ufe68";
-        public static readonly string flash_auto_24 = "\uf416";
-        public static readonly string flash_checkmark_16 = "\ufe69";
-        public static readonly string flash_checkmark_20 = "\ufe6a";
-        public static readonly string flash_checkmark_24 = "\ufe6b";
-        public static readonly string flash_checkmark_28 = "\ufe6c";
-        public static readonly string flash_off_24 = "\uf417";
-        public static readonly string flash_on_20 = "\uf418";
-        public static readonly string flash_on_24 = "\uf419";
-        public static readonly string flashlight_24 = "\uf41a";
-        public static readonly string flashlight_off_24 = "\uf41b";
-        public static readonly string flip_horizontal_24 = "\ufa12";
-        public static readonly string flip_vertical_24 = "\ufa13";
-        public static readonly string flow_16 = "\uf4b9";
-        public static readonly string fluent_24 = "\ufc11";
-        public static readonly string fluent_32 = "\ufa14";
-        public static readonly string fluent_48 = "\ufa15";
-        public static readonly string fluid_20 = "\ufa16";
-        public static readonly string fluid_24 = "\ufa17";
-        public static readonly string folder_16 = "\ufce6";
-        public static readonly string folder_20 = "\uf41c";
-        public static readonly string folder_24 = "\uf41d";
-        public static readonly string folder_28 = "\uf41e";
-        public static readonly string folder_32 = "\ufce7";
-        public static readonly string folder_48 = "\uf41f";
-        public static readonly string folder_add_20 = "\uf420";
-        public static readonly string folder_add_24 = "\uf421";
-        public static readonly string folder_add_28 = "\uf422";
-        public static readonly string folder_add_48 = "\uf423";
-        public static readonly string folder_arrow_right_16 = "\ufc12";
-        public static readonly string folder_arrow_right_20 = "\ufc13";
-        public static readonly string folder_arrow_right_24 = "\ufc14";
-        public static readonly string folder_arrow_right_28 = "\ufc15";
-        public static readonly string folder_arrow_right_48 = "\ufc16";
-        public static readonly string folder_arrow_up_16 = "\ufb8e";
-        public static readonly string folder_arrow_up_20 = "\ufb8f";
-        public static readonly string folder_arrow_up_24 = "\ufb90";
-        public static readonly string folder_arrow_up_28 = "\ufb91";
-        public static readonly string folder_arrow_up_48 = "\ufc17";
-        public static readonly string folder_briefcase_20 = "\uf424";
-        public static readonly string folder_globe_16 = "\uf4bb";
-        public static readonly string folder_link_20 = "\uf429";
-        public static readonly string folder_link_24 = "\uf42a";
-        public static readonly string folder_link_28 = "\uf42b";
-        public static readonly string folder_link_48 = "\uf42c";
-        public static readonly string folder_mail_16 = "\ufee7";
-        public static readonly string folder_open_16 = "\uf431";
-        public static readonly string folder_open_20 = "\uf432";
-        public static readonly string folder_open_24 = "\uf433";
-        public static readonly string folder_open_vertical_20 = "\uf434";
-        public static readonly string folder_person_16 = "\uf4d0";
-        public static readonly string folder_prohibited_16 = "\ufe6d";
-        public static readonly string folder_prohibited_20 = "\ufc18";
-        public static readonly string folder_prohibited_24 = "\ufc19";
-        public static readonly string folder_prohibited_28 = "\ufc1a";
-        public static readonly string folder_prohibited_48 = "\ufc1b";
-        public static readonly string folder_swap_16 = "\ufc1c";
-        public static readonly string folder_swap_20 = "\ufc1d";
-        public static readonly string folder_swap_24 = "\ufc1e";
-        public static readonly string folder_sync_16 = "\ufee8";
-        public static readonly string folder_zip_16 = "\uf438";
-        public static readonly string folder_zip_20 = "\uf439";
-        public static readonly string folder_zip_24 = "\uf43a";
-        public static readonly string font_decrease_20 = "\uf43b";
-        public static readonly string font_decrease_24 = "\uf43c";
-        public static readonly string font_increase_20 = "\uf43d";
-        public static readonly string font_increase_24 = "\uf43e";
-        public static readonly string font_space_tracking_in_16 = "\uf43f";
-        public static readonly string font_space_tracking_in_20 = "\uf440";
-        public static readonly string font_space_tracking_in_24 = "\uf441";
-        public static readonly string font_space_tracking_in_28 = "\uf442";
-        public static readonly string font_space_tracking_out_16 = "\uf443";
-        public static readonly string font_space_tracking_out_20 = "\uf444";
-        public static readonly string font_space_tracking_out_24 = "\uf445";
-        public static readonly string font_space_tracking_out_28 = "\uf446";
-        public static readonly string food_20 = "\uf447";
-        public static readonly string food_24 = "\uf448";
-        public static readonly string food_cake_20 = "\ufb40";
-        public static readonly string food_cake_24 = "\uf449";
-        public static readonly string food_egg_16 = "\ufa19";
-        public static readonly string food_egg_20 = "\ufa1a";
-        public static readonly string food_egg_24 = "\uf44a";
-        public static readonly string food_pizza_20 = "\ufdc5";
-        public static readonly string food_pizza_24 = "\ufdc6";
-        public static readonly string food_toast_16 = "\ufa1b";
-        public static readonly string food_toast_20 = "\ufa1c";
-        public static readonly string food_toast_24 = "\uf44b";
-        public static readonly string form_new_24 = "\uf44c";
-        public static readonly string form_new_28 = "\uf44d";
-        public static readonly string form_new_48 = "\uf44e";
-        public static readonly string fps_120_20 = "\ufd4b";
-        public static readonly string fps_120_24 = "\ufd4c";
-        public static readonly string fps_240_20 = "\ufd4d";
-        public static readonly string fps_240_24 = "\uf451";
-        public static readonly string fps_30_16 = "\ufb93";
-        public static readonly string fps_30_20 = "\ufb94";
-        public static readonly string fps_30_24 = "\ufb95";
-        public static readonly string fps_30_28 = "\ufb96";
-        public static readonly string fps_30_48 = "\ufb97";
-        public static readonly string fps_60_16 = "\ufb98";
-        public static readonly string fps_60_20 = "\ufb99";
-        public static readonly string fps_60_24 = "\ufb9a";
-        public static readonly string fps_60_28 = "\ufb9b";
-        public static readonly string fps_60_48 = "\ufb9c";
-        public static readonly string fps_960_24 = "\uf452";
-        public static readonly string full_screen_maximize_24 = "\ufc1f";
-        public static readonly string full_screen_minimize_24 = "\ufc20";
-        public static readonly string games_24 = "\uf455";
-        public static readonly string gantt_chart_20 = "\ufa48";
-        public static readonly string gantt_chart_24 = "\ufa49";
-        public static readonly string gas_24 = "\ufee9";
-        public static readonly string gas_pump_24 = "\ufeea";
-        public static readonly string gauge_20 = "\uf4d1";
-        public static readonly string gauge_24 = "\uf4d2";
-        public static readonly string gavel_24 = "\ufa1d";
-        public static readonly string gavel_32 = "\ufa1e";
-        public static readonly string gesture_24 = "\uf456";
-        public static readonly string gif_20 = "\uf457";
-        public static readonly string gif_24 = "\uf458";
-        public static readonly string gift_20 = "\uf459";
-        public static readonly string gift_24 = "\uf45a";
-        public static readonly string gift_card_16 = "\uf4d7";
-        public static readonly string gift_card_20 = "\uf4d8";
-        public static readonly string gift_card_add_20 = "\uf4d9";
-        public static readonly string gift_card_add_24 = "\ufa4a";
-        public static readonly string glance_24 = "\uf45b";
-        public static readonly string glasses_16 = "\ufa1f";
-        public static readonly string glasses_20 = "\ufa20";
-        public static readonly string glasses_24 = "\uf45c";
-        public static readonly string glasses_28 = "\ufa21";
-        public static readonly string glasses_48 = "\ufa22";
-        public static readonly string glasses_off_16 = "\ufa23";
-        public static readonly string glasses_off_20 = "\ufa24";
-        public static readonly string glasses_off_24 = "\uf45d";
-        public static readonly string glasses_off_28 = "\ufa25";
-        public static readonly string glasses_off_48 = "\ufa26";
-        public static readonly string globe_16 = "\ufa27";
-        public static readonly string globe_20 = "\uf45e";
-        public static readonly string globe_24 = "\uf45f";
-        public static readonly string globe_32 = "\ufdc7";
-        public static readonly string globe_add_24 = "\uf460";
-        public static readonly string globe_clock_24 = "\uf461";
-        public static readonly string globe_desktop_24 = "\uf462";
-        public static readonly string globe_location_20 = "\uf4e6";
-        public static readonly string globe_location_24 = "\uf463";
-        public static readonly string globe_person_24 = "\ufce8";
-        public static readonly string globe_search_24 = "\uf464";
-        public static readonly string globe_star_16 = "\uf4f5";
-        public static readonly string globe_video_20 = "\uf507";
-        public static readonly string globe_video_24 = "\uf465";
-        public static readonly string grid_16 = "\ufe6e";
-        public static readonly string grid_20 = "\uf466";
-        public static readonly string grid_24 = "\uf467";
-        public static readonly string grid_28 = "\uf468";
-        public static readonly string grid_kanban_20 = "\ufb41";
-        public static readonly string group_20 = "\uf469";
-        public static readonly string group_24 = "\uf46a";
-        public static readonly string group_dismiss_24 = "\ufe26";
-        public static readonly string group_list_24 = "\uf46b";
-        public static readonly string group_return_24 = "\ufe27";
-        public static readonly string guest_16 = "\uf46c";
-        public static readonly string guest_20 = "\uf46d";
-        public static readonly string guest_24 = "\uf46e";
-        public static readonly string guest_28 = "\uf46f";
-        public static readonly string guest_add_24 = "\uf470";
-        public static readonly string guitar_16 = "\ufd4e";
-        public static readonly string guitar_20 = "\ufd4f";
-        public static readonly string guitar_24 = "\ufd50";
-        public static readonly string guitar_28 = "\ufd51";
-        public static readonly string hand_draw_24 = "\ufa58";
-        public static readonly string hand_left_16 = "\ufe28";
-        public static readonly string hand_left_20 = "\ufa28";
-        public static readonly string hand_left_24 = "\ufe29";
-        public static readonly string hand_left_28 = "\ufe2a";
-        public static readonly string hand_right_16 = "\ufe2b";
-        public static readonly string hand_right_20 = "\ufb42";
-        public static readonly string hand_right_24 = "\ufa29";
-        public static readonly string hand_right_28 = "\ufa2a";
-        public static readonly string hand_right_off_20 = "\ufb43";
-        public static readonly string handshake_16 = "\uf472";
-        public static readonly string handshake_20 = "\uf473";
-        public static readonly string handshake_24 = "\uf474";
-        public static readonly string hat_graduation_16 = "\ufa2b";
-        public static readonly string hat_graduation_20 = "\ufa2c";
-        public static readonly string hat_graduation_24 = "\ufa2d";
-        public static readonly string hd_16 = "\ufa2e";
-        public static readonly string hd_20 = "\ufa2f";
-        public static readonly string hd_24 = "\ufa30";
-        public static readonly string hdr_24 = "\uf475";
-        public static readonly string headphones_20 = "\ufe6f";
-        public static readonly string headphones_24 = "\uf476";
-        public static readonly string headphones_28 = "\uf477";
-        public static readonly string headphones_32 = "\ufe70";
-        public static readonly string headphones_48 = "\ufe71";
-        public static readonly string headphones_sound_wave_20 = "\ufe72";
-        public static readonly string headphones_sound_wave_24 = "\ufe73";
-        public static readonly string headphones_sound_wave_28 = "\ufe74";
-        public static readonly string headphones_sound_wave_32 = "\ufe75";
-        public static readonly string headphones_sound_wave_48 = "\ufe76";
-        public static readonly string headset_16 = "\ufa31";
-        public static readonly string headset_20 = "\ufa32";
-        public static readonly string headset_24 = "\uf478";
-        public static readonly string headset_28 = "\uf479";
-        public static readonly string headset_32 = "\ufdc8";
-        public static readonly string headset_48 = "\ufa33";
-        public static readonly string headset_add_20 = "\uf508";
-        public static readonly string headset_add_24 = "\uf509";
-        public static readonly string headset_vr_20 = "\uf47a";
-        public static readonly string headset_vr_24 = "\uf47b";
-        public static readonly string heart_16 = "\uf47c";
-        public static readonly string heart_20 = "\uf47d";
-        public static readonly string heart_24 = "\uf47e";
-        public static readonly string heart_28 = "\uf50a";
-        public static readonly string heart_broken_16 = "\uf50b";
-        public static readonly string heart_pulse_20 = "\ufdc9";
-        public static readonly string heart_pulse_24 = "\ufa34";
-        public static readonly string heart_pulse_32 = "\ufa35";
-        public static readonly string highlight_16 = "\uf47f";
-        public static readonly string highlight_20 = "\uf480";
-        public static readonly string highlight_24 = "\uf481";
-        public static readonly string highlight_accent_16 = "\uf482";
-        public static readonly string highlight_accent_20 = "\uf483";
-        public static readonly string highlight_accent_24 = "\uf484";
-        public static readonly string history_20 = "\uf485";
-        public static readonly string history_24 = "\uf486";
-        public static readonly string home_12 = "\ufe2c";
-        public static readonly string home_16 = "\ufa36";
-        public static readonly string home_20 = "\uf487";
-        public static readonly string home_24 = "\uf488";
-        public static readonly string home_28 = "\uf489";
-        public static readonly string home_32 = "\ufa37";
-        public static readonly string home_48 = "\ufa38";
-        public static readonly string home_add_24 = "\uf48a";
-        public static readonly string home_checkmark_16 = "\ufe77";
-        public static readonly string home_checkmark_20 = "\ufe78";
-        public static readonly string home_checkmark_24 = "\uf48b";
-        public static readonly string home_person_20 = "\ufb9e";
-        public static readonly string home_person_24 = "\ufce9";
-        public static readonly string icons_20 = "\uf48c";
-        public static readonly string icons_24 = "\uf48d";
-        public static readonly string image_16 = "\uf48e";
-        public static readonly string image_20 = "\uf48f";
-        public static readonly string image_24 = "\uf490";
-        public static readonly string image_28 = "\uf491";
-        public static readonly string image_48 = "\uf492";
-        public static readonly string image_add_24 = "\uf493";
-        public static readonly string image_alt_text_20 = "\uf494";
-        public static readonly string image_alt_text_24 = "\uf495";
-        public static readonly string image_arrow_back_24 = "\ufa59";
-        public static readonly string image_arrow_counterclockwise_24 = "\ufa39";
-        public static readonly string image_arrow_forward_24 = "\ufa5a";
-        public static readonly string image_copy_20 = "\uf496";
-        public static readonly string image_copy_24 = "\uf497";
-        public static readonly string image_copy_28 = "\uf498";
-        public static readonly string image_edit_16 = "\uf499";
-        public static readonly string image_edit_20 = "\uf49a";
-        public static readonly string image_edit_24 = "\uf49b";
-        public static readonly string image_globe_24 = "\ufcea";
-        public static readonly string image_multiple_16 = "\ufa5b";
-        public static readonly string image_multiple_20 = "\ufc21";
-        public static readonly string image_multiple_24 = "\ufc22";
-        public static readonly string image_multiple_28 = "\ufc23";
-        public static readonly string image_off_20 = "\ufb9f";
-        public static readonly string image_off_24 = "\uf49f";
-        public static readonly string image_reflection_24 = "\ufa5c";
-        public static readonly string image_search_20 = "\uf4a0";
-        public static readonly string image_search_24 = "\uf4a1";
-        public static readonly string image_shadow_24 = "\ufa5d";
-        public static readonly string immersive_reader_20 = "\uf4a2";
-        public static readonly string immersive_reader_24 = "\uf4a3";
-        public static readonly string important_12 = "\uf4a4";
-        public static readonly string important_16 = "\uf4a5";
-        public static readonly string important_20 = "\uf4a6";
-        public static readonly string important_24 = "\uf4a7";
-        public static readonly string incognito_24 = "\uf4a8";
-        public static readonly string info_16 = "\uf4a9";
-        public static readonly string info_20 = "\uf4aa";
-        public static readonly string info_24 = "\uf4ab";
-        public static readonly string info_28 = "\uf4ac";
-        public static readonly string info_shield_20 = "\ufa3a";
-        public static readonly string ink_stroke_20 = "\ufe79";
-        public static readonly string ink_stroke_24 = "\ufe7a";
-        public static readonly string inking_tool_16 = "\uf4ad";
-        public static readonly string inking_tool_20 = "\uf4ae";
-        public static readonly string inking_tool_24 = "\uf4af";
-        public static readonly string inking_tool_32 = "\ufceb";
-        public static readonly string inking_tool_accent_16 = "\uf4b0";
-        public static readonly string inking_tool_accent_20 = "\uf4b1";
-        public static readonly string inking_tool_accent_24 = "\uf4b2";
-        public static readonly string inprivate_account_16 = "\uf4b3";
-        public static readonly string inprivate_account_20 = "\uf4b4";
-        public static readonly string inprivate_account_24 = "\uf4b5";
-        public static readonly string inprivate_account_28 = "\uf4b6";
-        public static readonly string insert_20 = "\uf4b7";
-        public static readonly string ios_arrow_left_24 = "\uf4ba";
-        public static readonly string ios_chevron_right_20 = "\uf4bc";
-        public static readonly string javascript_16 = "\uf4bd";
-        public static readonly string javascript_20 = "\uf4be";
-        public static readonly string javascript_24 = "\uf4bf";
-        public static readonly string key_16 = "\ufcec";
-        public static readonly string key_20 = "\uf4c0";
-        public static readonly string key_24 = "\uf4c1";
-        public static readonly string key_32 = "\ufced";
-        public static readonly string key_command_16 = "\ufd52";
-        public static readonly string key_multiple_20 = "\ufa3b";
-        public static readonly string keyboard_20 = "\uf4c2";
-        public static readonly string keyboard_24 = "\uf4c3";
-        public static readonly string keyboard_dock_24 = "\uf4c4";
-        public static readonly string keyboard_layout_float_24 = "\uf4c5";
-        public static readonly string keyboard_layout_one_handed_left_24 = "\uf4c6";
-        public static readonly string keyboard_layout_resize_24 = "\uf4c7";
-        public static readonly string keyboard_layout_split_24 = "\uf4c8";
-        public static readonly string keyboard_shift_16 = "\ufe2d";
-        public static readonly string keyboard_shift_20 = "\ufe2e";
-        public static readonly string keyboard_shift_24 = "\uf4c9";
-        public static readonly string keyboard_shift_uppercase_24 = "\uf4ca";
-        public static readonly string keyboard_tab_24 = "\uf4cb";
-        public static readonly string laptop_16 = "\uf4cc";
-        public static readonly string laptop_20 = "\uf4cd";
-        public static readonly string laptop_24 = "\uf4ce";
-        public static readonly string laptop_28 = "\uf4cf";
-        public static readonly string laptop_dismiss_16 = "\uf50f";
-        public static readonly string lasso_20 = "\ufba0";
-        public static readonly string lasso_24 = "\uf4d3";
-        public static readonly string launcher_settings_24 = "\uf4d4";
-        public static readonly string layer_20 = "\uf4d5";
-        public static readonly string layer_24 = "\uf4d6";
-        public static readonly string leaf_one_16 = "\ufc24";
-        public static readonly string leaf_one_20 = "\ufc25";
-        public static readonly string leaf_one_24 = "\ufc26";
-        public static readonly string leaf_three_16 = "\ufba1";
-        public static readonly string leaf_three_20 = "\ufba2";
-        public static readonly string leaf_three_24 = "\ufba3";
-        public static readonly string leaf_two_16 = "\uf4da";
-        public static readonly string leaf_two_20 = "\uf4db";
-        public static readonly string leaf_two_24 = "\uf4dc";
-        public static readonly string learning_app_20 = "\ufb44";
-        public static readonly string learning_app_24 = "\ufb45";
-        public static readonly string library_16 = "\ufe7b";
-        public static readonly string library_20 = "\ufe7c";
-        public static readonly string library_24 = "\uf4dd";
-        public static readonly string library_28 = "\uf4de";
-        public static readonly string lightbulb_16 = "\uf4df";
-        public static readonly string lightbulb_20 = "\uf4e0";
-        public static readonly string lightbulb_24 = "\uf4e1";
-        public static readonly string lightbulb_circle_24 = "\uf4e2";
-        public static readonly string lightbulb_filament_16 = "\uf4e3";
-        public static readonly string lightbulb_filament_20 = "\uf4e4";
-        public static readonly string lightbulb_filament_24 = "\uf4e5";
-        public static readonly string likert_16 = "\uf4e7";
-        public static readonly string likert_20 = "\uf4e8";
-        public static readonly string likert_24 = "\uf4e9";
-        public static readonly string line_horizontal_1_20 = "\uf4ea";
-        public static readonly string line_horizontal_3_20 = "\uf4eb";
-        public static readonly string line_horizontal_5_20 = "\uf4ec";
-        public static readonly string line_horizontal_5_error_20 = "\ufa3c";
-        public static readonly string line_style_24 = "\ufcee";
-        public static readonly string link_16 = "\uf4ed";
-        public static readonly string link_20 = "\uf4ee";
-        public static readonly string link_24 = "\uf4ef";
-        public static readonly string link_28 = "\uf4f0";
-        public static readonly string link_48 = "\uf4f1";
-        public static readonly string link_dismiss_20 = "\ufc27";
-        public static readonly string link_edit_16 = "\uf4f2";
-        public static readonly string link_edit_20 = "\uf4f3";
-        public static readonly string link_edit_24 = "\uf4f4";
-        public static readonly string link_square_12 = "\ufa3d";
-        public static readonly string link_square_16 = "\ufa3e";
-        public static readonly string link_square_20 = "\ufe2f";
-        public static readonly string link_square_24 = "\uf4f6";
-        public static readonly string list_16 = "\ufe7d";
-        public static readonly string list_20 = "\uf4f7";
-        public static readonly string list_24 = "\uf4f8";
-        public static readonly string list_28 = "\uf4f9";
-        public static readonly string live_20 = "\uf4fa";
-        public static readonly string live_24 = "\uf4fb";
-        public static readonly string live_off_20 = "\ufb46";
-        public static readonly string live_off_24 = "\ufb47";
-        public static readonly string local_language_16 = "\uf4fc";
-        public static readonly string local_language_20 = "\uf4fd";
-        public static readonly string local_language_24 = "\uf4fe";
-        public static readonly string local_language_28 = "\uf4ff";
-        public static readonly string local_language_zi_24 = "\ufa61";
-        public static readonly string location_12 = "\uf500";
-        public static readonly string location_16 = "\uf501";
-        public static readonly string location_20 = "\uf502";
-        public static readonly string location_24 = "\uf503";
-        public static readonly string location_28 = "\uf504";
-        public static readonly string location_48 = "\ufa3f";
-        public static readonly string location_arrow_left_48 = "\ufe7e";
-        public static readonly string location_arrow_right_48 = "\ufe7f";
-        public static readonly string location_arrow_up_48 = "\ufe80";
-        public static readonly string location_dismiss_24 = "\ufc28";
-        public static readonly string location_live_20 = "\uf505";
-        public static readonly string location_live_24 = "\uf506";
-        public static readonly string location_off_16 = "\ufa40";
-        public static readonly string location_off_20 = "\ufa41";
-        public static readonly string location_off_24 = "\ufa42";
-        public static readonly string location_off_28 = "\ufa43";
-        public static readonly string location_off_48 = "\ufa44";
-        public static readonly string lock_closed_12 = "\ufc29";
-        public static readonly string lock_closed_16 = "\ufc2a";
-        public static readonly string lock_closed_20 = "\ufc2b";
-        public static readonly string lock_closed_24 = "\ufc2c";
-        public static readonly string lock_multiple_24 = "\ufa45";
-        public static readonly string lock_open_20 = "\ufc2d";
-        public static readonly string lock_open_24 = "\ufc2e";
-        public static readonly string lock_open_28 = "\ufc2f";
-        public static readonly string lock_shield_20 = "\uf50c";
-        public static readonly string lock_shield_24 = "\uf50d";
-        public static readonly string lock_shield_48 = "\uf50e";
-        public static readonly string lottery_24 = "\ufa46";
-        public static readonly string luggage_24 = "\ufbb7";
-        public static readonly string mail_16 = "\ufa4b";
-        public static readonly string mail_20 = "\uf510";
-        public static readonly string mail_24 = "\uf511";
-        public static readonly string mail_28 = "\uf512";
-        public static readonly string mail_48 = "\uf513";
-        public static readonly string mail_add_16 = "\uf517";
-        public static readonly string mail_add_20 = "\uf529";
-        public static readonly string mail_add_24 = "\uf514";
-        public static readonly string mail_alert_16 = "\uf52a";
-        public static readonly string mail_alert_20 = "\uf534";
-        public static readonly string mail_alert_24 = "\uf535";
-        public static readonly string mail_all_16 = "\ufeeb";
-        public static readonly string mail_all_20 = "\uf515";
-        public static readonly string mail_all_24 = "\uf516";
-        public static readonly string mail_all_read_20 = "\uf518";
-        public static readonly string mail_all_unread_20 = "\uf519";
-        public static readonly string mail_arrow_double_back_16 = "\ufa62";
-        public static readonly string mail_arrow_down_16 = "\uf536";
-        public static readonly string mail_arrow_forward_16 = "\ufa63";
-        public static readonly string mail_arrow_up_20 = "\uf537";
-        public static readonly string mail_arrow_up_24 = "\uf555";
-        public static readonly string mail_attach_16 = "\ufa64";
-        public static readonly string mail_checkmark_16 = "\uf556";
-        public static readonly string mail_clock_16 = "\uf55b";
-        public static readonly string mail_clock_20 = "\uf51a";
-        public static readonly string mail_clock_24 = "\uf55c";
-        public static readonly string mail_copy_20 = "\uf51b";
-        public static readonly string mail_copy_24 = "\uf51c";
-        public static readonly string mail_dismiss_16 = "\ufeec";
-        public static readonly string mail_dismiss_20 = "\uf55d";
-        public static readonly string mail_dismiss_24 = "\uf55e";
-        public static readonly string mail_error_20 = "\uf55f";
-        public static readonly string mail_error_24 = "\uf567";
-        public static readonly string mail_inbox_16 = "\uf51d";
-        public static readonly string mail_inbox_20 = "\uf51e";
-        public static readonly string mail_inbox_24 = "\uf51f";
-        public static readonly string mail_inbox_28 = "\uf520";
-        public static readonly string mail_inbox_add_16 = "\uf521";
-        public static readonly string mail_inbox_add_20 = "\uf522";
-        public static readonly string mail_inbox_add_24 = "\uf523";
-        public static readonly string mail_inbox_add_28 = "\uf524";
-        public static readonly string mail_inbox_all_24 = "\ufc30";
-        public static readonly string mail_inbox_arrow_down_16 = "\uf568";
-        public static readonly string mail_inbox_arrow_right_24 = "\ufc31";
-        public static readonly string mail_inbox_arrow_up_20 = "\ufc32";
-        public static readonly string mail_inbox_arrow_up_24 = "\ufc33";
-        public static readonly string mail_inbox_checkmark_16 = "\ufe30";
-        public static readonly string mail_inbox_checkmark_20 = "\ufe31";
-        public static readonly string mail_inbox_checkmark_24 = "\ufe32";
-        public static readonly string mail_inbox_checkmark_28 = "\ufe81";
-        public static readonly string mail_inbox_dismiss_16 = "\uf525";
-        public static readonly string mail_inbox_dismiss_20 = "\uf526";
-        public static readonly string mail_inbox_dismiss_24 = "\uf527";
-        public static readonly string mail_inbox_dismiss_28 = "\uf528";
-        public static readonly string mail_link_20 = "\uf58f";
-        public static readonly string mail_link_24 = "\uf596";
-        public static readonly string mail_off_24 = "\ufc34";
-        public static readonly string mail_pause_16 = "\uf5b0";
-        public static readonly string mail_prohibited_16 = "\ufeed";
-        public static readonly string mail_prohibited_20 = "\uf5d5";
-        public static readonly string mail_prohibited_24 = "\uf5ec";
-        public static readonly string mail_read_16 = "\ufa4c";
-        public static readonly string mail_read_20 = "\uf52b";
-        public static readonly string mail_read_24 = "\uf52c";
-        public static readonly string mail_read_28 = "\uf52d";
-        public static readonly string mail_read_48 = "\uf52e";
-        public static readonly string mail_settings_16 = "\uf5ed";
-        public static readonly string mail_shield_16 = "\uf5f2";
-        public static readonly string mail_template_20 = "\uf5f3";
-        public static readonly string mail_template_24 = "\uf5f7";
-        public static readonly string mail_unread_16 = "\uf52f";
-        public static readonly string mail_unread_20 = "\uf530";
-        public static readonly string mail_unread_24 = "\uf531";
-        public static readonly string mail_unread_28 = "\uf532";
-        public static readonly string mail_unread_48 = "\uf533";
-        public static readonly string mail_warning_16 = "\uf5f8";
-        public static readonly string map_20 = "\ufe82";
-        public static readonly string map_24 = "\uf538";
-        public static readonly string map_drive_16 = "\uf539";
-        public static readonly string map_drive_20 = "\uf53a";
-        public static readonly string map_drive_24 = "\uf53b";
-        public static readonly string match_app_layout_24 = "\uf53c";
-        public static readonly string math_format_linear_24 = "\ufa4d";
-        public static readonly string math_format_professional_24 = "\ufa4e";
-        public static readonly string math_formula_16 = "\ufcef";
-        public static readonly string math_formula_24 = "\ufa4f";
-        public static readonly string math_formula_32 = "\ufcf0";
-        public static readonly string maximize_20 = "\ufa50";
-        public static readonly string maximize_28 = "\ufa52";
-        public static readonly string maximize_48 = "\ufa53";
-        public static readonly string meet_now_16 = "\ufa54";
-        public static readonly string meet_now_20 = "\uf53e";
-        public static readonly string meet_now_24 = "\uf53f";
-        public static readonly string meet_now_28 = "\uf600";
-        public static readonly string meet_now_32 = "\uf601";
-        public static readonly string meet_now_48 = "\uf63b";
-        public static readonly string megaphone_16 = "\uf540";
-        public static readonly string megaphone_20 = "\uf541";
-        public static readonly string megaphone_24 = "\uf542";
-        public static readonly string megaphone_28 = "\uf543";
-        public static readonly string megaphone_loud_20 = "\uf655";
-        public static readonly string megaphone_off_24 = "\uf544";
-        public static readonly string mention_16 = "\uf545";
-        public static readonly string mention_20 = "\uf546";
-        public static readonly string mention_24 = "\uf547";
-        public static readonly string merge_24 = "\uf548";
-        public static readonly string mic_off_12 = "\uf549";
-        public static readonly string mic_off_16 = "\uf54a";
-        public static readonly string mic_off_20 = "\ufa55";
-        public static readonly string mic_off_24 = "\uf54b";
-        public static readonly string mic_off_28 = "\uf54c";
-        public static readonly string mic_off_48 = "\ufa56";
-        public static readonly string mic_on_16 = "\uf54d";
-        public static readonly string mic_on_20 = "\uf54e";
-        public static readonly string mic_on_24 = "\uf54f";
-        public static readonly string mic_on_28 = "\uf550";
-        public static readonly string mic_on_32 = "\ufd53";
-        public static readonly string mic_on_48 = "\uf551";
-        public static readonly string mic_prohibited_16 = "\ufd9a";
-        public static readonly string mic_prohibited_20 = "\ufb48";
-        public static readonly string mic_prohibited_24 = "\ufa57";
-        public static readonly string mic_prohibited_28 = "\ufd9b";
-        public static readonly string mic_prohibited_48 = "\ufd9c";
-        public static readonly string mic_settings_24 = "\uf552";
-        public static readonly string mic_sparkle_16 = "\ufeee";
-        public static readonly string mic_sparkle_20 = "\ufeef";
-        public static readonly string mic_sparkle_24 = "\ufef0";
-        public static readonly string mic_sync_20 = "\ufba4";
-        public static readonly string microscope_20 = "\uf656";
-        public static readonly string microscope_24 = "\uf659";
-        public static readonly string midi_20 = "\uf553";
-        public static readonly string midi_24 = "\uf554";
-        public static readonly string mobile_optimized_24 = "\uf557";
-        public static readonly string molecule_16 = "\uf65a";
-        public static readonly string molecule_20 = "\uf663";
-        public static readonly string molecule_24 = "\uf664";
-        public static readonly string molecule_28 = "\uf667";
-        public static readonly string molecule_32 = "\uf668";
-        public static readonly string molecule_48 = "\uf669";
-        public static readonly string money_16 = "\uf558";
-        public static readonly string money_20 = "\uf559";
-        public static readonly string money_24 = "\uf55a";
-        public static readonly string more_circle_20 = "\ufa5e";
-        public static readonly string more_horizontal_16 = "\ufc35";
-        public static readonly string more_horizontal_20 = "\ufc36";
-        public static readonly string more_horizontal_24 = "\ufc37";
-        public static readonly string more_horizontal_28 = "\ufc38";
-        public static readonly string more_horizontal_32 = "\ufa7e";
-        public static readonly string more_horizontal_48 = "\ufc39";
-        public static readonly string more_vertical_16 = "\ufd54";
-        public static readonly string more_vertical_20 = "\uf560";
-        public static readonly string more_vertical_24 = "\uf561";
-        public static readonly string more_vertical_28 = "\uf562";
-        public static readonly string more_vertical_32 = "\ufa8a";
-        public static readonly string more_vertical_48 = "\uf563";
-        public static readonly string movies_and_tv_16 = "\ufa5f";
-        public static readonly string movies_and_tv_20 = "\ufa60";
-        public static readonly string movies_and_tv_24 = "\uf564";
-        public static readonly string multiplier_1_2x_20 = "\ufdca";
-        public static readonly string multiplier_1_2x_24 = "\ufdcb";
-        public static readonly string multiplier_1_2x_28 = "\ufdcc";
-        public static readonly string multiplier_1_2x_32 = "\ufdcd";
-        public static readonly string multiplier_1_2x_48 = "\ufdce";
-        public static readonly string multiplier_1_5x_20 = "\ufdcf";
-        public static readonly string multiplier_1_5x_24 = "\ufdd0";
-        public static readonly string multiplier_1_5x_28 = "\ufdd1";
-        public static readonly string multiplier_1_5x_32 = "\ufdd2";
-        public static readonly string multiplier_1_5x_48 = "\ufdd3";
-        public static readonly string multiplier_1_8x_20 = "\ufdd4";
-        public static readonly string multiplier_1_8x_24 = "\ufdd5";
-        public static readonly string multiplier_1_8x_28 = "\ufdd6";
-        public static readonly string multiplier_1_8x_32 = "\ufdd7";
-        public static readonly string multiplier_1_8x_48 = "\ufdd8";
-        public static readonly string multiplier_1x_20 = "\ufdd9";
-        public static readonly string multiplier_1x_24 = "\ufdda";
-        public static readonly string multiplier_1x_28 = "\ufddb";
-        public static readonly string multiplier_1x_32 = "\ufddc";
-        public static readonly string multiplier_1x_48 = "\ufddd";
-        public static readonly string multiplier_2x_20 = "\ufdde";
-        public static readonly string multiplier_2x_24 = "\ufddf";
-        public static readonly string multiplier_2x_28 = "\ufde0";
-        public static readonly string multiplier_2x_32 = "\ufde1";
-        public static readonly string multiplier_2x_48 = "\ufde2";
-        public static readonly string multiplier_5x_20 = "\ufe83";
-        public static readonly string multiplier_5x_24 = "\ufe84";
-        public static readonly string multiplier_5x_28 = "\ufe85";
-        public static readonly string multiplier_5x_32 = "\ufe86";
-        public static readonly string multiplier_5x_48 = "\ufe87";
-        public static readonly string multiselect_16 = "\ufa97";
-        public static readonly string multiselect_20 = "\uf565";
-        public static readonly string multiselect_24 = "\uf566";
-        public static readonly string multiselect_rtl_16 = "\uff23";
-        public static readonly string music_note_1_20 = "\ufc3a";
-        public static readonly string music_note_1_24 = "\ufc3b";
-        public static readonly string music_note_2_16 = "\ufc3c";
-        public static readonly string music_note_2_20 = "\ufe33";
-        public static readonly string music_note_2_24 = "\ufc3d";
-        public static readonly string music_note_2_play_20 = "\ufe88";
-        public static readonly string my_location_12 = "\ufe34";
-        public static readonly string my_location_16 = "\ufde3";
-        public static readonly string my_location_20 = "\ufde4";
-        public static readonly string my_location_24 = "\uf569";
-        public static readonly string navigation_20 = "\uf56a";
-        public static readonly string navigation_24 = "\uf56b";
-        public static readonly string navigation_unread_24 = "\ufa65";
-        public static readonly string network_check_24 = "\uf56c";
-        public static readonly string new_16 = "\uf56d";
-        public static readonly string new_24 = "\uf56e";
-        public static readonly string news_20 = "\uf56f";
-        public static readonly string news_24 = "\uf570";
-        public static readonly string news_28 = "\uf571";
-        public static readonly string next_16 = "\uf572";
-        public static readonly string next_20 = "\uf573";
-        public static readonly string next_24 = "\uf574";
-        public static readonly string note_16 = "\uf66d";
-        public static readonly string note_20 = "\uf575";
-        public static readonly string note_24 = "\uf576";
-        public static readonly string note_add_16 = "\uf577";
-        public static readonly string note_add_20 = "\uf578";
-        public static readonly string note_add_24 = "\uf579";
-        public static readonly string note_pin_16 = "\uf66e";
-        public static readonly string notebook_24 = "\uf57a";
-        public static readonly string notebook_add_24 = "\ufcf1";
-        public static readonly string notebook_error_24 = "\uf57b";
-        public static readonly string notebook_lightning_24 = "\uf57c";
-        public static readonly string notebook_question_mark_24 = "\uf57d";
-        public static readonly string notebook_section_20 = "\ufb49";
-        public static readonly string notebook_section_24 = "\uf57e";
-        public static readonly string notebook_section_arrow_right_24 = "\ufcf2";
-        public static readonly string notebook_subsection_20 = "\ufba5";
-        public static readonly string notebook_subsection_24 = "\ufcf3";
-        public static readonly string notebook_sync_24 = "\uf57f";
-        public static readonly string notepad_12 = "\ufe89";
-        public static readonly string notepad_16 = "\uf66f";
-        public static readonly string notepad_20 = "\uf580";
-        public static readonly string notepad_24 = "\uf581";
-        public static readonly string notepad_28 = "\uf582";
-        public static readonly string notepad_32 = "\ufde5";
-        public static readonly string notepad_edit_16 = "\uf670";
-        public static readonly string notepad_person_20 = "\ufef1";
-        public static readonly string notepad_person_24 = "\ufef2";
-        public static readonly string number_row_16 = "\uf583";
-        public static readonly string number_row_20 = "\uf584";
-        public static readonly string number_row_24 = "\uf585";
-        public static readonly string number_symbol_16 = "\uf586";
-        public static readonly string number_symbol_20 = "\uf587";
-        public static readonly string number_symbol_24 = "\uf588";
-        public static readonly string number_symbol_dismiss_24 = "\ufa66";
-        public static readonly string number_symbol_square_20 = "\ufe35";
-        public static readonly string number_symbol_square_24 = "\ufe36";
-        public static readonly string office_apps_24 = "\uf589";
-        public static readonly string office_apps_28 = "\uf58a";
-        public static readonly string open_16 = "\uf58b";
-        public static readonly string open_20 = "\uf58c";
-        public static readonly string open_24 = "\uf58d";
-        public static readonly string open_28 = "\ufa67";
-        public static readonly string open_32 = "\uf671";
-        public static readonly string open_48 = "\ufa68";
-        public static readonly string open_folder_16 = "\ufa69";
-        public static readonly string open_folder_20 = "\ufa6a";
-        public static readonly string open_folder_24 = "\uf58e";
-        public static readonly string open_folder_28 = "\ufa6b";
-        public static readonly string open_folder_48 = "\ufa6c";
-        public static readonly string open_off_16 = "\ufa6d";
-        public static readonly string open_off_20 = "\ufa6e";
-        public static readonly string open_off_24 = "\ufa6f";
-        public static readonly string open_off_28 = "\ufa70";
-        public static readonly string open_off_48 = "\ufa71";
-        public static readonly string options_16 = "\uf590";
-        public static readonly string options_20 = "\uf591";
-        public static readonly string options_24 = "\uf592";
-        public static readonly string organization_12 = "\ufe8a";
-        public static readonly string organization_16 = "\ufa98";
-        public static readonly string organization_20 = "\uf593";
-        public static readonly string organization_24 = "\uf594";
-        public static readonly string organization_28 = "\uf595";
-        public static readonly string organization_32 = "\ufa99";
-        public static readonly string organization_48 = "\ufab0";
-        public static readonly string orientation_20 = "\ufcf4";
-        public static readonly string orientation_24 = "\ufab2";
-        public static readonly string padding_down_20 = "\uf68b";
-        public static readonly string padding_down_24 = "\uf68c";
-        public static readonly string padding_left_20 = "\uf69e";
-        public static readonly string padding_left_24 = "\uf6a7";
-        public static readonly string padding_right_20 = "\uf6a8";
-        public static readonly string padding_right_24 = "\uf6a9";
-        public static readonly string padding_top_20 = "\uf6bd";
-        public static readonly string padding_top_24 = "\uf6c2";
-        public static readonly string page_20 = "\uf597";
-        public static readonly string page_fit_16 = "\uf598";
-        public static readonly string page_fit_20 = "\uf599";
-        public static readonly string page_fit_24 = "\uf59a";
-        public static readonly string paint_brush_16 = "\uf59b";
-        public static readonly string paint_brush_20 = "\uf59c";
-        public static readonly string paint_brush_24 = "\uf59d";
-        public static readonly string paint_brush_arrow_down_24 = "\ufa72";
-        public static readonly string paint_brush_arrow_up_24 = "\ufa73";
-        public static readonly string paint_bucket_16 = "\uf59e";
-        public static readonly string paint_bucket_20 = "\uf59f";
-        public static readonly string paint_bucket_24 = "\uf5a0";
-        public static readonly string pair_24 = "\uf5a1";
-        public static readonly string pane_close_16 = "\uf5a2";
-        public static readonly string pane_close_20 = "\uf5a3";
-        public static readonly string pane_close_24 = "\uf5a4";
-        public static readonly string pane_open_16 = "\uf5a5";
-        public static readonly string pane_open_20 = "\uf5a6";
-        public static readonly string pane_open_24 = "\uf5a7";
-        public static readonly string password_24 = "\uf5a8";
-        public static readonly string patch_20 = "\uf6c3";
-        public static readonly string patch_24 = "\uf6c4";
-        public static readonly string patient_24 = "\uf5a9";
-        public static readonly string patient_32 = "\ufde6";
-        public static readonly string pause_12 = "\ufa74";
-        public static readonly string pause_16 = "\uf5aa";
-        public static readonly string pause_20 = "\uf5ab";
-        public static readonly string pause_24 = "\uf5ac";
-        public static readonly string pause_48 = "\uf5ad";
-        public static readonly string pause_circle_20 = "\uf6c5";
-        public static readonly string payment_16 = "\ufa75";
-        public static readonly string payment_20 = "\uf5ae";
-        public static readonly string payment_24 = "\uf5af";
-        public static readonly string payment_28 = "\ufa76";
-        public static readonly string people_16 = "\uf5b1";
-        public static readonly string people_20 = "\uf5b2";
-        public static readonly string people_24 = "\uf5b3";
-        public static readonly string people_28 = "\uf5b4";
-        public static readonly string people_32 = "\ufcf5";
-        public static readonly string people_add_16 = "\uf5b5";
-        public static readonly string people_add_20 = "\uf5b6";
-        public static readonly string people_add_24 = "\uf5b7";
-        public static readonly string people_audience_20 = "\ufb4a";
-        public static readonly string people_audience_24 = "\uf5b8";
-        public static readonly string people_call_16 = "\ufb4b";
-        public static readonly string people_call_20 = "\ufb4c";
-        public static readonly string people_checkmark_20 = "\ufd55";
-        public static readonly string people_checkmark_24 = "\ufd56";
-        public static readonly string people_community_16 = "\uf5b9";
-        public static readonly string people_community_20 = "\uf5ba";
-        public static readonly string people_community_24 = "\uf5bb";
-        public static readonly string people_community_28 = "\uf5bc";
-        public static readonly string people_community_add_20 = "\ufe8b";
-        public static readonly string people_community_add_24 = "\uf5bd";
-        public static readonly string people_community_add_28 = "\ufe8c";
-        public static readonly string people_edit_20 = "\ufbb8";
-        public static readonly string people_error_16 = "\ufbbf";
-        public static readonly string people_error_20 = "\ufbc0";
-        public static readonly string people_error_24 = "\ufbc1";
-        public static readonly string people_list_16 = "\ufab3";
-        public static readonly string people_money_20 = "\ufadc";
-        public static readonly string people_money_24 = "\ufade";
-        public static readonly string people_prohibited_16 = "\ufa77";
-        public static readonly string people_prohibited_20 = "\uf5be";
-        public static readonly string people_search_24 = "\uf5bf";
-        public static readonly string people_settings_20 = "\uf5c0";
-        public static readonly string people_swap_16 = "\ufa78";
-        public static readonly string people_swap_20 = "\ufa79";
-        public static readonly string people_swap_24 = "\ufa7a";
-        public static readonly string people_swap_28 = "\ufa7b";
-        public static readonly string people_sync_16 = "\uf6c6";
-        public static readonly string people_team_16 = "\uf5c1";
-        public static readonly string people_team_20 = "\uf5c2";
-        public static readonly string people_team_24 = "\uf5c3";
-        public static readonly string people_team_28 = "\uf5c4";
-        public static readonly string people_team_32 = "\ufde7";
-        public static readonly string people_team_add_20 = "\ufa7c";
-        public static readonly string people_team_add_24 = "\ufa7d";
-        public static readonly string people_team_delete_24 = "\ufc3e";
-        public static readonly string people_toolbox_16 = "\uf6d3";
-        public static readonly string person_12 = "\uf5c5";
-        public static readonly string person_16 = "\uf5c6";
-        public static readonly string person_20 = "\uf5c7";
-        public static readonly string person_24 = "\uf5c8";
-        public static readonly string person_28 = "\uf5c9";
-        public static readonly string person_32 = "\ufe37";
-        public static readonly string person_48 = "\uf5ca";
-        public static readonly string person_5_32 = "\ufe38";
-        public static readonly string person_6_32 = "\ufe8d";
-        public static readonly string person_accounts_24 = "\uf5cb";
-        public static readonly string person_add_16 = "\ufe8e";
-        public static readonly string person_add_20 = "\uf5cc";
-        public static readonly string person_add_24 = "\uf5cd";
-        public static readonly string person_add_28 = "\ufe8f";
-        public static readonly string person_arrow_left_20 = "\uf5ce";
-        public static readonly string person_arrow_left_24 = "\uf5cf";
-        public static readonly string person_arrow_right_16 = "\uf5d0";
-        public static readonly string person_arrow_right_20 = "\uf5d1";
-        public static readonly string person_arrow_right_24 = "\uf5d2";
-        public static readonly string person_available_16 = "\uf5d3";
-        public static readonly string person_available_20 = "\ufa7f";
-        public static readonly string person_available_24 = "\uf5d4";
-        public static readonly string person_board_16 = "\uf5d6";
-        public static readonly string person_board_20 = "\uf5d7";
-        public static readonly string person_board_24 = "\uf5d8";
-        public static readonly string person_call_16 = "\ufb4d";
-        public static readonly string person_call_20 = "\ufb4e";
-        public static readonly string person_call_24 = "\uf5d9";
-        public static readonly string person_chat_16 = "\uf6d4";
-        public static readonly string person_chat_20 = "\uf6da";
-        public static readonly string person_chat_24 = "\uf6dc";
-        public static readonly string person_circle_20 = "\ufba6";
-        public static readonly string person_clock_16 = "\ufa80";
-        public static readonly string person_clock_20 = "\ufa81";
-        public static readonly string person_clock_24 = "\ufa82";
-        public static readonly string person_delete_16 = "\uf5da";
-        public static readonly string person_delete_20 = "\ufa83";
-        public static readonly string person_delete_24 = "\uf5db";
-        public static readonly string person_feedback_20 = "\uf5dc";
-        public static readonly string person_feedback_24 = "\uf5dd";
-        public static readonly string person_info_16 = "\uf6df";
-        public static readonly string person_lock_16 = "\uf6e1";
-        public static readonly string person_lock_20 = "\uf6e2";
-        public static readonly string person_mail_16 = "\ufa84";
-        public static readonly string person_mail_20 = "\ufa85";
-        public static readonly string person_mail_24 = "\ufa86";
-        public static readonly string person_mail_28 = "\ufa87";
-        public static readonly string person_mail_48 = "\ufa88";
-        public static readonly string person_note_24 = "\ufcf6";
-        public static readonly string person_pill_20 = "\ufadf";
-        public static readonly string person_pill_24 = "\ufae0";
-        public static readonly string person_prohibited_16 = "\ufe90";
-        public static readonly string person_prohibited_20 = "\uf5de";
-        public static readonly string person_prohibited_24 = "\ufa89";
-        public static readonly string person_prohibited_28 = "\ufe91";
-        public static readonly string person_question_mark_16 = "\uf5df";
-        public static readonly string person_question_mark_20 = "\uf5e0";
-        public static readonly string person_question_mark_24 = "\uf5e1";
-        public static readonly string person_settings_16 = "\ufae1";
-        public static readonly string person_subtract_16 = "\uf6f6";
-        public static readonly string person_support_16 = "\uf5e2";
-        public static readonly string person_support_20 = "\uf5e3";
-        public static readonly string person_support_24 = "\uf5e4";
-        public static readonly string person_swap_16 = "\uf5e5";
-        public static readonly string person_swap_20 = "\uf5e6";
-        public static readonly string person_swap_24 = "\uf5e7";
-        public static readonly string person_voice_20 = "\uf5e8";
-        public static readonly string person_voice_24 = "\uf5e9";
-        public static readonly string phone_16 = "\uf6f7";
-        public static readonly string phone_20 = "\uf5ea";
-        public static readonly string phone_24 = "\uf5eb";
-        public static readonly string phone_add_24 = "\ufc3f";
-        public static readonly string phone_arrow_right_20 = "\ufc40";
-        public static readonly string phone_arrow_right_24 = "\ufc41";
-        public static readonly string phone_checkmark_16 = "\uf6f8";
-        public static readonly string phone_desktop_16 = "\uf5ee";
-        public static readonly string phone_desktop_20 = "\uf5ef";
-        public static readonly string phone_desktop_24 = "\uf5f0";
-        public static readonly string phone_desktop_28 = "\uf5f1";
-        public static readonly string phone_desktop_add_20 = "\ufb4f";
-        public static readonly string phone_dismiss_24 = "\ufc42";
-        public static readonly string phone_laptop_16 = "\ufcf7";
-        public static readonly string phone_laptop_20 = "\uf5f4";
-        public static readonly string phone_laptop_24 = "\uf5f5";
-        public static readonly string phone_laptop_32 = "\ufcf8";
-        public static readonly string phone_link_setup_24 = "\uf5f6";
-        public static readonly string phone_lock_24 = "\ufc43";
-        public static readonly string phone_page_header_24 = "\uf5f9";
-        public static readonly string phone_pagination_24 = "\uf5fa";
-        public static readonly string phone_screen_time_24 = "\uf5fb";
-        public static readonly string phone_shake_24 = "\uf5fc";
-        public static readonly string phone_span_in_16 = "\ufc44";
-        public static readonly string phone_span_in_20 = "\ufc45";
-        public static readonly string phone_span_in_24 = "\ufc46";
-        public static readonly string phone_span_in_28 = "\ufc47";
-        public static readonly string phone_span_out_16 = "\ufc48";
-        public static readonly string phone_span_out_20 = "\ufc49";
-        public static readonly string phone_span_out_24 = "\ufc4a";
-        public static readonly string phone_span_out_28 = "\ufc4b";
-        public static readonly string phone_speaker_24 = "\ufcf9";
-        public static readonly string phone_status_bar_24 = "\uf5fd";
-        public static readonly string phone_tablet_20 = "\uf5fe";
-        public static readonly string phone_tablet_24 = "\uf5ff";
-        public static readonly string phone_update_24 = "\uf602";
-        public static readonly string phone_vertical_scroll_24 = "\uf603";
-        public static readonly string phone_vibrate_24 = "\uf604";
-        public static readonly string photo_filter_24 = "\uf605";
-        public static readonly string pi_24 = "\ufcfa";
-        public static readonly string picture_in_picture_16 = "\uf606";
-        public static readonly string picture_in_picture_20 = "\uf607";
-        public static readonly string picture_in_picture_24 = "\uf608";
-        public static readonly string pill_16 = "\uf6f9";
-        public static readonly string pill_20 = "\uf6fa";
-        public static readonly string pill_24 = "\uf6fb";
-        public static readonly string pill_28 = "\uf6fc";
-        public static readonly string pin_12 = "\uf609";
-        public static readonly string pin_16 = "\uf60a";
-        public static readonly string pin_20 = "\uf60b";
-        public static readonly string pin_24 = "\uf60c";
-        public static readonly string pin_28 = "\ufe92";
-        public static readonly string pin_32 = "\ufe93";
-        public static readonly string pin_48 = "\ufe94";
-        public static readonly string pin_off_16 = "\ufef3";
-        public static readonly string pin_off_20 = "\uf60d";
-        public static readonly string pin_off_24 = "\uf60e";
-        public static readonly string pin_off_48 = "\ufef4";
-        public static readonly string pivot_20 = "\ufae2";
-        public static readonly string pivot_24 = "\ufae3";
-        public static readonly string play_12 = "\ufae4";
-        public static readonly string play_20 = "\uf60f";
-        public static readonly string play_24 = "\uf610";
-        public static readonly string play_48 = "\uf611";
-        public static readonly string play_circle_16 = "\ufd57";
-        public static readonly string play_circle_20 = "\ufd58";
-        public static readonly string play_circle_24 = "\uf612";
-        public static readonly string play_circle_28 = "\ufd59";
-        public static readonly string plug_disconnected_20 = "\uf613";
-        public static readonly string plug_disconnected_24 = "\uf614";
-        public static readonly string plug_disconnected_28 = "\uf615";
-        public static readonly string point_scan_24 = "\uf616";
-        public static readonly string poll_20 = "\ufa8b";
-        public static readonly string poll_24 = "\uf617";
-        public static readonly string position_backward_20 = "\ufc4c";
-        public static readonly string position_backward_24 = "\ufc4d";
-        public static readonly string position_forward_20 = "\ufc4e";
-        public static readonly string position_forward_24 = "\ufc4f";
-        public static readonly string position_to_back_20 = "\ufc50";
-        public static readonly string position_to_back_24 = "\ufc51";
-        public static readonly string position_to_front_20 = "\ufc52";
-        public static readonly string position_to_front_24 = "\ufc53";
-        public static readonly string power_20 = "\uf618";
-        public static readonly string power_24 = "\uf619";
-        public static readonly string power_28 = "\uf61a";
-        public static readonly string predictions_24 = "\uf61b";
-        public static readonly string premium_16 = "\uf61c";
-        public static readonly string premium_20 = "\uf61d";
-        public static readonly string premium_24 = "\uf61e";
-        public static readonly string premium_28 = "\uf61f";
-        public static readonly string premium_32 = "\ufcfb";
-        public static readonly string premium_person_20 = "\ufe95";
-        public static readonly string premium_person_24 = "\ufe96";
-        public static readonly string presence_available_10 = "\uf620";
-        public static readonly string presence_available_12 = "\uf621";
-        public static readonly string presence_available_16 = "\uf622";
-        public static readonly string presence_away_10 = "\uf623";
-        public static readonly string presence_away_12 = "\uf624";
-        public static readonly string presence_away_16 = "\uf625";
-        public static readonly string presence_busy_10 = "\uf626";
-        public static readonly string presence_dnd_10 = "\uf629";
-        public static readonly string presence_dnd_12 = "\uf62a";
-        public static readonly string presence_dnd_16 = "\uf62b";
-        public static readonly string presenter_20 = "\ufb50";
-        public static readonly string presenter_24 = "\uf62c";
-        public static readonly string presenter_off_20 = "\ufb51";
-        public static readonly string presenter_off_24 = "\uf62d";
-        public static readonly string preview_link_16 = "\uf62e";
-        public static readonly string preview_link_20 = "\uf62f";
-        public static readonly string preview_link_24 = "\uf630";
-        public static readonly string previous_16 = "\uf631";
-        public static readonly string previous_20 = "\uf632";
-        public static readonly string previous_24 = "\uf633";
-        public static readonly string print_16 = "\uf703";
-        public static readonly string print_20 = "\uf634";
-        public static readonly string print_24 = "\uf635";
-        public static readonly string print_48 = "\uf636";
-        public static readonly string print_add_20 = "\uf705";
-        public static readonly string print_add_24 = "\ufae5";
-        public static readonly string production_20 = "\uf706";
-        public static readonly string production_24 = "\uf707";
-        public static readonly string production_checkmark_20 = "\uf70c";
-        public static readonly string production_checkmark_24 = "\uf70d";
-        public static readonly string prohibited_16 = "\uf70e";
-        public static readonly string prohibited_20 = "\uf637";
-        public static readonly string prohibited_24 = "\uf638";
-        public static readonly string prohibited_28 = "\uf639";
-        public static readonly string prohibited_48 = "\uf63a";
-        public static readonly string prohibited_multiple_16 = "\ufe97";
-        public static readonly string prohibited_multiple_20 = "\ufe98";
-        public static readonly string prohibited_multiple_24 = "\ufe99";
-        public static readonly string protocol_handler_16 = "\uf63c";
-        public static readonly string protocol_handler_20 = "\uf63d";
-        public static readonly string protocol_handler_24 = "\uf63e";
-        public static readonly string pulse_20 = "\ufba7";
-        public static readonly string pulse_24 = "\ufa8c";
-        public static readonly string pulse_28 = "\ufae6";
-        public static readonly string pulse_32 = "\ufde8";
-        public static readonly string pulse_square_24 = "\ufba8";
-        public static readonly string puzzle_cube_16 = "\ufbc2";
-        public static readonly string puzzle_cube_20 = "\ufbc3";
-        public static readonly string puzzle_cube_24 = "\ufbc4";
-        public static readonly string puzzle_cube_28 = "\ufbc5";
-        public static readonly string puzzle_cube_48 = "\ufbc6";
-        public static readonly string qr_code_20 = "\ufa8d";
-        public static readonly string qr_code_24 = "\uf63f";
-        public static readonly string qr_code_28 = "\uf640";
-        public static readonly string question_16 = "\uf641";
-        public static readonly string question_20 = "\uf642";
-        public static readonly string question_24 = "\uf643";
-        public static readonly string question_28 = "\uf644";
-        public static readonly string question_48 = "\uf645";
-        public static readonly string question_circle_16 = "\uf646";
-        public static readonly string question_circle_20 = "\uf647";
-        public static readonly string question_circle_24 = "\uf648";
-        public static readonly string question_circle_28 = "\uf649";
-        public static readonly string question_circle_48 = "\uf64a";
-        public static readonly string quiz_new_24 = "\uf64b";
-        public static readonly string quiz_new_28 = "\uf64c";
-        public static readonly string quiz_new_48 = "\uf64d";
-        public static readonly string radio_button_20 = "\uf64e";
-        public static readonly string radio_button_24 = "\uf64f";
-        public static readonly string rating_mature_16 = "\uf650";
-        public static readonly string rating_mature_20 = "\uf651";
-        public static readonly string rating_mature_24 = "\uf652";
-        public static readonly string ratio_one_to_one_20 = "\uf713";
-        public static readonly string ratio_one_to_one_24 = "\uf714";
-        public static readonly string re_order_16 = "\uf653";
-        public static readonly string re_order_24 = "\uf654";
-        public static readonly string re_order_dots_horizontal_16 = "\ufd5a";
-        public static readonly string re_order_dots_horizontal_20 = "\ufd5b";
-        public static readonly string re_order_dots_horizontal_24 = "\ufd5c";
-        public static readonly string re_order_dots_vertical_16 = "\ufd5d";
-        public static readonly string re_order_dots_vertical_20 = "\ufd5e";
-        public static readonly string re_order_dots_vertical_24 = "\ufd5f";
-        public static readonly string read_aloud_16 = "\ufe9a";
-        public static readonly string read_aloud_20 = "\uf657";
-        public static readonly string read_aloud_24 = "\uf658";
-        public static readonly string read_aloud_28 = "\ufe9b";
-        public static readonly string reading_list_16 = "\uf65b";
-        public static readonly string reading_list_20 = "\uf65c";
-        public static readonly string reading_list_24 = "\uf65d";
-        public static readonly string reading_list_28 = "\uf65e";
-        public static readonly string reading_list_add_16 = "\uf65f";
-        public static readonly string reading_list_add_20 = "\uf660";
-        public static readonly string reading_list_add_24 = "\uf661";
-        public static readonly string reading_list_add_28 = "\uf662";
-        public static readonly string reading_mode_mobile_20 = "\uf665";
-        public static readonly string reading_mode_mobile_24 = "\uf666";
-        public static readonly string real_estate_24 = "\ufa8e";
-        public static readonly string receipt_20 = "\ufcfc";
-        public static readonly string receipt_24 = "\ufcfd";
-        public static readonly string receipt_add_20 = "\uf715";
-        public static readonly string receipt_add_24 = "\ufae7";
-        public static readonly string receipt_bag_20 = "\uf71e";
-        public static readonly string receipt_bag_24 = "\ufae8";
-        public static readonly string receipt_cube_20 = "\uf745";
-        public static readonly string receipt_cube_24 = "\ufae9";
-        public static readonly string receipt_money_20 = "\uf746";
-        public static readonly string record_12 = "\uf747";
-        public static readonly string record_16 = "\uf66a";
-        public static readonly string record_20 = "\uf66b";
-        public static readonly string record_24 = "\uf66c";
-        public static readonly string record_28 = "\uf74d";
-        public static readonly string record_32 = "\uf74e";
-        public static readonly string record_48 = "\uf74f";
-        public static readonly string record_stop_12 = "\uf770";
-        public static readonly string record_stop_16 = "\uf771";
-        public static readonly string record_stop_20 = "\uf772";
-        public static readonly string record_stop_24 = "\uf773";
-        public static readonly string record_stop_28 = "\uf774";
-        public static readonly string record_stop_32 = "\uf77c";
-        public static readonly string record_stop_48 = "\uf77d";
-        public static readonly string rectangle_landscape_20 = "\ufb52";
-        public static readonly string remote_16 = "\ufde9";
-        public static readonly string rename_16 = "\uf672";
-        public static readonly string rename_20 = "\uf673";
-        public static readonly string rename_24 = "\uf674";
-        public static readonly string rename_28 = "\uf675";
-        public static readonly string resize_20 = "\uf676";
-        public static readonly string resize_image_24 = "\uf677";
-        public static readonly string resize_large_16 = "\ufc54";
-        public static readonly string resize_large_20 = "\ufc55";
-        public static readonly string resize_large_24 = "\ufc56";
-        public static readonly string resize_small_16 = "\ufc57";
-        public static readonly string resize_small_20 = "\ufc58";
-        public static readonly string resize_small_24 = "\ufc59";
-        public static readonly string resize_table_24 = "\uf678";
-        public static readonly string resize_video_24 = "\uf679";
-        public static readonly string restore_16 = "\uf67a";
-        public static readonly string reward_16 = "\uf67b";
-        public static readonly string reward_20 = "\uf67c";
-        public static readonly string reward_24 = "\uf67d";
-        public static readonly string rewind_20 = "\uf67e";
-        public static readonly string rewind_24 = "\uf67f";
-        public static readonly string ribbon_16 = "\ufba9";
-        public static readonly string ribbon_20 = "\ufb53";
-        public static readonly string ribbon_24 = "\ufa8f";
-        public static readonly string ribbon_32 = "\ufdea";
-        public static readonly string ribbon_add_20 = "\uf77e";
-        public static readonly string ribbon_add_24 = "\uf77f";
-        public static readonly string ribbon_star_20 = "\ufa90";
-        public static readonly string ribbon_star_24 = "\ufa91";
-        public static readonly string rocket_16 = "\uf680";
-        public static readonly string rocket_20 = "\uf681";
-        public static readonly string rocket_24 = "\uf682";
-        public static readonly string rotate_left_24 = "\ufbaa";
-        public static readonly string rotate_right_20 = "\ufbab";
-        public static readonly string rotate_right_24 = "\ufbac";
-        public static readonly string router_24 = "\uf683";
-        public static readonly string row_triple_24 = "\uf684";
-        public static readonly string rss_24 = "\ufcfe";
-        public static readonly string ruler_16 = "\uf685";
-        public static readonly string ruler_20 = "\uf686";
-        public static readonly string ruler_24 = "\uf687";
-        public static readonly string run_16 = "\ufa92";
-        public static readonly string run_20 = "\ufa93";
-        public static readonly string run_24 = "\uf688";
-        public static readonly string save_20 = "\uf689";
-        public static readonly string save_24 = "\uf68a";
-        public static readonly string save_copy_24 = "\uf68d";
-        public static readonly string save_edit_20 = "\ufc5a";
-        public static readonly string save_edit_24 = "\ufc5b";
-        public static readonly string save_sync_20 = "\ufb54";
-        public static readonly string savings_16 = "\uf68e";
-        public static readonly string savings_20 = "\uf68f";
-        public static readonly string savings_24 = "\uf690";
-        public static readonly string scale_fill_20 = "\ufd60";
-        public static readonly string scale_fill_24 = "\uf691";
-        public static readonly string scale_fit_16 = "\uf692";
-        public static readonly string scale_fit_20 = "\uf693";
-        public static readonly string scale_fit_24 = "\uf694";
-        public static readonly string scales_24 = "\ufa94";
-        public static readonly string scales_32 = "\ufa95";
-        public static readonly string scan_24 = "\uf695";
-        public static readonly string scan_object_20 = "\ufaea";
-        public static readonly string scan_object_24 = "\ufaeb";
-        public static readonly string scratchpad_24 = "\uf696";
-        public static readonly string screen_cut_20 = "\ufcff";
-        public static readonly string screen_person_20 = "\ufd00";
-        public static readonly string screenshot_20 = "\uf697";
-        public static readonly string screenshot_24 = "\uf698";
-        public static readonly string search_12 = "\ufb22";
-        public static readonly string search_16 = "\ufe39";
-        public static readonly string search_20 = "\uf699";
-        public static readonly string search_24 = "\uf69a";
-        public static readonly string search_28 = "\uf69b";
-        public static readonly string search_32 = "\ufb25";
-        public static readonly string search_48 = "\ufb2e";
-        public static readonly string search_info_20 = "\ufc5c";
-        public static readonly string search_info_24 = "\uf69c";
-        public static readonly string search_shield_20 = "\ufa96";
-        public static readonly string search_square_24 = "\uf69d";
-        public static readonly string search_visual_16 = "\ufc5d";
-        public static readonly string search_visual_20 = "\ufc5e";
-        public static readonly string search_visual_24 = "\ufc5f";
-        public static readonly string select_all_off_24 = "\uf69f";
-        public static readonly string select_all_on_24 = "\ufc60";
-        public static readonly string select_object_20 = "\uf6a0";
-        public static readonly string select_object_24 = "\uf6a1";
-        public static readonly string send_16 = "\ufe3a";
-        public static readonly string send_20 = "\uf6a2";
-        public static readonly string send_24 = "\uf6a3";
-        public static readonly string send_28 = "\uf6a4";
-        public static readonly string send_clock_20 = "\uf6a5";
-        public static readonly string send_copy_24 = "\uf6a6";
-        public static readonly string serial_port_16 = "\uf6aa";
-        public static readonly string serial_port_20 = "\uf6ab";
-        public static readonly string serial_port_24 = "\uf6ac";
-        public static readonly string server_20 = "\uf781";
-        public static readonly string server_24 = "\uf784";
-        public static readonly string service_bell_24 = "\uf6ad";
-        public static readonly string set_top_stack_16 = "\uf6ae";
-        public static readonly string set_top_stack_20 = "\uf6af";
-        public static readonly string set_top_stack_24 = "\uf6b0";
-        public static readonly string settings_16 = "\uf6b1";
-        public static readonly string settings_20 = "\uf6b2";
-        public static readonly string settings_24 = "\uf6b3";
-        public static readonly string settings_28 = "\uf6b4";
-        public static readonly string shape_exclude_16 = "\ufd01";
-        public static readonly string shape_exclude_20 = "\ufd02";
-        public static readonly string shape_exclude_24 = "\ufd03";
-        public static readonly string shape_intersect_16 = "\ufd04";
-        public static readonly string shape_intersect_20 = "\ufd05";
-        public static readonly string shape_intersect_24 = "\ufd06";
-        public static readonly string shape_subtract_16 = "\ufd07";
-        public static readonly string shape_subtract_20 = "\ufd08";
-        public static readonly string shape_subtract_24 = "\ufd09";
-        public static readonly string shape_union_16 = "\ufd0a";
-        public static readonly string shape_union_20 = "\ufd0b";
-        public static readonly string shape_union_24 = "\ufd0c";
-        public static readonly string shapes_16 = "\uf6b5";
-        public static readonly string shapes_20 = "\uf6b6";
-        public static readonly string shapes_24 = "\uf6b7";
-        public static readonly string share_16 = "\ufb36";
-        public static readonly string share_20 = "\uf6b8";
-        public static readonly string share_24 = "\uf6b9";
-        public static readonly string share_android_20 = "\uf6ba";
-        public static readonly string share_android_24 = "\uf6bb";
-        public static readonly string share_close_tray_20 = "\ufbad";
-        public static readonly string share_close_tray_24 = "\uf6bc";
-        public static readonly string share_ios_20 = "\uf6be";
-        public static readonly string share_ios_24 = "\uf6bf";
-        public static readonly string share_ios_28 = "\uf6c0";
-        public static readonly string share_ios_48 = "\uf6c1";
-        public static readonly string share_screen_start_20 = "\ufc61";
-        public static readonly string share_screen_start_24 = "\ufc62";
-        public static readonly string share_screen_start_28 = "\ufc63";
-        public static readonly string share_screen_stop_16 = "\ufc64";
-        public static readonly string share_screen_stop_20 = "\ufc65";
-        public static readonly string share_screen_stop_24 = "\ufc66";
-        public static readonly string share_screen_stop_28 = "\ufc67";
-        public static readonly string share_screen_stop_48 = "\ufc68";
-        public static readonly string shield_16 = "\ufe9c";
-        public static readonly string shield_20 = "\uf6c7";
-        public static readonly string shield_24 = "\uf6c8";
-        public static readonly string shield_28 = "\ufe9d";
-        public static readonly string shield_48 = "\ufe9e";
-        public static readonly string shield_badge_20 = "\uf785";
-        public static readonly string shield_badge_24 = "\ufb37";
-        public static readonly string shield_checkmark_16 = "\ufe9f";
-        public static readonly string shield_checkmark_20 = "\ufea0";
-        public static readonly string shield_checkmark_24 = "\ufea1";
-        public static readonly string shield_checkmark_28 = "\ufea2";
-        public static readonly string shield_checkmark_48 = "\ufea3";
-        public static readonly string shield_dismiss_16 = "\ufc69";
-        public static readonly string shield_dismiss_20 = "\uf6c9";
-        public static readonly string shield_dismiss_24 = "\uf6ca";
-        public static readonly string shield_dismiss_shield_20 = "\ufa9a";
-        public static readonly string shield_error_20 = "\uf6cb";
-        public static readonly string shield_error_24 = "\uf6cc";
-        public static readonly string shield_keyhole_16 = "\uf6cd";
-        public static readonly string shield_keyhole_20 = "\uf6ce";
-        public static readonly string shield_keyhole_24 = "\uf6cf";
-        public static readonly string shield_lock_16 = "\ufb92";
-        public static readonly string shield_prohibited_20 = "\uf6d0";
-        public static readonly string shield_prohibited_24 = "\uf6d1";
-        public static readonly string shifts_16 = "\ufd0d";
-        public static readonly string shifts_20 = "\ufb55";
-        public static readonly string shifts_24 = "\uf6d2";
-        public static readonly string shifts_28 = "\uf6d5";
-        public static readonly string shifts_30_minutes_24 = "\uf6d6";
-        public static readonly string shifts_32 = "\ufdeb";
-        public static readonly string shifts_activity_20 = "\uf6d7";
-        public static readonly string shifts_activity_24 = "\uf6d8";
-        public static readonly string shifts_add_24 = "\uf6d9";
-        public static readonly string shifts_availability_24 = "\uf6db";
-        public static readonly string shifts_checkmark_20 = "\ufb56";
-        public static readonly string shifts_checkmark_24 = "\ufb57";
-        public static readonly string shifts_day_20 = "\ufa9b";
-        public static readonly string shifts_day_24 = "\ufa9c";
-        public static readonly string shifts_open_20 = "\uf6dd";
-        public static readonly string shifts_open_24 = "\uf6de";
-        public static readonly string shifts_prohibited_24 = "\ufc6a";
-        public static readonly string shifts_question_mark_24 = "\ufc6b";
-        public static readonly string shifts_team_24 = "\uf6e0";
-        public static readonly string shopping_bag_16 = "\uf786";
-        public static readonly string shopping_bag_20 = "\uf787";
-        public static readonly string shopping_bag_24 = "\uf788";
-        public static readonly string sidebar_search_ltr_20 = "\ufa9d";
-        public static readonly string sidebar_search_rtl_20 = "\ufa9e";
-        public static readonly string sign_out_20 = "\ufa9f";
-        public static readonly string sign_out_24 = "\uf6e3";
-        public static readonly string signature_16 = "\uf6e4";
-        public static readonly string signature_20 = "\uf6e5";
-        public static readonly string signature_24 = "\uf6e6";
-        public static readonly string signature_28 = "\uf6e7";
-        public static readonly string signed_16 = "\uf6e8";
-        public static readonly string signed_20 = "\uf6e9";
-        public static readonly string signed_24 = "\uf6ea";
-        public static readonly string sim_16 = "\uf6eb";
-        public static readonly string sim_20 = "\uf6ec";
-        public static readonly string sim_24 = "\uf6ed";
-        public static readonly string skip_back_10_20 = "\ufd61";
-        public static readonly string skip_backward_10_24 = "\ufdec";
-        public static readonly string skip_backward_10_28 = "\ufded";
-        public static readonly string skip_backward_10_32 = "\ufdee";
-        public static readonly string skip_backward_10_48 = "\ufdef";
-        public static readonly string skip_forward_10_20 = "\ufd62";
-        public static readonly string skip_forward_10_24 = "\ufdf0";
-        public static readonly string skip_forward_10_28 = "\ufdf1";
-        public static readonly string skip_forward_10_32 = "\ufdf2";
-        public static readonly string skip_forward_10_48 = "\ufdf3";
-        public static readonly string skip_forward_30_20 = "\ufd63";
-        public static readonly string skip_forward_30_24 = "\ufdf4";
-        public static readonly string skip_forward_30_28 = "\ufdf5";
-        public static readonly string skip_forward_30_32 = "\ufdf6";
-        public static readonly string skip_forward_30_48 = "\ufdf7";
-        public static readonly string skip_forward_tab_24 = "\ufef5";
-        public static readonly string sleep_24 = "\uf6ee";
-        public static readonly string slide_add_24 = "\uf6ef";
-        public static readonly string slide_design_24 = "\uf6f0";
-        public static readonly string slide_eraser_16 = "\ufb9d";
-        public static readonly string slide_eraser_20 = "\ufbd5";
-        public static readonly string slide_eraser_24 = "\ufd64";
-        public static readonly string slide_grid_24 = "\ufbd6";
-        public static readonly string slide_hide_24 = "\uf6f1";
-        public static readonly string slide_layout_20 = "\uf6f2";
-        public static readonly string slide_layout_24 = "\uf6f3";
-        public static readonly string slide_microphone_24 = "\uf6f4";
-        public static readonly string slide_multiple_24 = "\ufb58";
-        public static readonly string slide_multiple_arrow_right_24 = "\ufaa0";
-        public static readonly string slide_multiple_search_20 = "\uf78b";
-        public static readonly string slide_multiple_search_24 = "\uf78c";
-        public static readonly string slide_search_24 = "\ufaa1";
-        public static readonly string slide_search_28 = "\ufaa2";
-        public static readonly string slide_settings_24 = "\ufd0e";
-        public static readonly string slide_size_24 = "\ufaa3";
-        public static readonly string slide_text_16 = "\ufaa4";
-        public static readonly string slide_text_20 = "\ufaa5";
-        public static readonly string slide_text_24 = "\uf6f5";
-        public static readonly string slide_text_28 = "\ufaa6";
-        public static readonly string slide_text_48 = "\ufaa7";
-        public static readonly string slide_transition_24 = "\ufd0f";
-        public static readonly string smartwatch_20 = "\uf78d";
-        public static readonly string smartwatch_24 = "\uf78e";
-        public static readonly string smartwatch_dot_20 = "\uf79e";
-        public static readonly string smartwatch_dot_24 = "\uf79f";
-        public static readonly string snooze_16 = "\uf6fd";
-        public static readonly string snooze_24 = "\uf6fe";
-        public static readonly string sound_source_24 = "\uf6ff";
-        public static readonly string sound_source_28 = "\uf700";
-        public static readonly string spacebar_24 = "\uf701";
-        public static readonly string speaker_0_16 = "\ufaa8";
-        public static readonly string speaker_0_20 = "\ufaa9";
-        public static readonly string speaker_0_24 = "\uf702";
-        public static readonly string speaker_0_28 = "\ufaaa";
-        public static readonly string speaker_0_48 = "\ufaab";
-        public static readonly string speaker_1_16 = "\ufaac";
-        public static readonly string speaker_1_20 = "\ufaad";
-        public static readonly string speaker_1_24 = "\uf704";
-        public static readonly string speaker_1_28 = "\ufaae";
-        public static readonly string speaker_1_48 = "\ufaaf";
-        public static readonly string speaker_2_16 = "\ufc6c";
-        public static readonly string speaker_2_20 = "\ufc6d";
-        public static readonly string speaker_2_24 = "\ufc6e";
-        public static readonly string speaker_2_28 = "\ufc6f";
-        public static readonly string speaker_2_48 = "\ufc70";
-        public static readonly string speaker_bluetooth_24 = "\uf708";
-        public static readonly string speaker_bluetooth_28 = "\ufab1";
-        public static readonly string speaker_edit_16 = "\uf709";
-        public static readonly string speaker_edit_20 = "\uf70a";
-        public static readonly string speaker_edit_24 = "\uf70b";
-        public static readonly string speaker_mute_16 = "\ufc71";
-        public static readonly string speaker_mute_20 = "\ufc72";
-        public static readonly string speaker_mute_24 = "\ufc73";
-        public static readonly string speaker_mute_28 = "\ufc74";
-        public static readonly string speaker_mute_48 = "\ufc75";
-        public static readonly string speaker_off_16 = "\ufab4";
-        public static readonly string speaker_off_20 = "\ufab5";
-        public static readonly string speaker_off_24 = "\uf70f";
-        public static readonly string speaker_off_28 = "\uf710";
-        public static readonly string speaker_off_48 = "\ufab6";
-        public static readonly string speaker_settings_24 = "\uf711";
-        public static readonly string speaker_usb_24 = "\ufab7";
-        public static readonly string speaker_usb_28 = "\ufab8";
-        public static readonly string spinner_ios_20 = "\uf712";
-        public static readonly string split_horizontal_12 = "\ufd65";
-        public static readonly string split_horizontal_16 = "\ufd66";
-        public static readonly string split_horizontal_20 = "\ufd67";
-        public static readonly string split_horizontal_24 = "\ufd68";
-        public static readonly string split_horizontal_28 = "\ufd69";
-        public static readonly string split_horizontal_32 = "\ufd6a";
-        public static readonly string split_horizontal_48 = "\ufd6b";
-        public static readonly string split_vertical_12 = "\ufd6c";
-        public static readonly string split_vertical_16 = "\ufd6d";
-        public static readonly string split_vertical_20 = "\ufd6e";
-        public static readonly string split_vertical_24 = "\ufd6f";
-        public static readonly string split_vertical_28 = "\ufd70";
-        public static readonly string split_vertical_32 = "\ufd71";
-        public static readonly string split_vertical_48 = "\ufd72";
-        public static readonly string sport_16 = "\ufab9";
-        public static readonly string sport_20 = "\ufaba";
-        public static readonly string sport_24 = "\ufabb";
-        public static readonly string sport_american_football_24 = "\ufabc";
-        public static readonly string sport_baseball_24 = "\ufabd";
-        public static readonly string sport_basketball_24 = "\ufabe";
-        public static readonly string sport_hockey_24 = "\ufabf";
-        public static readonly string sport_soccer_20 = "\ufd73";
-        public static readonly string sport_soccer_24 = "\ufd74";
-        public static readonly string square_16 = "\ufc76";
-        public static readonly string square_add_16 = "\ufc77";
-        public static readonly string square_arrow_forward_16 = "\ufef6";
-        public static readonly string square_arrow_forward_20 = "\ufef7";
-        public static readonly string square_arrow_forward_24 = "\ufef8";
-        public static readonly string square_arrow_forward_28 = "\ufef9";
-        public static readonly string square_arrow_forward_32 = "\ufefa";
-        public static readonly string square_arrow_forward_48 = "\ufefb";
-        public static readonly string square_hint_arrow_back_16 = "\ufc78";
-        public static readonly string square_multiple_20 = "\ufbae";
-        public static readonly string square_multiple_24 = "\uf7a4";
-        public static readonly string stack_16 = "\uf7a5";
-        public static readonly string stack_20 = "\uf7aa";
-        public static readonly string stack_24 = "\uf7be";
-        public static readonly string star_12 = "\uf716";
-        public static readonly string star_16 = "\uf717";
-        public static readonly string star_20 = "\uf718";
-        public static readonly string star_24 = "\uf719";
-        public static readonly string star_28 = "\uf71a";
-        public static readonly string star_add_16 = "\uf71b";
-        public static readonly string star_add_20 = "\uf71c";
-        public static readonly string star_add_24 = "\uf71d";
-        public static readonly string star_arrow_right_end_24 = "\ufc79";
-        public static readonly string star_arrow_right_start_24 = "\uf71f";
-        public static readonly string star_edit_24 = "\ufac0";
-        public static readonly string star_emphasis_20 = "\ufbaf";
-        public static readonly string star_emphasis_24 = "\uf720";
-        public static readonly string star_emphasis_32 = "\ufd10";
-        public static readonly string star_half_12 = "\uf721";
-        public static readonly string star_half_16 = "\uf722";
-        public static readonly string star_half_20 = "\uf723";
-        public static readonly string star_half_24 = "\uf724";
-        public static readonly string star_half_28 = "\uf725";
-        public static readonly string star_line_horizontal_3_20 = "\ufb59";
-        public static readonly string star_line_horizontal_3_24 = "\ufb5a";
-        public static readonly string star_off_12 = "\uf726";
-        public static readonly string star_off_16 = "\uf727";
-        public static readonly string star_off_20 = "\uf728";
-        public static readonly string star_off_24 = "\uf729";
-        public static readonly string star_off_28 = "\uf72a";
-        public static readonly string star_one_quarter_12 = "\uf72b";
-        public static readonly string star_one_quarter_16 = "\uf72c";
-        public static readonly string star_one_quarter_20 = "\uf72d";
-        public static readonly string star_one_quarter_24 = "\uf72e";
-        public static readonly string star_one_quarter_28 = "\uf72f";
-        public static readonly string star_prohibited_16 = "\uf730";
-        public static readonly string star_prohibited_20 = "\uf731";
-        public static readonly string star_prohibited_24 = "\uf732";
-        public static readonly string star_settings_24 = "\uf733";
-        public static readonly string star_three_quarter_12 = "\uf734";
-        public static readonly string star_three_quarter_16 = "\uf735";
-        public static readonly string star_three_quarter_20 = "\uf736";
-        public static readonly string star_three_quarter_24 = "\uf737";
-        public static readonly string star_three_quarter_28 = "\uf738";
-        public static readonly string status_16 = "\uf739";
-        public static readonly string status_20 = "\uf73a";
-        public static readonly string status_24 = "\uf73b";
-        public static readonly string steps_20 = "\uff00";
-        public static readonly string steps_24 = "\uff01";
-        public static readonly string stethoscope_20 = "\uf73c";
-        public static readonly string stethoscope_24 = "\uf73d";
-        public static readonly string sticker_20 = "\uf73e";
-        public static readonly string sticker_24 = "\uf73f";
-        public static readonly string sticker_add_24 = "\uf740";
-        public static readonly string stop_16 = "\uf741";
-        public static readonly string stop_20 = "\uf742";
-        public static readonly string stop_24 = "\uf743";
-        public static readonly string storage_24 = "\uf744";
-        public static readonly string store_microsoft_16 = "\uf748";
-        public static readonly string store_microsoft_20 = "\uf749";
-        public static readonly string store_microsoft_24 = "\uf74a";
-        public static readonly string strikethrough_ga_na_16 = "\ufd75";
-        public static readonly string strikethrough_ga_na_20 = "\ufd76";
-        public static readonly string strikethrough_ga_na_24 = "\ufd77";
-        public static readonly string style_guide_24 = "\uf74b";
-        public static readonly string sub_grid_24 = "\uf74c";
-        public static readonly string subtract_12 = "\ufc7a";
-        public static readonly string subtract_16 = "\ufc7b";
-        public static readonly string subtract_20 = "\ufc7c";
-        public static readonly string subtract_24 = "\ufc7d";
-        public static readonly string subtract_28 = "\ufc7e";
-        public static readonly string subtract_48 = "\ufc7f";
-        public static readonly string subtract_circle_16 = "\uf7bf";
-        public static readonly string subtract_circle_20 = "\uf7c8";
-        public static readonly string subtract_circle_24 = "\uf7c9";
-        public static readonly string subtract_circle_28 = "\uf7cc";
-        public static readonly string subtract_circle_32 = "\uf7cd";
-        public static readonly string subtract_square_multiple_16 = "\ufdf8";
-        public static readonly string subtract_square_multiple_20 = "\ufefc";
-        public static readonly string surface_earbuds_20 = "\uf750";
-        public static readonly string surface_earbuds_24 = "\uf751";
-        public static readonly string surface_hub_20 = "\uf752";
-        public static readonly string surface_hub_24 = "\uf753";
-        public static readonly string swipe_down_24 = "\uf754";
-        public static readonly string swipe_right_24 = "\uf755";
-        public static readonly string swipe_up_24 = "\uf756";
-        public static readonly string symbols_16 = "\ufe3b";
-        public static readonly string symbols_20 = "\ufd78";
-        public static readonly string symbols_24 = "\uf757";
-        public static readonly string sync_off_16 = "\uf758";
-        public static readonly string sync_off_20 = "\uf759";
-        public static readonly string system_24 = "\uf75a";
-        public static readonly string tab_16 = "\uf75b";
-        public static readonly string tab_20 = "\uf75c";
-        public static readonly string tab_24 = "\uf75d";
-        public static readonly string tab_28 = "\uf75e";
-        public static readonly string tab_add_20 = "\ufc80";
-        public static readonly string tab_add_24 = "\ufc81";
-        public static readonly string tab_arrow_left_24 = "\ufc82";
-        public static readonly string tab_desktop_20 = "\uf75f";
-        public static readonly string tab_desktop_arrow_clockwise_16 = "\uf760";
-        public static readonly string tab_desktop_arrow_clockwise_20 = "\uf761";
-        public static readonly string tab_desktop_arrow_clockwise_24 = "\uf762";
-        public static readonly string tab_desktop_arrow_left_20 = "\ufac1";
-        public static readonly string tab_desktop_bottom_24 = "\uff02";
-        public static readonly string tab_desktop_clock_20 = "\uf763";
-        public static readonly string tab_desktop_copy_20 = "\uf764";
-        public static readonly string tab_desktop_image_16 = "\uf765";
-        public static readonly string tab_desktop_image_20 = "\uf766";
-        public static readonly string tab_desktop_image_24 = "\uf767";
-        public static readonly string tab_desktop_multiple_20 = "\uf768";
-        public static readonly string tab_desktop_multiple_bottom_24 = "\uff03";
-        public static readonly string tab_desktop_new_page_20 = "\uf769";
-        public static readonly string tab_in_private_16 = "\uf76a";
-        public static readonly string tab_in_private_20 = "\uf76b";
-        public static readonly string tab_in_private_24 = "\uf76c";
-        public static readonly string tab_in_private_28 = "\uf76d";
-        public static readonly string tab_inprivate_account_20 = "\uf76e";
-        public static readonly string tab_inprivate_account_24 = "\uf76f";
-        public static readonly string tab_prohibited_24 = "\ufac2";
-        public static readonly string tab_shield_dismiss_20 = "\ufc83";
-        public static readonly string tab_shield_dismiss_24 = "\ufc84";
-        public static readonly string table_16 = "\ufac3";
-        public static readonly string table_20 = "\uf775";
-        public static readonly string table_24 = "\uf776";
-        public static readonly string table_28 = "\ufac4";
-        public static readonly string table_32 = "\ufd11";
-        public static readonly string table_48 = "\ufac5";
-        public static readonly string table_add_20 = "\ufb5b";
-        public static readonly string table_add_24 = "\uf777";
-        public static readonly string table_cell_edit_24 = "\ufd12";
-        public static readonly string table_cells_merge_20 = "\uf778";
-        public static readonly string table_cells_merge_24 = "\uf779";
-        public static readonly string table_cells_split_20 = "\uf77a";
-        public static readonly string table_cells_split_24 = "\uf77b";
-        public static readonly string table_delete_column_20 = "\ufd79";
-        public static readonly string table_delete_column_24 = "\ufc85";
-        public static readonly string table_delete_row_20 = "\ufd7a";
-        public static readonly string table_delete_row_24 = "\ufc86";
-        public static readonly string table_dismiss_20 = "\ufb5c";
-        public static readonly string table_dismiss_24 = "\ufb5d";
-        public static readonly string table_edit_24 = "\uf780";
-        public static readonly string table_freeze_column_24 = "\uf782";
-        public static readonly string table_freeze_column_and_row_24 = "\ufc87";
-        public static readonly string table_freeze_row_24 = "\uf783";
-        public static readonly string table_insert_column_24 = "\ufc88";
-        public static readonly string table_insert_row_24 = "\ufc89";
-        public static readonly string table_move_above_24 = "\ufc8a";
-        public static readonly string table_move_below_24 = "\ufc8b";
-        public static readonly string table_move_left_24 = "\uf789";
-        public static readonly string table_move_right_24 = "\uf78a";
-        public static readonly string table_resize_column_24 = "\ufc8c";
-        public static readonly string table_resize_row_24 = "\ufc8d";
-        public static readonly string table_settings_24 = "\uf78f";
-        public static readonly string table_simple_16 = "\ufac6";
-        public static readonly string table_simple_20 = "\ufac7";
-        public static readonly string table_simple_24 = "\ufac8";
-        public static readonly string table_simple_28 = "\ufac9";
-        public static readonly string table_simple_48 = "\ufaca";
-        public static readonly string table_stack_above_20 = "\ufd7b";
-        public static readonly string table_stack_above_24 = "\ufc8e";
-        public static readonly string table_stack_below_24 = "\ufc8f";
-        public static readonly string table_stack_down_20 = "\ufd7c";
-        public static readonly string table_stack_left_20 = "\ufd7d";
-        public static readonly string table_stack_left_24 = "\ufc90";
-        public static readonly string table_stack_right_20 = "\ufd7e";
-        public static readonly string table_stack_right_24 = "\ufc91";
-        public static readonly string table_switch_24 = "\uf790";
-        public static readonly string tablet_20 = "\uf791";
-        public static readonly string tablet_24 = "\uf792";
-        public static readonly string tablet_speaker_24 = "\ufd13";
-        public static readonly string tabs_24 = "\uf793";
-        public static readonly string tag_16 = "\ufacb";
-        public static readonly string tag_20 = "\uf794";
-        public static readonly string tag_24 = "\uf795";
-        public static readonly string tag_multiple_16 = "\uf7ce";
-        public static readonly string tag_question_mark_16 = "\ufc92";
-        public static readonly string tag_question_mark_24 = "\ufc93";
-        public static readonly string tap_double_20 = "\ufb5e";
-        public static readonly string tap_double_24 = "\uf796";
-        public static readonly string tap_single_20 = "\ufb5f";
-        public static readonly string tap_single_24 = "\uf797";
-        public static readonly string target_16 = "\uf798";
-        public static readonly string target_20 = "\uf799";
-        public static readonly string target_24 = "\uf79a";
-        public static readonly string target_32 = "\ufd14";
-        public static readonly string target_arrow_16 = "\uf7cf";
-        public static readonly string target_arrow_20 = "\uf7d0";
-        public static readonly string target_edit_16 = "\uf79b";
-        public static readonly string target_edit_20 = "\uf79c";
-        public static readonly string target_edit_24 = "\uf79d";
-        public static readonly string task_list_add_20 = "\uf7a0";
-        public static readonly string task_list_add_24 = "\uf7a1";
-        public static readonly string task_list_ltr_20 = "\ufd7f";
-        public static readonly string task_list_ltr_24 = "\ufd80";
-        public static readonly string task_list_rtl_20 = "\ufd81";
-        public static readonly string task_list_rtl_24 = "\ufd82";
-        public static readonly string task_list_square_add_20 = "\uff04";
-        public static readonly string task_list_square_add_24 = "\uff05";
-        public static readonly string task_list_square_ltr_20 = "\uff06";
-        public static readonly string task_list_square_ltr_24 = "\uff07";
-        public static readonly string task_list_square_rtl_20 = "\uff08";
-        public static readonly string task_list_square_rtl_24 = "\uff09";
-        public static readonly string tasks_app_20 = "\ufacc";
-        public static readonly string tasks_app_24 = "\uf7a2";
-        public static readonly string tasks_app_28 = "\uf7a3";
-        public static readonly string teddy_20 = "\ufe3c";
-        public static readonly string teddy_24 = "\uf7a6";
-        public static readonly string temperature_20 = "\uf7a7";
-        public static readonly string temperature_24 = "\uf7a8";
-        public static readonly string tent_12 = "\ufacd";
-        public static readonly string tent_16 = "\uface";
-        public static readonly string tent_20 = "\ufacf";
-        public static readonly string tent_24 = "\uf7a9";
-        public static readonly string tent_28 = "\ufad0";
-        public static readonly string tent_48 = "\ufad1";
-        public static readonly string tetris_app_16 = "\ufd83";
-        public static readonly string tetris_app_20 = "\ufd84";
-        public static readonly string tetris_app_24 = "\ufd85";
-        public static readonly string tetris_app_28 = "\ufd86";
-        public static readonly string tetris_app_32 = "\ufd87";
-        public static readonly string tetris_app_48 = "\ufd88";
-        public static readonly string text_20 = "\ufdf9";
-        public static readonly string text_24 = "\uf7ab";
-        public static readonly string text_add_24 = "\uf7ac";
-        public static readonly string text_add_space_after_20 = "\uf7ad";
-        public static readonly string text_add_space_after_24 = "\uf7ae";
-        public static readonly string text_add_space_before_20 = "\uf7af";
-        public static readonly string text_add_space_before_24 = "\uf7b0";
-        public static readonly string text_align_center_20 = "\uf7b1";
-        public static readonly string text_align_center_24 = "\uf7b2";
-        public static readonly string text_align_distributed_20 = "\uf7b3";
-        public static readonly string text_align_distributed_24 = "\uf7b4";
-        public static readonly string text_align_distributed_evenly_24 = "\uff0a";
-        public static readonly string text_align_distributed_vertical_24 = "\uff0b";
-        public static readonly string text_align_justify_20 = "\uf7b5";
-        public static readonly string text_align_justify_24 = "\uf7b6";
-        public static readonly string text_align_justify_low_24 = "\uff0c";
-        public static readonly string text_align_left_20 = "\uf7b7";
-        public static readonly string text_align_left_24 = "\uf7b8";
-        public static readonly string text_align_right_20 = "\uf7b9";
-        public static readonly string text_align_right_24 = "\uf7ba";
-        public static readonly string text_asterisk_20 = "\uf7bb";
-        public static readonly string text_bold_16 = "\ufad2";
-        public static readonly string text_bold_20 = "\uf7bc";
-        public static readonly string text_bold_24 = "\uf7bd";
-        public static readonly string text_bullet_list_20 = "\uff0d";
-        public static readonly string text_bullet_list_24 = "\uff0e";
-        public static readonly string text_bullet_list_add_20 = "\ufb60";
-        public static readonly string text_bullet_list_add_24 = "\uf7c0";
-        public static readonly string text_bullet_list_ltr_20 = "\ufd89";
-        public static readonly string text_bullet_list_ltr_24 = "\ufd8a";
-        public static readonly string text_bullet_list_rtl_20 = "\ufd8b";
-        public static readonly string text_bullet_list_rtl_24 = "\ufd8c";
-        public static readonly string text_bullet_list_square_20 = "\ufb61";
-        public static readonly string text_bullet_list_square_24 = "\uf7c1";
-        public static readonly string text_bullet_list_square_edit_20 = "\uf7d1";
-        public static readonly string text_bullet_list_square_edit_24 = "\uf7d2";
-        public static readonly string text_bullet_list_square_warning_16 = "\uf7c2";
-        public static readonly string text_bullet_list_square_warning_20 = "\uf7c3";
-        public static readonly string text_bullet_list_square_warning_24 = "\uf7c4";
-        public static readonly string text_bullet_list_tree_16 = "\uf7c5";
-        public static readonly string text_bullet_list_tree_20 = "\uf7c6";
-        public static readonly string text_bullet_list_tree_24 = "\uf7c7";
-        public static readonly string text_change_case_20 = "\uf7ca";
-        public static readonly string text_change_case_24 = "\uf7cb";
-        public static readonly string text_clear_formatting_20 = "\uf7d4";
-        public static readonly string text_clear_formatting_24 = "\uf7d5";
-        public static readonly string text_clear_formatting_ga_24 = "\uff0f";
-        public static readonly string text_collapse_24 = "\uf7d6";
-        public static readonly string text_color_16 = "\ufad3";
-        public static readonly string text_color_20 = "\uf7d7";
-        public static readonly string text_color_24 = "\uf7d8";
-        public static readonly string text_color_ga_24 = "\uff10";
-        public static readonly string text_column_one_20 = "\uf7d9";
-        public static readonly string text_column_one_24 = "\uf7da";
-        public static readonly string text_column_one_narrow_20 = "\ufad4";
-        public static readonly string text_column_one_narrow_24 = "\ufad5";
-        public static readonly string text_column_one_wide_20 = "\ufad6";
-        public static readonly string text_column_one_wide_24 = "\ufad7";
-        public static readonly string text_column_three_20 = "\uf7db";
-        public static readonly string text_column_three_24 = "\uf7dc";
-        public static readonly string text_column_two_20 = "\uf7dd";
-        public static readonly string text_column_two_24 = "\uf7de";
-        public static readonly string text_column_two_left_20 = "\uf7df";
-        public static readonly string text_column_two_left_24 = "\uf7e0";
-        public static readonly string text_column_two_right_20 = "\uf7e1";
-        public static readonly string text_column_two_right_24 = "\uf7e2";
-        public static readonly string text_continuous_24 = "\ufad8";
-        public static readonly string text_description_20 = "\uf7e3";
-        public static readonly string text_description_24 = "\uf7e4";
-        public static readonly string text_direction_horizontal_ltr_20 = "\uf7e7";
-        public static readonly string text_direction_horizontal_ltr_24 = "\uf7e8";
-        public static readonly string text_direction_horizontal_rtl_20 = "\uff24";
-        public static readonly string text_direction_horizontal_rtl_24 = "\uff25";
-        public static readonly string text_direction_ltr_ac_20 = "\uff11";
-        public static readonly string text_direction_ltr_ac_24 = "\uff12";
-        public static readonly string text_direction_rotate_270_20 = "\uf7e9";
-        public static readonly string text_direction_rotate_270_24 = "\uf7ea";
-        public static readonly string text_direction_rotate_270_ac_20 = "\uf7eb";
-        public static readonly string text_direction_rotate_270_ac_24 = "\uf7ec";
-        public static readonly string text_direction_rotate_90_20 = "\uf7ed";
-        public static readonly string text_direction_rotate_90_24 = "\uf7ee";
-        public static readonly string text_direction_rotate_90_ac_24 = "\uff13";
-        public static readonly string text_direction_rotate_90_rtl_20 = "\uff26";
-        public static readonly string text_direction_rotate_90_rtl_24 = "\uff27";
-        public static readonly string text_direction_vertical_20 = "\uf7ef";
-        public static readonly string text_direction_vertical_24 = "\uf7f0";
-        public static readonly string text_direction_vertical_ac_24 = "\uff14";
-        public static readonly string text_edit_style_20 = "\uf7f1";
-        public static readonly string text_edit_style_24 = "\uf7f2";
-        public static readonly string text_edit_style_ga_24 = "\uff15";
-        public static readonly string text_effects_20 = "\uf7f3";
-        public static readonly string text_effects_24 = "\uf7f4";
-        public static readonly string text_effects_ga_24 = "\uff16";
-        public static readonly string text_expand_24 = "\uf7f5";
-        public static readonly string text_field_16 = "\uf7f6";
-        public static readonly string text_field_20 = "\uf7f7";
-        public static readonly string text_field_24 = "\uf7f8";
-        public static readonly string text_first_line_20 = "\uf7f9";
-        public static readonly string text_first_line_24 = "\uf7fa";
-        public static readonly string text_font_16 = "\uf7fb";
-        public static readonly string text_font_20 = "\uf7fc";
-        public static readonly string text_font_24 = "\uf7fd";
-        public static readonly string text_font_size_20 = "\uf7fe";
-        public static readonly string text_font_size_24 = "\uf7ff";
-        public static readonly string text_footnote_20 = "\uf800";
-        public static readonly string text_footnote_24 = "\uf801";
-        public static readonly string text_footnote_ga_na_24 = "\uff17";
-        public static readonly string text_grammar_arrow_left_20 = "\ufc94";
-        public static readonly string text_grammar_arrow_left_24 = "\ufc95";
-        public static readonly string text_grammar_arrow_right_20 = "\ufc96";
-        public static readonly string text_grammar_arrow_right_24 = "\ufc97";
-        public static readonly string text_grammar_checkmark_20 = "\ufc98";
-        public static readonly string text_grammar_checkmark_24 = "\ufc99";
-        public static readonly string text_grammar_dismiss_20 = "\ufc9a";
-        public static readonly string text_grammar_dismiss_24 = "\ufc9b";
-        public static readonly string text_grammar_error_20 = "\ufb62";
-        public static readonly string text_grammar_settings_20 = "\ufc9c";
-        public static readonly string text_grammar_settings_24 = "\ufc9d";
-        public static readonly string text_grammar_wand_16 = "\ufc9e";
-        public static readonly string text_grammar_wand_20 = "\ufc9f";
-        public static readonly string text_grammar_wand_24 = "\ufca0";
-        public static readonly string text_hanging_20 = "\uf805";
-        public static readonly string text_hanging_24 = "\uf806";
-        public static readonly string text_header_1_20 = "\uf807";
-        public static readonly string text_header_2_20 = "\uf808";
-        public static readonly string text_header_3_20 = "\uf809";
-        public static readonly string text_indent_decrease_20 = "\ufad9";
-        public static readonly string text_indent_decrease_24 = "\uf80a";
-        public static readonly string text_indent_increase_20 = "\ufada";
-        public static readonly string text_indent_increase_24 = "\uf80b";
-        public static readonly string text_italic_16 = "\ufadb";
-        public static readonly string text_italic_20 = "\uf80c";
-        public static readonly string text_italic_24 = "\uf80d";
-        public static readonly string text_line_spacing_20 = "\uf80e";
-        public static readonly string text_line_spacing_24 = "\uf80f";
-        public static readonly string text_number_format_20 = "\uf810";
-        public static readonly string text_number_format_24 = "\uf811";
-        public static readonly string text_number_format_ga_na_da_24 = "\uff18";
-        public static readonly string text_number_list_ltr_20 = "\uf812";
-        public static readonly string text_number_list_ltr_24 = "\uf813";
-        public static readonly string text_number_list_rtl_20 = "\ufb63";
-        public static readonly string text_number_list_rtl_24 = "\uf814";
-        public static readonly string text_paragraph_20 = "\ufca1";
-        public static readonly string text_paragraph_24 = "\ufca2";
-        public static readonly string text_paragraph_direction_20 = "\ufca3";
-        public static readonly string text_paragraph_direction_24 = "\ufca4";
-        public static readonly string text_position_behind_20 = "\ufca5";
-        public static readonly string text_position_behind_24 = "\ufca6";
-        public static readonly string text_position_front_20 = "\ufca7";
-        public static readonly string text_position_front_24 = "\ufca8";
-        public static readonly string text_position_line_20 = "\ufca9";
-        public static readonly string text_position_line_24 = "\ufcaa";
-        public static readonly string text_position_square_20 = "\ufcab";
-        public static readonly string text_position_square_24 = "\ufcac";
-        public static readonly string text_position_through_20 = "\ufcad";
-        public static readonly string text_position_through_24 = "\ufcae";
-        public static readonly string text_position_tight_20 = "\ufcaf";
-        public static readonly string text_position_tight_24 = "\ufcb0";
-        public static readonly string text_position_top_bottom_20 = "\ufcb1";
-        public static readonly string text_position_top_bottom_24 = "\ufcb2";
-        public static readonly string text_proofing_tools_20 = "\uf817";
-        public static readonly string text_proofing_tools_24 = "\uf818";
-        public static readonly string text_proofing_tools_ga_na_da_24 = "\uff19";
-        public static readonly string text_proofing_tools_zi_24 = "\uff1a";
-        public static readonly string text_quote_20 = "\uf819";
-        public static readonly string text_quote_24 = "\uf81a";
-        public static readonly string text_sort_ascending_16 = "\ufdfa";
-        public static readonly string text_sort_ascending_20 = "\uf81b";
-        public static readonly string text_sort_ascending_24 = "\ufdfb";
-        public static readonly string text_sort_descending_16 = "\ufdfc";
-        public static readonly string text_sort_descending_20 = "\uf81c";
-        public static readonly string text_sort_descending_24 = "\ufdfd";
-        public static readonly string text_strikethrough_s_16 = "\ufd8d";
-        public static readonly string text_strikethrough_s_20 = "\ufd8e";
-        public static readonly string text_strikethrough_s_24 = "\ufd8f";
-        public static readonly string text_subscript_20 = "\uf81f";
-        public static readonly string text_subscript_24 = "\uf820";
-        public static readonly string text_superscript_20 = "\uf821";
-        public static readonly string text_superscript_24 = "\uf822";
-        public static readonly string text_underline_16 = "\ufadd";
-        public static readonly string text_underline_20 = "\uf823";
-        public static readonly string text_underline_24 = "\uf824";
-        public static readonly string text_word_count_20 = "\uf825";
-        public static readonly string text_word_count_24 = "\uf826";
-        public static readonly string text_wrap_24 = "\uf827";
-        public static readonly string textbox_20 = "\uf828";
-        public static readonly string textbox_24 = "\uf829";
-        public static readonly string textbox_align_bottom_20 = "\uf82c";
-        public static readonly string textbox_align_bottom_24 = "\uf82d";
-        public static readonly string textbox_align_center_20 = "\ufcb3";
-        public static readonly string textbox_align_center_24 = "\ufcb4";
-        public static readonly string textbox_align_middle_20 = "\uf82e";
-        public static readonly string textbox_align_middle_24 = "\uf82f";
-        public static readonly string textbox_align_top_20 = "\uf830";
-        public static readonly string textbox_align_top_24 = "\uf831";
-        public static readonly string textbox_more_24 = "\uff1b";
-        public static readonly string textbox_vertical_20 = "\uf832";
-        public static readonly string textbox_vertical_24 = "\uf833";
-        public static readonly string thinking_20 = "\uf834";
-        public static readonly string thinking_24 = "\uf835";
-        public static readonly string thumb_dislike_20 = "\uf836";
-        public static readonly string thumb_dislike_24 = "\uf837";
-        public static readonly string thumb_like_16 = "\ufcb5";
-        public static readonly string thumb_like_20 = "\uf838";
-        public static readonly string thumb_like_24 = "\uf839";
-        public static readonly string ticket_diagonal_16 = "\ufaec";
-        public static readonly string ticket_diagonal_20 = "\ufaed";
-        public static readonly string ticket_diagonal_24 = "\ufaee";
-        public static readonly string ticket_diagonal_28 = "\ufaef";
-        public static readonly string ticket_horizontal_20 = "\ufcb6";
-        public static readonly string ticket_horizontal_24 = "\ufcb7";
-        public static readonly string time_and_weather_24 = "\uf83c";
-        public static readonly string time_picker_24 = "\uf83d";
-        public static readonly string timeline_24 = "\uf83e";
-        public static readonly string timer_10_24 = "\uf83f";
-        public static readonly string timer_16 = "\ufaf0";
-        public static readonly string timer_20 = "\ufaf1";
-        public static readonly string timer_24 = "\uf840";
-        public static readonly string timer_2_24 = "\uf841";
-        public static readonly string timer_3_24 = "\ufd15";
-        public static readonly string timer_off_24 = "\uf842";
-        public static readonly string toggle_left_16 = "\ufaf2";
-        public static readonly string toggle_left_20 = "\ufaf3";
-        public static readonly string toggle_left_24 = "\ufaf4";
-        public static readonly string toggle_left_28 = "\ufaf5";
-        public static readonly string toggle_left_48 = "\ufaf6";
-        public static readonly string toggle_right_16 = "\uf843";
-        public static readonly string toggle_right_20 = "\uf844";
-        public static readonly string toggle_right_24 = "\uf845";
-        public static readonly string toggle_right_28 = "\ufaf7";
-        public static readonly string toggle_right_48 = "\ufaf8";
-        public static readonly string toolbox_16 = "\uf846";
-        public static readonly string toolbox_20 = "\uf847";
-        public static readonly string toolbox_24 = "\uf848";
-        public static readonly string toolbox_28 = "\uf849";
-        public static readonly string tooltip_quote_20 = "\uf7d3";
-        public static readonly string top_speed_20 = "\ufea4";
-        public static readonly string top_speed_24 = "\uf84a";
-        public static readonly string translate_20 = "\uf84b";
-        public static readonly string translate_24 = "\uf84c";
-        public static readonly string transmission_24 = "\ufefd";
-        public static readonly string trophy_16 = "\uf84d";
-        public static readonly string trophy_20 = "\uf84e";
-        public static readonly string trophy_24 = "\uf84f";
-        public static readonly string tv_16 = "\ufaf9";
-        public static readonly string tv_20 = "\ufafa";
-        public static readonly string tv_24 = "\ufafb";
-        public static readonly string tv_28 = "\ufafc";
-        public static readonly string tv_48 = "\ufafd";
-        public static readonly string tv_arrow_right_20 = "\ufbb0";
-        public static readonly string tv_usb_16 = "\ufd9d";
-        public static readonly string tv_usb_20 = "\ufd9e";
-        public static readonly string tv_usb_24 = "\ufd9f";
-        public static readonly string tv_usb_28 = "\ufda0";
-        public static readonly string tv_usb_48 = "\ufda1";
-        public static readonly string uninstall_app_24 = "\uf850";
-        public static readonly string usb_port_20 = "\uf855";
-        public static readonly string usb_port_24 = "\uf856";
-        public static readonly string usb_stick_20 = "\uf857";
-        public static readonly string usb_stick_24 = "\uf858";
-        public static readonly string vault_16 = "\uf859";
-        public static readonly string vault_20 = "\uf85a";
-        public static readonly string vault_24 = "\uf85b";
-        public static readonly string vehicle_bicycle_16 = "\ufafe";
-        public static readonly string vehicle_bicycle_20 = "\ufaff";
-        public static readonly string vehicle_bicycle_24 = "\uf85c";
-        public static readonly string vehicle_bus_16 = "\ufb00";
-        public static readonly string vehicle_bus_20 = "\ufb01";
-        public static readonly string vehicle_bus_24 = "\uf85d";
-        public static readonly string vehicle_cab_16 = "\ufd90";
-        public static readonly string vehicle_cab_20 = "\ufd91";
-        public static readonly string vehicle_cab_24 = "\uf85e";
-        public static readonly string vehicle_cab_28 = "\ufd92";
-        public static readonly string vehicle_car_16 = "\uf85f";
-        public static readonly string vehicle_car_20 = "\uf860";
-        public static readonly string vehicle_car_24 = "\uf861";
-        public static readonly string vehicle_car_28 = "\ufb02";
-        public static readonly string vehicle_car_48 = "\ufb03";
-        public static readonly string vehicle_car_profile_ltr_16 = "\uf7e5";
-        public static readonly string vehicle_car_profile_rtl_16 = "\uf7e6";
-        public static readonly string vehicle_ship_16 = "\ufb04";
-        public static readonly string vehicle_ship_20 = "\ufb05";
-        public static readonly string vehicle_ship_24 = "\ufb06";
-        public static readonly string vehicle_subway_16 = "\ufb07";
-        public static readonly string vehicle_subway_20 = "\ufb08";
-        public static readonly string vehicle_subway_24 = "\ufb09";
-        public static readonly string vehicle_truck_16 = "\ufb0a";
-        public static readonly string vehicle_truck_20 = "\ufb0b";
-        public static readonly string vehicle_truck_24 = "\uf862";
-        public static readonly string vehicle_truck_profile_16 = "\uf802";
-        public static readonly string vehicle_truck_profile_24 = "\ufd93";
-        public static readonly string video_16 = "\uf863";
-        public static readonly string video_20 = "\uf864";
-        public static readonly string video_24 = "\uf865";
-        public static readonly string video_28 = "\uf866";
-        public static readonly string video_32 = "\uff1c";
-        public static readonly string video_360_20 = "\ufb64";
-        public static readonly string video_360_24 = "\ufb65";
-        public static readonly string video_360_off_20 = "\ufda2";
-        public static readonly string video_48 = "\uff1d";
-        public static readonly string video_background_effect_20 = "\ufb28";
-        public static readonly string video_background_effect_24 = "\uf867";
-        public static readonly string video_clip_16 = "\uff1e";
-        public static readonly string video_clip_20 = "\ufb0c";
-        public static readonly string video_clip_24 = "\uf868";
-        public static readonly string video_off_20 = "\uf869";
-        public static readonly string video_off_24 = "\uf86a";
-        public static readonly string video_off_28 = "\uf86b";
-        public static readonly string video_person_12 = "\ufb66";
-        public static readonly string video_person_16 = "\ufb67";
-        public static readonly string video_person_20 = "\ufb68";
-        public static readonly string video_person_24 = "\uf86c";
-        public static readonly string video_person_28 = "\ufb69";
-        public static readonly string video_person_48 = "\ufb6a";
-        public static readonly string video_person_call_16 = "\ufb6b";
-        public static readonly string video_person_call_20 = "\ufb6c";
-        public static readonly string video_person_call_24 = "\ufb6d";
-        public static readonly string video_person_call_32 = "\ufdfe";
-        public static readonly string video_person_off_24 = "\uf86d";
-        public static readonly string video_person_star_20 = "\ufb6e";
-        public static readonly string video_person_star_24 = "\uf86e";
-        public static readonly string video_person_star_off_20 = "\ufbb1";
-        public static readonly string video_person_star_off_24 = "\ufe3d";
-        public static readonly string video_play_pause_24 = "\uf86f";
-        public static readonly string video_prohibited_16 = "\ufda3";
-        public static readonly string video_prohibited_20 = "\ufb6f";
-        public static readonly string video_prohibited_24 = "\ufda4";
-        public static readonly string video_prohibited_28 = "\ufda5";
-        public static readonly string video_recording_20 = "\ufbb2";
-        public static readonly string video_security_20 = "\uf870";
-        public static readonly string video_security_24 = "\uf871";
-        public static readonly string video_switch_20 = "\ufb70";
-        public static readonly string video_switch_24 = "\uf872";
-        public static readonly string video_sync_20 = "\ufbb3";
-        public static readonly string view_desktop_20 = "\uf873";
-        public static readonly string view_desktop_24 = "\uf874";
-        public static readonly string view_desktop_mobile_20 = "\uf875";
-        public static readonly string view_desktop_mobile_24 = "\uf876";
-        public static readonly string voicemail_16 = "\uf87a";
-        public static readonly string voicemail_20 = "\uf87b";
-        public static readonly string voicemail_24 = "\uf87c";
-        public static readonly string voicemail_28 = "\ufd16";
-        public static readonly string voicemail_arrow_back_16 = "\uf803";
-        public static readonly string voicemail_arrow_forward_16 = "\uf804";
-        public static readonly string voicemail_subtract_16 = "\uf815";
-        public static readonly string vote_20 = "\ufb0d";
-        public static readonly string vote_24 = "\ufb0e";
-        public static readonly string walkie_talkie_20 = "\ufd17";
-        public static readonly string walkie_talkie_24 = "\uf87d";
-        public static readonly string walkie_talkie_28 = "\uf87e";
-        public static readonly string wallpaper_24 = "\uf87f";
-        public static readonly string wand_16 = "\ufcb8";
-        public static readonly string wand_20 = "\ufcb9";
-        public static readonly string wand_24 = "\ufcba";
-        public static readonly string wand_28 = "\ufcbb";
-        public static readonly string wand_48 = "\ufcbc";
-        public static readonly string warning_16 = "\uf880";
-        public static readonly string warning_20 = "\uf881";
-        public static readonly string warning_24 = "\uf882";
-        public static readonly string warning_shield_20 = "\ufd18";
-        public static readonly string weather_blowing_snow_20 = "\uf883";
-        public static readonly string weather_blowing_snow_24 = "\uf884";
-        public static readonly string weather_blowing_snow_48 = "\uf885";
-        public static readonly string weather_cloudy_20 = "\uf886";
-        public static readonly string weather_cloudy_24 = "\uf887";
-        public static readonly string weather_cloudy_48 = "\uf888";
-        public static readonly string weather_drizzle_20 = "\ufb0f";
-        public static readonly string weather_drizzle_24 = "\ufb10";
-        public static readonly string weather_drizzle_48 = "\ufb11";
-        public static readonly string weather_duststorm_20 = "\uf889";
-        public static readonly string weather_duststorm_24 = "\uf88a";
-        public static readonly string weather_duststorm_48 = "\uf88b";
-        public static readonly string weather_fog_20 = "\uf88c";
-        public static readonly string weather_fog_24 = "\uf88d";
-        public static readonly string weather_fog_48 = "\uf88e";
-        public static readonly string weather_hail_day_20 = "\uf88f";
-        public static readonly string weather_hail_day_24 = "\uf890";
-        public static readonly string weather_hail_day_48 = "\uf891";
-        public static readonly string weather_hail_night_20 = "\uf892";
-        public static readonly string weather_hail_night_24 = "\uf893";
-        public static readonly string weather_hail_night_48 = "\uf894";
-        public static readonly string weather_haze_20 = "\ufb12";
-        public static readonly string weather_haze_24 = "\ufb13";
-        public static readonly string weather_haze_48 = "\ufb14";
-        public static readonly string weather_moon_16 = "\ufb15";
-        public static readonly string weather_moon_20 = "\uf895";
-        public static readonly string weather_moon_24 = "\uf896";
-        public static readonly string weather_moon_28 = "\ufb16";
-        public static readonly string weather_moon_48 = "\uf897";
-        public static readonly string weather_moon_off_16 = "\ufb17";
-        public static readonly string weather_moon_off_20 = "\ufb18";
-        public static readonly string weather_moon_off_24 = "\ufb19";
-        public static readonly string weather_moon_off_28 = "\ufb1a";
-        public static readonly string weather_moon_off_48 = "\ufb1b";
-        public static readonly string weather_partly_cloudy_day_20 = "\uf898";
-        public static readonly string weather_partly_cloudy_day_24 = "\uf899";
-        public static readonly string weather_partly_cloudy_day_48 = "\uf89a";
-        public static readonly string weather_partly_cloudy_night_20 = "\uf89b";
-        public static readonly string weather_partly_cloudy_night_24 = "\uf89c";
-        public static readonly string weather_partly_cloudy_night_48 = "\uf89d";
-        public static readonly string weather_rain_20 = "\uf89e";
-        public static readonly string weather_rain_24 = "\uf89f";
-        public static readonly string weather_rain_48 = "\uf8a0";
-        public static readonly string weather_rain_showers_day_20 = "\uf8a1";
-        public static readonly string weather_rain_showers_day_24 = "\uf8a2";
-        public static readonly string weather_rain_showers_day_48 = "\uf8a3";
-        public static readonly string weather_rain_showers_night_20 = "\uf8a4";
-        public static readonly string weather_rain_showers_night_24 = "\uf8a5";
-        public static readonly string weather_rain_showers_night_48 = "\uf8a6";
-        public static readonly string weather_rain_snow_20 = "\uf8a7";
-        public static readonly string weather_rain_snow_24 = "\uf8a8";
-        public static readonly string weather_rain_snow_48 = "\uf8a9";
-        public static readonly string weather_snow_20 = "\uf8aa";
-        public static readonly string weather_snow_24 = "\uf8ab";
-        public static readonly string weather_snow_48 = "\uf8ac";
-        public static readonly string weather_snow_shower_day_20 = "\uf8ad";
-        public static readonly string weather_snow_shower_day_24 = "\uf8ae";
-        public static readonly string weather_snow_shower_day_48 = "\uf8af";
-        public static readonly string weather_snow_shower_night_20 = "\uf8b0";
-        public static readonly string weather_snow_shower_night_24 = "\uf8b1";
-        public static readonly string weather_snow_shower_night_48 = "\uf8b2";
-        public static readonly string weather_snowflake_20 = "\uf8b3";
-        public static readonly string weather_snowflake_24 = "\uf8b4";
-        public static readonly string weather_snowflake_48 = "\uf8b5";
-        public static readonly string weather_squalls_20 = "\uf8b6";
-        public static readonly string weather_squalls_24 = "\uf8b7";
-        public static readonly string weather_squalls_48 = "\uf8b8";
-        public static readonly string weather_sunny_20 = "\uf8b9";
-        public static readonly string weather_sunny_24 = "\uf8ba";
-        public static readonly string weather_sunny_32 = "\ufdff";
-        public static readonly string weather_sunny_48 = "\uf8bb";
-        public static readonly string weather_sunny_high_20 = "\ufb1c";
-        public static readonly string weather_sunny_high_24 = "\ufb1d";
-        public static readonly string weather_sunny_high_48 = "\ufb1e";
-        public static readonly string weather_sunny_low_20 = "\ufb1f";
-        public static readonly string weather_sunny_low_24 = "\ufb20";
-        public static readonly string weather_sunny_low_48 = "\ufb21";
-        public static readonly string weather_thunderstorm_20 = "\uf8bc";
-        public static readonly string weather_thunderstorm_24 = "\uf8bd";
-        public static readonly string weather_thunderstorm_48 = "\uf8be";
-        public static readonly string web_asset_24 = "\uf8bf";
-        public static readonly string whiteboard_20 = "\uf8c2";
-        public static readonly string whiteboard_24 = "\uf8c3";
-        public static readonly string wifi_1_20 = "\uf8c4";
-        public static readonly string wifi_1_24 = "\uf8c5";
-        public static readonly string wifi_2_20 = "\uf8c6";
-        public static readonly string wifi_2_24 = "\uf8c7";
-        public static readonly string wifi_3_20 = "\uf8c8";
-        public static readonly string wifi_3_24 = "\uf8c9";
-        public static readonly string wifi_4_20 = "\uf8ca";
-        public static readonly string wifi_4_24 = "\uf8cb";
-        public static readonly string wifi_off_20 = "\ufefe";
-        public static readonly string wifi_off_24 = "\ufeff";
-        public static readonly string wifi_protected_24 = "\uf8cc";
-        public static readonly string wifi_warning_20 = "\ufb71";
-        public static readonly string wifi_warning_24 = "\uf816";
-        public static readonly string window_20 = "\uf8cd";
-        public static readonly string window_ad_20 = "\uf8ce";
-        public static readonly string window_ad_person_20 = "\uff1f";
-        public static readonly string window_arrow_up_24 = "\ufcbd";
-        public static readonly string window_dev_edit_16 = "\uff20";
-        public static readonly string window_dev_tools_16 = "\uf8cf";
-        public static readonly string window_dev_tools_20 = "\uf8d0";
-        public static readonly string window_dev_tools_24 = "\uf8d1";
-        public static readonly string window_edit_16 = "\uf81d";
-        public static readonly string window_header_horizontal_20 = "\ufcbe";
-        public static readonly string window_header_vertical_20 = "\ufcbf";
-        public static readonly string window_inprivate_20 = "\uf8d2";
-        public static readonly string window_inprivate_account_20 = "\uf8d3";
-        public static readonly string window_multiple_20 = "\uf8d4";
-        public static readonly string window_new_16 = "\ufb23";
-        public static readonly string window_new_20 = "\uf8d5";
-        public static readonly string window_new_24 = "\ufb24";
-        public static readonly string window_shield_16 = "\uf8d6";
-        public static readonly string window_shield_20 = "\uf8d7";
-        public static readonly string window_shield_24 = "\uf8d8";
-        public static readonly string wrench_16 = "\ufb26";
-        public static readonly string wrench_20 = "\ufb27";
-        public static readonly string wrench_24 = "\uf8d9";
-        public static readonly string xbox_console_20 = "\uf8da";
-        public static readonly string xbox_console_24 = "\uf8db";
-        public static readonly string zoom_in_20 = "\uf8dc";
-        public static readonly string zoom_in_24 = "\uf8dd";
-        public static readonly string zoom_out_20 = "\uf8de";
-        public static readonly string zoom_out_24 = "\uf8df";
+	public static class FluentIconsFilled
+	{
+		public const string Ic_fluent_access_time_24_filled = "\uf101";
+		public const string Ic_fluent_accessibility_16_filled = "\uf102";
+		public const string Ic_fluent_accessibility_20_filled = "\uf103";
+		public const string Ic_fluent_accessibility_24_filled = "\uf104";
+		public const string Ic_fluent_accessibility_28_filled = "\uf105";
+		public const string Ic_fluent_accessibility_32_filled = "\ufcc0";
+		public const string Ic_fluent_accessibility_48_filled = "\u0213";
+		public const string Ic_fluent_accessibility_checkmark_24_filled = "\ufcc1";
+		public const string Ic_fluent_add_12_filled = "\uf107";
+		public const string Ic_fluent_add_16_filled = "\uf108";
+		public const string Ic_fluent_add_20_filled = "\uf109";
+		public const string Ic_fluent_add_24_filled = "\uf10a";
+		public const string Ic_fluent_add_28_filled = "\uf10b";
+		public const string Ic_fluent_add_circle_16_filled = "\ufcc2";
+		public const string Ic_fluent_add_circle_20_filled = "\uf10c";
+		public const string Ic_fluent_add_circle_24_filled = "\uf10d";
+		public const string Ic_fluent_add_circle_28_filled = "\uf10e";
+		public const string Ic_fluent_add_circle_32_filled = "\ufcc3";
+		public const string Ic_fluent_add_square_24_filled = "\uf8e2";
+		public const string Ic_fluent_add_square_multiple_16_filled = "\ufea6";
+		public const string Ic_fluent_add_square_multiple_20_filled = "\ufea7";
+		public const string Ic_fluent_add_subtract_circle_16_filled = "\ufd19";
+		public const string Ic_fluent_add_subtract_circle_20_filled = "\ufd1a";
+		public const string Ic_fluent_add_subtract_circle_24_filled = "\ufd1b";
+		public const string Ic_fluent_add_subtract_circle_28_filled = "\ufd1c";
+		public const string Ic_fluent_add_subtract_circle_48_filled = "\ufd1d";
+		public const string Ic_fluent_airplane_20_filled = "\uf10f";
+		public const string Ic_fluent_airplane_24_filled = "\uf110";
+		public const string Ic_fluent_airplane_take_off_16_filled = "\uf111";
+		public const string Ic_fluent_airplane_take_off_20_filled = "\uf112";
+		public const string Ic_fluent_airplane_take_off_24_filled = "\uf113";
+		public const string Ic_fluent_album_24_filled = "\ufb72";
+		public const string Ic_fluent_album_add_24_filled = "\ufb73";
+		public const string Ic_fluent_alert_16_filled = "\ufb29";
+		public const string Ic_fluent_alert_20_filled = "\uf114";
+		public const string Ic_fluent_alert_24_filled = "\uf115";
+		public const string Ic_fluent_alert_28_filled = "\uf116";
+		public const string Ic_fluent_alert_32_filled = "\ufda6";
+		public const string Ic_fluent_alert_off_16_filled = "\uf117";
+		public const string Ic_fluent_alert_off_20_filled = "\uf118";
+		public const string Ic_fluent_alert_off_24_filled = "\uf119";
+		public const string Ic_fluent_alert_off_28_filled = "\uf11a";
+		public const string Ic_fluent_alert_on_24_filled = "\uf11b";
+		public const string Ic_fluent_alert_snooze_20_filled = "\uf11c";
+		public const string Ic_fluent_alert_snooze_24_filled = "\uf11d";
+		public const string Ic_fluent_alert_urgent_16_filled = "\ufb74";
+		public const string Ic_fluent_alert_urgent_20_filled = "\uf11e";
+		public const string Ic_fluent_alert_urgent_24_filled = "\uf11f";
+		public const string Ic_fluent_align_bottom_16_filled = "\ufe00";
+		public const string Ic_fluent_align_bottom_20_filled = "\ufe01";
+		public const string Ic_fluent_align_bottom_24_filled = "\ufe02";
+		public const string Ic_fluent_align_bottom_28_filled = "\ufe03";
+		public const string Ic_fluent_align_bottom_32_filled = "\ufe04";
+		public const string Ic_fluent_align_bottom_48_filled = "\ufe05";
+		public const string Ic_fluent_align_center_horizontal_16_filled = "\ufe06";
+		public const string Ic_fluent_align_center_horizontal_20_filled = "\ufe07";
+		public const string Ic_fluent_align_center_horizontal_24_filled = "\ufe08";
+		public const string Ic_fluent_align_center_horizontal_28_filled = "\ufe09";
+		public const string Ic_fluent_align_center_horizontal_32_filled = "\ufe0a";
+		public const string Ic_fluent_align_center_horizontal_48_filled = "\ufe0b";
+		public const string Ic_fluent_align_center_vertical_16_filled = "\ufe0c";
+		public const string Ic_fluent_align_center_vertical_20_filled = "\ufe0d";
+		public const string Ic_fluent_align_center_vertical_24_filled = "\ufe0e";
+		public const string Ic_fluent_align_center_vertical_28_filled = "\ufe0f";
+		public const string Ic_fluent_align_center_vertical_32_filled = "\ufe10";
+		public const string Ic_fluent_align_center_vertical_48_filled = "\ufe11";
+		public const string Ic_fluent_align_end_horizontal_20_filled = "\u0105";
+		public const string Ic_fluent_align_end_vertical_20_filled = "\u0106";
+		public const string Ic_fluent_align_left_16_filled = "\ufe12";
+		public const string Ic_fluent_align_left_20_filled = "\ufe13";
+		public const string Ic_fluent_align_left_24_filled = "\ufe14";
+		public const string Ic_fluent_align_left_28_filled = "\ufe15";
+		public const string Ic_fluent_align_left_32_filled = "\ufe16";
+		public const string Ic_fluent_align_left_48_filled = "\ufe17";
+		public const string Ic_fluent_align_right_16_filled = "\ufe18";
+		public const string Ic_fluent_align_right_20_filled = "\ufe19";
+		public const string Ic_fluent_align_right_24_filled = "\ufe1a";
+		public const string Ic_fluent_align_right_28_filled = "\ufe1b";
+		public const string Ic_fluent_align_right_32_filled = "\ufe1c";
+		public const string Ic_fluent_align_right_48_filled = "\ufe1d";
+		public const string Ic_fluent_align_space_around_horizontal_20_filled = "\u0107";
+		public const string Ic_fluent_align_space_around_vertical_20_filled = "\u0108";
+		public const string Ic_fluent_align_space_between_horizontal_20_filled = "\u0109";
+		public const string Ic_fluent_align_space_between_vertical_20_filled = "\u010a";
+		public const string Ic_fluent_align_space_evenly_horizontal_20_filled = "\u010b";
+		public const string Ic_fluent_align_space_evenly_vertical_20_filled = "\u010c";
+		public const string Ic_fluent_align_space_fit_vertical_20_filled = "\u010d";
+		public const string Ic_fluent_align_start_horizontal_20_filled = "\u010e";
+		public const string Ic_fluent_align_start_vertical_20_filled = "\u010f";
+		public const string Ic_fluent_align_stretch_horizontal_20_filled = "\u0110";
+		public const string Ic_fluent_align_stretch_vertical_20_filled = "\u0111";
+		public const string Ic_fluent_align_top_16_filled = "\ufe1e";
+		public const string Ic_fluent_align_top_20_filled = "\ufe1f";
+		public const string Ic_fluent_align_top_24_filled = "\ufe20";
+		public const string Ic_fluent_align_top_28_filled = "\ufe21";
+		public const string Ic_fluent_align_top_32_filled = "\ufe22";
+		public const string Ic_fluent_align_top_48_filled = "\ufe23";
+		public const string Ic_fluent_animal_cat_16_filled = "\uf106";
+		public const string Ic_fluent_animal_cat_20_filled = "\uf126";
+		public const string Ic_fluent_animal_cat_24_filled = "\uf127";
+		public const string Ic_fluent_animal_cat_28_filled = "\uf128";
+		public const string Ic_fluent_animal_dog_16_filled = "\uff28";
+		public const string Ic_fluent_animal_dog_20_filled = "\uf120";
+		public const string Ic_fluent_animal_dog_24_filled = "\uf121";
+		public const string Ic_fluent_animal_rabbit_16_filled = "\ufcc4";
+		public const string Ic_fluent_animal_rabbit_20_filled = "\ufcc5";
+		public const string Ic_fluent_animal_rabbit_24_filled = "\ufcc6";
+		public const string Ic_fluent_animal_rabbit_28_filled = "\ufcc7";
+		public const string Ic_fluent_animal_turtle_16_filled = "\ufcc8";
+		public const string Ic_fluent_animal_turtle_20_filled = "\ufcc9";
+		public const string Ic_fluent_animal_turtle_24_filled = "\ufcca";
+		public const string Ic_fluent_animal_turtle_28_filled = "\ufccb";
+		public const string Ic_fluent_app_folder_20_filled = "\uf122";
+		public const string Ic_fluent_app_folder_24_filled = "\uf123";
+		public const string Ic_fluent_app_generic_24_filled = "\uf124";
+		public const string Ic_fluent_app_recent_24_filled = "\uf125";
+		public const string Ic_fluent_app_store_24_filled = "\uf12a";
+		public const string Ic_fluent_app_title_24_filled = "\uf12b";
+		public const string Ic_fluent_approval_app_32_filled = "\ufda7";
+		public const string Ic_fluent_approvals_app_16_filled = "\ufb2a";
+		public const string Ic_fluent_approvals_app_20_filled = "\ufb2b";
+		public const string Ic_fluent_approvals_app_24_filled = "\uf130";
+		public const string Ic_fluent_approvals_app_28_filled = "\uf131";
+		public const string Ic_fluent_apps_16_filled = "\uf132";
+		public const string Ic_fluent_apps_20_filled = "\uf133";
+		public const string Ic_fluent_apps_24_filled = "\uf134";
+		public const string Ic_fluent_apps_28_filled = "\uf135";
+		public const string Ic_fluent_apps_add_in_16_filled = "\ufe3e";
+		public const string Ic_fluent_apps_add_in_20_filled = "\uf136";
+		public const string Ic_fluent_apps_add_in_24_filled = "\uf137";
+		public const string Ic_fluent_apps_add_in_28_filled = "\ufe3f";
+		public const string Ic_fluent_apps_list_20_filled = "\uf8e3";
+		public const string Ic_fluent_apps_list_24_filled = "\uf138";
+		public const string Ic_fluent_apps_list_detail_20_filled = "\u01d4";
+		public const string Ic_fluent_apps_list_detail_24_filled = "\u01d5";
+		public const string Ic_fluent_archive_16_filled = "\uf8e4";
+		public const string Ic_fluent_archive_20_filled = "\uf139";
+		public const string Ic_fluent_archive_24_filled = "\uf13a";
+		public const string Ic_fluent_archive_28_filled = "\uf13b";
+		public const string Ic_fluent_archive_48_filled = "\uf13c";
+		public const string Ic_fluent_archive_multiple_16_filled = "\u0214";
+		public const string Ic_fluent_archive_multiple_20_filled = "\u0215";
+		public const string Ic_fluent_archive_multiple_24_filled = "\u0216";
+		public const string Ic_fluent_archive_settings_16_filled = "\uf129";
+		public const string Ic_fluent_archive_settings_20_filled = "\uff29";
+		public const string Ic_fluent_arrow_autofit_content_24_filled = "\u0048";
+		public const string Ic_fluent_arrow_autofit_down_24_filled = "\uffd6";
+		public const string Ic_fluent_arrow_autofit_height_24_filled = "\uf8e5";
+		public const string Ic_fluent_arrow_autofit_height_dotted_24_filled = "\uff21";
+		public const string Ic_fluent_arrow_autofit_up_24_filled = "\uffd7";
+		public const string Ic_fluent_arrow_autofit_width_24_filled = "\uf8e6";
+		public const string Ic_fluent_arrow_autofit_width_dotted_24_filled = "\uff22";
+		public const string Ic_fluent_arrow_bidirectional_up_down_12_filled = "\u009a";
+		public const string Ic_fluent_arrow_bidirectional_up_down_16_filled = "\u009b";
+		public const string Ic_fluent_arrow_bidirectional_up_down_20_filled = "\u009c";
+		public const string Ic_fluent_arrow_bidirectional_up_down_24_filled = "\u009d";
+		public const string Ic_fluent_arrow_bounce_16_filled = "\ufb2c";
+		public const string Ic_fluent_arrow_bounce_24_filled = "\ufb2d";
+		public const string Ic_fluent_arrow_circle_down_12_filled = "\u0120";
+		public const string Ic_fluent_arrow_circle_down_16_filled = "\u0121";
+		public const string Ic_fluent_arrow_circle_down_20_filled = "\uf12c";
+		public const string Ic_fluent_arrow_circle_down_24_filled = "\uf12d";
+		public const string Ic_fluent_arrow_circle_down_28_filled = "\u0122";
+		public const string Ic_fluent_arrow_circle_down_32_filled = "\u0123";
+		public const string Ic_fluent_arrow_circle_down_48_filled = "\u0124";
+		public const string Ic_fluent_arrow_circle_down_double_20_filled = "\uf12e";
+		public const string Ic_fluent_arrow_circle_down_double_24_filled = "\uf12f";
+		public const string Ic_fluent_arrow_circle_down_right_16_filled = "\ufbc7";
+		public const string Ic_fluent_arrow_circle_down_right_24_filled = "\ufbc8";
+		public const string Ic_fluent_arrow_circle_down_split_20_filled = "\uf143";
+		public const string Ic_fluent_arrow_circle_down_split_24_filled = "\uf144";
+		public const string Ic_fluent_arrow_circle_down_up_20_filled = "\u009e";
+		public const string Ic_fluent_arrow_circle_left_12_filled = "\u009f";
+		public const string Ic_fluent_arrow_circle_left_16_filled = "\u00a0";
+		public const string Ic_fluent_arrow_circle_left_20_filled = "\u0125";
+		public const string Ic_fluent_arrow_circle_left_24_filled = "\u0126";
+		public const string Ic_fluent_arrow_circle_left_28_filled = "\u0127";
+		public const string Ic_fluent_arrow_circle_left_32_filled = "\u0128";
+		public const string Ic_fluent_arrow_circle_left_48_filled = "\u0129";
+		public const string Ic_fluent_arrow_circle_right_12_filled = "\u00a1";
+		public const string Ic_fluent_arrow_circle_right_16_filled = "\u00a2";
+		public const string Ic_fluent_arrow_circle_right_20_filled = "\u012a";
+		public const string Ic_fluent_arrow_circle_right_24_filled = "\ufbc9";
+		public const string Ic_fluent_arrow_circle_right_28_filled = "\u012b";
+		public const string Ic_fluent_arrow_circle_right_32_filled = "\u012c";
+		public const string Ic_fluent_arrow_circle_right_48_filled = "\u012d";
+		public const string Ic_fluent_arrow_circle_up_12_filled = "\u012e";
+		public const string Ic_fluent_arrow_circle_up_16_filled = "\ufbca";
+		public const string Ic_fluent_arrow_circle_up_20_filled = "\ufbcb";
+		public const string Ic_fluent_arrow_circle_up_24_filled = "\ufbcc";
+		public const string Ic_fluent_arrow_circle_up_28_filled = "\u012f";
+		public const string Ic_fluent_arrow_circle_up_32_filled = "\u0130";
+		public const string Ic_fluent_arrow_circle_up_48_filled = "\u0131";
+		public const string Ic_fluent_arrow_circle_up_left_24_filled = "\ufbcd";
+		public const string Ic_fluent_arrow_clockwise_12_filled = "\uffea";
+		public const string Ic_fluent_arrow_clockwise_16_filled = "\uff2a";
+		public const string Ic_fluent_arrow_clockwise_20_filled = "\uf13d";
+		public const string Ic_fluent_arrow_clockwise_24_filled = "\uf13e";
+		public const string Ic_fluent_arrow_clockwise_28_filled = "\uffeb";
+		public const string Ic_fluent_arrow_clockwise_32_filled = "\uffec";
+		public const string Ic_fluent_arrow_clockwise_48_filled = "\uffed";
+		public const string Ic_fluent_arrow_clockwise_dashes_20_filled = "\uff2b";
+		public const string Ic_fluent_arrow_clockwise_dashes_24_filled = "\uff2c";
+		public const string Ic_fluent_arrow_collapse_all_20_filled = "\u0112";
+		public const string Ic_fluent_arrow_collapse_all_24_filled = "\u0113";
+		public const string Ic_fluent_arrow_counterclockwise_12_filled = "\uffee";
+		public const string Ic_fluent_arrow_counterclockwise_16_filled = "\uffef";
+		public const string Ic_fluent_arrow_counterclockwise_20_filled = "\uf13f";
+		public const string Ic_fluent_arrow_counterclockwise_24_filled = "\uf140";
+		public const string Ic_fluent_arrow_counterclockwise_28_filled = "\uf8e7";
+		public const string Ic_fluent_arrow_counterclockwise_32_filled = "\ufff0";
+		public const string Ic_fluent_arrow_counterclockwise_48_filled = "\ufff1";
+		public const string Ic_fluent_arrow_counterclockwise_dashes_20_filled = "\uff2d";
+		public const string Ic_fluent_arrow_counterclockwise_dashes_24_filled = "\uff2e";
+		public const string Ic_fluent_arrow_curve_down_left_16_filled = "\ufe40";
+		public const string Ic_fluent_arrow_curve_down_left_20_filled = "\uf141";
+		public const string Ic_fluent_arrow_curve_down_left_24_filled = "\ufe41";
+		public const string Ic_fluent_arrow_curve_down_left_28_filled = "\ufe42";
+		public const string Ic_fluent_arrow_curve_down_right_20_filled = "\uf142";
+		public const string Ic_fluent_arrow_curve_up_left_20_filled = "\uf145";
+		public const string Ic_fluent_arrow_curve_up_right_20_filled = "\uf146";
+		public const string Ic_fluent_arrow_down_12_filled = "\uf8e8";
+		public const string Ic_fluent_arrow_down_16_filled = "\uf147";
+		public const string Ic_fluent_arrow_down_20_filled = "\uf148";
+		public const string Ic_fluent_arrow_down_24_filled = "\uf149";
+		public const string Ic_fluent_arrow_down_28_filled = "\uf14a";
+		public const string Ic_fluent_arrow_down_32_filled = "\uf14c";
+		public const string Ic_fluent_arrow_down_48_filled = "\uf14d";
+		public const string Ic_fluent_arrow_down_left_16_filled = "\uf8e9";
+		public const string Ic_fluent_arrow_down_left_20_filled = "\ufda8";
+		public const string Ic_fluent_arrow_down_left_24_filled = "\uf14b";
+		public const string Ic_fluent_arrow_download_16_filled = "\uf14f";
+		public const string Ic_fluent_arrow_download_20_filled = "\uf150";
+		public const string Ic_fluent_arrow_download_24_filled = "\uf151";
+		public const string Ic_fluent_arrow_download_48_filled = "\uf152";
+		public const string Ic_fluent_arrow_eject_20_filled = "\u00a3";
+		public const string Ic_fluent_arrow_enter_left_20_filled = "\ufbce";
+		public const string Ic_fluent_arrow_enter_left_24_filled = "\ufbcf";
+		public const string Ic_fluent_arrow_enter_up_20_filled = "\ufb2f";
+		public const string Ic_fluent_arrow_enter_up_24_filled = "\ufb30";
+		public const string Ic_fluent_arrow_expand_24_filled = "\uf154";
+		public const string Ic_fluent_arrow_export_ltr_16_filled = "\uff2f";
+		public const string Ic_fluent_arrow_export_ltr_20_filled = "\ufbd0";
+		public const string Ic_fluent_arrow_export_ltr_24_filled = "\ufbd1";
+		public const string Ic_fluent_arrow_export_rtl_16_filled = "\u00a4";
+		public const string Ic_fluent_arrow_export_rtl_20_filled = "\uf8ea";
+		public const string Ic_fluent_arrow_export_up_20_filled = "\uff30";
+		public const string Ic_fluent_arrow_export_up_24_filled = "\uff31";
+		public const string Ic_fluent_arrow_fit_16_filled = "\uf14e";
+		public const string Ic_fluent_arrow_forward_16_filled = "\uf156";
+		public const string Ic_fluent_arrow_forward_20_filled = "\uf157";
+		public const string Ic_fluent_arrow_forward_24_filled = "\uf158";
+		public const string Ic_fluent_arrow_forward_48_filled = "\ufea8";
+		public const string Ic_fluent_arrow_hook_down_left_16_filled = "\uf8ed";
+		public const string Ic_fluent_arrow_hook_down_left_20_filled = "\uf8ee";
+		public const string Ic_fluent_arrow_hook_down_left_24_filled = "\uf8ef";
+		public const string Ic_fluent_arrow_hook_down_left_28_filled = "\uf8f0";
+		public const string Ic_fluent_arrow_hook_down_right_16_filled = "\uf8f1";
+		public const string Ic_fluent_arrow_hook_down_right_20_filled = "\uf8f2";
+		public const string Ic_fluent_arrow_hook_down_right_24_filled = "\uf8f3";
+		public const string Ic_fluent_arrow_hook_down_right_28_filled = "\uf8f4";
+		public const string Ic_fluent_arrow_hook_up_left_16_filled = "\uf8f5";
+		public const string Ic_fluent_arrow_hook_up_left_20_filled = "\uf8f6";
+		public const string Ic_fluent_arrow_hook_up_left_24_filled = "\uf8f7";
+		public const string Ic_fluent_arrow_hook_up_left_28_filled = "\uf8f8";
+		public const string Ic_fluent_arrow_hook_up_right_16_filled = "\uf8f9";
+		public const string Ic_fluent_arrow_hook_up_right_20_filled = "\uf8fa";
+		public const string Ic_fluent_arrow_hook_up_right_24_filled = "\uf8fb";
+		public const string Ic_fluent_arrow_hook_up_right_28_filled = "\uf8fc";
+		public const string Ic_fluent_arrow_import_20_filled = "\uf159";
+		public const string Ic_fluent_arrow_import_24_filled = "\uf15a";
+		public const string Ic_fluent_arrow_left_12_filled = "\u00a5";
+		public const string Ic_fluent_arrow_left_16_filled = "\uf184";
+		public const string Ic_fluent_arrow_left_20_filled = "\uf15b";
+		public const string Ic_fluent_arrow_left_24_filled = "\uf15c";
+		public const string Ic_fluent_arrow_left_28_filled = "\uf15d";
+		public const string Ic_fluent_arrow_left_32_filled = "\uf189";
+		public const string Ic_fluent_arrow_left_48_filled = "\uf19e";
+		public const string Ic_fluent_arrow_maximize_16_filled = "\uf15e";
+		public const string Ic_fluent_arrow_maximize_20_filled = "\uf15f";
+		public const string Ic_fluent_arrow_maximize_24_filled = "\uf160";
+		public const string Ic_fluent_arrow_maximize_28_filled = "\uf161";
+		public const string Ic_fluent_arrow_maximize_32_filled = "\u01d6";
+		public const string Ic_fluent_arrow_maximize_vertical_20_filled = "\uf162";
+		public const string Ic_fluent_arrow_maximize_vertical_24_filled = "\uf163";
+		public const string Ic_fluent_arrow_minimize_16_filled = "\uf164";
+		public const string Ic_fluent_arrow_minimize_20_filled = "\uf165";
+		public const string Ic_fluent_arrow_minimize_24_filled = "\uf166";
+		public const string Ic_fluent_arrow_minimize_28_filled = "\uf167";
+		public const string Ic_fluent_arrow_minimize_vertical_24_filled = "\uf168";
+		public const string Ic_fluent_arrow_move_20_filled = "\uf8fd";
+		public const string Ic_fluent_arrow_move_24_filled = "\uf169";
+		public const string Ic_fluent_arrow_move_inward_20_filled = "\u00a6";
+		public const string Ic_fluent_arrow_next_20_filled = "\uf16a";
+		public const string Ic_fluent_arrow_next_24_filled = "\uf16b";
+		public const string Ic_fluent_arrow_outline_up_right_32_filled = "\u01d7";
+		public const string Ic_fluent_arrow_previous_20_filled = "\uf16c";
+		public const string Ic_fluent_arrow_previous_24_filled = "\uf16d";
+		public const string Ic_fluent_arrow_redo_16_filled = "\u00a7";
+		public const string Ic_fluent_arrow_redo_20_filled = "\uf16e";
+		public const string Ic_fluent_arrow_redo_24_filled = "\uf16f";
+		public const string Ic_fluent_arrow_redo_32_filled = "\uf8fe";
+		public const string Ic_fluent_arrow_redo_48_filled = "\uf8ff";
+		public const string Ic_fluent_arrow_repeat_all_16_filled = "\uf170";
+		public const string Ic_fluent_arrow_repeat_all_20_filled = "\uf171";
+		public const string Ic_fluent_arrow_repeat_all_24_filled = "\uf172";
+		public const string Ic_fluent_arrow_repeat_all_off_16_filled = "\uf173";
+		public const string Ic_fluent_arrow_repeat_all_off_20_filled = "\uf174";
+		public const string Ic_fluent_arrow_repeat_all_off_24_filled = "\uf175";
+		public const string Ic_fluent_arrow_reply_16_filled = "\uf176";
+		public const string Ic_fluent_arrow_reply_20_filled = "\uf177";
+		public const string Ic_fluent_arrow_reply_24_filled = "\uf178";
+		public const string Ic_fluent_arrow_reply_48_filled = "\uf179";
+		public const string Ic_fluent_arrow_reply_all_16_filled = "\uf17a";
+		public const string Ic_fluent_arrow_reply_all_20_filled = "\uf17b";
+		public const string Ic_fluent_arrow_reply_all_24_filled = "\uf17c";
+		public const string Ic_fluent_arrow_reply_all_48_filled = "\uf17d";
+		public const string Ic_fluent_arrow_reply_down_16_filled = "\uf17e";
+		public const string Ic_fluent_arrow_reply_down_20_filled = "\uf17f";
+		public const string Ic_fluent_arrow_reply_down_24_filled = "\uf180";
+		public const string Ic_fluent_arrow_reset_20_filled = "\uf19f";
+		public const string Ic_fluent_arrow_reset_24_filled = "\uf1a0";
+		public const string Ic_fluent_arrow_reset_32_filled = "\u0217";
+		public const string Ic_fluent_arrow_reset_48_filled = "\u0218";
+		public const string Ic_fluent_arrow_right_12_filled = "\u00a8";
+		public const string Ic_fluent_arrow_right_16_filled = "\ufb75";
+		public const string Ic_fluent_arrow_right_20_filled = "\uf181";
+		public const string Ic_fluent_arrow_right_24_filled = "\uf182";
+		public const string Ic_fluent_arrow_right_28_filled = "\uf183";
+		public const string Ic_fluent_arrow_right_32_filled = "\uf1a2";
+		public const string Ic_fluent_arrow_right_48_filled = "\uf1a7";
+		public const string Ic_fluent_arrow_rotate_clockwise_16_filled = "\ufff2";
+		public const string Ic_fluent_arrow_rotate_clockwise_20_filled = "\uf185";
+		public const string Ic_fluent_arrow_rotate_clockwise_24_filled = "\uf186";
+		public const string Ic_fluent_arrow_rotate_counterclockwise_20_filled = "\uf187";
+		public const string Ic_fluent_arrow_rotate_counterclockwise_24_filled = "\uf188";
+		public const string Ic_fluent_arrow_routing_20_filled = "\uff32";
+		public const string Ic_fluent_arrow_routing_24_filled = "\uff33";
+		public const string Ic_fluent_arrow_routing_rectangle_multiple_20_filled = "\uff34";
+		public const string Ic_fluent_arrow_routing_rectangle_multiple_24_filled = "\uff35";
+		public const string Ic_fluent_arrow_sort_16_filled = "\uf1ab";
+		public const string Ic_fluent_arrow_sort_20_filled = "\uf18a";
+		public const string Ic_fluent_arrow_sort_24_filled = "\uf18b";
+		public const string Ic_fluent_arrow_sort_28_filled = "\uf18c";
+		public const string Ic_fluent_arrow_sort_down_16_filled = "\uf1ac";
+		public const string Ic_fluent_arrow_sort_down_20_filled = "\uf81e";
+		public const string Ic_fluent_arrow_sort_down_24_filled = "\uf82a";
+		public const string Ic_fluent_arrow_sort_down_line_20_filled = "\ufff3";
+		public const string Ic_fluent_arrow_sort_down_lines_16_filled = "\uf1ad";
+		public const string Ic_fluent_arrow_sort_up_16_filled = "\uf1b3";
+		public const string Ic_fluent_arrow_sort_up_20_filled = "\uf82b";
+		public const string Ic_fluent_arrow_sort_up_24_filled = "\uf83a";
+		public const string Ic_fluent_arrow_split_20_filled = "\ufff4";
+		public const string Ic_fluent_arrow_square_down_24_filled = "\ufbd2";
+		public const string Ic_fluent_arrow_step_back_16_filled = "\ufda9";
+		public const string Ic_fluent_arrow_step_in_12_filled = "\u00a9";
+		public const string Ic_fluent_arrow_step_in_16_filled = "\ufdaa";
+		public const string Ic_fluent_arrow_step_in_left_12_filled = "\u00aa";
+		public const string Ic_fluent_arrow_step_in_left_16_filled = "\u00ab";
+		public const string Ic_fluent_arrow_step_in_right_12_filled = "\u00ac";
+		public const string Ic_fluent_arrow_step_in_right_16_filled = "\u00ad";
+		public const string Ic_fluent_arrow_step_out_12_filled = "\u00ae";
+		public const string Ic_fluent_arrow_step_out_16_filled = "\ufdab";
+		public const string Ic_fluent_arrow_step_over_16_filled = "\ufdac";
+		public const string Ic_fluent_arrow_swap_20_filled = "\uf18d";
+		public const string Ic_fluent_arrow_swap_24_filled = "\uf18e";
+		public const string Ic_fluent_arrow_sync_12_filled = "\uf18f";
+		public const string Ic_fluent_arrow_sync_16_filled = "\ufea9";
+		public const string Ic_fluent_arrow_sync_20_filled = "\uf190";
+		public const string Ic_fluent_arrow_sync_24_filled = "\uf191";
+		public const string Ic_fluent_arrow_sync_circle_16_filled = "\uf192";
+		public const string Ic_fluent_arrow_sync_circle_20_filled = "\uf193";
+		public const string Ic_fluent_arrow_sync_circle_24_filled = "\uf194";
+		public const string Ic_fluent_arrow_sync_off_12_filled = "\uf195";
+		public const string Ic_fluent_arrow_sync_off_16_filled = "\u00af";
+		public const string Ic_fluent_arrow_sync_off_20_filled = "\u00b0";
+		public const string Ic_fluent_arrow_trending_16_filled = "\uf196";
+		public const string Ic_fluent_arrow_trending_20_filled = "\uf197";
+		public const string Ic_fluent_arrow_trending_24_filled = "\uf198";
+		public const string Ic_fluent_arrow_trending_checkmark_20_filled = "\u0132";
+		public const string Ic_fluent_arrow_trending_checkmark_24_filled = "\u0133";
+		public const string Ic_fluent_arrow_trending_lines_20_filled = "\u0049";
+		public const string Ic_fluent_arrow_trending_lines_24_filled = "\u004a";
+		public const string Ic_fluent_arrow_trending_settings_20_filled = "\u0134";
+		public const string Ic_fluent_arrow_trending_settings_24_filled = "\u0135";
+		public const string Ic_fluent_arrow_turn_bidirectional_down_right_24_filled = "\uf83b";
+		public const string Ic_fluent_arrow_turn_right_24_filled = "\uf851";
+		public const string Ic_fluent_arrow_undo_16_filled = "\ufb76";
+		public const string Ic_fluent_arrow_undo_20_filled = "\uf199";
+		public const string Ic_fluent_arrow_undo_24_filled = "\uf19a";
+		public const string Ic_fluent_arrow_undo_32_filled = "\ufbd3";
+		public const string Ic_fluent_arrow_undo_48_filled = "\ufbd4";
+		public const string Ic_fluent_arrow_up_12_filled = "\u00b1";
+		public const string Ic_fluent_arrow_up_16_filled = "\uf1b4";
+		public const string Ic_fluent_arrow_up_20_filled = "\uf19b";
+		public const string Ic_fluent_arrow_up_24_filled = "\uf19c";
+		public const string Ic_fluent_arrow_up_28_filled = "\uf19d";
+		public const string Ic_fluent_arrow_up_32_filled = "\uf1b8";
+		public const string Ic_fluent_arrow_up_48_filled = "\uf1b9";
+		public const string Ic_fluent_arrow_up_left_16_filled = "\ufb77";
+		public const string Ic_fluent_arrow_up_left_20_filled = "\ufb78";
+		public const string Ic_fluent_arrow_up_left_24_filled = "\uf1a1";
+		public const string Ic_fluent_arrow_up_right_16_filled = "\uf903";
+		public const string Ic_fluent_arrow_up_right_20_filled = "\ufdad";
+		public const string Ic_fluent_arrow_up_right_24_filled = "\uf1a3";
+		public const string Ic_fluent_arrow_up_right_32_filled = "\u01d8";
+		public const string Ic_fluent_arrow_upload_16_filled = "\ufe43";
+		public const string Ic_fluent_arrow_upload_20_filled = "\uf1a4";
+		public const string Ic_fluent_arrow_upload_24_filled = "\uf1a5";
+		public const string Ic_fluent_arrow_wrap_20_filled = "\u0114";
+		public const string Ic_fluent_arrow_wrap_off_20_filled = "\u0115";
+		public const string Ic_fluent_arrows_bidirectional_24_filled = "\uf1a6";
+		public const string Ic_fluent_attach_12_filled = "\ufe44";
+		public const string Ic_fluent_attach_16_filled = "\uf1a8";
+		public const string Ic_fluent_attach_20_filled = "\uf1a9";
+		public const string Ic_fluent_attach_24_filled = "\uf1aa";
+		public const string Ic_fluent_attach_arrow_right_20_filled = "\uf904";
+		public const string Ic_fluent_attach_arrow_right_24_filled = "\uf905";
+		public const string Ic_fluent_attach_text_24_filled = "\uf906";
+		public const string Ic_fluent_auto_fit_height_24_filled = "\ufbd7";
+		public const string Ic_fluent_auto_fit_width_24_filled = "\ufbd8";
+		public const string Ic_fluent_autocorrect_24_filled = "\uf1ae";
+		public const string Ic_fluent_autosum_20_filled = "\uf1af";
+		public const string Ic_fluent_autosum_24_filled = "\uf1b0";
+		public const string Ic_fluent_backpack_12_filled = "\uf908";
+		public const string Ic_fluent_backpack_16_filled = "\uf909";
+		public const string Ic_fluent_backpack_20_filled = "\uf90a";
+		public const string Ic_fluent_backpack_24_filled = "\uf90b";
+		public const string Ic_fluent_backpack_28_filled = "\uf90c";
+		public const string Ic_fluent_backpack_32_filled = "\ufdae";
+		public const string Ic_fluent_backpack_48_filled = "\uf90d";
+		public const string Ic_fluent_backpack_add_20_filled = "\ufb79";
+		public const string Ic_fluent_backpack_add_24_filled = "\ufb7a";
+		public const string Ic_fluent_backpack_add_28_filled = "\ufb7b";
+		public const string Ic_fluent_backpack_add_48_filled = "\ufb7c";
+		public const string Ic_fluent_backspace_20_filled = "\uf1b1";
+		public const string Ic_fluent_backspace_24_filled = "\uf1b2";
+		public const string Ic_fluent_badge_24_filled = "\uf1b5";
+		public const string Ic_fluent_balloon_12_filled = "\u0136";
+		public const string Ic_fluent_balloon_16_filled = "\uf90e";
+		public const string Ic_fluent_balloon_20_filled = "\uf1b6";
+		public const string Ic_fluent_balloon_24_filled = "\uf1b7";
+		public const string Ic_fluent_barcode_scanner_20_filled = "\uf1ba";
+		public const string Ic_fluent_barcode_scanner_24_filled = "\uf1e4";
+		public const string Ic_fluent_battery_0_20_filled = "\uf1bb";
+		public const string Ic_fluent_battery_0_24_filled = "\uf1bc";
+		public const string Ic_fluent_battery_1_20_filled = "\uf1bd";
+		public const string Ic_fluent_battery_1_24_filled = "\uf1be";
+		public const string Ic_fluent_battery_2_20_filled = "\uf1bf";
+		public const string Ic_fluent_battery_2_24_filled = "\uf1c0";
+		public const string Ic_fluent_battery_3_20_filled = "\uf1c1";
+		public const string Ic_fluent_battery_3_24_filled = "\uf1c2";
+		public const string Ic_fluent_battery_4_20_filled = "\uf1c3";
+		public const string Ic_fluent_battery_4_24_filled = "\uf1c4";
+		public const string Ic_fluent_battery_5_20_filled = "\uf1c5";
+		public const string Ic_fluent_battery_5_24_filled = "\uf1c6";
+		public const string Ic_fluent_battery_6_20_filled = "\uf1c7";
+		public const string Ic_fluent_battery_6_24_filled = "\uf1c8";
+		public const string Ic_fluent_battery_7_20_filled = "\uf1c9";
+		public const string Ic_fluent_battery_7_24_filled = "\uf1ca";
+		public const string Ic_fluent_battery_8_20_filled = "\uf1cb";
+		public const string Ic_fluent_battery_8_24_filled = "\uf1cc";
+		public const string Ic_fluent_battery_9_20_filled = "\uf1cd";
+		public const string Ic_fluent_battery_9_24_filled = "\uf1ce";
+		public const string Ic_fluent_battery_charge_20_filled = "\uf1cf";
+		public const string Ic_fluent_battery_charge_24_filled = "\uf1d0";
+		public const string Ic_fluent_battery_checkmark_24_filled = "\ufff5";
+		public const string Ic_fluent_battery_full_20_filled = "\uf1d1";
+		public const string Ic_fluent_battery_full_24_filled = "\uf1d2";
+		public const string Ic_fluent_battery_saver_20_filled = "\uf1d3";
+		public const string Ic_fluent_battery_saver_24_filled = "\uf1d4";
+		public const string Ic_fluent_battery_warning_24_filled = "\uf1d5";
+		public const string Ic_fluent_beach_16_filled = "\ufd1e";
+		public const string Ic_fluent_beach_20_filled = "\ufd1f";
+		public const string Ic_fluent_beach_24_filled = "\ufd20";
+		public const string Ic_fluent_beach_28_filled = "\ufd21";
+		public const string Ic_fluent_beaker_16_filled = "\uf1d6";
+		public const string Ic_fluent_beaker_20_filled = "\uf1d7";
+		public const string Ic_fluent_beaker_24_filled = "\uf1d8";
+		public const string Ic_fluent_beaker_edit_20_filled = "\uf1e5";
+		public const string Ic_fluent_beaker_edit_24_filled = "\uf1e6";
+		public const string Ic_fluent_bed_16_filled = "\uf90f";
+		public const string Ic_fluent_bed_20_filled = "\uf1d9";
+		public const string Ic_fluent_bed_24_filled = "\uf1da";
+		public const string Ic_fluent_bezier_curve_square_12_filled = "\u00b2";
+		public const string Ic_fluent_bin_full_20_filled = "\uff36";
+		public const string Ic_fluent_bin_full_24_filled = "\uff37";
+		public const string Ic_fluent_block_16_filled = "\uf1db";
+		public const string Ic_fluent_block_20_filled = "\uf1dc";
+		public const string Ic_fluent_block_24_filled = "\uf1dd";
+		public const string Ic_fluent_bluetooth_20_filled = "\uf1de";
+		public const string Ic_fluent_bluetooth_24_filled = "\uf1df";
+		public const string Ic_fluent_bluetooth_28_filled = "\uf910";
+		public const string Ic_fluent_bluetooth_connected_24_filled = "\uf1e0";
+		public const string Ic_fluent_bluetooth_disabled_24_filled = "\uf1e1";
+		public const string Ic_fluent_bluetooth_searching_24_filled = "\uf1e2";
+		public const string Ic_fluent_blur_16_filled = "\uf911";
+		public const string Ic_fluent_blur_20_filled = "\uf912";
+		public const string Ic_fluent_blur_24_filled = "\uf913";
+		public const string Ic_fluent_blur_28_filled = "\uf914";
+		public const string Ic_fluent_board_16_filled = "\ufe45";
+		public const string Ic_fluent_board_20_filled = "\ufe46";
+		public const string Ic_fluent_board_24_filled = "\uf1e3";
+		public const string Ic_fluent_board_28_filled = "\ufe47";
+		public const string Ic_fluent_board_split_16_filled = "\ufe48";
+		public const string Ic_fluent_board_split_20_filled = "\ufe49";
+		public const string Ic_fluent_board_split_24_filled = "\ufe4a";
+		public const string Ic_fluent_board_split_28_filled = "\ufe4b";
+		public const string Ic_fluent_board_split_48_filled = "\ufe4c";
+		public const string Ic_fluent_book_20_filled = "\uf915";
+		public const string Ic_fluent_book_24_filled = "\uf916";
+		public const string Ic_fluent_book_add_20_filled = "\uf917";
+		public const string Ic_fluent_book_add_24_filled = "\uf918";
+		public const string Ic_fluent_book_clock_24_filled = "\uf919";
+		public const string Ic_fluent_book_coins_24_filled = "\uf91a";
+		public const string Ic_fluent_book_compass_24_filled = "\uf91b";
+		public const string Ic_fluent_book_contacts_20_filled = "\ufccc";
+		public const string Ic_fluent_book_contacts_24_filled = "\ufccd";
+		public const string Ic_fluent_book_contacts_28_filled = "\ufcce";
+		public const string Ic_fluent_book_contacts_32_filled = "\ufdaf";
+		public const string Ic_fluent_book_database_24_filled = "\uf91c";
+		public const string Ic_fluent_book_exclamation_mark_24_filled = "\uf91d";
+		public const string Ic_fluent_book_globe_24_filled = "\uf1f0";
+		public const string Ic_fluent_book_information_24_filled = "\uf91e";
+		public const string Ic_fluent_book_letter_24_filled = "\uf91f";
+		public const string Ic_fluent_book_number_16_filled = "\uf1f1";
+		public const string Ic_fluent_book_number_20_filled = "\uf1f2";
+		public const string Ic_fluent_book_number_24_filled = "\uf1f3";
+		public const string Ic_fluent_book_open_16_filled = "\ufff6";
+		public const string Ic_fluent_book_open_20_filled = "\uf920";
+		public const string Ic_fluent_book_open_24_filled = "\uf921";
+		public const string Ic_fluent_book_open_28_filled = "\ufeaa";
+		public const string Ic_fluent_book_open_32_filled = "\ufeab";
+		public const string Ic_fluent_book_open_48_filled = "\ufeac";
+		public const string Ic_fluent_book_open_globe_20_filled = "\ufccf";
+		public const string Ic_fluent_book_open_globe_24_filled = "\uf922";
+		public const string Ic_fluent_book_open_microphone_20_filled = "\ufead";
+		public const string Ic_fluent_book_open_microphone_24_filled = "\ufeae";
+		public const string Ic_fluent_book_open_microphone_28_filled = "\ufeaf";
+		public const string Ic_fluent_book_open_microphone_32_filled = "\ufeb0";
+		public const string Ic_fluent_book_open_microphone_48_filled = "\ufeb1";
+		public const string Ic_fluent_book_pulse_24_filled = "\uf923";
+		public const string Ic_fluent_book_question_mark_24_filled = "\uf924";
+		public const string Ic_fluent_book_question_mark_rtl_24_filled = "\uf852";
+		public const string Ic_fluent_book_search_24_filled = "\uf925";
+		public const string Ic_fluent_book_star_24_filled = "\uf926";
+		public const string Ic_fluent_book_theta_24_filled = "\uf927";
+		public const string Ic_fluent_book_toolbox_20_filled = "\uf1e7";
+		public const string Ic_fluent_book_toolbox_24_filled = "\uff38";
+		public const string Ic_fluent_bookmark_16_filled = "\uf1f4";
+		public const string Ic_fluent_bookmark_20_filled = "\uf1f5";
+		public const string Ic_fluent_bookmark_24_filled = "\uf1f6";
+		public const string Ic_fluent_bookmark_28_filled = "\uf1f7";
+		public const string Ic_fluent_bookmark_32_filled = "\ufdb0";
+		public const string Ic_fluent_bookmark_add_20_filled = "\uf1e8";
+		public const string Ic_fluent_bookmark_add_24_filled = "\uf1e9";
+		public const string Ic_fluent_bookmark_multiple_20_filled = "\ufb31";
+		public const string Ic_fluent_bookmark_multiple_24_filled = "\ufdb1";
+		public const string Ic_fluent_bookmark_off_24_filled = "\uf1f8";
+		public const string Ic_fluent_bookmark_search_20_filled = "\u0259";
+		public const string Ic_fluent_bookmark_search_24_filled = "\u025a";
+		public const string Ic_fluent_border_24_filled = "\ufbd9";
+		public const string Ic_fluent_border_all_16_filled = "\u00b3";
+		public const string Ic_fluent_border_all_20_filled = "\u00b4";
+		public const string Ic_fluent_border_all_24_filled = "\uf928";
+		public const string Ic_fluent_border_bottom_24_filled = "\uf929";
+		public const string Ic_fluent_border_bottom_double_24_filled = "\uf92a";
+		public const string Ic_fluent_border_bottom_thick_24_filled = "\uf92b";
+		public const string Ic_fluent_border_left_24_filled = "\uf92c";
+		public const string Ic_fluent_border_outside_24_filled = "\uf92e";
+		public const string Ic_fluent_border_outside_thick_24_filled = "\uf92f";
+		public const string Ic_fluent_border_right_24_filled = "\uf930";
+		public const string Ic_fluent_border_top_24_filled = "\uf931";
+		public const string Ic_fluent_border_top_bottom_24_filled = "\uf932";
+		public const string Ic_fluent_border_top_bottom_double_24_filled = "\uf933";
+		public const string Ic_fluent_border_top_bottom_thick_24_filled = "\uf934";
+		public const string Ic_fluent_bot_20_filled = "\ufb7d";
+		public const string Ic_fluent_bot_24_filled = "\uf1f9";
+		public const string Ic_fluent_bot_add_20_filled = "\ufd94";
+		public const string Ic_fluent_bot_add_24_filled = "\uf1fa";
+		public const string Ic_fluent_bowl_chopsticks_16_filled = "\uf1ea";
+		public const string Ic_fluent_bowl_chopsticks_20_filled = "\uf1eb";
+		public const string Ic_fluent_bowl_chopsticks_24_filled = "\uf1ec";
+		public const string Ic_fluent_bowl_chopsticks_28_filled = "\uf1ed";
+		public const string Ic_fluent_box_16_filled = "\uff39";
+		public const string Ic_fluent_box_20_filled = "\u0219";
+		public const string Ic_fluent_box_24_filled = "\u021a";
+		public const string Ic_fluent_box_dismiss_20_filled = "\u021b";
+		public const string Ic_fluent_box_dismiss_24_filled = "\u021c";
+		public const string Ic_fluent_box_edit_20_filled = "\u01d9";
+		public const string Ic_fluent_box_edit_24_filled = "\u01da";
+		public const string Ic_fluent_box_toolbox_20_filled = "\u01db";
+		public const string Ic_fluent_box_toolbox_24_filled = "\u01dc";
+		public const string Ic_fluent_braces_20_filled = "\u00b5";
+		public const string Ic_fluent_braces_variable_20_filled = "\uff3a";
+		public const string Ic_fluent_braces_variable_24_filled = "\uff3b";
+		public const string Ic_fluent_brain_circuit_20_filled = "\uf1ee";
+		public const string Ic_fluent_brain_circuit_24_filled = "\uf853";
+		public const string Ic_fluent_branch_24_filled = "\uf1fb";
+		public const string Ic_fluent_branch_compare_16_filled = "\ufdb2";
+		public const string Ic_fluent_branch_compare_20_filled = "\ufdb3";
+		public const string Ic_fluent_branch_compare_24_filled = "\ufdb4";
+		public const string Ic_fluent_branch_fork_16_filled = "\ufdb5";
+		public const string Ic_fluent_branch_fork_20_filled = "\ufdb6";
+		public const string Ic_fluent_branch_fork_24_filled = "\ufdb7";
+		public const string Ic_fluent_breakout_room_20_filled = "\ufbb4";
+		public const string Ic_fluent_briefcase_12_filled = "\uf935";
+		public const string Ic_fluent_briefcase_16_filled = "\uff3c";
+		public const string Ic_fluent_briefcase_20_filled = "\uf1fc";
+		public const string Ic_fluent_briefcase_24_filled = "\uf1fd";
+		public const string Ic_fluent_briefcase_28_filled = "\ufb32";
+		public const string Ic_fluent_briefcase_32_filled = "\uf936";
+		public const string Ic_fluent_briefcase_48_filled = "\ufb33";
+		public const string Ic_fluent_briefcase_medical_16_filled = "\uff3d";
+		public const string Ic_fluent_briefcase_medical_20_filled = "\uf1ef";
+		public const string Ic_fluent_briefcase_medical_24_filled = "\ufbda";
+		public const string Ic_fluent_briefcase_medical_32_filled = "\ufbdb";
+		public const string Ic_fluent_briefcase_off_16_filled = "\ufeb2";
+		public const string Ic_fluent_briefcase_off_20_filled = "\ufeb3";
+		public const string Ic_fluent_briefcase_off_24_filled = "\ufeb4";
+		public const string Ic_fluent_briefcase_off_28_filled = "\ufeb5";
+		public const string Ic_fluent_briefcase_off_32_filled = "\ufeb6";
+		public const string Ic_fluent_briefcase_off_48_filled = "\ufeb7";
+		public const string Ic_fluent_broad_activity_feed_16_filled = "\ufff7";
+		public const string Ic_fluent_broad_activity_feed_20_filled = "\ufff8";
+		public const string Ic_fluent_broad_activity_feed_24_filled = "\uf200";
+		public const string Ic_fluent_broom_16_filled = "\uf1fe";
+		public const string Ic_fluent_broom_20_filled = "\uf201";
+		public const string Ic_fluent_broom_24_filled = "\uf202";
+		public const string Ic_fluent_bug_16_filled = "\uf939";
+		public const string Ic_fluent_bug_20_filled = "\uf93a";
+		public const string Ic_fluent_bug_24_filled = "\uf93b";
+		public const string Ic_fluent_building_16_filled = "\ufd22";
+		public const string Ic_fluent_building_20_filled = "\ufb34";
+		public const string Ic_fluent_building_24_filled = "\uf205";
+		public const string Ic_fluent_building_bank_16_filled = "\uf93c";
+		public const string Ic_fluent_building_bank_20_filled = "\uf93d";
+		public const string Ic_fluent_building_bank_24_filled = "\uf93e";
+		public const string Ic_fluent_building_bank_28_filled = "\ufeb8";
+		public const string Ic_fluent_building_bank_48_filled = "\ufeb9";
+		public const string Ic_fluent_building_bank_link_16_filled = "\ufeba";
+		public const string Ic_fluent_building_bank_link_20_filled = "\ufebb";
+		public const string Ic_fluent_building_bank_link_24_filled = "\ufebc";
+		public const string Ic_fluent_building_bank_link_28_filled = "\ufebd";
+		public const string Ic_fluent_building_bank_link_48_filled = "\ufebe";
+		public const string Ic_fluent_building_bank_toolbox_20_filled = "\uf1ff";
+		public const string Ic_fluent_building_bank_toolbox_24_filled = "\uf854";
+		public const string Ic_fluent_building_factory_16_filled = "\u025b";
+		public const string Ic_fluent_building_factory_20_filled = "\u025c";
+		public const string Ic_fluent_building_factory_24_filled = "\ufbdc";
+		public const string Ic_fluent_building_factory_28_filled = "\u025d";
+		public const string Ic_fluent_building_factory_32_filled = "\u025e";
+		public const string Ic_fluent_building_factory_48_filled = "\u025f";
+		public const string Ic_fluent_building_government_24_filled = "\uf93f";
+		public const string Ic_fluent_building_government_32_filled = "\uf940";
+		public const string Ic_fluent_building_lighthouse_20_filled = "\u00b6";
+		public const string Ic_fluent_building_multiple_24_filled = "\uf941";
+		public const string Ic_fluent_building_retail_20_filled = "\uff3e";
+		public const string Ic_fluent_building_retail_24_filled = "\uf209";
+		public const string Ic_fluent_building_retail_money_20_filled = "\uff3f";
+		public const string Ic_fluent_building_retail_money_24_filled = "\uff40";
+		public const string Ic_fluent_building_retail_shield_20_filled = "\uff41";
+		public const string Ic_fluent_building_retail_shield_24_filled = "\uff42";
+		public const string Ic_fluent_building_retail_toolbox_20_filled = "\uff43";
+		public const string Ic_fluent_building_retail_toolbox_24_filled = "\uff44";
+		public const string Ic_fluent_building_shop_16_filled = "\uf942";
+		public const string Ic_fluent_building_shop_20_filled = "\uf943";
+		public const string Ic_fluent_building_shop_24_filled = "\uf944";
+		public const string Ic_fluent_building_skyscraper_16_filled = "\uf945";
+		public const string Ic_fluent_building_skyscraper_20_filled = "\uf946";
+		public const string Ic_fluent_building_skyscraper_24_filled = "\uf947";
+		public const string Ic_fluent_calculator_20_filled = "\uf20a";
+		public const string Ic_fluent_calculator_24_filled = "\ufe24";
+		public const string Ic_fluent_calculator_multiple_20_filled = "\uff45";
+		public const string Ic_fluent_calculator_multiple_24_filled = "\uff46";
+		public const string Ic_fluent_calendar_3_day_16_filled = "\uff47";
+		public const string Ic_fluent_calendar_3_day_20_filled = "\uf20e";
+		public const string Ic_fluent_calendar_3_day_24_filled = "\uf20f";
+		public const string Ic_fluent_calendar_3_day_28_filled = "\uf210";
+		public const string Ic_fluent_calendar_add_20_filled = "\uf211";
+		public const string Ic_fluent_calendar_add_24_filled = "\uf212";
+		public const string Ic_fluent_calendar_agenda_20_filled = "\uf213";
+		public const string Ic_fluent_calendar_agenda_24_filled = "\uf214";
+		public const string Ic_fluent_calendar_agenda_28_filled = "\uf215";
+		public const string Ic_fluent_calendar_arrow_down_24_filled = "\ufbdd";
+		public const string Ic_fluent_calendar_arrow_right_16_filled = "\uff48";
+		public const string Ic_fluent_calendar_arrow_right_20_filled = "\uf216";
+		public const string Ic_fluent_calendar_assistant_16_filled = "\u00b7";
+		public const string Ic_fluent_calendar_assistant_20_filled = "\uf217";
+		public const string Ic_fluent_calendar_assistant_24_filled = "\uf218";
+		public const string Ic_fluent_calendar_cancel_16_filled = "\uf948";
+		public const string Ic_fluent_calendar_cancel_20_filled = "\uf219";
+		public const string Ic_fluent_calendar_cancel_24_filled = "\uf21a";
+		public const string Ic_fluent_calendar_chat_20_filled = "\u0260";
+		public const string Ic_fluent_calendar_chat_24_filled = "\u0261";
+		public const string Ic_fluent_calendar_checkmark_16_filled = "\uf21b";
+		public const string Ic_fluent_calendar_checkmark_20_filled = "\uf21c";
+		public const string Ic_fluent_calendar_checkmark_24_filled = "\uf8e1";
+		public const string Ic_fluent_calendar_checkmark_28_filled = "\uf877";
+		public const string Ic_fluent_calendar_clock_16_filled = "\uf949";
+		public const string Ic_fluent_calendar_clock_20_filled = "\uf21d";
+		public const string Ic_fluent_calendar_clock_24_filled = "\uf21e";
+		public const string Ic_fluent_calendar_day_16_filled = "\uff49";
+		public const string Ic_fluent_calendar_day_20_filled = "\uf222";
+		public const string Ic_fluent_calendar_day_24_filled = "\uf223";
+		public const string Ic_fluent_calendar_day_28_filled = "\uf224";
+		public const string Ic_fluent_calendar_edit_16_filled = "\ufd23";
+		public const string Ic_fluent_calendar_edit_20_filled = "\ufd24";
+		public const string Ic_fluent_calendar_edit_24_filled = "\ufd25";
+		public const string Ic_fluent_calendar_empty_16_filled = "\uf225";
+		public const string Ic_fluent_calendar_empty_20_filled = "\uf226";
+		public const string Ic_fluent_calendar_empty_24_filled = "\uf227";
+		public const string Ic_fluent_calendar_empty_28_filled = "\uf228";
+		public const string Ic_fluent_calendar_empty_32_filled = "\ufe4d";
+		public const string Ic_fluent_calendar_error_24_filled = "\u004b";
+		public const string Ic_fluent_calendar_info_16_filled = "\uf203";
+		public const string Ic_fluent_calendar_info_20_filled = "\uff4a";
+		public const string Ic_fluent_calendar_ltr_12_filled = "\ufe4e";
+		public const string Ic_fluent_calendar_ltr_16_filled = "\ufdb8";
+		public const string Ic_fluent_calendar_ltr_20_filled = "\ufd26";
+		public const string Ic_fluent_calendar_ltr_24_filled = "\ufd27";
+		public const string Ic_fluent_calendar_ltr_28_filled = "\ufd28";
+		public const string Ic_fluent_calendar_ltr_32_filled = "\ufdb9";
+		public const string Ic_fluent_calendar_mail_16_filled = "\ufebf";
+		public const string Ic_fluent_calendar_mention_20_filled = "\uf94a";
+		public const string Ic_fluent_calendar_month_20_filled = "\uf22a";
+		public const string Ic_fluent_calendar_month_24_filled = "\uf22b";
+		public const string Ic_fluent_calendar_month_28_filled = "\uf22c";
+		public const string Ic_fluent_calendar_multiple_16_filled = "\uf204";
+		public const string Ic_fluent_calendar_multiple_20_filled = "\uf22d";
+		public const string Ic_fluent_calendar_multiple_24_filled = "\uf22e";
+		public const string Ic_fluent_calendar_multiple_32_filled = "\ufe4f";
+		public const string Ic_fluent_calendar_pattern_20_filled = "\ufff9";
+		public const string Ic_fluent_calendar_patterns_16_filled = "\uf206";
+		public const string Ic_fluent_calendar_person_16_filled = "\ufffa";
+		public const string Ic_fluent_calendar_person_20_filled = "\uf230";
+		public const string Ic_fluent_calendar_person_24_filled = "\uf94b";
+		public const string Ic_fluent_calendar_phone_16_filled = "\ufffb";
+		public const string Ic_fluent_calendar_phone_20_filled = "\ufffc";
+		public const string Ic_fluent_calendar_question_mark_16_filled = "\uf94c";
+		public const string Ic_fluent_calendar_question_mark_20_filled = "\uf94d";
+		public const string Ic_fluent_calendar_question_mark_24_filled = "\uf94e";
+		public const string Ic_fluent_calendar_reply_16_filled = "\uf231";
+		public const string Ic_fluent_calendar_reply_20_filled = "\uf232";
+		public const string Ic_fluent_calendar_reply_24_filled = "\uf233";
+		public const string Ic_fluent_calendar_reply_28_filled = "\uf234";
+		public const string Ic_fluent_calendar_rtl_12_filled = "\ufec0";
+		public const string Ic_fluent_calendar_rtl_16_filled = "\ufec1";
+		public const string Ic_fluent_calendar_rtl_20_filled = "\ufd29";
+		public const string Ic_fluent_calendar_rtl_24_filled = "\ufd2a";
+		public const string Ic_fluent_calendar_rtl_28_filled = "\ufd2b";
+		public const string Ic_fluent_calendar_rtl_32_filled = "\ufdba";
+		public const string Ic_fluent_calendar_search_16_filled = "\uf878";
+		public const string Ic_fluent_calendar_search_20_filled = "\ufffd";
+		public const string Ic_fluent_calendar_settings_16_filled = "\uff4b";
+		public const string Ic_fluent_calendar_settings_20_filled = "\uf235";
+		public const string Ic_fluent_calendar_star_16_filled = "\ufffe";
+		public const string Ic_fluent_calendar_star_20_filled = "\uf236";
+		public const string Ic_fluent_calendar_star_24_filled = "\uf237";
+		public const string Ic_fluent_calendar_sync_16_filled = "\uf238";
+		public const string Ic_fluent_calendar_sync_20_filled = "\uf239";
+		public const string Ic_fluent_calendar_sync_24_filled = "\uf23a";
+		public const string Ic_fluent_calendar_today_16_filled = "\uf23b";
+		public const string Ic_fluent_calendar_today_20_filled = "\uf23c";
+		public const string Ic_fluent_calendar_today_24_filled = "\uf23d";
+		public const string Ic_fluent_calendar_today_28_filled = "\uf23e";
+		public const string Ic_fluent_calendar_toolbox_20_filled = "\u0262";
+		public const string Ic_fluent_calendar_toolbox_24_filled = "\u0263";
+		public const string Ic_fluent_calendar_week_numbers_24_filled = "\uf23f";
+		public const string Ic_fluent_calendar_week_start_20_filled = "\uf240";
+		public const string Ic_fluent_calendar_week_start_24_filled = "\uf241";
+		public const string Ic_fluent_calendar_week_start_28_filled = "\uf242";
+		public const string Ic_fluent_calendar_work_week_16_filled = "\uf243";
+		public const string Ic_fluent_calendar_work_week_20_filled = "\uf244";
+		public const string Ic_fluent_calendar_work_week_24_filled = "\uf245";
+		public const string Ic_fluent_calendar_work_week_28_filled = "\u0137";
+		public const string Ic_fluent_call_16_filled = "\ufbde";
+		public const string Ic_fluent_call_20_filled = "\ufbdf";
+		public const string Ic_fluent_call_24_filled = "\ufbe0";
+		public const string Ic_fluent_call_28_filled = "\ufbe1";
+		public const string Ic_fluent_call_32_filled = "\ufdbb";
+		public const string Ic_fluent_call_48_filled = "\u0184";
+		public const string Ic_fluent_call_add_24_filled = "\uf246";
+		public const string Ic_fluent_call_checkmark_20_filled = "\uf207";
+		public const string Ic_fluent_call_checkmark_24_filled = "\uff4c";
+		public const string Ic_fluent_call_connecting_20_filled = "\ufb7e";
+		public const string Ic_fluent_call_dismiss_20_filled = "\uf208";
+		public const string Ic_fluent_call_dismiss_24_filled = "\uf20b";
+		public const string Ic_fluent_call_end_16_filled = "\uff4d";
+		public const string Ic_fluent_call_end_20_filled = "\uf247";
+		public const string Ic_fluent_call_end_24_filled = "\uf248";
+		public const string Ic_fluent_call_end_28_filled = "\uf249";
+		public const string Ic_fluent_call_exclamation_20_filled = "\ufb7f";
+		public const string Ic_fluent_call_forward_16_filled = "\uf954";
+		public const string Ic_fluent_call_forward_20_filled = "\uf955";
+		public const string Ic_fluent_call_forward_24_filled = "\uf24a";
+		public const string Ic_fluent_call_forward_28_filled = "\uf956";
+		public const string Ic_fluent_call_forward_48_filled = "\uf957";
+		public const string Ic_fluent_call_inbound_16_filled = "\uf24b";
+		public const string Ic_fluent_call_inbound_20_filled = "\uf958";
+		public const string Ic_fluent_call_inbound_24_filled = "\uf24c";
+		public const string Ic_fluent_call_inbound_28_filled = "\uf959";
+		public const string Ic_fluent_call_inbound_48_filled = "\uf95a";
+		public const string Ic_fluent_call_missed_16_filled = "\uf24d";
+		public const string Ic_fluent_call_missed_20_filled = "\ufbe2";
+		public const string Ic_fluent_call_missed_24_filled = "\uf24e";
+		public const string Ic_fluent_call_missed_28_filled = "\uf95b";
+		public const string Ic_fluent_call_missed_48_filled = "\uf95c";
+		public const string Ic_fluent_call_outbound_16_filled = "\uf24f";
+		public const string Ic_fluent_call_outbound_20_filled = "\uf95d";
+		public const string Ic_fluent_call_outbound_24_filled = "\uf250";
+		public const string Ic_fluent_call_outbound_28_filled = "\uf95e";
+		public const string Ic_fluent_call_outbound_48_filled = "\uf95f";
+		public const string Ic_fluent_call_park_16_filled = "\uf960";
+		public const string Ic_fluent_call_park_20_filled = "\uf961";
+		public const string Ic_fluent_call_park_24_filled = "\uf251";
+		public const string Ic_fluent_call_park_28_filled = "\uf962";
+		public const string Ic_fluent_call_park_32_filled = "\uf879";
+		public const string Ic_fluent_call_park_48_filled = "\uf963";
+		public const string Ic_fluent_call_pause_20_filled = "\uf20c";
+		public const string Ic_fluent_call_pause_24_filled = "\uf20d";
+		public const string Ic_fluent_call_prohibited_16_filled = "\ufbe3";
+		public const string Ic_fluent_call_prohibited_20_filled = "\ufbe4";
+		public const string Ic_fluent_call_prohibited_24_filled = "\ufbe5";
+		public const string Ic_fluent_call_prohibited_28_filled = "\ufbe6";
+		public const string Ic_fluent_call_prohibited_48_filled = "\ufbe7";
+		public const string Ic_fluent_call_transfer_20_filled = "\ufb80";
+		public const string Ic_fluent_calligraphy_pen_20_filled = "\uf252";
+		public const string Ic_fluent_calligraphy_pen_24_filled = "\uf253";
+		public const string Ic_fluent_calligraphy_pen_checkmark_20_filled = "\ufcd0";
+		public const string Ic_fluent_calligraphy_pen_error_20_filled = "\ufdbc";
+		public const string Ic_fluent_calligraphy_pen_question_mark_20_filled = "\ufcd1";
+		public const string Ic_fluent_camera_16_filled = "\ufe25";
+		public const string Ic_fluent_camera_20_filled = "\uf254";
+		public const string Ic_fluent_camera_24_filled = "\uf255";
+		public const string Ic_fluent_camera_28_filled = "\uf256";
+		public const string Ic_fluent_camera_add_20_filled = "\uf257";
+		public const string Ic_fluent_camera_add_24_filled = "\uf258";
+		public const string Ic_fluent_camera_add_48_filled = "\uf259";
+		public const string Ic_fluent_camera_dome_16_filled = "\uff4e";
+		public const string Ic_fluent_camera_dome_20_filled = "\uff4f";
+		public const string Ic_fluent_camera_dome_24_filled = "\uff50";
+		public const string Ic_fluent_camera_dome_28_filled = "\uff51";
+		public const string Ic_fluent_camera_dome_48_filled = "\uff52";
+		public const string Ic_fluent_camera_edit_20_filled = "\uf964";
+		public const string Ic_fluent_camera_off_24_filled = "\ufb81";
+		public const string Ic_fluent_camera_switch_20_filled = "\u0264";
+		public const string Ic_fluent_camera_switch_24_filled = "\uf25a";
+		public const string Ic_fluent_caret_12_filled = "\uf25b";
+		public const string Ic_fluent_caret_16_filled = "\uf25c";
+		public const string Ic_fluent_caret_20_filled = "\uf25d";
+		public const string Ic_fluent_caret_24_filled = "\uf25e";
+		public const string Ic_fluent_caret_down_12_filled = "\uf25f";
+		public const string Ic_fluent_caret_down_16_filled = "\uf260";
+		public const string Ic_fluent_caret_down_20_filled = "\uf261";
+		public const string Ic_fluent_caret_down_24_filled = "\uf262";
+		public const string Ic_fluent_caret_down_left_24_filled = "\ufbeb";
+		public const string Ic_fluent_caret_left_12_filled = "\uf263";
+		public const string Ic_fluent_caret_left_16_filled = "\uf264";
+		public const string Ic_fluent_caret_left_20_filled = "\uf265";
+		public const string Ic_fluent_caret_left_24_filled = "\uf266";
+		public const string Ic_fluent_caret_right_12_filled = "\uf267";
+		public const string Ic_fluent_caret_right_16_filled = "\uf268";
+		public const string Ic_fluent_caret_right_20_filled = "\uf269";
+		public const string Ic_fluent_caret_right_24_filled = "\uf26a";
+		public const string Ic_fluent_caret_up_12_filled = "\uf965";
+		public const string Ic_fluent_caret_up_16_filled = "\uf966";
+		public const string Ic_fluent_caret_up_20_filled = "\uf967";
+		public const string Ic_fluent_caret_up_24_filled = "\uf968";
+		public const string Ic_fluent_cart_16_filled = "\uf969";
+		public const string Ic_fluent_cart_20_filled = "\uf96a";
+		public const string Ic_fluent_cart_24_filled = "\uf26b";
+		public const string Ic_fluent_cast_20_filled = "\uf26c";
+		public const string Ic_fluent_cast_24_filled = "\uf26d";
+		public const string Ic_fluent_cast_28_filled = "\uf26e";
+		public const string Ic_fluent_cellular_3g_24_filled = "\uf26f";
+		public const string Ic_fluent_cellular_4g_24_filled = "\uf270";
+		public const string Ic_fluent_cellular_5g_24_filled = "\ufcd2";
+		public const string Ic_fluent_cellular_data_1_20_filled = "\uf271";
+		public const string Ic_fluent_cellular_data_1_24_filled = "\uf272";
+		public const string Ic_fluent_cellular_data_2_20_filled = "\uf273";
+		public const string Ic_fluent_cellular_data_2_24_filled = "\uf274";
+		public const string Ic_fluent_cellular_data_3_20_filled = "\uf275";
+		public const string Ic_fluent_cellular_data_3_24_filled = "\uf276";
+		public const string Ic_fluent_cellular_data_4_20_filled = "\uf277";
+		public const string Ic_fluent_cellular_data_4_24_filled = "\uf278";
+		public const string Ic_fluent_cellular_data_5_20_filled = "\uf279";
+		public const string Ic_fluent_cellular_data_5_24_filled = "\uf27a";
+		public const string Ic_fluent_cellular_data_cellular_off_24_filled = "\ufbec";
+		public const string Ic_fluent_cellular_data_cellular_unavailable_24_filled = "\ufbed";
+		public const string Ic_fluent_cellular_data_unavailable_24_filled = "\u004c";
+		public const string Ic_fluent_center_horizontal_20_filled = "\u0116";
+		public const string Ic_fluent_center_horizontal_24_filled = "\ufbee";
+		public const string Ic_fluent_center_vertical_20_filled = "\u00b8";
+		public const string Ic_fluent_center_vertical_24_filled = "\ufbef";
+		public const string Ic_fluent_certificate_20_filled = "\uf27e";
+		public const string Ic_fluent_certificate_24_filled = "\uf27f";
+		public const string Ic_fluent_channel_16_filled = "\uf280";
+		public const string Ic_fluent_channel_20_filled = "\uf281";
+		public const string Ic_fluent_channel_24_filled = "\uf282";
+		public const string Ic_fluent_channel_28_filled = "\uf96d";
+		public const string Ic_fluent_channel_48_filled = "\uf96e";
+		public const string Ic_fluent_channel_add_16_filled = "\uf96f";
+		public const string Ic_fluent_channel_add_20_filled = "\uf970";
+		public const string Ic_fluent_channel_add_24_filled = "\uf971";
+		public const string Ic_fluent_channel_add_28_filled = "\uf972";
+		public const string Ic_fluent_channel_add_48_filled = "\uf973";
+		public const string Ic_fluent_channel_alert_16_filled = "\uf974";
+		public const string Ic_fluent_channel_alert_20_filled = "\uf975";
+		public const string Ic_fluent_channel_alert_24_filled = "\uf976";
+		public const string Ic_fluent_channel_alert_28_filled = "\uf977";
+		public const string Ic_fluent_channel_alert_48_filled = "\uf978";
+		public const string Ic_fluent_channel_arrow_left_16_filled = "\uf979";
+		public const string Ic_fluent_channel_arrow_left_20_filled = "\uf97a";
+		public const string Ic_fluent_channel_arrow_left_24_filled = "\uf97b";
+		public const string Ic_fluent_channel_arrow_left_28_filled = "\uf97c";
+		public const string Ic_fluent_channel_arrow_left_48_filled = "\uf97d";
+		public const string Ic_fluent_channel_dismiss_16_filled = "\uf97e";
+		public const string Ic_fluent_channel_dismiss_20_filled = "\uf97f";
+		public const string Ic_fluent_channel_dismiss_24_filled = "\uf980";
+		public const string Ic_fluent_channel_dismiss_28_filled = "\uf981";
+		public const string Ic_fluent_channel_dismiss_48_filled = "\uf982";
+		public const string Ic_fluent_channel_share_12_filled = "\ufbb9";
+		public const string Ic_fluent_channel_share_16_filled = "\ufbba";
+		public const string Ic_fluent_channel_share_20_filled = "\ufbbb";
+		public const string Ic_fluent_channel_share_24_filled = "\ufbbc";
+		public const string Ic_fluent_channel_share_28_filled = "\ufbbd";
+		public const string Ic_fluent_channel_share_48_filled = "\ufbbe";
+		public const string Ic_fluent_channel_subtract_16_filled = "\u0138";
+		public const string Ic_fluent_channel_subtract_20_filled = "\u0139";
+		public const string Ic_fluent_channel_subtract_24_filled = "\u013a";
+		public const string Ic_fluent_channel_subtract_28_filled = "\u013b";
+		public const string Ic_fluent_channel_subtract_48_filled = "\u013c";
+		public const string Ic_fluent_chart_person_20_filled = "\ufd95";
+		public const string Ic_fluent_chart_person_24_filled = "\ufd96";
+		public const string Ic_fluent_chart_person_28_filled = "\ufd97";
+		public const string Ic_fluent_chart_person_48_filled = "\ufd98";
+		public const string Ic_fluent_chat_12_filled = "\uff53";
+		public const string Ic_fluent_chat_16_filled = "\uf983";
+		public const string Ic_fluent_chat_20_filled = "\uf286";
+		public const string Ic_fluent_chat_24_filled = "\uf287";
+		public const string Ic_fluent_chat_28_filled = "\uf288";
+		public const string Ic_fluent_chat_32_filled = "\ufdbd";
+		public const string Ic_fluent_chat_48_filled = "\ufb35";
+		public const string Ic_fluent_chat_arrow_back_16_filled = "\uffff";
+		public const string Ic_fluent_chat_arrow_double_back_16_filled = "\u0001";
+		public const string Ic_fluent_chat_arrow_double_back_20_filled = "\u0002";
+		public const string Ic_fluent_chat_bubbles_question_16_filled = "\uf8c0";
+		public const string Ic_fluent_chat_bubbles_question_20_filled = "\ufb82";
+		public const string Ic_fluent_chat_bubbles_question_24_filled = "\uf289";
+		public const string Ic_fluent_chat_dismiss_16_filled = "\u00b9";
+		public const string Ic_fluent_chat_help_20_filled = "\uf220";
+		public const string Ic_fluent_chat_help_24_filled = "\uf28a";
+		public const string Ic_fluent_chat_mail_20_filled = "\ufb83";
+		public const string Ic_fluent_chat_multiple_16_filled = "\uf8c1";
+		public const string Ic_fluent_chat_multiple_20_filled = "\uf8e0";
+		public const string Ic_fluent_chat_multiple_24_filled = "\uf8eb";
+		public const string Ic_fluent_chat_off_20_filled = "\ufb84";
+		public const string Ic_fluent_chat_off_24_filled = "\uf28b";
+		public const string Ic_fluent_chat_settings_20_filled = "\uf221";
+		public const string Ic_fluent_chat_settings_24_filled = "\uf229";
+		public const string Ic_fluent_chat_video_20_filled = "\u01dd";
+		public const string Ic_fluent_chat_video_24_filled = "\u01de";
+		public const string Ic_fluent_chat_warning_16_filled = "\u00ba";
+		public const string Ic_fluent_chat_warning_24_filled = "\uf28c";
+		public const string Ic_fluent_check_20_filled = "\uf27b";
+		public const string Ic_fluent_check_24_filled = "\u0003";
+		public const string Ic_fluent_checkbox_1_24_filled = "\ufcd3";
+		public const string Ic_fluent_checkbox_2_24_filled = "\ufcd4";
+		public const string Ic_fluent_checkbox_arrow_right_24_filled = "\ufcd5";
+		public const string Ic_fluent_checkbox_checked_16_filled = "\uf27c";
+		public const string Ic_fluent_checkbox_checked_20_filled = "\uf28d";
+		public const string Ic_fluent_checkbox_checked_24_filled = "\uf28e";
+		public const string Ic_fluent_checkbox_checked_sync_16_filled = "\uf27d";
+		public const string Ic_fluent_checkbox_checked_sync_20_filled = "\u0004";
+		public const string Ic_fluent_checkbox_indeterminate_16_filled = "\u00bb";
+		public const string Ic_fluent_checkbox_indeterminate_20_filled = "\u00bc";
+		public const string Ic_fluent_checkbox_indeterminate_24_filled = "\u00bd";
+		public const string Ic_fluent_checkbox_person_24_filled = "\ufcd6";
+		public const string Ic_fluent_checkbox_unchecked_12_filled = "\uf28f";
+		public const string Ic_fluent_checkbox_unchecked_16_filled = "\uf290";
+		public const string Ic_fluent_checkbox_unchecked_20_filled = "\uf291";
+		public const string Ic_fluent_checkbox_unchecked_24_filled = "\uf292";
+		public const string Ic_fluent_checkbox_warning_24_filled = "\ufcd7";
+		public const string Ic_fluent_checkmark_12_filled = "\uf293";
+		public const string Ic_fluent_checkmark_16_filled = "\uf984";
+		public const string Ic_fluent_checkmark_20_filled = "\uf294";
+		public const string Ic_fluent_checkmark_24_filled = "\uf295";
+		public const string Ic_fluent_checkmark_28_filled = "\uf296";
+		public const string Ic_fluent_checkmark_32_filled = "\uf8ec";
+		public const string Ic_fluent_checkmark_48_filled = "\ufb85";
+		public const string Ic_fluent_checkmark_circle_12_filled = "\ufea5";
+		public const string Ic_fluent_checkmark_circle_16_filled = "\uf297";
+		public const string Ic_fluent_checkmark_circle_20_filled = "\uf298";
+		public const string Ic_fluent_checkmark_circle_24_filled = "\uf299";
+		public const string Ic_fluent_checkmark_circle_32_filled = "\uf900";
+		public const string Ic_fluent_checkmark_circle_48_filled = "\uf29a";
+		public const string Ic_fluent_checkmark_lock_16_filled = "\uf29b";
+		public const string Ic_fluent_checkmark_lock_20_filled = "\uf29c";
+		public const string Ic_fluent_checkmark_lock_24_filled = "\uf29d";
+		public const string Ic_fluent_checkmark_square_24_filled = "\uf29e";
+		public const string Ic_fluent_checkmark_starburst_16_filled = "\uf283";
+		public const string Ic_fluent_checkmark_starburst_20_filled = "\u02ab";
+		public const string Ic_fluent_checkmark_starburst_24_filled = "\u02ac";
+		public const string Ic_fluent_checkmark_underline_circle_16_filled = "\uf29f";
+		public const string Ic_fluent_checkmark_underline_circle_20_filled = "\uf2a0";
+		public const string Ic_fluent_chevron_circle_down_24_filled = "\ufbf0";
+		public const string Ic_fluent_chevron_circle_right_12_filled = "\u00be";
+		public const string Ic_fluent_chevron_circle_right_24_filled = "\ufbf1";
+		public const string Ic_fluent_chevron_double_down_16_filled = "\uf284";
+		public const string Ic_fluent_chevron_double_down_20_filled = "\uff54";
+		public const string Ic_fluent_chevron_double_left_16_filled = "\uf285";
+		public const string Ic_fluent_chevron_double_left_20_filled = "\uff55";
+		public const string Ic_fluent_chevron_double_right_16_filled = "\uf2a7";
+		public const string Ic_fluent_chevron_double_right_20_filled = "\uff56";
+		public const string Ic_fluent_chevron_double_up_16_filled = "\ufec2";
+		public const string Ic_fluent_chevron_double_up_20_filled = "\ufec3";
+		public const string Ic_fluent_chevron_down_12_filled = "\uf2a1";
+		public const string Ic_fluent_chevron_down_16_filled = "\uf2a2";
+		public const string Ic_fluent_chevron_down_20_filled = "\uf2a3";
+		public const string Ic_fluent_chevron_down_24_filled = "\uf2a4";
+		public const string Ic_fluent_chevron_down_28_filled = "\uf2a5";
+		public const string Ic_fluent_chevron_down_48_filled = "\uf2a6";
+		public const string Ic_fluent_chevron_left_12_filled = "\uf2a8";
+		public const string Ic_fluent_chevron_left_16_filled = "\uf2a9";
+		public const string Ic_fluent_chevron_left_20_filled = "\uf2aa";
+		public const string Ic_fluent_chevron_left_24_filled = "\uf2ab";
+		public const string Ic_fluent_chevron_left_28_filled = "\uf2ac";
+		public const string Ic_fluent_chevron_left_48_filled = "\uf2ad";
+		public const string Ic_fluent_chevron_right_12_filled = "\uf2ae";
+		public const string Ic_fluent_chevron_right_16_filled = "\uf2af";
+		public const string Ic_fluent_chevron_right_20_filled = "\uf2b0";
+		public const string Ic_fluent_chevron_right_24_filled = "\uf2b1";
+		public const string Ic_fluent_chevron_right_28_filled = "\uf2b2";
+		public const string Ic_fluent_chevron_right_48_filled = "\uf2b3";
+		public const string Ic_fluent_chevron_up_12_filled = "\uf2b4";
+		public const string Ic_fluent_chevron_up_16_filled = "\uf2b5";
+		public const string Ic_fluent_chevron_up_20_filled = "\uf2b6";
+		public const string Ic_fluent_chevron_up_24_filled = "\uf2b7";
+		public const string Ic_fluent_chevron_up_28_filled = "\uf2b8";
+		public const string Ic_fluent_chevron_up_48_filled = "\uf2b9";
+		public const string Ic_fluent_chevron_up_down_16_filled = "\u0005";
+		public const string Ic_fluent_chevron_up_down_20_filled = "\ufe50";
+		public const string Ic_fluent_chevron_up_down_24_filled = "\ufe51";
+		public const string Ic_fluent_circle_12_filled = "\ufe52";
+		public const string Ic_fluent_circle_16_filled = "\uf2ba";
+		public const string Ic_fluent_circle_20_filled = "\uf2bb";
+		public const string Ic_fluent_circle_24_filled = "\uf2bc";
+		public const string Ic_fluent_circle_32_filled = "\u01df";
+		public const string Ic_fluent_circle_edit_24_filled = "\ufcd8";
+		public const string Ic_fluent_circle_half_fill_12_filled = "\ufe53";
+		public const string Ic_fluent_circle_half_fill_16_filled = "\uf30a";
+		public const string Ic_fluent_circle_half_fill_20_filled = "\uf2bd";
+		public const string Ic_fluent_circle_half_fill_24_filled = "\uf2be";
+		public const string Ic_fluent_circle_line_12_filled = "\ufe54";
+		public const string Ic_fluent_circle_line_24_filled = "\uf2bf";
+		public const string Ic_fluent_circle_off_16_filled = "\u00bf";
+		public const string Ic_fluent_circle_small_20_filled = "\ufd2c";
+		public const string Ic_fluent_circle_small_24_filled = "\uf2c0";
+		public const string Ic_fluent_city_16_filled = "\uf2c1";
+		public const string Ic_fluent_city_20_filled = "\uf2c2";
+		public const string Ic_fluent_city_24_filled = "\uf2c3";
+		public const string Ic_fluent_class_24_filled = "\uf2c4";
+		public const string Ic_fluent_classification_16_filled = "\uf2c5";
+		public const string Ic_fluent_classification_20_filled = "\uf2c6";
+		public const string Ic_fluent_classification_24_filled = "\uf2c7";
+		public const string Ic_fluent_clear_formatting_16_filled = "\u021d";
+		public const string Ic_fluent_clear_formatting_20_filled = "\u021e";
+		public const string Ic_fluent_clear_formatting_24_filled = "\uf2c8";
+		public const string Ic_fluent_clipboard_16_filled = "\ufd2d";
+		public const string Ic_fluent_clipboard_20_filled = "\uf2c9";
+		public const string Ic_fluent_clipboard_24_filled = "\uf2ca";
+		public const string Ic_fluent_clipboard_arrow_right_16_filled = "\ufd2e";
+		public const string Ic_fluent_clipboard_arrow_right_20_filled = "\ufd2f";
+		public const string Ic_fluent_clipboard_arrow_right_24_filled = "\ufd30";
+		public const string Ic_fluent_clipboard_bullet_list_ltr_16_filled = "\uf92d";
+		public const string Ic_fluent_clipboard_bullet_list_ltr_20_filled = "\uff57";
+		public const string Ic_fluent_clipboard_bullet_list_rtl_16_filled = "\uf937";
+		public const string Ic_fluent_clipboard_bullet_list_rtl_20_filled = "\uff58";
+		public const string Ic_fluent_clipboard_checkmark_20_filled = "\uff59";
+		public const string Ic_fluent_clipboard_checkmark_24_filled = "\uff5a";
+		public const string Ic_fluent_clipboard_clock_20_filled = "\u021f";
+		public const string Ic_fluent_clipboard_clock_24_filled = "\u0220";
+		public const string Ic_fluent_clipboard_code_16_filled = "\uf2cb";
+		public const string Ic_fluent_clipboard_code_20_filled = "\uf2cc";
+		public const string Ic_fluent_clipboard_code_24_filled = "\uf2cd";
+		public const string Ic_fluent_clipboard_data_bar_32_filled = "\ufdbe";
+		public const string Ic_fluent_clipboard_error_20_filled = "\uff5b";
+		public const string Ic_fluent_clipboard_error_24_filled = "\uff5c";
+		public const string Ic_fluent_clipboard_heart_20_filled = "\uf30b";
+		public const string Ic_fluent_clipboard_heart_24_filled = "\uff5d";
+		public const string Ic_fluent_clipboard_image_24_filled = "\ufbf2";
+		public const string Ic_fluent_clipboard_letter_16_filled = "\uf2ce";
+		public const string Ic_fluent_clipboard_letter_20_filled = "\uf2cf";
+		public const string Ic_fluent_clipboard_letter_24_filled = "\uf2d0";
+		public const string Ic_fluent_clipboard_link_16_filled = "\uf2d1";
+		public const string Ic_fluent_clipboard_link_20_filled = "\uf2d2";
+		public const string Ic_fluent_clipboard_link_24_filled = "\uf2d3";
+		public const string Ic_fluent_clipboard_more_24_filled = "\uf2d4";
+		public const string Ic_fluent_clipboard_paste_16_filled = "\uf986";
+		public const string Ic_fluent_clipboard_paste_20_filled = "\uf2d5";
+		public const string Ic_fluent_clipboard_paste_24_filled = "\uf2d6";
+		public const string Ic_fluent_clipboard_pulse_20_filled = "\uf322";
+		public const string Ic_fluent_clipboard_pulse_24_filled = "\u00c0";
+		public const string Ic_fluent_clipboard_search_20_filled = "\uf2d7";
+		public const string Ic_fluent_clipboard_search_24_filled = "\uf2d8";
+		public const string Ic_fluent_clipboard_settings_20_filled = "\uf32d";
+		public const string Ic_fluent_clipboard_settings_24_filled = "\u013d";
+		public const string Ic_fluent_clipboard_task_20_filled = "\uff5e";
+		public const string Ic_fluent_clipboard_task_24_filled = "\uff5f";
+		public const string Ic_fluent_clipboard_task_add_20_filled = "\uff60";
+		public const string Ic_fluent_clipboard_task_add_24_filled = "\uff61";
+		public const string Ic_fluent_clipboard_task_list_ltr_20_filled = "\uff62";
+		public const string Ic_fluent_clipboard_task_list_ltr_24_filled = "\uff63";
+		public const string Ic_fluent_clipboard_task_list_rtl_20_filled = "\uffd8";
+		public const string Ic_fluent_clipboard_task_list_rtl_24_filled = "\uffd9";
+		public const string Ic_fluent_clipboard_text_ltr_20_filled = "\ufd31";
+		public const string Ic_fluent_clipboard_text_ltr_24_filled = "\ufd32";
+		public const string Ic_fluent_clipboard_text_rtl_20_filled = "\ufd33";
+		public const string Ic_fluent_clipboard_text_rtl_24_filled = "\ufd34";
+		public const string Ic_fluent_clock_12_filled = "\uf2db";
+		public const string Ic_fluent_clock_16_filled = "\uf2dc";
+		public const string Ic_fluent_clock_20_filled = "\uf2dd";
+		public const string Ic_fluent_clock_24_filled = "\uf2de";
+		public const string Ic_fluent_clock_28_filled = "\uf2df";
+		public const string Ic_fluent_clock_32_filled = "\ufcd9";
+		public const string Ic_fluent_clock_48_filled = "\uf2e0";
+		public const string Ic_fluent_clock_alarm_16_filled = "\uff64";
+		public const string Ic_fluent_clock_alarm_20_filled = "\uf2e1";
+		public const string Ic_fluent_clock_alarm_24_filled = "\uf2e2";
+		public const string Ic_fluent_clock_alarm_32_filled = "\ufdbf";
+		public const string Ic_fluent_clock_arrow_download_20_filled = "\uf32e";
+		public const string Ic_fluent_clock_arrow_download_24_filled = "\u00c1";
+		public const string Ic_fluent_clock_dismiss_24_filled = "\uf987";
+		public const string Ic_fluent_closed_caption_16_filled = "\uf988";
+		public const string Ic_fluent_closed_caption_20_filled = "\uf989";
+		public const string Ic_fluent_closed_caption_24_filled = "\uf2e3";
+		public const string Ic_fluent_closed_caption_28_filled = "\uf98a";
+		public const string Ic_fluent_closed_caption_32_filled = "\u0185";
+		public const string Ic_fluent_closed_caption_48_filled = "\uf98b";
+		public const string Ic_fluent_closed_caption_off_16_filled = "\ufe55";
+		public const string Ic_fluent_closed_caption_off_20_filled = "\ufe56";
+		public const string Ic_fluent_closed_caption_off_24_filled = "\ufe57";
+		public const string Ic_fluent_closed_caption_off_28_filled = "\ufe58";
+		public const string Ic_fluent_closed_caption_off_48_filled = "\ufe59";
+		public const string Ic_fluent_cloud_16_filled = "\ufcda";
+		public const string Ic_fluent_cloud_20_filled = "\uf2e4";
+		public const string Ic_fluent_cloud_24_filled = "\uf2e5";
+		public const string Ic_fluent_cloud_28_filled = "\ufec4";
+		public const string Ic_fluent_cloud_32_filled = "\ufcdb";
+		public const string Ic_fluent_cloud_48_filled = "\uf2e6";
+		public const string Ic_fluent_cloud_archive_16_filled = "\u013e";
+		public const string Ic_fluent_cloud_archive_20_filled = "\u013f";
+		public const string Ic_fluent_cloud_archive_24_filled = "\u0221";
+		public const string Ic_fluent_cloud_archive_28_filled = "\u0222";
+		public const string Ic_fluent_cloud_archive_32_filled = "\u0223";
+		public const string Ic_fluent_cloud_archive_48_filled = "\u0224";
+		public const string Ic_fluent_cloud_arrow_down_16_filled = "\u004d";
+		public const string Ic_fluent_cloud_arrow_down_20_filled = "\u004e";
+		public const string Ic_fluent_cloud_arrow_down_24_filled = "\u004f";
+		public const string Ic_fluent_cloud_arrow_down_28_filled = "\u0050";
+		public const string Ic_fluent_cloud_arrow_down_32_filled = "\u0051";
+		public const string Ic_fluent_cloud_arrow_down_48_filled = "\u0052";
+		public const string Ic_fluent_cloud_arrow_up_16_filled = "\u0053";
+		public const string Ic_fluent_cloud_arrow_up_20_filled = "\u0054";
+		public const string Ic_fluent_cloud_arrow_up_24_filled = "\u0055";
+		public const string Ic_fluent_cloud_arrow_up_28_filled = "\u0056";
+		public const string Ic_fluent_cloud_arrow_up_32_filled = "\u0057";
+		public const string Ic_fluent_cloud_arrow_up_48_filled = "\u0058";
+		public const string Ic_fluent_cloud_checkmark_16_filled = "\u0059";
+		public const string Ic_fluent_cloud_checkmark_20_filled = "\u005a";
+		public const string Ic_fluent_cloud_checkmark_24_filled = "\u005b";
+		public const string Ic_fluent_cloud_checkmark_28_filled = "\u005c";
+		public const string Ic_fluent_cloud_checkmark_32_filled = "\u005d";
+		public const string Ic_fluent_cloud_checkmark_48_filled = "\u005e";
+		public const string Ic_fluent_cloud_dismiss_16_filled = "\u005f";
+		public const string Ic_fluent_cloud_dismiss_20_filled = "\u0060";
+		public const string Ic_fluent_cloud_dismiss_24_filled = "\u0061";
+		public const string Ic_fluent_cloud_dismiss_28_filled = "\u0062";
+		public const string Ic_fluent_cloud_dismiss_32_filled = "\u0063";
+		public const string Ic_fluent_cloud_dismiss_48_filled = "\u0064";
+		public const string Ic_fluent_cloud_edit_16_filled = "\uf330";
+		public const string Ic_fluent_cloud_edit_20_filled = "\uff66";
+		public const string Ic_fluent_cloud_flow_20_filled = "\uf337";
+		public const string Ic_fluent_cloud_flow_24_filled = "\u00c2";
+		public const string Ic_fluent_cloud_link_16_filled = "\uf338";
+		public const string Ic_fluent_cloud_link_20_filled = "\uff67";
+		public const string Ic_fluent_cloud_off_16_filled = "\ufeca";
+		public const string Ic_fluent_cloud_off_20_filled = "\ufecb";
+		public const string Ic_fluent_cloud_off_24_filled = "\uf2ea";
+		public const string Ic_fluent_cloud_off_28_filled = "\ufecc";
+		public const string Ic_fluent_cloud_off_32_filled = "\ufecd";
+		public const string Ic_fluent_cloud_off_48_filled = "\uf2eb";
+		public const string Ic_fluent_cloud_swap_20_filled = "\u00c3";
+		public const string Ic_fluent_cloud_swap_24_filled = "\u00c4";
+		public const string Ic_fluent_cloud_sync_16_filled = "\ufece";
+		public const string Ic_fluent_cloud_sync_20_filled = "\ufb86";
+		public const string Ic_fluent_cloud_sync_24_filled = "\ufecf";
+		public const string Ic_fluent_cloud_sync_28_filled = "\ufed0";
+		public const string Ic_fluent_cloud_sync_32_filled = "\ufed1";
+		public const string Ic_fluent_cloud_sync_48_filled = "\ufed2";
+		public const string Ic_fluent_cloud_words_16_filled = "\u0140";
+		public const string Ic_fluent_cloud_words_20_filled = "\u0141";
+		public const string Ic_fluent_cloud_words_24_filled = "\u0142";
+		public const string Ic_fluent_cloud_words_28_filled = "\u0143";
+		public const string Ic_fluent_cloud_words_32_filled = "\u0144";
+		public const string Ic_fluent_cloud_words_48_filled = "\u0145";
+		public const string Ic_fluent_code_16_filled = "\uf339";
+		public const string Ic_fluent_code_20_filled = "\uf2ef";
+		public const string Ic_fluent_code_24_filled = "\uf2f0";
+		public const string Ic_fluent_code_circle_20_filled = "\u00c5";
+		public const string Ic_fluent_collections_20_filled = "\uf2f1";
+		public const string Ic_fluent_collections_24_filled = "\uf2f2";
+		public const string Ic_fluent_collections_add_20_filled = "\uf2f3";
+		public const string Ic_fluent_collections_add_24_filled = "\uf2f4";
+		public const string Ic_fluent_color_16_filled = "\uff68";
+		public const string Ic_fluent_color_20_filled = "\uf2f5";
+		public const string Ic_fluent_color_24_filled = "\uf2f6";
+		public const string Ic_fluent_color_background_20_filled = "\uf2f7";
+		public const string Ic_fluent_color_background_24_filled = "\uf2f8";
+		public const string Ic_fluent_color_fill_20_filled = "\uf2f9";
+		public const string Ic_fluent_color_fill_24_filled = "\uf2fa";
+		public const string Ic_fluent_color_line_16_filled = "\uf98e";
+		public const string Ic_fluent_color_line_20_filled = "\uf2fb";
+		public const string Ic_fluent_color_line_24_filled = "\uf2fc";
+		public const string Ic_fluent_column_arrow_right_20_filled = "\u0146";
+		public const string Ic_fluent_column_edit_20_filled = "\uf938";
+		public const string Ic_fluent_column_edit_24_filled = "\uf94f";
+		public const string Ic_fluent_column_triple_20_filled = "\uff69";
+		public const string Ic_fluent_column_triple_24_filled = "\uf2fd";
+		public const string Ic_fluent_column_triple_edit_20_filled = "\uff6a";
+		public const string Ic_fluent_column_triple_edit_24_filled = "\uff6b";
+		public const string Ic_fluent_comma_24_filled = "\uffda";
+		public const string Ic_fluent_comment_12_filled = "\uf98f";
+		public const string Ic_fluent_comment_16_filled = "\uf2fe";
+		public const string Ic_fluent_comment_20_filled = "\uf2ff";
+		public const string Ic_fluent_comment_24_filled = "\uf300";
+		public const string Ic_fluent_comment_28_filled = "\uf990";
+		public const string Ic_fluent_comment_48_filled = "\uf991";
+		public const string Ic_fluent_comment_add_12_filled = "\uf992";
+		public const string Ic_fluent_comment_add_16_filled = "\uf993";
+		public const string Ic_fluent_comment_add_20_filled = "\uf994";
+		public const string Ic_fluent_comment_add_24_filled = "\uf301";
+		public const string Ic_fluent_comment_add_28_filled = "\uf995";
+		public const string Ic_fluent_comment_add_48_filled = "\uf996";
+		public const string Ic_fluent_comment_arrow_left_12_filled = "\uf997";
+		public const string Ic_fluent_comment_arrow_left_16_filled = "\uf998";
+		public const string Ic_fluent_comment_arrow_left_20_filled = "\uf999";
+		public const string Ic_fluent_comment_arrow_left_24_filled = "\ufbf3";
+		public const string Ic_fluent_comment_arrow_left_28_filled = "\uf99a";
+		public const string Ic_fluent_comment_arrow_left_48_filled = "\uf99b";
+		public const string Ic_fluent_comment_arrow_right_12_filled = "\uf99c";
+		public const string Ic_fluent_comment_arrow_right_16_filled = "\uf99d";
+		public const string Ic_fluent_comment_arrow_right_20_filled = "\uf99e";
+		public const string Ic_fluent_comment_arrow_right_24_filled = "\ufbf4";
+		public const string Ic_fluent_comment_arrow_right_28_filled = "\uf99f";
+		public const string Ic_fluent_comment_arrow_right_48_filled = "\uf9a0";
+		public const string Ic_fluent_comment_checkmark_12_filled = "\uf9a1";
+		public const string Ic_fluent_comment_checkmark_16_filled = "\uf9a2";
+		public const string Ic_fluent_comment_checkmark_20_filled = "\uf9a3";
+		public const string Ic_fluent_comment_checkmark_24_filled = "\uf9a4";
+		public const string Ic_fluent_comment_checkmark_28_filled = "\uf9a5";
+		public const string Ic_fluent_comment_checkmark_48_filled = "\uf9a6";
+		public const string Ic_fluent_comment_dismiss_24_filled = "\ufbf5";
+		public const string Ic_fluent_comment_edit_20_filled = "\uf9a7";
+		public const string Ic_fluent_comment_edit_24_filled = "\uf9a8";
+		public const string Ic_fluent_comment_error_16_filled = "\uf350";
+		public const string Ic_fluent_comment_error_20_filled = "\uff6c";
+		public const string Ic_fluent_comment_lightning_20_filled = "\uf351";
+		public const string Ic_fluent_comment_lightning_24_filled = "\uf361";
+		public const string Ic_fluent_comment_mention_16_filled = "\uf303";
+		public const string Ic_fluent_comment_mention_20_filled = "\uf304";
+		public const string Ic_fluent_comment_mention_24_filled = "\uf305";
+		public const string Ic_fluent_comment_multiple_16_filled = "\uf306";
+		public const string Ic_fluent_comment_multiple_20_filled = "\uf307";
+		public const string Ic_fluent_comment_multiple_24_filled = "\uf308";
+		public const string Ic_fluent_comment_multiple_28_filled = "\u00c6";
+		public const string Ic_fluent_comment_multiple_32_filled = "\u0265";
+		public const string Ic_fluent_comment_multiple_checkmark_16_filled = "\u00c7";
+		public const string Ic_fluent_comment_multiple_checkmark_20_filled = "\u00c8";
+		public const string Ic_fluent_comment_multiple_checkmark_24_filled = "\u00c9";
+		public const string Ic_fluent_comment_multiple_checkmark_28_filled = "\u00ca";
+		public const string Ic_fluent_comment_multiple_link_16_filled = "\u0266";
+		public const string Ic_fluent_comment_multiple_link_20_filled = "\u0267";
+		public const string Ic_fluent_comment_multiple_link_24_filled = "\u0268";
+		public const string Ic_fluent_comment_multiple_link_28_filled = "\u0269";
+		public const string Ic_fluent_comment_multiple_link_32_filled = "\u026a";
+		public const string Ic_fluent_comment_note_24_filled = "\ufcdc";
+		public const string Ic_fluent_comment_off_16_filled = "\uf9a9";
+		public const string Ic_fluent_comment_off_20_filled = "\uf9aa";
+		public const string Ic_fluent_comment_off_24_filled = "\uf9ab";
+		public const string Ic_fluent_comment_off_28_filled = "\uf9ac";
+		public const string Ic_fluent_comment_off_48_filled = "\uf9ad";
+		public const string Ic_fluent_communication_16_filled = "\uf30c";
+		public const string Ic_fluent_communication_20_filled = "\uf30d";
+		public const string Ic_fluent_communication_24_filled = "\uf30e";
+		public const string Ic_fluent_communication_person_20_filled = "\uff6d";
+		public const string Ic_fluent_communication_person_24_filled = "\uff6e";
+		public const string Ic_fluent_compass_northwest_16_filled = "\uf30f";
+		public const string Ic_fluent_compass_northwest_20_filled = "\uf310";
+		public const string Ic_fluent_compass_northwest_24_filled = "\uf311";
+		public const string Ic_fluent_compass_northwest_28_filled = "\uf312";
+		public const string Ic_fluent_component_2_double_tap_swipe_down_24_filled = "\ufbf6";
+		public const string Ic_fluent_component_2_double_tap_swipe_up_24_filled = "\ufbf7";
+		public const string Ic_fluent_compose_16_filled = "\uf313";
+		public const string Ic_fluent_compose_20_filled = "\uf314";
+		public const string Ic_fluent_compose_24_filled = "\uf315";
+		public const string Ic_fluent_compose_28_filled = "\uf316";
+		public const string Ic_fluent_conference_room_16_filled = "\uf317";
+		public const string Ic_fluent_conference_room_20_filled = "\uf318";
+		public const string Ic_fluent_conference_room_24_filled = "\uf319";
+		public const string Ic_fluent_conference_room_28_filled = "\uf31a";
+		public const string Ic_fluent_conference_room_48_filled = "\uf31b";
+		public const string Ic_fluent_connector_16_filled = "\uf31c";
+		public const string Ic_fluent_connector_20_filled = "\uf31d";
+		public const string Ic_fluent_connector_24_filled = "\uf31e";
+		public const string Ic_fluent_contact_card_16_filled = "\uf362";
+		public const string Ic_fluent_contact_card_20_filled = "\uf31f";
+		public const string Ic_fluent_contact_card_24_filled = "\uf320";
+		public const string Ic_fluent_contact_card_28_filled = "\uf950";
+		public const string Ic_fluent_contact_card_32_filled = "\uf951";
+		public const string Ic_fluent_contact_card_48_filled = "\uf952";
+		public const string Ic_fluent_contact_card_group_16_filled = "\uf9ae";
+		public const string Ic_fluent_contact_card_group_20_filled = "\uf9af";
+		public const string Ic_fluent_contact_card_group_24_filled = "\uf321";
+		public const string Ic_fluent_contact_card_group_28_filled = "\uf9b0";
+		public const string Ic_fluent_contact_card_group_48_filled = "\uf9b1";
+		public const string Ic_fluent_contact_card_link_16_filled = "\uf363";
+		public const string Ic_fluent_contact_card_link_20_filled = "\uff6f";
+		public const string Ic_fluent_contact_card_ribbon_16_filled = "\u026b";
+		public const string Ic_fluent_contact_card_ribbon_20_filled = "\u026c";
+		public const string Ic_fluent_contact_card_ribbon_24_filled = "\u026d";
+		public const string Ic_fluent_contact_card_ribbon_28_filled = "\u026e";
+		public const string Ic_fluent_contact_card_ribbon_32_filled = "\u026f";
+		public const string Ic_fluent_contact_card_ribbon_48_filled = "\u0270";
+		public const string Ic_fluent_content_settings_16_filled = "\uf323";
+		public const string Ic_fluent_content_settings_20_filled = "\uf324";
+		public const string Ic_fluent_content_settings_24_filled = "\uf325";
+		public const string Ic_fluent_content_settings_32_filled = "\ufcdd";
+		public const string Ic_fluent_content_view_20_filled = "\ufb87";
+		public const string Ic_fluent_content_view_32_filled = "\ufdc0";
+		public const string Ic_fluent_content_view_gallery_20_filled = "\ufbb5";
+		public const string Ic_fluent_contract_down_left_16_filled = "\uf364";
+		public const string Ic_fluent_contract_down_left_20_filled = "\uf373";
+		public const string Ic_fluent_contract_down_left_24_filled = "\uf374";
+		public const string Ic_fluent_contract_down_left_28_filled = "\uf375";
+		public const string Ic_fluent_contract_down_left_32_filled = "\uf37b";
+		public const string Ic_fluent_contract_down_left_48_filled = "\uf397";
+		public const string Ic_fluent_control_button_20_filled = "\u0147";
+		public const string Ic_fluent_control_button_24_filled = "\u0148";
+		public const string Ic_fluent_convert_range_24_filled = "\uf9b2";
+		public const string Ic_fluent_convert_to_type_off_20_filled = "\u0085";
+		public const string Ic_fluent_cookies_20_filled = "\uf328";
+		public const string Ic_fluent_cookies_24_filled = "\uf329";
+		public const string Ic_fluent_copy_16_filled = "\uf32a";
+		public const string Ic_fluent_copy_20_filled = "\uf32b";
+		public const string Ic_fluent_copy_24_filled = "\uf32c";
+		public const string Ic_fluent_copy_add_24_filled = "\uf9b3";
+		public const string Ic_fluent_copy_arrow_right_16_filled = "\ufbf8";
+		public const string Ic_fluent_copy_arrow_right_24_filled = "\ufbf9";
+		public const string Ic_fluent_copy_select_20_filled = "\uf9b4";
+		public const string Ic_fluent_couch_12_filled = "\uf9b5";
+		public const string Ic_fluent_couch_24_filled = "\uf9b6";
+		public const string Ic_fluent_credit_card_person_20_filled = "\u0149";
+		public const string Ic_fluent_credit_card_person_24_filled = "\u014a";
+		public const string Ic_fluent_credit_card_toolbox_20_filled = "\uf398";
+		public const string Ic_fluent_credit_card_toolbox_24_filled = "\u014b";
+		public const string Ic_fluent_crop_20_filled = "\uf9b7";
+		public const string Ic_fluent_crop_24_filled = "\uf331";
+		public const string Ic_fluent_crop_interim_24_filled = "\uf332";
+		public const string Ic_fluent_crop_interim_off_24_filled = "\uf333";
+		public const string Ic_fluent_cube_12_filled = "\u00cb";
+		public const string Ic_fluent_cube_16_filled = "\uf334";
+		public const string Ic_fluent_cube_20_filled = "\uf335";
+		public const string Ic_fluent_cube_24_filled = "\uf336";
+		public const string Ic_fluent_cube_link_20_filled = "\u014c";
+		public const string Ic_fluent_cube_rotate_20_filled = "\ufb88";
+		public const string Ic_fluent_cube_sync_24_filled = "\ufd37";
+		public const string Ic_fluent_currency_dollar_euro_16_filled = "\ufbfa";
+		public const string Ic_fluent_currency_dollar_euro_20_filled = "\ufbfb";
+		public const string Ic_fluent_currency_dollar_euro_24_filled = "\ufbfc";
+		public const string Ic_fluent_currency_dollar_rupee_16_filled = "\uf9b8";
+		public const string Ic_fluent_currency_dollar_rupee_20_filled = "\uf9b9";
+		public const string Ic_fluent_currency_dollar_rupee_24_filled = "\uf9ba";
+		public const string Ic_fluent_cursor_20_filled = "\uf9bb";
+		public const string Ic_fluent_cursor_24_filled = "\uf9bc";
+		public const string Ic_fluent_cursor_click_20_filled = "\u0008";
+		public const string Ic_fluent_cursor_click_24_filled = "\u0009";
+		public const string Ic_fluent_cursor_hover_16_filled = "\uf9bd";
+		public const string Ic_fluent_cursor_hover_20_filled = "\uf9be";
+		public const string Ic_fluent_cursor_hover_24_filled = "\uf9bf";
+		public const string Ic_fluent_cursor_hover_28_filled = "\uf9c0";
+		public const string Ic_fluent_cursor_hover_32_filled = "\uf9c1";
+		public const string Ic_fluent_cursor_hover_48_filled = "\uf9c2";
+		public const string Ic_fluent_cursor_hover_off_16_filled = "\uf9c3";
+		public const string Ic_fluent_cursor_hover_off_20_filled = "\uf9c4";
+		public const string Ic_fluent_cursor_hover_off_24_filled = "\uf9c5";
+		public const string Ic_fluent_cursor_hover_off_28_filled = "\uf9c6";
+		public const string Ic_fluent_cursor_hover_off_48_filled = "\uf9c7";
+		public const string Ic_fluent_cut_20_filled = "\uf33a";
+		public const string Ic_fluent_cut_24_filled = "\uf33b";
+		public const string Ic_fluent_dark_theme_24_filled = "\uf33c";
+		public const string Ic_fluent_data_area_24_filled = "\uf33d";
+		public const string Ic_fluent_data_bar_horizontal_20_filled = "\uf39b";
+		public const string Ic_fluent_data_bar_horizontal_24_filled = "\uf33e";
+		public const string Ic_fluent_data_bar_vertical_20_filled = "\uf33f";
+		public const string Ic_fluent_data_bar_vertical_24_filled = "\uf340";
+		public const string Ic_fluent_data_bar_vertical_add_24_filled = "\uf9c8";
+		public const string Ic_fluent_data_funnel_24_filled = "\uf341";
+		public const string Ic_fluent_data_histogram_24_filled = "\uf342";
+		public const string Ic_fluent_data_line_20_filled = "\ufb89";
+		public const string Ic_fluent_data_line_24_filled = "\uf343";
+		public const string Ic_fluent_data_pie_20_filled = "\uf344";
+		public const string Ic_fluent_data_pie_24_filled = "\uf345";
+		public const string Ic_fluent_data_scatter_24_filled = "\uf346";
+		public const string Ic_fluent_data_sunburst_24_filled = "\uf347";
+		public const string Ic_fluent_data_treemap_24_filled = "\uf348";
+		public const string Ic_fluent_data_trending_16_filled = "\uff70";
+		public const string Ic_fluent_data_trending_20_filled = "\uff71";
+		public const string Ic_fluent_data_trending_24_filled = "\uff72";
+		public const string Ic_fluent_data_usage_20_filled = "\uf9c9";
+		public const string Ic_fluent_data_usage_24_filled = "\uf349";
+		public const string Ic_fluent_data_usage_edit_20_filled = "\uf3b2";
+		public const string Ic_fluent_data_usage_edit_24_filled = "\uff73";
+		public const string Ic_fluent_data_waterfall_24_filled = "\uf34a";
+		public const string Ic_fluent_data_whisker_24_filled = "\uf34b";
+		public const string Ic_fluent_database_20_filled = "\uff74";
+		public const string Ic_fluent_database_24_filled = "\uff75";
+		public const string Ic_fluent_database_link_20_filled = "\u01e0";
+		public const string Ic_fluent_database_link_24_filled = "\u01e1";
+		public const string Ic_fluent_database_person_20_filled = "\u0271";
+		public const string Ic_fluent_database_person_24_filled = "\u0272";
+		public const string Ic_fluent_database_search_20_filled = "\uff76";
+		public const string Ic_fluent_database_search_24_filled = "\uff77";
+		public const string Ic_fluent_decimal_arrow_left_24_filled = "\uf9ca";
+		public const string Ic_fluent_decimal_arrow_right_24_filled = "\uf9cb";
+		public const string Ic_fluent_delete_16_filled = "\uf9cc";
+		public const string Ic_fluent_delete_20_filled = "\uf34c";
+		public const string Ic_fluent_delete_24_filled = "\uf34d";
+		public const string Ic_fluent_delete_28_filled = "\uf34e";
+		public const string Ic_fluent_delete_48_filled = "\uf34f";
+		public const string Ic_fluent_delete_arrow_back_16_filled = "\uff78";
+		public const string Ic_fluent_delete_dismiss_24_filled = "\ufbfd";
+		public const string Ic_fluent_delete_dismiss_28_filled = "\ufbfe";
+		public const string Ic_fluent_delete_lines_20_filled = "\u014d";
+		public const string Ic_fluent_delete_off_20_filled = "\uf352";
+		public const string Ic_fluent_delete_off_24_filled = "\uf353";
+		public const string Ic_fluent_dentist_12_filled = "\uf9cd";
+		public const string Ic_fluent_dentist_16_filled = "\uf9ce";
+		public const string Ic_fluent_dentist_20_filled = "\uf9cf";
+		public const string Ic_fluent_dentist_24_filled = "\uf354";
+		public const string Ic_fluent_dentist_28_filled = "\uf9d0";
+		public const string Ic_fluent_dentist_48_filled = "\uf9d1";
+		public const string Ic_fluent_design_ideas_16_filled = "\uf355";
+		public const string Ic_fluent_design_ideas_20_filled = "\uf356";
+		public const string Ic_fluent_design_ideas_24_filled = "\uf357";
+		public const string Ic_fluent_desktop_16_filled = "\uf358";
+		public const string Ic_fluent_desktop_20_filled = "\uf359";
+		public const string Ic_fluent_desktop_24_filled = "\uf35a";
+		public const string Ic_fluent_desktop_28_filled = "\uf35b";
+		public const string Ic_fluent_desktop_32_filled = "\ufdc1";
+		public const string Ic_fluent_desktop_arrow_right_16_filled = "\ufb38";
+		public const string Ic_fluent_desktop_arrow_right_20_filled = "\ufb39";
+		public const string Ic_fluent_desktop_arrow_right_24_filled = "\ufb3a";
+		public const string Ic_fluent_desktop_edit_16_filled = "\uff79";
+		public const string Ic_fluent_desktop_keyboard_16_filled = "\u0186";
+		public const string Ic_fluent_desktop_keyboard_20_filled = "\u0187";
+		public const string Ic_fluent_desktop_keyboard_24_filled = "\u0188";
+		public const string Ic_fluent_desktop_keyboard_28_filled = "\u0189";
+		public const string Ic_fluent_desktop_mac_16_filled = "\ufcde";
+		public const string Ic_fluent_desktop_mac_32_filled = "\ufcdf";
+		public const string Ic_fluent_desktop_pulse_16_filled = "\ufe5c";
+		public const string Ic_fluent_desktop_pulse_20_filled = "\ufe5d";
+		public const string Ic_fluent_desktop_pulse_24_filled = "\ufe5e";
+		public const string Ic_fluent_desktop_pulse_28_filled = "\ufe5f";
+		public const string Ic_fluent_desktop_pulse_32_filled = "\ufe60";
+		public const string Ic_fluent_desktop_pulse_48_filled = "\ufe61";
+		public const string Ic_fluent_desktop_speaker_20_filled = "\ufb3b";
+		public const string Ic_fluent_desktop_speaker_24_filled = "\ufb3c";
+		public const string Ic_fluent_desktop_speaker_off_20_filled = "\ufb3d";
+		public const string Ic_fluent_desktop_speaker_off_24_filled = "\ufb3e";
+		public const string Ic_fluent_desktop_sync_16_filled = "\uf3b3";
+		public const string Ic_fluent_developer_board_20_filled = "\ufe62";
+		public const string Ic_fluent_developer_board_24_filled = "\uf35c";
+		public const string Ic_fluent_developer_board_search_20_filled = "\u00cc";
+		public const string Ic_fluent_device_eq_24_filled = "\uf35d";
+		public const string Ic_fluent_device_meeting_room_16_filled = "\uf3b4";
+		public const string Ic_fluent_device_meeting_room_20_filled = "\ufb8a";
+		public const string Ic_fluent_device_meeting_room_24_filled = "\uf3b5";
+		public const string Ic_fluent_device_meeting_room_28_filled = "\uf3b6";
+		public const string Ic_fluent_device_meeting_room_32_filled = "\uf3b7";
+		public const string Ic_fluent_device_meeting_room_48_filled = "\uf3bc";
+		public const string Ic_fluent_device_meeting_room_remote_16_filled = "\uf3bd";
+		public const string Ic_fluent_device_meeting_room_remote_20_filled = "\ufb8b";
+		public const string Ic_fluent_device_meeting_room_remote_24_filled = "\uf3c2";
+		public const string Ic_fluent_device_meeting_room_remote_28_filled = "\uf3cd";
+		public const string Ic_fluent_device_meeting_room_remote_32_filled = "\uf3ec";
+		public const string Ic_fluent_device_meeting_room_remote_48_filled = "\uf3ed";
+		public const string Ic_fluent_diagram_24_filled = "\uf953";
+		public const string Ic_fluent_dialpad_20_filled = "\uf35e";
+		public const string Ic_fluent_dialpad_24_filled = "\uf35f";
+		public const string Ic_fluent_dialpad_28_filled = "\u014e";
+		public const string Ic_fluent_dialpad_32_filled = "\u014f";
+		public const string Ic_fluent_dialpad_48_filled = "\u0150";
+		public const string Ic_fluent_dialpad_off_24_filled = "\uf360";
+		public const string Ic_fluent_diamond_32_filled = "\u01e2";
+		public const string Ic_fluent_directions_16_filled = "\u000a";
+		public const string Ic_fluent_directions_20_filled = "\uf365";
+		public const string Ic_fluent_directions_24_filled = "\uf366";
+		public const string Ic_fluent_dismiss_12_filled = "\uf367";
+		public const string Ic_fluent_dismiss_16_filled = "\uf368";
+		public const string Ic_fluent_dismiss_20_filled = "\uf369";
+		public const string Ic_fluent_dismiss_24_filled = "\uf36a";
+		public const string Ic_fluent_dismiss_28_filled = "\uf36b";
+		public const string Ic_fluent_dismiss_32_filled = "\uf3f2";
+		public const string Ic_fluent_dismiss_48_filled = "\uf3ff";
+		public const string Ic_fluent_dismiss_circle_12_filled = "\uff7a";
+		public const string Ic_fluent_dismiss_circle_16_filled = "\uf36c";
+		public const string Ic_fluent_dismiss_circle_20_filled = "\uf36d";
+		public const string Ic_fluent_dismiss_circle_24_filled = "\uf36e";
+		public const string Ic_fluent_dismiss_circle_28_filled = "\uf9d2";
+		public const string Ic_fluent_dismiss_circle_32_filled = "\uf96b";
+		public const string Ic_fluent_dismiss_circle_48_filled = "\uf36f";
+		public const string Ic_fluent_dismiss_square_20_filled = "\ufed7";
+		public const string Ic_fluent_dismiss_square_24_filled = "\ufe63";
+		public const string Ic_fluent_dismiss_square_multiple_16_filled = "\ufdc2";
+		public const string Ic_fluent_diversity_20_filled = "\u0151";
+		public const string Ic_fluent_diversity_24_filled = "\u0152";
+		public const string Ic_fluent_diversity_28_filled = "\u0153";
+		public const string Ic_fluent_diversity_48_filled = "\u0154";
+		public const string Ic_fluent_divider_short_24_filled = "\uf370";
+		public const string Ic_fluent_divider_tall_16_filled = "\uff7b";
+		public const string Ic_fluent_divider_tall_20_filled = "\u000b";
+		public const string Ic_fluent_divider_tall_24_filled = "\uf371";
+		public const string Ic_fluent_dock_24_filled = "\uf372";
+		public const string Ic_fluent_dock_row_24_filled = "\uf376";
+		public const string Ic_fluent_doctor_12_filled = "\uf9da";
+		public const string Ic_fluent_doctor_16_filled = "\uf9db";
+		public const string Ic_fluent_doctor_20_filled = "\uf9dc";
+		public const string Ic_fluent_doctor_24_filled = "\uf377";
+		public const string Ic_fluent_doctor_28_filled = "\uf9dd";
+		public const string Ic_fluent_doctor_48_filled = "\uf9de";
+		public const string Ic_fluent_document_16_filled = "\uf9df";
+		public const string Ic_fluent_document_20_filled = "\uf378";
+		public const string Ic_fluent_document_24_filled = "\uf379";
+		public const string Ic_fluent_document_28_filled = "\uf37a";
+		public const string Ic_fluent_document_32_filled = "\ufdc3";
+		public const string Ic_fluent_document_48_filled = "\uf9e0";
+		public const string Ic_fluent_document_add_16_filled = "\uf9e1";
+		public const string Ic_fluent_document_add_20_filled = "\uf9e2";
+		public const string Ic_fluent_document_add_24_filled = "\uf9e3";
+		public const string Ic_fluent_document_add_28_filled = "\uf9e4";
+		public const string Ic_fluent_document_add_48_filled = "\uf9e5";
+		public const string Ic_fluent_document_arrow_down_16_filled = "\uf96c";
+		public const string Ic_fluent_document_arrow_down_20_filled = "\uff7d";
+		public const string Ic_fluent_document_arrow_left_16_filled = "\uf9e6";
+		public const string Ic_fluent_document_arrow_left_20_filled = "\uf9e7";
+		public const string Ic_fluent_document_arrow_left_24_filled = "\uf9e8";
+		public const string Ic_fluent_document_arrow_left_28_filled = "\uf9e9";
+		public const string Ic_fluent_document_arrow_left_48_filled = "\uf9ea";
+		public const string Ic_fluent_document_arrow_right_20_filled = "\u00cd";
+		public const string Ic_fluent_document_arrow_right_24_filled = "\ufce0";
+		public const string Ic_fluent_document_arrow_up_16_filled = "\uf400";
+		public const string Ic_fluent_document_arrow_up_20_filled = "\u000c";
+		public const string Ic_fluent_document_briefcase_20_filled = "\uf37c";
+		public const string Ic_fluent_document_briefcase_24_filled = "\uf37d";
+		public const string Ic_fluent_document_bullet_list_20_filled = "\uf401";
+		public const string Ic_fluent_document_bullet_list_24_filled = "\uf402";
+		public const string Ic_fluent_document_bullet_list_clock_20_filled = "\uf985";
+		public const string Ic_fluent_document_bullet_list_clock_24_filled = "\uf9d3";
+		public const string Ic_fluent_document_bullet_list_off_24_filled = "\uf9d4";
+		public const string Ic_fluent_document_catch_up_16_filled = "\uf9eb";
+		public const string Ic_fluent_document_catch_up_20_filled = "\uf9ec";
+		public const string Ic_fluent_document_catch_up_24_filled = "\uf37e";
+		public const string Ic_fluent_document_checkmark_24_filled = "\ufce1";
+		public const string Ic_fluent_document_chevron_double_24_filled = "\u00ce";
+		public const string Ic_fluent_document_copy_16_filled = "\uf37f";
+		public const string Ic_fluent_document_copy_20_filled = "\uf380";
+		public const string Ic_fluent_document_copy_24_filled = "\uf381";
+		public const string Ic_fluent_document_copy_48_filled = "\uf382";
+		public const string Ic_fluent_document_css_24_filled = "\u00cf";
+		public const string Ic_fluent_document_dismiss_16_filled = "\u000d";
+		public const string Ic_fluent_document_dismiss_20_filled = "\uf383";
+		public const string Ic_fluent_document_dismiss_24_filled = "\uf384";
+		public const string Ic_fluent_document_edit_16_filled = "\uf385";
+		public const string Ic_fluent_document_edit_20_filled = "\uf386";
+		public const string Ic_fluent_document_edit_24_filled = "\uf387";
+		public const string Ic_fluent_document_endnote_20_filled = "\uf388";
+		public const string Ic_fluent_document_endnote_24_filled = "\uf389";
+		public const string Ic_fluent_document_error_16_filled = "\uf38a";
+		public const string Ic_fluent_document_error_20_filled = "\uf38b";
+		public const string Ic_fluent_document_error_24_filled = "\uf38c";
+		public const string Ic_fluent_document_flowchart_20_filled = "\u0273";
+		public const string Ic_fluent_document_flowchart_24_filled = "\u0274";
+		public const string Ic_fluent_document_footer_16_filled = "\ufed8";
+		public const string Ic_fluent_document_footer_24_filled = "\uf38d";
+		public const string Ic_fluent_document_footer_dismiss_24_filled = "\ufed9";
+		public const string Ic_fluent_document_footer_remove_24_filled = "\uf38e";
+		public const string Ic_fluent_document_header_16_filled = "\ufeda";
+		public const string Ic_fluent_document_header_24_filled = "\uf38f";
+		public const string Ic_fluent_document_header_arrow_down_16_filled = "\ufedb";
+		public const string Ic_fluent_document_header_dismiss_24_filled = "\ufedc";
+		public const string Ic_fluent_document_header_footer_16_filled = "\ufedd";
+		public const string Ic_fluent_document_header_footer_20_filled = "\uf390";
+		public const string Ic_fluent_document_header_footer_24_filled = "\uf391";
+		public const string Ic_fluent_document_heart_20_filled = "\uff7e";
+		public const string Ic_fluent_document_heart_24_filled = "\uff7f";
+		public const string Ic_fluent_document_heart_pulse_20_filled = "\uff80";
+		public const string Ic_fluent_document_heart_pulse_24_filled = "\uff81";
+		public const string Ic_fluent_document_javascript_24_filled = "\u00d0";
+		public const string Ic_fluent_document_landscape_20_filled = "\uf393";
+		public const string Ic_fluent_document_landscape_24_filled = "\uf394";
+		public const string Ic_fluent_document_landscape_data_24_filled = "\uf9ed";
+		public const string Ic_fluent_document_landscape_split_20_filled = "\uf9ee";
+		public const string Ic_fluent_document_landscape_split_hint_20_filled = "\uf9ef";
+		public const string Ic_fluent_document_link_16_filled = "\u000e";
+		public const string Ic_fluent_document_link_20_filled = "\uf403";
+		public const string Ic_fluent_document_link_24_filled = "\uf404";
+		public const string Ic_fluent_document_margins_20_filled = "\uf395";
+		public const string Ic_fluent_document_margins_24_filled = "\uf396";
+		public const string Ic_fluent_document_multiple_16_filled = "\uf9d5";
+		public const string Ic_fluent_document_multiple_20_filled = "\uff82";
+		public const string Ic_fluent_document_multiple_24_filled = "\u0117";
+		public const string Ic_fluent_document_multiple_percent_20_filled = "\u00d1";
+		public const string Ic_fluent_document_multiple_percent_24_filled = "\u0118";
+		public const string Ic_fluent_document_multiple_prohibited_20_filled = "\uff83";
+		public const string Ic_fluent_document_multiple_prohibited_24_filled = "\uff84";
+		public const string Ic_fluent_document_one_page_20_filled = "\uf399";
+		public const string Ic_fluent_document_one_page_24_filled = "\uf39a";
+		public const string Ic_fluent_document_page_bottom_center_20_filled = "\uf39c";
+		public const string Ic_fluent_document_page_bottom_center_24_filled = "\uf39d";
+		public const string Ic_fluent_document_page_bottom_left_20_filled = "\uf39e";
+		public const string Ic_fluent_document_page_bottom_left_24_filled = "\uf39f";
+		public const string Ic_fluent_document_page_bottom_right_20_filled = "\uf3a0";
+		public const string Ic_fluent_document_page_bottom_right_24_filled = "\uf3a1";
+		public const string Ic_fluent_document_page_break_20_filled = "\uf9f0";
+		public const string Ic_fluent_document_page_break_24_filled = "\uf3a2";
+		public const string Ic_fluent_document_page_number_20_filled = "\uf3a3";
+		public const string Ic_fluent_document_page_number_24_filled = "\uf3a4";
+		public const string Ic_fluent_document_page_top_center_20_filled = "\uf3a5";
+		public const string Ic_fluent_document_page_top_center_24_filled = "\uf3a6";
+		public const string Ic_fluent_document_page_top_left_20_filled = "\uf3a7";
+		public const string Ic_fluent_document_page_top_left_24_filled = "\uf3a8";
+		public const string Ic_fluent_document_page_top_right_20_filled = "\uf3a9";
+		public const string Ic_fluent_document_page_top_right_24_filled = "\uf3aa";
+		public const string Ic_fluent_document_pdf_16_filled = "\uf3ab";
+		public const string Ic_fluent_document_pdf_20_filled = "\uf3ac";
+		public const string Ic_fluent_document_pdf_24_filled = "\uf3ad";
+		public const string Ic_fluent_document_pdf_32_filled = "\ufdc4";
+		public const string Ic_fluent_document_percent_20_filled = "\u00d2";
+		public const string Ic_fluent_document_percent_24_filled = "\u00d3";
+		public const string Ic_fluent_document_person_16_filled = "\uf425";
+		public const string Ic_fluent_document_person_20_filled = "\u000f";
+		public const string Ic_fluent_document_pill_20_filled = "\uf9d6";
+		public const string Ic_fluent_document_pill_24_filled = "\uf9d7";
+		public const string Ic_fluent_document_prohibited_20_filled = "\ufc09";
+		public const string Ic_fluent_document_prohibited_24_filled = "\ufc0a";
+		public const string Ic_fluent_document_question_mark_16_filled = "\ufd38";
+		public const string Ic_fluent_document_question_mark_20_filled = "\ufd39";
+		public const string Ic_fluent_document_question_mark_24_filled = "\ufd3a";
+		public const string Ic_fluent_document_ribbon_16_filled = "\ufede";
+		public const string Ic_fluent_document_ribbon_20_filled = "\ufedf";
+		public const string Ic_fluent_document_ribbon_24_filled = "\ufee0";
+		public const string Ic_fluent_document_ribbon_28_filled = "\ufee1";
+		public const string Ic_fluent_document_ribbon_32_filled = "\ufee2";
+		public const string Ic_fluent_document_ribbon_48_filled = "\ufee3";
+		public const string Ic_fluent_document_save_20_filled = "\uf9d8";
+		public const string Ic_fluent_document_save_24_filled = "\uf9d9";
+		public const string Ic_fluent_document_search_16_filled = "\uff85";
+		public const string Ic_fluent_document_search_20_filled = "\uf3ae";
+		public const string Ic_fluent_document_search_24_filled = "\uf3af";
+		public const string Ic_fluent_document_settings_16_filled = "\uf426";
+		public const string Ic_fluent_document_settings_20_filled = "\u00d4";
+		public const string Ic_fluent_document_split_hint_16_filled = "\u00d5";
+		public const string Ic_fluent_document_split_hint_20_filled = "\u00d6";
+		public const string Ic_fluent_document_split_hint_24_filled = "\uf427";
+		public const string Ic_fluent_document_split_hint_off_24_filled = "\uf428";
+		public const string Ic_fluent_document_sync_16_filled = "\u00d7";
+		public const string Ic_fluent_document_sync_20_filled = "\u00d8";
+		public const string Ic_fluent_document_sync_24_filled = "\ufc0b";
+		public const string Ic_fluent_document_table_16_filled = "\u0119";
+		public const string Ic_fluent_document_table_20_filled = "\u011a";
+		public const string Ic_fluent_document_table_24_filled = "\u011b";
+		public const string Ic_fluent_document_table_arrow_right_20_filled = "\u0225";
+		public const string Ic_fluent_document_table_arrow_right_24_filled = "\u0226";
+		public const string Ic_fluent_document_table_checkmark_20_filled = "\u0227";
+		public const string Ic_fluent_document_table_checkmark_24_filled = "\u0228";
+		public const string Ic_fluent_document_table_search_20_filled = "\u0275";
+		public const string Ic_fluent_document_table_search_24_filled = "\u0276";
+		public const string Ic_fluent_document_text_20_filled = "\u01e3";
+		public const string Ic_fluent_document_text_24_filled = "\u01e4";
+		public const string Ic_fluent_document_text_clock_20_filled = "\u0229";
+		public const string Ic_fluent_document_text_clock_24_filled = "\u022a";
+		public const string Ic_fluent_document_text_extract_20_filled = "\u0277";
+		public const string Ic_fluent_document_text_extract_24_filled = "\u0278";
+		public const string Ic_fluent_document_text_link_20_filled = "\u01e5";
+		public const string Ic_fluent_document_text_link_24_filled = "\u01e6";
+		public const string Ic_fluent_document_toolbox_20_filled = "\uf3b0";
+		public const string Ic_fluent_document_toolbox_24_filled = "\uf3b1";
+		public const string Ic_fluent_document_width_20_filled = "\uf3b8";
+		public const string Ic_fluent_document_width_24_filled = "\uf3b9";
+		public const string Ic_fluent_door_16_filled = "\ufa06";
+		public const string Ic_fluent_door_20_filled = "\uff86";
+		public const string Ic_fluent_door_arrow_left_16_filled = "\ufee4";
+		public const string Ic_fluent_door_arrow_left_20_filled = "\ufd3b";
+		public const string Ic_fluent_door_arrow_left_24_filled = "\ufe64";
+		public const string Ic_fluent_door_arrow_right_16_filled = "\u00d9";
+		public const string Ic_fluent_door_arrow_right_20_filled = "\u00da";
+		public const string Ic_fluent_door_tag_24_filled = "\ufbb6";
+		public const string Ic_fluent_double_swipe_down_24_filled = "\uf3ba";
+		public const string Ic_fluent_double_swipe_up_24_filled = "\uf3bb";
+		public const string Ic_fluent_drafts_16_filled = "\uf3be";
+		public const string Ic_fluent_drafts_20_filled = "\uf3bf";
+		public const string Ic_fluent_drafts_24_filled = "\uf3c0";
+		public const string Ic_fluent_drag_24_filled = "\uf3c1";
+		public const string Ic_fluent_draw_shape_24_filled = "\ufb8c";
+		public const string Ic_fluent_draw_text_24_filled = "\ufb8d";
+		public const string Ic_fluent_drink_beer_16_filled = "\uf9f1";
+		public const string Ic_fluent_drink_beer_20_filled = "\uf9f2";
+		public const string Ic_fluent_drink_beer_24_filled = "\uf3c3";
+		public const string Ic_fluent_drink_coffee_16_filled = "\uf9f3";
+		public const string Ic_fluent_drink_coffee_20_filled = "\uf3c4";
+		public const string Ic_fluent_drink_coffee_24_filled = "\uf3c5";
+		public const string Ic_fluent_drink_margarita_16_filled = "\uf9f4";
+		public const string Ic_fluent_drink_margarita_20_filled = "\uf9f5";
+		public const string Ic_fluent_drink_margarita_24_filled = "\uf3c6";
+		public const string Ic_fluent_drink_to_go_24_filled = "\ufc0c";
+		public const string Ic_fluent_drink_wine_16_filled = "\uf9f6";
+		public const string Ic_fluent_drink_wine_20_filled = "\uf9f7";
+		public const string Ic_fluent_drink_wine_24_filled = "\uf3c7";
+		public const string Ic_fluent_drive_train_24_filled = "\ufee5";
+		public const string Ic_fluent_drop_12_filled = "\ufd3c";
+		public const string Ic_fluent_drop_16_filled = "\ufd3d";
+		public const string Ic_fluent_drop_20_filled = "\ufd3e";
+		public const string Ic_fluent_drop_24_filled = "\ufd3f";
+		public const string Ic_fluent_drop_28_filled = "\ufd40";
+		public const string Ic_fluent_drop_48_filled = "\ufd41";
+		public const string Ic_fluent_dual_screen_20_filled = "\u00db";
+		public const string Ic_fluent_dual_screen_24_filled = "\uf3c8";
+		public const string Ic_fluent_dual_screen_add_24_filled = "\uf3c9";
+		public const string Ic_fluent_dual_screen_arrow_right_24_filled = "\uf3ca";
+		public const string Ic_fluent_dual_screen_arrow_up_24_filled = "\ufa07";
+		public const string Ic_fluent_dual_screen_clock_24_filled = "\uf3cb";
+		public const string Ic_fluent_dual_screen_closed_alert_24_filled = "\ufa08";
+		public const string Ic_fluent_dual_screen_desktop_24_filled = "\uf3cc";
+		public const string Ic_fluent_dual_screen_dismiss_24_filled = "\ufce2";
+		public const string Ic_fluent_dual_screen_group_24_filled = "\uf3ce";
+		public const string Ic_fluent_dual_screen_header_24_filled = "\ufc0d";
+		public const string Ic_fluent_dual_screen_lock_24_filled = "\uf3cf";
+		public const string Ic_fluent_dual_screen_mirror_24_filled = "\uf3d0";
+		public const string Ic_fluent_dual_screen_pagination_24_filled = "\uf3d1";
+		public const string Ic_fluent_dual_screen_settings_24_filled = "\uf3d2";
+		public const string Ic_fluent_dual_screen_span_24_filled = "\uf9f8";
+		public const string Ic_fluent_dual_screen_speaker_24_filled = "\ufce3";
+		public const string Ic_fluent_dual_screen_status_bar_24_filled = "\uf3d3";
+		public const string Ic_fluent_dual_screen_tablet_24_filled = "\uf3d4";
+		public const string Ic_fluent_dual_screen_update_24_filled = "\uf3d5";
+		public const string Ic_fluent_dual_screen_vertical_scroll_24_filled = "\uf3d6";
+		public const string Ic_fluent_dual_screen_vibrate_24_filled = "\uf3d7";
+		public const string Ic_fluent_dumbbell_16_filled = "\ufd42";
+		public const string Ic_fluent_dumbbell_20_filled = "\ufd43";
+		public const string Ic_fluent_dumbbell_24_filled = "\ufd44";
+		public const string Ic_fluent_dumbbell_28_filled = "\ufd45";
+		public const string Ic_fluent_earth_16_filled = "\uf3d8";
+		public const string Ic_fluent_earth_20_filled = "\uf3d9";
+		public const string Ic_fluent_earth_24_filled = "\uf3da";
+		public const string Ic_fluent_edit_16_filled = "\uf3db";
+		public const string Ic_fluent_edit_20_filled = "\uf3dc";
+		public const string Ic_fluent_edit_24_filled = "\uf3dd";
+		public const string Ic_fluent_edit_32_filled = "\uf9f9";
+		public const string Ic_fluent_edit_arrow_back_16_filled = "\uf42d";
+		public const string Ic_fluent_edit_arrow_back_20_filled = "\u0010";
+		public const string Ic_fluent_edit_off_16_filled = "\uf9fa";
+		public const string Ic_fluent_edit_off_20_filled = "\ufd46";
+		public const string Ic_fluent_edit_off_24_filled = "\uf9fb";
+		public const string Ic_fluent_edit_settings_24_filled = "\uf9fc";
+		public const string Ic_fluent_emoji_16_filled = "\uf3de";
+		public const string Ic_fluent_emoji_20_filled = "\uf3df";
+		public const string Ic_fluent_emoji_24_filled = "\uf3e0";
+		public const string Ic_fluent_emoji_add_16_filled = "\uf9fd";
+		public const string Ic_fluent_emoji_add_20_filled = "\ufb3f";
+		public const string Ic_fluent_emoji_add_24_filled = "\uf3e1";
+		public const string Ic_fluent_emoji_angry_20_filled = "\uf3e2";
+		public const string Ic_fluent_emoji_angry_24_filled = "\uf3e3";
+		public const string Ic_fluent_emoji_hand_20_filled = "\ufe65";
+		public const string Ic_fluent_emoji_hand_24_filled = "\uf9fe";
+		public const string Ic_fluent_emoji_hand_28_filled = "\uf9ff";
+		public const string Ic_fluent_emoji_laugh_16_filled = "\uff87";
+		public const string Ic_fluent_emoji_laugh_20_filled = "\uf3e4";
+		public const string Ic_fluent_emoji_laugh_24_filled = "\uf3e5";
+		public const string Ic_fluent_emoji_meh_20_filled = "\uf3e6";
+		public const string Ic_fluent_emoji_meh_24_filled = "\uf3e7";
+		public const string Ic_fluent_emoji_multiple_20_filled = "\ufa18";
+		public const string Ic_fluent_emoji_multiple_24_filled = "\ufa47";
+		public const string Ic_fluent_emoji_sad_16_filled = "\u0011";
+		public const string Ic_fluent_emoji_sad_20_filled = "\uf3e8";
+		public const string Ic_fluent_emoji_sad_24_filled = "\uf3e9";
+		public const string Ic_fluent_emoji_surprise_20_filled = "\uf3ea";
+		public const string Ic_fluent_emoji_surprise_24_filled = "\uf3eb";
+		public const string Ic_fluent_engine_24_filled = "\ufee6";
+		public const string Ic_fluent_equal_off_20_filled = "\uf42e";
+		public const string Ic_fluent_equal_off_24_filled = "\uff88";
+		public const string Ic_fluent_eraser_20_filled = "\ufa00";
+		public const string Ic_fluent_eraser_24_filled = "\ufa01";
+		public const string Ic_fluent_eraser_medium_24_filled = "\ufa02";
+		public const string Ic_fluent_eraser_segment_24_filled = "\ufa03";
+		public const string Ic_fluent_eraser_small_24_filled = "\ufa04";
+		public const string Ic_fluent_eraser_tool_24_filled = "\uf3ee";
+		public const string Ic_fluent_error_circle_12_filled = "\ufa05";
+		public const string Ic_fluent_error_circle_16_filled = "\uf3ef";
+		public const string Ic_fluent_error_circle_20_filled = "\uf3f0";
+		public const string Ic_fluent_error_circle_24_filled = "\uf3f1";
+		public const string Ic_fluent_error_circle_settings_16_filled = "\uf42f";
+		public const string Ic_fluent_error_circle_settings_20_filled = "\uff89";
+		public const string Ic_fluent_expand_up_left_16_filled = "\uf430";
+		public const string Ic_fluent_expand_up_left_20_filled = "\uf435";
+		public const string Ic_fluent_expand_up_left_24_filled = "\uf436";
+		public const string Ic_fluent_expand_up_left_28_filled = "\uf437";
+		public const string Ic_fluent_expand_up_left_32_filled = "\uf44f";
+		public const string Ic_fluent_expand_up_left_48_filled = "\uf450";
+		public const string Ic_fluent_expand_up_right_16_filled = "\uf453";
+		public const string Ic_fluent_expand_up_right_20_filled = "\uf454";
+		public const string Ic_fluent_expand_up_right_24_filled = "\uf471";
+		public const string Ic_fluent_expand_up_right_28_filled = "\uf49c";
+		public const string Ic_fluent_expand_up_right_32_filled = "\uf49d";
+		public const string Ic_fluent_expand_up_right_48_filled = "\uf49e";
+		public const string Ic_fluent_extended_dock_24_filled = "\uf3f3";
+		public const string Ic_fluent_eye_hide_20_filled = "\uf3f6";
+		public const string Ic_fluent_eye_hide_24_filled = "\uf3f7";
+		public const string Ic_fluent_eye_off_16_filled = "\uff8a";
+		public const string Ic_fluent_eye_show_12_filled = "\uf3f8";
+		public const string Ic_fluent_eye_show_16_filled = "\uf3f9";
+		public const string Ic_fluent_eye_show_20_filled = "\uf3fa";
+		public const string Ic_fluent_eye_show_24_filled = "\uf3fb";
+		public const string Ic_fluent_eye_tracking_off_16_filled = "\ufa09";
+		public const string Ic_fluent_eye_tracking_off_20_filled = "\ufa0a";
+		public const string Ic_fluent_eye_tracking_off_24_filled = "\ufa0b";
+		public const string Ic_fluent_eye_tracking_on_16_filled = "\ufc0e";
+		public const string Ic_fluent_eye_tracking_on_20_filled = "\ufc0f";
+		public const string Ic_fluent_eye_tracking_on_24_filled = "\ufc10";
+		public const string Ic_fluent_eyedropper_20_filled = "\ufd47";
+		public const string Ic_fluent_eyedropper_24_filled = "\ufd48";
+		public const string Ic_fluent_f_stop_16_filled = "\ufa0c";
+		public const string Ic_fluent_f_stop_20_filled = "\ufa0d";
+		public const string Ic_fluent_f_stop_24_filled = "\ufa0e";
+		public const string Ic_fluent_f_stop_28_filled = "\ufa0f";
+		public const string Ic_fluent_fast_acceleration_24_filled = "\uf3fc";
+		public const string Ic_fluent_fast_forward_16_filled = "\u0279";
+		public const string Ic_fluent_fast_forward_20_filled = "\uf3fd";
+		public const string Ic_fluent_fast_forward_24_filled = "\uf3fe";
+		public const string Ic_fluent_fast_forward_28_filled = "\u027a";
+		public const string Ic_fluent_fax_16_filled = "\uf4b8";
+		public const string Ic_fluent_fax_20_filled = "\uff8b";
+		public const string Ic_fluent_filter_16_filled = "\ufe66";
+		public const string Ic_fluent_filter_20_filled = "\uf405";
+		public const string Ic_fluent_filter_24_filled = "\uf406";
+		public const string Ic_fluent_filter_28_filled = "\uf407";
+		public const string Ic_fluent_filter_dismiss_16_filled = "\uff8c";
+		public const string Ic_fluent_filter_dismiss_20_filled = "\uff8d";
+		public const string Ic_fluent_filter_dismiss_24_filled = "\ufce4";
+		public const string Ic_fluent_filter_sync_24_filled = "\ufce5";
+		public const string Ic_fluent_fingerprint_24_filled = "\uf408";
+		public const string Ic_fluent_fingerprint_48_filled = "\ufa10";
+		public const string Ic_fluent_fixed_width_24_filled = "\ufa11";
+		public const string Ic_fluent_flag_16_filled = "\uf409";
+		public const string Ic_fluent_flag_20_filled = "\uf40a";
+		public const string Ic_fluent_flag_24_filled = "\uf40b";
+		public const string Ic_fluent_flag_28_filled = "\uf40c";
+		public const string Ic_fluent_flag_48_filled = "\uf40d";
+		public const string Ic_fluent_flag_off_16_filled = "\ufd49";
+		public const string Ic_fluent_flag_off_20_filled = "\ufd4a";
+		public const string Ic_fluent_flag_off_24_filled = "\uf40e";
+		public const string Ic_fluent_flag_off_28_filled = "\uf40f";
+		public const string Ic_fluent_flag_off_48_filled = "\uf410";
+		public const string Ic_fluent_flag_pride_16_filled = "\uf411";
+		public const string Ic_fluent_flag_pride_20_filled = "\uf412";
+		public const string Ic_fluent_flag_pride_24_filled = "\uf413";
+		public const string Ic_fluent_flag_pride_28_filled = "\uf414";
+		public const string Ic_fluent_flag_pride_48_filled = "\uf415";
+		public const string Ic_fluent_flash_16_filled = "\ufe67";
+		public const string Ic_fluent_flash_28_filled = "\ufe68";
+		public const string Ic_fluent_flash_auto_24_filled = "\uf416";
+		public const string Ic_fluent_flash_checkmark_16_filled = "\ufe69";
+		public const string Ic_fluent_flash_checkmark_20_filled = "\ufe6a";
+		public const string Ic_fluent_flash_checkmark_24_filled = "\ufe6b";
+		public const string Ic_fluent_flash_checkmark_28_filled = "\ufe6c";
+		public const string Ic_fluent_flash_off_24_filled = "\uf417";
+		public const string Ic_fluent_flash_on_20_filled = "\uf418";
+		public const string Ic_fluent_flash_on_24_filled = "\uf419";
+		public const string Ic_fluent_flash_settings_20_filled = "\u022b";
+		public const string Ic_fluent_flash_settings_24_filled = "\u022c";
+		public const string Ic_fluent_flashlight_16_filled = "\uff8e";
+		public const string Ic_fluent_flashlight_20_filled = "\uff8f";
+		public const string Ic_fluent_flashlight_24_filled = "\uf41a";
+		public const string Ic_fluent_flashlight_off_24_filled = "\uf41b";
+		public const string Ic_fluent_flip_horizontal_24_filled = "\ufa12";
+		public const string Ic_fluent_flip_vertical_24_filled = "\ufa13";
+		public const string Ic_fluent_flow_16_filled = "\uf4b9";
+		public const string Ic_fluent_flow_20_filled = "\uff90";
+		public const string Ic_fluent_flowchart_20_filled = "\u027b";
+		public const string Ic_fluent_flowchart_24_filled = "\u027c";
+		public const string Ic_fluent_flowchart_circle_20_filled = "\u027d";
+		public const string Ic_fluent_flowchart_circle_24_filled = "\u027e";
+		public const string Ic_fluent_fluent_24_filled = "\ufc11";
+		public const string Ic_fluent_fluent_32_filled = "\ufa14";
+		public const string Ic_fluent_fluent_48_filled = "\ufa15";
+		public const string Ic_fluent_fluid_16_filled = "\uff91";
+		public const string Ic_fluent_fluid_20_filled = "\ufa16";
+		public const string Ic_fluent_fluid_24_filled = "\ufa17";
+		public const string Ic_fluent_folder_16_filled = "\ufce6";
+		public const string Ic_fluent_folder_20_filled = "\uf41c";
+		public const string Ic_fluent_folder_24_filled = "\uf41d";
+		public const string Ic_fluent_folder_28_filled = "\uf41e";
+		public const string Ic_fluent_folder_32_filled = "\ufce7";
+		public const string Ic_fluent_folder_48_filled = "\uf41f";
+		public const string Ic_fluent_folder_add_16_filled = "\uff92";
+		public const string Ic_fluent_folder_add_20_filled = "\uf420";
+		public const string Ic_fluent_folder_add_24_filled = "\uf421";
+		public const string Ic_fluent_folder_add_28_filled = "\uf422";
+		public const string Ic_fluent_folder_add_48_filled = "\uf423";
+		public const string Ic_fluent_folder_arrow_right_16_filled = "\ufc12";
+		public const string Ic_fluent_folder_arrow_right_20_filled = "\ufc13";
+		public const string Ic_fluent_folder_arrow_right_24_filled = "\ufc14";
+		public const string Ic_fluent_folder_arrow_right_28_filled = "\ufc15";
+		public const string Ic_fluent_folder_arrow_right_48_filled = "\ufc16";
+		public const string Ic_fluent_folder_arrow_up_16_filled = "\ufb8e";
+		public const string Ic_fluent_folder_arrow_up_20_filled = "\ufb8f";
+		public const string Ic_fluent_folder_arrow_up_24_filled = "\ufb90";
+		public const string Ic_fluent_folder_arrow_up_28_filled = "\ufb91";
+		public const string Ic_fluent_folder_arrow_up_48_filled = "\ufc17";
+		public const string Ic_fluent_folder_briefcase_20_filled = "\uf424";
+		public const string Ic_fluent_folder_globe_16_filled = "\uf4bb";
+		public const string Ic_fluent_folder_globe_20_filled = "\uff93";
+		public const string Ic_fluent_folder_link_20_filled = "\uf429";
+		public const string Ic_fluent_folder_link_24_filled = "\uf42a";
+		public const string Ic_fluent_folder_link_28_filled = "\uf42b";
+		public const string Ic_fluent_folder_link_48_filled = "\uf42c";
+		public const string Ic_fluent_folder_mail_16_filled = "\ufee7";
+		public const string Ic_fluent_folder_mail_20_filled = "\uff94";
+		public const string Ic_fluent_folder_open_16_filled = "\uf431";
+		public const string Ic_fluent_folder_open_20_filled = "\uf432";
+		public const string Ic_fluent_folder_open_24_filled = "\uf433";
+		public const string Ic_fluent_folder_open_vertical_20_filled = "\uf434";
+		public const string Ic_fluent_folder_person_16_filled = "\uf4d0";
+		public const string Ic_fluent_folder_person_20_filled = "\uff95";
+		public const string Ic_fluent_folder_prohibited_16_filled = "\ufe6d";
+		public const string Ic_fluent_folder_prohibited_20_filled = "\ufc18";
+		public const string Ic_fluent_folder_prohibited_24_filled = "\ufc19";
+		public const string Ic_fluent_folder_prohibited_28_filled = "\ufc1a";
+		public const string Ic_fluent_folder_prohibited_48_filled = "\ufc1b";
+		public const string Ic_fluent_folder_swap_16_filled = "\ufc1c";
+		public const string Ic_fluent_folder_swap_20_filled = "\ufc1d";
+		public const string Ic_fluent_folder_swap_24_filled = "\ufc1e";
+		public const string Ic_fluent_folder_sync_16_filled = "\ufee8";
+		public const string Ic_fluent_folder_sync_20_filled = "\uff96";
+		public const string Ic_fluent_folder_sync_24_filled = "\u027f";
+		public const string Ic_fluent_folder_zip_16_filled = "\uf438";
+		public const string Ic_fluent_folder_zip_20_filled = "\uf439";
+		public const string Ic_fluent_folder_zip_24_filled = "\uf43a";
+		public const string Ic_fluent_font_decrease_20_filled = "\uf43b";
+		public const string Ic_fluent_font_decrease_24_filled = "\uf43c";
+		public const string Ic_fluent_font_increase_20_filled = "\uf43d";
+		public const string Ic_fluent_font_increase_24_filled = "\uf43e";
+		public const string Ic_fluent_font_space_tracking_in_16_filled = "\uf43f";
+		public const string Ic_fluent_font_space_tracking_in_20_filled = "\uf440";
+		public const string Ic_fluent_font_space_tracking_in_24_filled = "\uf441";
+		public const string Ic_fluent_font_space_tracking_in_28_filled = "\uf442";
+		public const string Ic_fluent_font_space_tracking_out_16_filled = "\uf443";
+		public const string Ic_fluent_font_space_tracking_out_20_filled = "\uf444";
+		public const string Ic_fluent_font_space_tracking_out_24_filled = "\uf445";
+		public const string Ic_fluent_font_space_tracking_out_28_filled = "\uf446";
+		public const string Ic_fluent_food_16_filled = "\uff97";
+		public const string Ic_fluent_food_20_filled = "\uf447";
+		public const string Ic_fluent_food_24_filled = "\uf448";
+		public const string Ic_fluent_food_cake_12_filled = "\u0155";
+		public const string Ic_fluent_food_cake_16_filled = "\uff98";
+		public const string Ic_fluent_food_cake_20_filled = "\ufb40";
+		public const string Ic_fluent_food_cake_24_filled = "\uf449";
+		public const string Ic_fluent_food_egg_16_filled = "\ufa19";
+		public const string Ic_fluent_food_egg_20_filled = "\ufa1a";
+		public const string Ic_fluent_food_egg_24_filled = "\uf44a";
+		public const string Ic_fluent_food_pizza_20_filled = "\ufdc5";
+		public const string Ic_fluent_food_pizza_24_filled = "\ufdc6";
+		public const string Ic_fluent_food_toast_16_filled = "\ufa1b";
+		public const string Ic_fluent_food_toast_20_filled = "\ufa1c";
+		public const string Ic_fluent_food_toast_24_filled = "\uf44b";
+		public const string Ic_fluent_form_new_24_filled = "\uf44c";
+		public const string Ic_fluent_form_new_28_filled = "\uf44d";
+		public const string Ic_fluent_form_new_48_filled = "\uf44e";
+		public const string Ic_fluent_fps_120_20_filled = "\ufd4b";
+		public const string Ic_fluent_fps_120_24_filled = "\ufd4c";
+		public const string Ic_fluent_fps_240_20_filled = "\ufd4d";
+		public const string Ic_fluent_fps_240_24_filled = "\uf451";
+		public const string Ic_fluent_fps_30_16_filled = "\ufb93";
+		public const string Ic_fluent_fps_30_20_filled = "\ufb94";
+		public const string Ic_fluent_fps_30_24_filled = "\ufb95";
+		public const string Ic_fluent_fps_30_28_filled = "\ufb96";
+		public const string Ic_fluent_fps_30_48_filled = "\ufb97";
+		public const string Ic_fluent_fps_60_16_filled = "\ufb98";
+		public const string Ic_fluent_fps_60_20_filled = "\ufb99";
+		public const string Ic_fluent_fps_60_24_filled = "\ufb9a";
+		public const string Ic_fluent_fps_60_28_filled = "\ufb9b";
+		public const string Ic_fluent_fps_60_48_filled = "\ufb9c";
+		public const string Ic_fluent_fps_960_24_filled = "\uf452";
+		public const string Ic_fluent_full_screen_maximize_16_filled = "\uff99";
+		public const string Ic_fluent_full_screen_maximize_20_filled = "\uff9a";
+		public const string Ic_fluent_full_screen_maximize_24_filled = "\ufc1f";
+		public const string Ic_fluent_full_screen_minimize_24_filled = "\ufc20";
+		public const string Ic_fluent_games_16_filled = "\u022d";
+		public const string Ic_fluent_games_20_filled = "\u022e";
+		public const string Ic_fluent_games_24_filled = "\uf455";
+		public const string Ic_fluent_games_28_filled = "\u022f";
+		public const string Ic_fluent_games_32_filled = "\u0230";
+		public const string Ic_fluent_games_48_filled = "\u0231";
+		public const string Ic_fluent_gantt_chart_20_filled = "\ufa48";
+		public const string Ic_fluent_gantt_chart_24_filled = "\ufa49";
+		public const string Ic_fluent_gas_24_filled = "\ufee9";
+		public const string Ic_fluent_gas_pump_24_filled = "\ufeea";
+		public const string Ic_fluent_gauge_20_filled = "\uf4d1";
+		public const string Ic_fluent_gauge_24_filled = "\uf4d2";
+		public const string Ic_fluent_gavel_24_filled = "\ufa1d";
+		public const string Ic_fluent_gavel_32_filled = "\ufa1e";
+		public const string Ic_fluent_gesture_24_filled = "\uf456";
+		public const string Ic_fluent_gif_16_filled = "\uff9b";
+		public const string Ic_fluent_gif_20_filled = "\uf457";
+		public const string Ic_fluent_gif_24_filled = "\uf458";
+		public const string Ic_fluent_gift_16_filled = "\uff9c";
+		public const string Ic_fluent_gift_20_filled = "\uf459";
+		public const string Ic_fluent_gift_24_filled = "\uf45a";
+		public const string Ic_fluent_gift_card_16_filled = "\uf4d7";
+		public const string Ic_fluent_gift_card_20_filled = "\uf4d8";
+		public const string Ic_fluent_gift_card_add_20_filled = "\uf4d9";
+		public const string Ic_fluent_gift_card_add_24_filled = "\ufa4a";
+		public const string Ic_fluent_glance_20_filled = "\u00dc";
+		public const string Ic_fluent_glance_24_filled = "\uf45b";
+		public const string Ic_fluent_glance_horizontal_12_filled = "\u011c";
+		public const string Ic_fluent_glance_horizontal_20_filled = "\u00dd";
+		public const string Ic_fluent_glasses_16_filled = "\ufa1f";
+		public const string Ic_fluent_glasses_20_filled = "\ufa20";
+		public const string Ic_fluent_glasses_24_filled = "\uf45c";
+		public const string Ic_fluent_glasses_28_filled = "\ufa21";
+		public const string Ic_fluent_glasses_48_filled = "\ufa22";
+		public const string Ic_fluent_glasses_off_16_filled = "\ufa23";
+		public const string Ic_fluent_glasses_off_20_filled = "\ufa24";
+		public const string Ic_fluent_glasses_off_24_filled = "\uf45d";
+		public const string Ic_fluent_glasses_off_28_filled = "\ufa25";
+		public const string Ic_fluent_glasses_off_48_filled = "\ufa26";
+		public const string Ic_fluent_globe_16_filled = "\ufa27";
+		public const string Ic_fluent_globe_20_filled = "\uf45e";
+		public const string Ic_fluent_globe_24_filled = "\uf45f";
+		public const string Ic_fluent_globe_32_filled = "\ufdc7";
+		public const string Ic_fluent_globe_add_24_filled = "\uf460";
+		public const string Ic_fluent_globe_clock_16_filled = "\u0013";
+		public const string Ic_fluent_globe_clock_20_filled = "\u0014";
+		public const string Ic_fluent_globe_clock_24_filled = "\uf461";
+		public const string Ic_fluent_globe_desktop_24_filled = "\uf462";
+		public const string Ic_fluent_globe_location_20_filled = "\uf4e6";
+		public const string Ic_fluent_globe_location_24_filled = "\uf463";
+		public const string Ic_fluent_globe_person_24_filled = "\ufce8";
+		public const string Ic_fluent_globe_prohibited_20_filled = "\u0156";
+		public const string Ic_fluent_globe_search_20_filled = "\u0157";
+		public const string Ic_fluent_globe_search_24_filled = "\uf464";
+		public const string Ic_fluent_globe_shield_20_filled = "\u01e7";
+		public const string Ic_fluent_globe_shield_24_filled = "\u01e8";
+		public const string Ic_fluent_globe_star_16_filled = "\uf4f5";
+		public const string Ic_fluent_globe_star_20_filled = "\uff9d";
+		public const string Ic_fluent_globe_surface_20_filled = "\uff9e";
+		public const string Ic_fluent_globe_surface_24_filled = "\uff9f";
+		public const string Ic_fluent_globe_video_20_filled = "\uf507";
+		public const string Ic_fluent_globe_video_24_filled = "\uf465";
+		public const string Ic_fluent_globe_video_28_filled = "\u0158";
+		public const string Ic_fluent_globe_video_32_filled = "\u0159";
+		public const string Ic_fluent_globe_video_48_filled = "\u015a";
+		public const string Ic_fluent_grid_16_filled = "\ufe6e";
+		public const string Ic_fluent_grid_20_filled = "\uf466";
+		public const string Ic_fluent_grid_24_filled = "\uf467";
+		public const string Ic_fluent_grid_28_filled = "\uf468";
+		public const string Ic_fluent_grid_dots_20_filled = "\u0065";
+		public const string Ic_fluent_grid_dots_24_filled = "\u0066";
+		public const string Ic_fluent_grid_dots_28_filled = "\u0067";
+		public const string Ic_fluent_grid_kanban_20_filled = "\ufb41";
+		public const string Ic_fluent_group_20_filled = "\uf469";
+		public const string Ic_fluent_group_24_filled = "\uf46a";
+		public const string Ic_fluent_group_dismiss_24_filled = "\ufe26";
+		public const string Ic_fluent_group_list_24_filled = "\uf46b";
+		public const string Ic_fluent_group_return_24_filled = "\ufe27";
+		public const string Ic_fluent_guardian_20_filled = "\u015b";
+		public const string Ic_fluent_guardian_24_filled = "\u015c";
+		public const string Ic_fluent_guardian_28_filled = "\u015d";
+		public const string Ic_fluent_guardian_48_filled = "\u015e";
+		public const string Ic_fluent_guest_16_filled = "\uf46c";
+		public const string Ic_fluent_guest_20_filled = "\uf46d";
+		public const string Ic_fluent_guest_24_filled = "\uf46e";
+		public const string Ic_fluent_guest_28_filled = "\uf46f";
+		public const string Ic_fluent_guest_add_24_filled = "\uf470";
+		public const string Ic_fluent_guitar_16_filled = "\ufd4e";
+		public const string Ic_fluent_guitar_20_filled = "\ufd4f";
+		public const string Ic_fluent_guitar_24_filled = "\ufd50";
+		public const string Ic_fluent_guitar_28_filled = "\ufd51";
+		public const string Ic_fluent_hand_draw_24_filled = "\ufa58";
+		public const string Ic_fluent_hand_draw_28_filled = "\u0232";
+		public const string Ic_fluent_hand_left_16_filled = "\ufe28";
+		public const string Ic_fluent_hand_left_20_filled = "\ufa28";
+		public const string Ic_fluent_hand_left_24_filled = "\ufe29";
+		public const string Ic_fluent_hand_left_28_filled = "\ufe2a";
+		public const string Ic_fluent_hand_right_16_filled = "\ufe2b";
+		public const string Ic_fluent_hand_right_20_filled = "\ufb42";
+		public const string Ic_fluent_hand_right_24_filled = "\ufa29";
+		public const string Ic_fluent_hand_right_28_filled = "\ufa2a";
+		public const string Ic_fluent_hand_right_off_20_filled = "\ufb43";
+		public const string Ic_fluent_handshake_16_filled = "\uf472";
+		public const string Ic_fluent_handshake_20_filled = "\uf473";
+		public const string Ic_fluent_handshake_24_filled = "\uf474";
+		public const string Ic_fluent_hat_graduation_12_filled = "\u015f";
+		public const string Ic_fluent_hat_graduation_16_filled = "\ufa2b";
+		public const string Ic_fluent_hat_graduation_20_filled = "\ufa2c";
+		public const string Ic_fluent_hat_graduation_24_filled = "\ufa2d";
+		public const string Ic_fluent_hd_16_filled = "\ufa2e";
+		public const string Ic_fluent_hd_20_filled = "\ufa2f";
+		public const string Ic_fluent_hd_24_filled = "\ufa30";
+		public const string Ic_fluent_hdr_24_filled = "\uf475";
+		public const string Ic_fluent_headphones_20_filled = "\ufe6f";
+		public const string Ic_fluent_headphones_24_filled = "\uf476";
+		public const string Ic_fluent_headphones_28_filled = "\uf477";
+		public const string Ic_fluent_headphones_32_filled = "\ufe70";
+		public const string Ic_fluent_headphones_48_filled = "\ufe71";
+		public const string Ic_fluent_headphones_sound_wave_20_filled = "\ufe72";
+		public const string Ic_fluent_headphones_sound_wave_24_filled = "\ufe73";
+		public const string Ic_fluent_headphones_sound_wave_28_filled = "\ufe74";
+		public const string Ic_fluent_headphones_sound_wave_32_filled = "\ufe75";
+		public const string Ic_fluent_headphones_sound_wave_48_filled = "\ufe76";
+		public const string Ic_fluent_headset_16_filled = "\ufa31";
+		public const string Ic_fluent_headset_20_filled = "\ufa32";
+		public const string Ic_fluent_headset_24_filled = "\uf478";
+		public const string Ic_fluent_headset_28_filled = "\uf479";
+		public const string Ic_fluent_headset_32_filled = "\ufdc8";
+		public const string Ic_fluent_headset_48_filled = "\ufa33";
+		public const string Ic_fluent_headset_add_20_filled = "\uf508";
+		public const string Ic_fluent_headset_add_24_filled = "\uf509";
+		public const string Ic_fluent_headset_vr_20_filled = "\uf47a";
+		public const string Ic_fluent_headset_vr_24_filled = "\uf47b";
+		public const string Ic_fluent_heart_12_filled = "\u018a";
+		public const string Ic_fluent_heart_16_filled = "\uf47c";
+		public const string Ic_fluent_heart_20_filled = "\uf47d";
+		public const string Ic_fluent_heart_24_filled = "\uf47e";
+		public const string Ic_fluent_heart_28_filled = "\uf50a";
+		public const string Ic_fluent_heart_broken_16_filled = "\uf50b";
+		public const string Ic_fluent_heart_broken_20_filled = "\uffa0";
+		public const string Ic_fluent_heart_circle_16_filled = "\u0280";
+		public const string Ic_fluent_heart_circle_20_filled = "\u0281";
+		public const string Ic_fluent_heart_circle_24_filled = "\u0282";
+		public const string Ic_fluent_heart_pulse_20_filled = "\ufdc9";
+		public const string Ic_fluent_heart_pulse_24_filled = "\ufa34";
+		public const string Ic_fluent_heart_pulse_32_filled = "\ufa35";
+		public const string Ic_fluent_highlight_16_filled = "\uf47f";
+		public const string Ic_fluent_highlight_20_filled = "\uf480";
+		public const string Ic_fluent_highlight_24_filled = "\uf481";
+		public const string Ic_fluent_highlight_accent_16_filled = "\uf482";
+		public const string Ic_fluent_highlight_accent_20_filled = "\uf483";
+		public const string Ic_fluent_highlight_accent_24_filled = "\uf484";
+		public const string Ic_fluent_highlight_link_20_filled = "\u00de";
+		public const string Ic_fluent_history_16_filled = "\uffa1";
+		public const string Ic_fluent_history_20_filled = "\uf485";
+		public const string Ic_fluent_history_24_filled = "\uf486";
+		public const string Ic_fluent_home_12_filled = "\ufe2c";
+		public const string Ic_fluent_home_16_filled = "\ufa36";
+		public const string Ic_fluent_home_20_filled = "\uf487";
+		public const string Ic_fluent_home_24_filled = "\uf488";
+		public const string Ic_fluent_home_28_filled = "\uf489";
+		public const string Ic_fluent_home_32_filled = "\ufa37";
+		public const string Ic_fluent_home_48_filled = "\ufa38";
+		public const string Ic_fluent_home_add_24_filled = "\uf48a";
+		public const string Ic_fluent_home_checkmark_16_filled = "\ufe77";
+		public const string Ic_fluent_home_checkmark_20_filled = "\ufe78";
+		public const string Ic_fluent_home_checkmark_24_filled = "\uf48b";
+		public const string Ic_fluent_home_person_20_filled = "\ufb9e";
+		public const string Ic_fluent_home_person_24_filled = "\ufce9";
+		public const string Ic_fluent_icons_20_filled = "\uf48c";
+		public const string Ic_fluent_icons_24_filled = "\uf48d";
+		public const string Ic_fluent_image_16_filled = "\uf48e";
+		public const string Ic_fluent_image_20_filled = "\uf48f";
+		public const string Ic_fluent_image_24_filled = "\uf490";
+		public const string Ic_fluent_image_28_filled = "\uf491";
+		public const string Ic_fluent_image_48_filled = "\uf492";
+		public const string Ic_fluent_image_add_24_filled = "\uf493";
+		public const string Ic_fluent_image_alt_text_16_filled = "\u018b";
+		public const string Ic_fluent_image_alt_text_20_filled = "\uf494";
+		public const string Ic_fluent_image_alt_text_24_filled = "\uf495";
+		public const string Ic_fluent_image_arrow_back_24_filled = "\ufa59";
+		public const string Ic_fluent_image_arrow_counterclockwise_24_filled = "\ufa39";
+		public const string Ic_fluent_image_arrow_forward_24_filled = "\ufa5a";
+		public const string Ic_fluent_image_copy_20_filled = "\uf496";
+		public const string Ic_fluent_image_copy_24_filled = "\uf497";
+		public const string Ic_fluent_image_copy_28_filled = "\uf498";
+		public const string Ic_fluent_image_edit_16_filled = "\uf499";
+		public const string Ic_fluent_image_edit_20_filled = "\uf49a";
+		public const string Ic_fluent_image_edit_24_filled = "\uf49b";
+		public const string Ic_fluent_image_globe_24_filled = "\ufcea";
+		public const string Ic_fluent_image_multiple_16_filled = "\ufa5b";
+		public const string Ic_fluent_image_multiple_20_filled = "\ufc21";
+		public const string Ic_fluent_image_multiple_24_filled = "\ufc22";
+		public const string Ic_fluent_image_multiple_28_filled = "\ufc23";
+		public const string Ic_fluent_image_off_20_filled = "\ufb9f";
+		public const string Ic_fluent_image_off_24_filled = "\uf49f";
+		public const string Ic_fluent_image_prohibited_20_filled = "\uffa2";
+		public const string Ic_fluent_image_prohibited_24_filled = "\uffa3";
+		public const string Ic_fluent_image_reflection_24_filled = "\ufa5c";
+		public const string Ic_fluent_image_search_20_filled = "\uf4a0";
+		public const string Ic_fluent_image_search_24_filled = "\uf4a1";
+		public const string Ic_fluent_image_shadow_24_filled = "\ufa5d";
+		public const string Ic_fluent_immersive_reader_16_filled = "\u0015";
+		public const string Ic_fluent_immersive_reader_20_filled = "\uf4a2";
+		public const string Ic_fluent_immersive_reader_24_filled = "\uf4a3";
+		public const string Ic_fluent_important_12_filled = "\uf4a4";
+		public const string Ic_fluent_important_16_filled = "\uf4a5";
+		public const string Ic_fluent_important_20_filled = "\uf4a6";
+		public const string Ic_fluent_important_24_filled = "\uf4a7";
+		public const string Ic_fluent_incognito_24_filled = "\uf4a8";
+		public const string Ic_fluent_info_12_filled = "\uffa4";
+		public const string Ic_fluent_info_16_filled = "\uf4a9";
+		public const string Ic_fluent_info_20_filled = "\uf4aa";
+		public const string Ic_fluent_info_24_filled = "\uf4ab";
+		public const string Ic_fluent_info_28_filled = "\uf4ac";
+		public const string Ic_fluent_info_shield_20_filled = "\ufa3a";
+		public const string Ic_fluent_ink_stroke_20_filled = "\ufe79";
+		public const string Ic_fluent_ink_stroke_24_filled = "\ufe7a";
+		public const string Ic_fluent_inking_tool_16_filled = "\uf4ad";
+		public const string Ic_fluent_inking_tool_20_filled = "\uf4ae";
+		public const string Ic_fluent_inking_tool_24_filled = "\uf4af";
+		public const string Ic_fluent_inking_tool_32_filled = "\ufceb";
+		public const string Ic_fluent_inking_tool_accent_16_filled = "\uf4b0";
+		public const string Ic_fluent_inking_tool_accent_20_filled = "\uf4b1";
+		public const string Ic_fluent_inking_tool_accent_24_filled = "\uf4b2";
+		public const string Ic_fluent_inking_tool_accent_32_filled = "\u018c";
+		public const string Ic_fluent_inprivate_account_16_filled = "\uf4b3";
+		public const string Ic_fluent_inprivate_account_20_filled = "\uf4b4";
+		public const string Ic_fluent_inprivate_account_24_filled = "\uf4b5";
+		public const string Ic_fluent_inprivate_account_28_filled = "\uf4b6";
+		public const string Ic_fluent_insert_20_filled = "\uf4b7";
+		public const string Ic_fluent_ios_arrow_ltr_24_filled = "\u0068";
+		public const string Ic_fluent_ios_arrow_rtl_24_filled = "\u0069";
+		public const string Ic_fluent_ios_chevron_right_20_filled = "\uf4bc";
+		public const string Ic_fluent_iot_20_filled = "\uffa5";
+		public const string Ic_fluent_iot_24_filled = "\uffa6";
+		public const string Ic_fluent_javascript_16_filled = "\uf4bd";
+		public const string Ic_fluent_javascript_20_filled = "\uf4be";
+		public const string Ic_fluent_javascript_24_filled = "\uf4bf";
+		public const string Ic_fluent_key_16_filled = "\ufcec";
+		public const string Ic_fluent_key_20_filled = "\uf4c0";
+		public const string Ic_fluent_key_24_filled = "\uf4c1";
+		public const string Ic_fluent_key_32_filled = "\ufced";
+		public const string Ic_fluent_key_command_16_filled = "\ufd52";
+		public const string Ic_fluent_key_multiple_20_filled = "\ufa3b";
+		public const string Ic_fluent_keyboard_123_24_filled = "\u00df";
+		public const string Ic_fluent_keyboard_20_filled = "\uf4c2";
+		public const string Ic_fluent_keyboard_24_filled = "\uf4c3";
+		public const string Ic_fluent_keyboard_dock_24_filled = "\uf4c4";
+		public const string Ic_fluent_keyboard_layout_float_24_filled = "\uf4c5";
+		public const string Ic_fluent_keyboard_layout_one_handed_left_24_filled = "\uf4c6";
+		public const string Ic_fluent_keyboard_layout_resize_24_filled = "\uf4c7";
+		public const string Ic_fluent_keyboard_layout_split_24_filled = "\uf4c8";
+		public const string Ic_fluent_keyboard_shift_16_filled = "\ufe2d";
+		public const string Ic_fluent_keyboard_shift_20_filled = "\ufe2e";
+		public const string Ic_fluent_keyboard_shift_24_filled = "\uf4c9";
+		public const string Ic_fluent_keyboard_shift_uppercase_24_filled = "\uf4ca";
+		public const string Ic_fluent_keyboard_tab_24_filled = "\uf4cb";
+		public const string Ic_fluent_laptop_16_filled = "\uf4cc";
+		public const string Ic_fluent_laptop_20_filled = "\uf4cd";
+		public const string Ic_fluent_laptop_24_filled = "\uf4ce";
+		public const string Ic_fluent_laptop_28_filled = "\uf4cf";
+		public const string Ic_fluent_laptop_dismiss_16_filled = "\uf50f";
+		public const string Ic_fluent_laptop_dismiss_20_filled = "\u00e0";
+		public const string Ic_fluent_lasso_20_filled = "\ufba0";
+		public const string Ic_fluent_lasso_24_filled = "\uf4d3";
+		public const string Ic_fluent_lasso_28_filled = "\u0233";
+		public const string Ic_fluent_launcher_settings_24_filled = "\uf4d4";
+		public const string Ic_fluent_layer_20_filled = "\uf4d5";
+		public const string Ic_fluent_layer_24_filled = "\uf4d6";
+		public const string Ic_fluent_leaf_one_16_filled = "\ufc24";
+		public const string Ic_fluent_leaf_one_20_filled = "\ufc25";
+		public const string Ic_fluent_leaf_one_24_filled = "\ufc26";
+		public const string Ic_fluent_leaf_three_16_filled = "\ufba1";
+		public const string Ic_fluent_leaf_three_20_filled = "\ufba2";
+		public const string Ic_fluent_leaf_three_24_filled = "\ufba3";
+		public const string Ic_fluent_leaf_two_16_filled = "\uf4da";
+		public const string Ic_fluent_leaf_two_20_filled = "\uf4db";
+		public const string Ic_fluent_leaf_two_24_filled = "\uf4dc";
+		public const string Ic_fluent_learning_app_20_filled = "\ufb44";
+		public const string Ic_fluent_learning_app_24_filled = "\ufb45";
+		public const string Ic_fluent_library_16_filled = "\ufe7b";
+		public const string Ic_fluent_library_20_filled = "\ufe7c";
+		public const string Ic_fluent_library_24_filled = "\uf4dd";
+		public const string Ic_fluent_library_28_filled = "\uf4de";
+		public const string Ic_fluent_lightbulb_16_filled = "\uf4df";
+		public const string Ic_fluent_lightbulb_20_filled = "\uf4e0";
+		public const string Ic_fluent_lightbulb_24_filled = "\uf4e1";
+		public const string Ic_fluent_lightbulb_circle_24_filled = "\uf4e2";
+		public const string Ic_fluent_lightbulb_filament_16_filled = "\uf4e3";
+		public const string Ic_fluent_lightbulb_filament_20_filled = "\uf4e4";
+		public const string Ic_fluent_lightbulb_filament_24_filled = "\uf4e5";
+		public const string Ic_fluent_likert_16_filled = "\uf4e7";
+		public const string Ic_fluent_likert_20_filled = "\uf4e8";
+		public const string Ic_fluent_likert_24_filled = "\uf4e9";
+		public const string Ic_fluent_line_32_filled = "\u01e9";
+		public const string Ic_fluent_line_dashes_32_filled = "\u01ea";
+		public const string Ic_fluent_line_horizontal_1_20_filled = "\uf4ea";
+		public const string Ic_fluent_line_horizontal_3_20_filled = "\uf4eb";
+		public const string Ic_fluent_line_horizontal_5_20_filled = "\uf4ec";
+		public const string Ic_fluent_line_horizontal_5_error_20_filled = "\ufa3c";
+		public const string Ic_fluent_line_style_24_filled = "\ufcee";
+		public const string Ic_fluent_link_16_filled = "\uf4ed";
+		public const string Ic_fluent_link_20_filled = "\uf4ee";
+		public const string Ic_fluent_link_24_filled = "\uf4ef";
+		public const string Ic_fluent_link_28_filled = "\uf4f0";
+		public const string Ic_fluent_link_48_filled = "\uf4f1";
+		public const string Ic_fluent_link_dismiss_16_filled = "\u0017";
+		public const string Ic_fluent_link_dismiss_20_filled = "\ufc27";
+		public const string Ic_fluent_link_dismiss_24_filled = "\u00e1";
+		public const string Ic_fluent_link_edit_16_filled = "\uf4f2";
+		public const string Ic_fluent_link_edit_20_filled = "\uf4f3";
+		public const string Ic_fluent_link_edit_24_filled = "\uf4f4";
+		public const string Ic_fluent_link_square_12_filled = "\ufa3d";
+		public const string Ic_fluent_link_square_16_filled = "\ufa3e";
+		public const string Ic_fluent_link_square_20_filled = "\ufe2f";
+		public const string Ic_fluent_link_square_24_filled = "\uf4f6";
+		public const string Ic_fluent_list_16_filled = "\ufe7d";
+		public const string Ic_fluent_list_20_filled = "\uf4f7";
+		public const string Ic_fluent_list_24_filled = "\uf4f8";
+		public const string Ic_fluent_list_28_filled = "\uf4f9";
+		public const string Ic_fluent_live_20_filled = "\uf4fa";
+		public const string Ic_fluent_live_24_filled = "\uf4fb";
+		public const string Ic_fluent_live_off_20_filled = "\ufb46";
+		public const string Ic_fluent_live_off_24_filled = "\ufb47";
+		public const string Ic_fluent_local_language_16_filled = "\uf4fc";
+		public const string Ic_fluent_local_language_20_filled = "\uf4fd";
+		public const string Ic_fluent_local_language_24_filled = "\uf4fe";
+		public const string Ic_fluent_local_language_28_filled = "\uf4ff";
+		public const string Ic_fluent_local_language_zi_24_filled = "\ufa61";
+		public const string Ic_fluent_location_12_filled = "\uf500";
+		public const string Ic_fluent_location_16_filled = "\uf501";
+		public const string Ic_fluent_location_20_filled = "\uf502";
+		public const string Ic_fluent_location_24_filled = "\uf503";
+		public const string Ic_fluent_location_28_filled = "\uf504";
+		public const string Ic_fluent_location_48_filled = "\ufa3f";
+		public const string Ic_fluent_location_arrow_left_48_filled = "\ufe7e";
+		public const string Ic_fluent_location_arrow_right_48_filled = "\ufe7f";
+		public const string Ic_fluent_location_arrow_up_48_filled = "\ufe80";
+		public const string Ic_fluent_location_dismiss_24_filled = "\ufc28";
+		public const string Ic_fluent_location_live_20_filled = "\uf505";
+		public const string Ic_fluent_location_live_24_filled = "\uf506";
+		public const string Ic_fluent_location_off_16_filled = "\ufa40";
+		public const string Ic_fluent_location_off_20_filled = "\ufa41";
+		public const string Ic_fluent_location_off_24_filled = "\ufa42";
+		public const string Ic_fluent_location_off_28_filled = "\ufa43";
+		public const string Ic_fluent_location_off_48_filled = "\ufa44";
+		public const string Ic_fluent_lock_closed_12_filled = "\ufc29";
+		public const string Ic_fluent_lock_closed_16_filled = "\ufc2a";
+		public const string Ic_fluent_lock_closed_20_filled = "\ufc2b";
+		public const string Ic_fluent_lock_closed_24_filled = "\ufc2c";
+		public const string Ic_fluent_lock_closed_32_filled = "\u0160";
+		public const string Ic_fluent_lock_multiple_24_filled = "\ufa45";
+		public const string Ic_fluent_lock_open_16_filled = "\u0018";
+		public const string Ic_fluent_lock_open_20_filled = "\ufc2d";
+		public const string Ic_fluent_lock_open_24_filled = "\ufc2e";
+		public const string Ic_fluent_lock_open_28_filled = "\ufc2f";
+		public const string Ic_fluent_lock_shield_20_filled = "\uf50c";
+		public const string Ic_fluent_lock_shield_24_filled = "\uf50d";
+		public const string Ic_fluent_lock_shield_48_filled = "\uf50e";
+		public const string Ic_fluent_lottery_24_filled = "\ufa46";
+		public const string Ic_fluent_luggage_16_filled = "\u0019";
+		public const string Ic_fluent_luggage_20_filled = "\u001a";
+		public const string Ic_fluent_luggage_24_filled = "\ufbb7";
+		public const string Ic_fluent_mail_12_filled = "\u018d";
+		public const string Ic_fluent_mail_16_filled = "\ufa4b";
+		public const string Ic_fluent_mail_20_filled = "\uf510";
+		public const string Ic_fluent_mail_24_filled = "\uf511";
+		public const string Ic_fluent_mail_28_filled = "\uf512";
+		public const string Ic_fluent_mail_48_filled = "\uf513";
+		public const string Ic_fluent_mail_add_16_filled = "\uf517";
+		public const string Ic_fluent_mail_add_20_filled = "\uf529";
+		public const string Ic_fluent_mail_add_24_filled = "\uf514";
+		public const string Ic_fluent_mail_alert_16_filled = "\uf52a";
+		public const string Ic_fluent_mail_alert_20_filled = "\uf534";
+		public const string Ic_fluent_mail_alert_24_filled = "\uf535";
+		public const string Ic_fluent_mail_all_read_20_filled = "\uf518";
+		public const string Ic_fluent_mail_all_unread_20_filled = "\uf519";
+		public const string Ic_fluent_mail_arrow_double_back_16_filled = "\ufa62";
+		public const string Ic_fluent_mail_arrow_double_back_20_filled = "\u001b";
+		public const string Ic_fluent_mail_arrow_down_16_filled = "\uf536";
+		public const string Ic_fluent_mail_arrow_down_20_filled = "\u001c";
+		public const string Ic_fluent_mail_arrow_forward_16_filled = "\ufa63";
+		public const string Ic_fluent_mail_arrow_forward_20_filled = "\u001d";
+		public const string Ic_fluent_mail_arrow_up_20_filled = "\uf537";
+		public const string Ic_fluent_mail_arrow_up_24_filled = "\uf555";
+		public const string Ic_fluent_mail_attach_16_filled = "\ufa64";
+		public const string Ic_fluent_mail_attach_20_filled = "\u001e";
+		public const string Ic_fluent_mail_checkmark_16_filled = "\uf556";
+		public const string Ic_fluent_mail_checkmark_20_filled = "\u001f";
+		public const string Ic_fluent_mail_clock_16_filled = "\uf55b";
+		public const string Ic_fluent_mail_clock_20_filled = "\uf51a";
+		public const string Ic_fluent_mail_clock_24_filled = "\uf55c";
+		public const string Ic_fluent_mail_copy_20_filled = "\uf51b";
+		public const string Ic_fluent_mail_copy_24_filled = "\uf51c";
+		public const string Ic_fluent_mail_dismiss_16_filled = "\ufeec";
+		public const string Ic_fluent_mail_dismiss_20_filled = "\uf55d";
+		public const string Ic_fluent_mail_dismiss_24_filled = "\uf55e";
+		public const string Ic_fluent_mail_error_16_filled = "\u0020";
+		public const string Ic_fluent_mail_error_20_filled = "\uf55f";
+		public const string Ic_fluent_mail_error_24_filled = "\uf567";
+		public const string Ic_fluent_mail_inbox_16_filled = "\uf51d";
+		public const string Ic_fluent_mail_inbox_20_filled = "\uf51e";
+		public const string Ic_fluent_mail_inbox_24_filled = "\uf51f";
+		public const string Ic_fluent_mail_inbox_28_filled = "\uf520";
+		public const string Ic_fluent_mail_inbox_add_16_filled = "\uf521";
+		public const string Ic_fluent_mail_inbox_add_20_filled = "\uf522";
+		public const string Ic_fluent_mail_inbox_add_24_filled = "\uf523";
+		public const string Ic_fluent_mail_inbox_add_28_filled = "\uf524";
+		public const string Ic_fluent_mail_inbox_all_24_filled = "\ufc30";
+		public const string Ic_fluent_mail_inbox_arrow_down_16_filled = "\uf568";
+		public const string Ic_fluent_mail_inbox_arrow_down_20_filled = "\u0021";
+		public const string Ic_fluent_mail_inbox_arrow_right_24_filled = "\ufc31";
+		public const string Ic_fluent_mail_inbox_arrow_up_20_filled = "\ufc32";
+		public const string Ic_fluent_mail_inbox_arrow_up_24_filled = "\ufc33";
+		public const string Ic_fluent_mail_inbox_checkmark_16_filled = "\ufe30";
+		public const string Ic_fluent_mail_inbox_checkmark_20_filled = "\ufe31";
+		public const string Ic_fluent_mail_inbox_checkmark_24_filled = "\ufe32";
+		public const string Ic_fluent_mail_inbox_checkmark_28_filled = "\ufe81";
+		public const string Ic_fluent_mail_inbox_dismiss_16_filled = "\uf525";
+		public const string Ic_fluent_mail_inbox_dismiss_20_filled = "\uf526";
+		public const string Ic_fluent_mail_inbox_dismiss_24_filled = "\uf527";
+		public const string Ic_fluent_mail_inbox_dismiss_28_filled = "\uf528";
+		public const string Ic_fluent_mail_link_20_filled = "\uf58f";
+		public const string Ic_fluent_mail_link_24_filled = "\uf596";
+		public const string Ic_fluent_mail_multiple_16_filled = "\u006a";
+		public const string Ic_fluent_mail_multiple_20_filled = "\u006b";
+		public const string Ic_fluent_mail_multiple_24_filled = "\u006c";
+		public const string Ic_fluent_mail_off_24_filled = "\ufc34";
+		public const string Ic_fluent_mail_open_person_16_filled = "\uffa7";
+		public const string Ic_fluent_mail_pause_16_filled = "\uf5b0";
+		public const string Ic_fluent_mail_pause_20_filled = "\u0022";
+		public const string Ic_fluent_mail_prohibited_16_filled = "\ufeed";
+		public const string Ic_fluent_mail_prohibited_20_filled = "\uf5d5";
+		public const string Ic_fluent_mail_prohibited_24_filled = "\uf5ec";
+		public const string Ic_fluent_mail_read_16_filled = "\ufa4c";
+		public const string Ic_fluent_mail_read_20_filled = "\uf52b";
+		public const string Ic_fluent_mail_read_24_filled = "\uf52c";
+		public const string Ic_fluent_mail_read_28_filled = "\uf52d";
+		public const string Ic_fluent_mail_read_48_filled = "\uf52e";
+		public const string Ic_fluent_mail_settings_16_filled = "\uf5ed";
+		public const string Ic_fluent_mail_settings_20_filled = "\u0023";
+		public const string Ic_fluent_mail_shield_16_filled = "\uf5f2";
+		public const string Ic_fluent_mail_shield_20_filled = "\u0024";
+		public const string Ic_fluent_mail_template_16_filled = "\uffa8";
+		public const string Ic_fluent_mail_template_20_filled = "\uf5f3";
+		public const string Ic_fluent_mail_template_24_filled = "\uf5f7";
+		public const string Ic_fluent_mail_unread_16_filled = "\uf52f";
+		public const string Ic_fluent_mail_unread_20_filled = "\uf530";
+		public const string Ic_fluent_mail_unread_24_filled = "\uf531";
+		public const string Ic_fluent_mail_unread_28_filled = "\uf532";
+		public const string Ic_fluent_mail_unread_48_filled = "\uf533";
+		public const string Ic_fluent_mail_warning_16_filled = "\uf5f8";
+		public const string Ic_fluent_map_20_filled = "\ufe82";
+		public const string Ic_fluent_map_24_filled = "\uf538";
+		public const string Ic_fluent_map_drive_16_filled = "\uf539";
+		public const string Ic_fluent_map_drive_20_filled = "\uf53a";
+		public const string Ic_fluent_map_drive_24_filled = "\uf53b";
+		public const string Ic_fluent_match_app_layout_24_filled = "\uf53c";
+		public const string Ic_fluent_math_format_linear_24_filled = "\ufa4d";
+		public const string Ic_fluent_math_format_professional_24_filled = "\ufa4e";
+		public const string Ic_fluent_math_formula_16_filled = "\ufcef";
+		public const string Ic_fluent_math_formula_24_filled = "\ufa4f";
+		public const string Ic_fluent_math_formula_32_filled = "\ufcf0";
+		public const string Ic_fluent_maximize_20_filled = "\ufa50";
+		public const string Ic_fluent_maximize_28_filled = "\ufa52";
+		public const string Ic_fluent_maximize_48_filled = "\ufa53";
+		public const string Ic_fluent_meet_now_16_filled = "\ufa54";
+		public const string Ic_fluent_meet_now_20_filled = "\uf53e";
+		public const string Ic_fluent_meet_now_24_filled = "\uf53f";
+		public const string Ic_fluent_meet_now_28_filled = "\uf600";
+		public const string Ic_fluent_meet_now_32_filled = "\uf601";
+		public const string Ic_fluent_meet_now_48_filled = "\uf63b";
+		public const string Ic_fluent_megaphone_16_filled = "\uf540";
+		public const string Ic_fluent_megaphone_20_filled = "\uf541";
+		public const string Ic_fluent_megaphone_24_filled = "\uf542";
+		public const string Ic_fluent_megaphone_28_filled = "\uf543";
+		public const string Ic_fluent_megaphone_loud_20_filled = "\uf655";
+		public const string Ic_fluent_megaphone_loud_24_filled = "\u0283";
+		public const string Ic_fluent_megaphone_off_24_filled = "\uf544";
+		public const string Ic_fluent_mention_16_filled = "\uf545";
+		public const string Ic_fluent_mention_20_filled = "\uf546";
+		public const string Ic_fluent_mention_24_filled = "\uf547";
+		public const string Ic_fluent_merge_24_filled = "\uf548";
+		public const string Ic_fluent_mic_off_12_filled = "\uf549";
+		public const string Ic_fluent_mic_off_16_filled = "\uf54a";
+		public const string Ic_fluent_mic_off_20_filled = "\ufa55";
+		public const string Ic_fluent_mic_off_24_filled = "\uf54b";
+		public const string Ic_fluent_mic_off_28_filled = "\uf54c";
+		public const string Ic_fluent_mic_off_48_filled = "\ufa56";
+		public const string Ic_fluent_mic_on_16_filled = "\uf54d";
+		public const string Ic_fluent_mic_on_20_filled = "\uf54e";
+		public const string Ic_fluent_mic_on_24_filled = "\uf54f";
+		public const string Ic_fluent_mic_on_28_filled = "\uf550";
+		public const string Ic_fluent_mic_on_32_filled = "\ufd53";
+		public const string Ic_fluent_mic_on_48_filled = "\uf551";
+		public const string Ic_fluent_mic_prohibited_16_filled = "\ufd9a";
+		public const string Ic_fluent_mic_prohibited_20_filled = "\ufb48";
+		public const string Ic_fluent_mic_prohibited_24_filled = "\ufa57";
+		public const string Ic_fluent_mic_prohibited_28_filled = "\ufd9b";
+		public const string Ic_fluent_mic_prohibited_48_filled = "\ufd9c";
+		public const string Ic_fluent_mic_settings_24_filled = "\uf552";
+		public const string Ic_fluent_mic_sparkle_16_filled = "\ufeee";
+		public const string Ic_fluent_mic_sparkle_20_filled = "\ufeef";
+		public const string Ic_fluent_mic_sparkle_24_filled = "\ufef0";
+		public const string Ic_fluent_mic_sync_20_filled = "\ufba4";
+		public const string Ic_fluent_microscope_20_filled = "\uf656";
+		public const string Ic_fluent_microscope_24_filled = "\uf659";
+		public const string Ic_fluent_midi_20_filled = "\uf553";
+		public const string Ic_fluent_midi_24_filled = "\uf554";
+		public const string Ic_fluent_mobile_optimized_24_filled = "\uf557";
+		public const string Ic_fluent_molecule_16_filled = "\uf65a";
+		public const string Ic_fluent_molecule_20_filled = "\uf663";
+		public const string Ic_fluent_molecule_24_filled = "\uf664";
+		public const string Ic_fluent_molecule_28_filled = "\uf667";
+		public const string Ic_fluent_molecule_32_filled = "\uf668";
+		public const string Ic_fluent_molecule_48_filled = "\uf669";
+		public const string Ic_fluent_money_16_filled = "\uf558";
+		public const string Ic_fluent_money_20_filled = "\uf559";
+		public const string Ic_fluent_money_24_filled = "\uf55a";
+		public const string Ic_fluent_money_calculator_20_filled = "\u0161";
+		public const string Ic_fluent_money_calculator_24_filled = "\u0162";
+		public const string Ic_fluent_money_dismiss_20_filled = "\u0234";
+		public const string Ic_fluent_money_dismiss_24_filled = "\u0235";
+		public const string Ic_fluent_money_off_20_filled = "\u0236";
+		public const string Ic_fluent_money_off_24_filled = "\u0237";
+		public const string Ic_fluent_money_settings_20_filled = "\u0163";
+		public const string Ic_fluent_more_circle_20_filled = "\ufa5e";
+		public const string Ic_fluent_more_circle_32_filled = "\u018e";
+		public const string Ic_fluent_more_horizontal_16_filled = "\ufc35";
+		public const string Ic_fluent_more_horizontal_20_filled = "\ufc36";
+		public const string Ic_fluent_more_horizontal_24_filled = "\ufc37";
+		public const string Ic_fluent_more_horizontal_28_filled = "\ufc38";
+		public const string Ic_fluent_more_horizontal_32_filled = "\ufa7e";
+		public const string Ic_fluent_more_horizontal_48_filled = "\ufc39";
+		public const string Ic_fluent_more_vertical_16_filled = "\ufd54";
+		public const string Ic_fluent_more_vertical_20_filled = "\uf560";
+		public const string Ic_fluent_more_vertical_24_filled = "\uf561";
+		public const string Ic_fluent_more_vertical_28_filled = "\uf562";
+		public const string Ic_fluent_more_vertical_32_filled = "\ufa8a";
+		public const string Ic_fluent_more_vertical_48_filled = "\uf563";
+		public const string Ic_fluent_movies_and_tv_16_filled = "\ufa5f";
+		public const string Ic_fluent_movies_and_tv_20_filled = "\ufa60";
+		public const string Ic_fluent_movies_and_tv_24_filled = "\uf564";
+		public const string Ic_fluent_multiplier_1_2x_20_filled = "\ufdca";
+		public const string Ic_fluent_multiplier_1_2x_24_filled = "\ufdcb";
+		public const string Ic_fluent_multiplier_1_2x_28_filled = "\ufdcc";
+		public const string Ic_fluent_multiplier_1_2x_32_filled = "\ufdcd";
+		public const string Ic_fluent_multiplier_1_2x_48_filled = "\ufdce";
+		public const string Ic_fluent_multiplier_1_5x_20_filled = "\ufdcf";
+		public const string Ic_fluent_multiplier_1_5x_24_filled = "\ufdd0";
+		public const string Ic_fluent_multiplier_1_5x_28_filled = "\ufdd1";
+		public const string Ic_fluent_multiplier_1_5x_32_filled = "\ufdd2";
+		public const string Ic_fluent_multiplier_1_5x_48_filled = "\ufdd3";
+		public const string Ic_fluent_multiplier_1_8x_20_filled = "\ufdd4";
+		public const string Ic_fluent_multiplier_1_8x_24_filled = "\ufdd5";
+		public const string Ic_fluent_multiplier_1_8x_28_filled = "\ufdd6";
+		public const string Ic_fluent_multiplier_1_8x_32_filled = "\ufdd7";
+		public const string Ic_fluent_multiplier_1_8x_48_filled = "\ufdd8";
+		public const string Ic_fluent_multiplier_1x_20_filled = "\ufdd9";
+		public const string Ic_fluent_multiplier_1x_24_filled = "\ufdda";
+		public const string Ic_fluent_multiplier_1x_28_filled = "\ufddb";
+		public const string Ic_fluent_multiplier_1x_32_filled = "\ufddc";
+		public const string Ic_fluent_multiplier_1x_48_filled = "\ufddd";
+		public const string Ic_fluent_multiplier_2x_20_filled = "\ufdde";
+		public const string Ic_fluent_multiplier_2x_24_filled = "\ufddf";
+		public const string Ic_fluent_multiplier_2x_28_filled = "\ufde0";
+		public const string Ic_fluent_multiplier_2x_32_filled = "\ufde1";
+		public const string Ic_fluent_multiplier_2x_48_filled = "\ufde2";
+		public const string Ic_fluent_multiplier_5x_20_filled = "\ufe83";
+		public const string Ic_fluent_multiplier_5x_24_filled = "\ufe84";
+		public const string Ic_fluent_multiplier_5x_28_filled = "\ufe85";
+		public const string Ic_fluent_multiplier_5x_32_filled = "\ufe86";
+		public const string Ic_fluent_multiplier_5x_48_filled = "\ufe87";
+		public const string Ic_fluent_multiselect_16_filled = "\ufa97";
+		public const string Ic_fluent_multiselect_20_filled = "\uf565";
+		public const string Ic_fluent_multiselect_24_filled = "\uf566";
+		public const string Ic_fluent_multiselect_rlt_20_filled = "\u0025";
+		public const string Ic_fluent_multiselect_rtl_16_filled = "\uff23";
+		public const string Ic_fluent_music_note_1_20_filled = "\ufc3a";
+		public const string Ic_fluent_music_note_1_24_filled = "\ufc3b";
+		public const string Ic_fluent_music_note_2_16_filled = "\ufc3c";
+		public const string Ic_fluent_music_note_2_20_filled = "\ufe33";
+		public const string Ic_fluent_music_note_2_24_filled = "\ufc3d";
+		public const string Ic_fluent_music_note_2_play_20_filled = "\ufe88";
+		public const string Ic_fluent_my_location_12_filled = "\ufe34";
+		public const string Ic_fluent_my_location_16_filled = "\ufde3";
+		public const string Ic_fluent_my_location_20_filled = "\ufde4";
+		public const string Ic_fluent_my_location_24_filled = "\uf569";
+		public const string Ic_fluent_navigation_16_filled = "\uffa9";
+		public const string Ic_fluent_navigation_24_filled = "\uf56b";
+		public const string Ic_fluent_navigation_unread_24_filled = "\ufa65";
+		public const string Ic_fluent_network_check_24_filled = "\uf56c";
+		public const string Ic_fluent_new_16_filled = "\uf56d";
+		public const string Ic_fluent_new_24_filled = "\uf56e";
+		public const string Ic_fluent_news_16_filled = "\uffaa";
+		public const string Ic_fluent_news_20_filled = "\uf56f";
+		public const string Ic_fluent_news_24_filled = "\uf570";
+		public const string Ic_fluent_news_28_filled = "\uf571";
+		public const string Ic_fluent_next_16_filled = "\uf572";
+		public const string Ic_fluent_next_20_filled = "\uf573";
+		public const string Ic_fluent_next_24_filled = "\uf574";
+		public const string Ic_fluent_note_16_filled = "\uf66d";
+		public const string Ic_fluent_note_20_filled = "\uf575";
+		public const string Ic_fluent_note_24_filled = "\uf576";
+		public const string Ic_fluent_note_28_filled = "\u0238";
+		public const string Ic_fluent_note_48_filled = "\u0239";
+		public const string Ic_fluent_note_add_16_filled = "\uf577";
+		public const string Ic_fluent_note_add_20_filled = "\uf578";
+		public const string Ic_fluent_note_add_24_filled = "\uf579";
+		public const string Ic_fluent_note_edit_20_filled = "\uffab";
+		public const string Ic_fluent_note_edit_24_filled = "\uffac";
+		public const string Ic_fluent_note_pin_16_filled = "\uf66e";
+		public const string Ic_fluent_note_pin_20_filled = "\u0026";
+		public const string Ic_fluent_notebook_24_filled = "\uf57a";
+		public const string Ic_fluent_notebook_add_24_filled = "\ufcf1";
+		public const string Ic_fluent_notebook_error_24_filled = "\uf57b";
+		public const string Ic_fluent_notebook_lightning_24_filled = "\uf57c";
+		public const string Ic_fluent_notebook_question_mark_24_filled = "\uf57d";
+		public const string Ic_fluent_notebook_section_20_filled = "\ufb49";
+		public const string Ic_fluent_notebook_section_24_filled = "\uf57e";
+		public const string Ic_fluent_notebook_section_arrow_right_24_filled = "\ufcf2";
+		public const string Ic_fluent_notebook_subsection_20_filled = "\ufba5";
+		public const string Ic_fluent_notebook_subsection_24_filled = "\ufcf3";
+		public const string Ic_fluent_notebook_sync_24_filled = "\uf57f";
+		public const string Ic_fluent_notepad_12_filled = "\ufe89";
+		public const string Ic_fluent_notepad_16_filled = "\uf66f";
+		public const string Ic_fluent_notepad_20_filled = "\uf580";
+		public const string Ic_fluent_notepad_24_filled = "\uf581";
+		public const string Ic_fluent_notepad_28_filled = "\uf582";
+		public const string Ic_fluent_notepad_32_filled = "\ufde5";
+		public const string Ic_fluent_notepad_edit_16_filled = "\uf670";
+		public const string Ic_fluent_notepad_edit_20_filled = "\uffad";
+		public const string Ic_fluent_notepad_person_20_filled = "\ufef1";
+		public const string Ic_fluent_notepad_person_24_filled = "\ufef2";
+		public const string Ic_fluent_number_row_16_filled = "\uf583";
+		public const string Ic_fluent_number_row_20_filled = "\uf584";
+		public const string Ic_fluent_number_row_24_filled = "\uf585";
+		public const string Ic_fluent_number_symbol_16_filled = "\uf586";
+		public const string Ic_fluent_number_symbol_20_filled = "\uf587";
+		public const string Ic_fluent_number_symbol_24_filled = "\uf588";
+		public const string Ic_fluent_number_symbol_28_filled = "\u01eb";
+		public const string Ic_fluent_number_symbol_32_filled = "\u018f";
+		public const string Ic_fluent_number_symbol_48_filled = "\u01ec";
+		public const string Ic_fluent_number_symbol_dismiss_24_filled = "\ufa66";
+		public const string Ic_fluent_number_symbol_square_20_filled = "\ufe35";
+		public const string Ic_fluent_number_symbol_square_24_filled = "\ufe36";
+		public const string Ic_fluent_open_16_filled = "\uf58b";
+		public const string Ic_fluent_open_20_filled = "\uf58c";
+		public const string Ic_fluent_open_24_filled = "\uf58d";
+		public const string Ic_fluent_open_28_filled = "\ufa67";
+		public const string Ic_fluent_open_32_filled = "\uf671";
+		public const string Ic_fluent_open_48_filled = "\ufa68";
+		public const string Ic_fluent_open_folder_16_filled = "\ufa69";
+		public const string Ic_fluent_open_folder_20_filled = "\ufa6a";
+		public const string Ic_fluent_open_folder_24_filled = "\uf58e";
+		public const string Ic_fluent_open_folder_28_filled = "\ufa6b";
+		public const string Ic_fluent_open_folder_48_filled = "\ufa6c";
+		public const string Ic_fluent_open_off_16_filled = "\ufa6d";
+		public const string Ic_fluent_open_off_20_filled = "\ufa6e";
+		public const string Ic_fluent_open_off_24_filled = "\ufa6f";
+		public const string Ic_fluent_open_off_28_filled = "\ufa70";
+		public const string Ic_fluent_open_off_48_filled = "\ufa71";
+		public const string Ic_fluent_options_16_filled = "\uf590";
+		public const string Ic_fluent_options_20_filled = "\uf591";
+		public const string Ic_fluent_options_24_filled = "\uf592";
+		public const string Ic_fluent_options_48_filled = "\u0164";
+		public const string Ic_fluent_organization_12_filled = "\ufe8a";
+		public const string Ic_fluent_organization_16_filled = "\ufa98";
+		public const string Ic_fluent_organization_20_filled = "\uf593";
+		public const string Ic_fluent_organization_24_filled = "\uf594";
+		public const string Ic_fluent_organization_28_filled = "\uf595";
+		public const string Ic_fluent_organization_32_filled = "\ufa99";
+		public const string Ic_fluent_organization_48_filled = "\ufab0";
+		public const string Ic_fluent_orientation_20_filled = "\ufcf4";
+		public const string Ic_fluent_orientation_24_filled = "\ufab2";
+		public const string Ic_fluent_oval_32_filled = "\u01ed";
+		public const string Ic_fluent_padding_down_20_filled = "\uf68b";
+		public const string Ic_fluent_padding_down_24_filled = "\uf68c";
+		public const string Ic_fluent_padding_left_20_filled = "\uf69e";
+		public const string Ic_fluent_padding_left_24_filled = "\uf6a7";
+		public const string Ic_fluent_padding_right_20_filled = "\uf6a8";
+		public const string Ic_fluent_padding_right_24_filled = "\uf6a9";
+		public const string Ic_fluent_padding_top_20_filled = "\uf6bd";
+		public const string Ic_fluent_padding_top_24_filled = "\uf6c2";
+		public const string Ic_fluent_page_20_filled = "\uf597";
+		public const string Ic_fluent_page_fit_16_filled = "\uf598";
+		public const string Ic_fluent_page_fit_20_filled = "\uf599";
+		public const string Ic_fluent_page_fit_24_filled = "\uf59a";
+		public const string Ic_fluent_paint_brush_16_filled = "\uf59b";
+		public const string Ic_fluent_paint_brush_20_filled = "\uf59c";
+		public const string Ic_fluent_paint_brush_24_filled = "\uf59d";
+		public const string Ic_fluent_paint_brush_arrow_down_24_filled = "\ufa72";
+		public const string Ic_fluent_paint_brush_arrow_up_24_filled = "\ufa73";
+		public const string Ic_fluent_paint_bucket_16_filled = "\uf59e";
+		public const string Ic_fluent_paint_bucket_20_filled = "\uf59f";
+		public const string Ic_fluent_paint_bucket_24_filled = "\uf5a0";
+		public const string Ic_fluent_pair_24_filled = "\uf5a1";
+		public const string Ic_fluent_panel_bottom_20_filled = "\u006d";
+		public const string Ic_fluent_panel_bottom_contract_20_filled = "\u00e2";
+		public const string Ic_fluent_panel_bottom_expand_20_filled = "\u00e3";
+		public const string Ic_fluent_panel_left_16_filled = "\u006e";
+		public const string Ic_fluent_panel_left_20_filled = "\u006f";
+		public const string Ic_fluent_panel_left_24_filled = "\u0070";
+		public const string Ic_fluent_panel_left_28_filled = "\u0071";
+		public const string Ic_fluent_panel_left_48_filled = "\u0072";
+		public const string Ic_fluent_panel_left_expand_16_filled = "\u011d";
+		public const string Ic_fluent_panel_left_expand_20_filled = "\u00e4";
+		public const string Ic_fluent_panel_right_16_filled = "\u0073";
+		public const string Ic_fluent_panel_right_20_filled = "\u0074";
+		public const string Ic_fluent_panel_right_24_filled = "\u0075";
+		public const string Ic_fluent_panel_right_28_filled = "\u0076";
+		public const string Ic_fluent_panel_right_48_filled = "\u0077";
+		public const string Ic_fluent_panel_right_contract_16_filled = "\u0078";
+		public const string Ic_fluent_panel_right_contract_20_filled = "\u0079";
+		public const string Ic_fluent_panel_right_contract_24_filled = "\u007a";
+		public const string Ic_fluent_panel_right_expand_16_filled = "\u007b";
+		public const string Ic_fluent_panel_right_expand_20_filled = "\u007c";
+		public const string Ic_fluent_panel_right_expand_24_filled = "\u007d";
+		public const string Ic_fluent_panel_separate_window_20_filled = "\u00e5";
+		public const string Ic_fluent_panel_top_contract_20_filled = "\u00e6";
+		public const string Ic_fluent_panel_top_expand_20_filled = "\u00e7";
+		public const string Ic_fluent_password_24_filled = "\uf5a8";
+		public const string Ic_fluent_patch_20_filled = "\uf6c3";
+		public const string Ic_fluent_patch_24_filled = "\uf6c4";
+		public const string Ic_fluent_patient_24_filled = "\uf5a9";
+		public const string Ic_fluent_patient_32_filled = "\ufde6";
+		public const string Ic_fluent_pause_12_filled = "\ufa74";
+		public const string Ic_fluent_pause_16_filled = "\uf5aa";
+		public const string Ic_fluent_pause_20_filled = "\uf5ab";
+		public const string Ic_fluent_pause_24_filled = "\uf5ac";
+		public const string Ic_fluent_pause_48_filled = "\uf5ad";
+		public const string Ic_fluent_pause_circle_20_filled = "\uf6c5";
+		public const string Ic_fluent_pause_circle_24_filled = "\u0027";
+		public const string Ic_fluent_pause_off_16_filled = "\u00e8";
+		public const string Ic_fluent_pause_settings_20_filled = "\u0165";
+		public const string Ic_fluent_payment_16_filled = "\ufa75";
+		public const string Ic_fluent_payment_20_filled = "\uf5ae";
+		public const string Ic_fluent_payment_24_filled = "\uf5af";
+		public const string Ic_fluent_payment_28_filled = "\ufa76";
+		public const string Ic_fluent_pentagon_32_filled = "\u01ee";
+		public const string Ic_fluent_people_16_filled = "\uf5b1";
+		public const string Ic_fluent_people_20_filled = "\uf5b2";
+		public const string Ic_fluent_people_24_filled = "\uf5b3";
+		public const string Ic_fluent_people_28_filled = "\uf5b4";
+		public const string Ic_fluent_people_32_filled = "\ufcf5";
+		public const string Ic_fluent_people_add_16_filled = "\uf5b5";
+		public const string Ic_fluent_people_add_20_filled = "\uf5b6";
+		public const string Ic_fluent_people_add_24_filled = "\uf5b7";
+		public const string Ic_fluent_people_audience_20_filled = "\ufb4a";
+		public const string Ic_fluent_people_audience_24_filled = "\uf5b8";
+		public const string Ic_fluent_people_call_16_filled = "\ufb4b";
+		public const string Ic_fluent_people_call_20_filled = "\ufb4c";
+		public const string Ic_fluent_people_checkmark_16_filled = "\u0028";
+		public const string Ic_fluent_people_checkmark_20_filled = "\ufd55";
+		public const string Ic_fluent_people_checkmark_24_filled = "\ufd56";
+		public const string Ic_fluent_people_community_16_filled = "\uf5b9";
+		public const string Ic_fluent_people_community_20_filled = "\uf5ba";
+		public const string Ic_fluent_people_community_24_filled = "\uf5bb";
+		public const string Ic_fluent_people_community_28_filled = "\uf5bc";
+		public const string Ic_fluent_people_community_add_20_filled = "\ufe8b";
+		public const string Ic_fluent_people_community_add_24_filled = "\uf5bd";
+		public const string Ic_fluent_people_community_add_28_filled = "\ufe8c";
+		public const string Ic_fluent_people_edit_20_filled = "\ufbb8";
+		public const string Ic_fluent_people_error_16_filled = "\ufbbf";
+		public const string Ic_fluent_people_error_20_filled = "\ufbc0";
+		public const string Ic_fluent_people_error_24_filled = "\ufbc1";
+		public const string Ic_fluent_people_list_16_filled = "\ufab3";
+		public const string Ic_fluent_people_list_20_filled = "\uffaf";
+		public const string Ic_fluent_people_lock_20_filled = "\u0284";
+		public const string Ic_fluent_people_lock_24_filled = "\u0285";
+		public const string Ic_fluent_people_money_20_filled = "\ufadc";
+		public const string Ic_fluent_people_money_24_filled = "\ufade";
+		public const string Ic_fluent_people_prohibited_16_filled = "\ufa77";
+		public const string Ic_fluent_people_prohibited_20_filled = "\uf5be";
+		public const string Ic_fluent_people_search_24_filled = "\uf5bf";
+		public const string Ic_fluent_people_settings_20_filled = "\uf5c0";
+		public const string Ic_fluent_people_settings_24_filled = "\uffb0";
+		public const string Ic_fluent_people_swap_16_filled = "\ufa78";
+		public const string Ic_fluent_people_swap_20_filled = "\ufa79";
+		public const string Ic_fluent_people_swap_24_filled = "\ufa7a";
+		public const string Ic_fluent_people_swap_28_filled = "\ufa7b";
+		public const string Ic_fluent_people_sync_16_filled = "\uf6c6";
+		public const string Ic_fluent_people_sync_20_filled = "\u0029";
+		public const string Ic_fluent_people_team_16_filled = "\uf5c1";
+		public const string Ic_fluent_people_team_20_filled = "\uf5c2";
+		public const string Ic_fluent_people_team_24_filled = "\uf5c3";
+		public const string Ic_fluent_people_team_28_filled = "\uf5c4";
+		public const string Ic_fluent_people_team_32_filled = "\ufde7";
+		public const string Ic_fluent_people_team_add_20_filled = "\ufa7c";
+		public const string Ic_fluent_people_team_add_24_filled = "\ufa7d";
+		public const string Ic_fluent_people_team_delete_24_filled = "\ufc3e";
+		public const string Ic_fluent_people_team_toolbox_20_filled = "\uffb1";
+		public const string Ic_fluent_people_team_toolbox_24_filled = "\uffb2";
+		public const string Ic_fluent_people_toolbox_16_filled = "\uf6d3";
+		public const string Ic_fluent_people_toolbox_20_filled = "\u002a";
+		public const string Ic_fluent_person_12_filled = "\uf5c5";
+		public const string Ic_fluent_person_16_filled = "\uf5c6";
+		public const string Ic_fluent_person_20_filled = "\uf5c7";
+		public const string Ic_fluent_person_24_filled = "\uf5c8";
+		public const string Ic_fluent_person_28_filled = "\uf5c9";
+		public const string Ic_fluent_person_32_filled = "\ufe37";
+		public const string Ic_fluent_person_48_filled = "\uf5ca";
+		public const string Ic_fluent_person_5_32_filled = "\ufe38";
+		public const string Ic_fluent_person_6_32_filled = "\ufe8d";
+		public const string Ic_fluent_person_accounts_24_filled = "\uf5cb";
+		public const string Ic_fluent_person_add_16_filled = "\ufe8e";
+		public const string Ic_fluent_person_add_20_filled = "\uf5cc";
+		public const string Ic_fluent_person_add_24_filled = "\uf5cd";
+		public const string Ic_fluent_person_add_28_filled = "\ufe8f";
+		public const string Ic_fluent_person_arrow_left_20_filled = "\uf5ce";
+		public const string Ic_fluent_person_arrow_left_24_filled = "\uf5cf";
+		public const string Ic_fluent_person_arrow_right_16_filled = "\uf5d0";
+		public const string Ic_fluent_person_arrow_right_20_filled = "\uf5d1";
+		public const string Ic_fluent_person_arrow_right_24_filled = "\uf5d2";
+		public const string Ic_fluent_person_available_16_filled = "\uf5d3";
+		public const string Ic_fluent_person_available_20_filled = "\ufa7f";
+		public const string Ic_fluent_person_available_24_filled = "\uf5d4";
+		public const string Ic_fluent_person_board_16_filled = "\uf5d6";
+		public const string Ic_fluent_person_board_20_filled = "\uf5d7";
+		public const string Ic_fluent_person_board_24_filled = "\uf5d8";
+		public const string Ic_fluent_person_call_16_filled = "\ufb4d";
+		public const string Ic_fluent_person_call_20_filled = "\ufb4e";
+		public const string Ic_fluent_person_call_24_filled = "\uf5d9";
+		public const string Ic_fluent_person_chat_16_filled = "\uf6d4";
+		public const string Ic_fluent_person_chat_20_filled = "\uf6da";
+		public const string Ic_fluent_person_chat_24_filled = "\uf6dc";
+		public const string Ic_fluent_person_circle_12_filled = "\u00e9";
+		public const string Ic_fluent_person_circle_20_filled = "\ufba6";
+		public const string Ic_fluent_person_circle_24_filled = "\u0286";
+		public const string Ic_fluent_person_clock_16_filled = "\ufa80";
+		public const string Ic_fluent_person_clock_20_filled = "\ufa81";
+		public const string Ic_fluent_person_clock_24_filled = "\ufa82";
+		public const string Ic_fluent_person_delete_16_filled = "\uf5da";
+		public const string Ic_fluent_person_delete_20_filled = "\ufa83";
+		public const string Ic_fluent_person_delete_24_filled = "\uf5db";
+		public const string Ic_fluent_person_feedback_16_filled = "\uffb3";
+		public const string Ic_fluent_person_feedback_20_filled = "\uf5dc";
+		public const string Ic_fluent_person_feedback_24_filled = "\uf5dd";
+		public const string Ic_fluent_person_info_16_filled = "\uf6df";
+		public const string Ic_fluent_person_info_20_filled = "\u00ea";
+		public const string Ic_fluent_person_lightbulb_20_filled = "\u023a";
+		public const string Ic_fluent_person_lightbulb_24_filled = "\u023b";
+		public const string Ic_fluent_person_lock_16_filled = "\uf6e1";
+		public const string Ic_fluent_person_lock_20_filled = "\uf6e2";
+		public const string Ic_fluent_person_lock_24_filled = "\u0166";
+		public const string Ic_fluent_person_mail_16_filled = "\ufa84";
+		public const string Ic_fluent_person_mail_20_filled = "\ufa85";
+		public const string Ic_fluent_person_mail_24_filled = "\ufa86";
+		public const string Ic_fluent_person_mail_28_filled = "\ufa87";
+		public const string Ic_fluent_person_mail_48_filled = "\ufa88";
+		public const string Ic_fluent_person_money_20_filled = "\uffb4";
+		public const string Ic_fluent_person_money_24_filled = "\uffb5";
+		public const string Ic_fluent_person_note_20_filled = "\u0167";
+		public const string Ic_fluent_person_note_24_filled = "\ufcf6";
+		public const string Ic_fluent_person_pill_20_filled = "\ufadf";
+		public const string Ic_fluent_person_pill_24_filled = "\ufae0";
+		public const string Ic_fluent_person_prohibited_16_filled = "\ufe90";
+		public const string Ic_fluent_person_prohibited_20_filled = "\uf5de";
+		public const string Ic_fluent_person_prohibited_24_filled = "\ufa89";
+		public const string Ic_fluent_person_prohibited_28_filled = "\ufe91";
+		public const string Ic_fluent_person_question_mark_16_filled = "\uf5df";
+		public const string Ic_fluent_person_question_mark_20_filled = "\uf5e0";
+		public const string Ic_fluent_person_question_mark_24_filled = "\uf5e1";
+		public const string Ic_fluent_person_settings_16_filled = "\ufae1";
+		public const string Ic_fluent_person_settings_20_filled = "\u002b";
+		public const string Ic_fluent_person_subtract_16_filled = "\uf6f6";
+		public const string Ic_fluent_person_support_16_filled = "\uf5e2";
+		public const string Ic_fluent_person_support_20_filled = "\uf5e3";
+		public const string Ic_fluent_person_support_24_filled = "\uf5e4";
+		public const string Ic_fluent_person_swap_16_filled = "\uf5e5";
+		public const string Ic_fluent_person_swap_20_filled = "\uf5e6";
+		public const string Ic_fluent_person_swap_24_filled = "\uf5e7";
+		public const string Ic_fluent_person_voice_20_filled = "\uf5e8";
+		public const string Ic_fluent_person_voice_24_filled = "\uf5e9";
+		public const string Ic_fluent_phone_12_filled = "\u00eb";
+		public const string Ic_fluent_phone_16_filled = "\uf6f7";
+		public const string Ic_fluent_phone_20_filled = "\uf5ea";
+		public const string Ic_fluent_phone_24_filled = "\uf5eb";
+		public const string Ic_fluent_phone_add_24_filled = "\ufc3f";
+		public const string Ic_fluent_phone_arrow_right_20_filled = "\ufc40";
+		public const string Ic_fluent_phone_arrow_right_24_filled = "\ufc41";
+		public const string Ic_fluent_phone_checkmark_16_filled = "\uf6f8";
+		public const string Ic_fluent_phone_checkmark_20_filled = "\u002c";
+		public const string Ic_fluent_phone_desktop_16_filled = "\uf5ee";
+		public const string Ic_fluent_phone_desktop_20_filled = "\uf5ef";
+		public const string Ic_fluent_phone_desktop_24_filled = "\uf5f0";
+		public const string Ic_fluent_phone_desktop_28_filled = "\uf5f1";
+		public const string Ic_fluent_phone_desktop_add_20_filled = "\ufb4f";
+		public const string Ic_fluent_phone_dismiss_24_filled = "\ufc42";
+		public const string Ic_fluent_phone_eraser_16_filled = "\uffb6";
+		public const string Ic_fluent_phone_laptop_16_filled = "\ufcf7";
+		public const string Ic_fluent_phone_laptop_20_filled = "\uf5f4";
+		public const string Ic_fluent_phone_laptop_24_filled = "\uf5f5";
+		public const string Ic_fluent_phone_laptop_32_filled = "\ufcf8";
+		public const string Ic_fluent_phone_link_setup_24_filled = "\uf5f6";
+		public const string Ic_fluent_phone_lock_24_filled = "\ufc43";
+		public const string Ic_fluent_phone_page_header_24_filled = "\uf5f9";
+		public const string Ic_fluent_phone_pagination_24_filled = "\uf5fa";
+		public const string Ic_fluent_phone_screen_time_24_filled = "\uf5fb";
+		public const string Ic_fluent_phone_shake_24_filled = "\uf5fc";
+		public const string Ic_fluent_phone_span_in_16_filled = "\ufc44";
+		public const string Ic_fluent_phone_span_in_20_filled = "\ufc45";
+		public const string Ic_fluent_phone_span_in_24_filled = "\ufc46";
+		public const string Ic_fluent_phone_span_in_28_filled = "\ufc47";
+		public const string Ic_fluent_phone_span_out_16_filled = "\ufc48";
+		public const string Ic_fluent_phone_span_out_20_filled = "\ufc49";
+		public const string Ic_fluent_phone_span_out_24_filled = "\ufc4a";
+		public const string Ic_fluent_phone_span_out_28_filled = "\ufc4b";
+		public const string Ic_fluent_phone_speaker_24_filled = "\ufcf9";
+		public const string Ic_fluent_phone_status_bar_24_filled = "\uf5fd";
+		public const string Ic_fluent_phone_tablet_20_filled = "\uf5fe";
+		public const string Ic_fluent_phone_tablet_24_filled = "\uf5ff";
+		public const string Ic_fluent_phone_update_24_filled = "\uf602";
+		public const string Ic_fluent_phone_update_checkmark_20_filled = "\u0287";
+		public const string Ic_fluent_phone_update_checkmark_24_filled = "\u0288";
+		public const string Ic_fluent_phone_vertical_scroll_24_filled = "\uf603";
+		public const string Ic_fluent_phone_vibrate_24_filled = "\uf604";
+		public const string Ic_fluent_photo_filter_24_filled = "\uf605";
+		public const string Ic_fluent_pi_24_filled = "\ufcfa";
+		public const string Ic_fluent_picture_in_picture_16_filled = "\uf606";
+		public const string Ic_fluent_picture_in_picture_20_filled = "\uf607";
+		public const string Ic_fluent_picture_in_picture_24_filled = "\uf608";
+		public const string Ic_fluent_picture_in_picture_enter_16_filled = "\u023c";
+		public const string Ic_fluent_picture_in_picture_enter_20_filled = "\u023d";
+		public const string Ic_fluent_picture_in_picture_enter_24_filled = "\u023e";
+		public const string Ic_fluent_picture_in_picture_exit_16_filled = "\u023f";
+		public const string Ic_fluent_picture_in_picture_exit_20_filled = "\u0240";
+		public const string Ic_fluent_picture_in_picture_exit_24_filled = "\u0241";
+		public const string Ic_fluent_pill_16_filled = "\uf6f9";
+		public const string Ic_fluent_pill_20_filled = "\uf6fa";
+		public const string Ic_fluent_pill_24_filled = "\uf6fb";
+		public const string Ic_fluent_pill_28_filled = "\uf6fc";
+		public const string Ic_fluent_pin_12_filled = "\uf609";
+		public const string Ic_fluent_pin_16_filled = "\uf60a";
+		public const string Ic_fluent_pin_20_filled = "\uf60b";
+		public const string Ic_fluent_pin_24_filled = "\uf60c";
+		public const string Ic_fluent_pin_28_filled = "\ufe92";
+		public const string Ic_fluent_pin_32_filled = "\ufe93";
+		public const string Ic_fluent_pin_48_filled = "\ufe94";
+		public const string Ic_fluent_pin_off_16_filled = "\ufef3";
+		public const string Ic_fluent_pin_off_20_filled = "\uf60d";
+		public const string Ic_fluent_pin_off_24_filled = "\uf60e";
+		public const string Ic_fluent_pin_off_48_filled = "\ufef4";
+		public const string Ic_fluent_pivot_20_filled = "\ufae2";
+		public const string Ic_fluent_pivot_24_filled = "\ufae3";
+		public const string Ic_fluent_play_12_filled = "\ufae4";
+		public const string Ic_fluent_play_16_filled = "\u002d";
+		public const string Ic_fluent_play_20_filled = "\uf60f";
+		public const string Ic_fluent_play_24_filled = "\uf610";
+		public const string Ic_fluent_play_28_filled = "\u002e";
+		public const string Ic_fluent_play_32_filled = "\u002f";
+		public const string Ic_fluent_play_48_filled = "\uf611";
+		public const string Ic_fluent_play_circle_16_filled = "\ufd57";
+		public const string Ic_fluent_play_circle_20_filled = "\ufd58";
+		public const string Ic_fluent_play_circle_24_filled = "\uf612";
+		public const string Ic_fluent_play_circle_28_filled = "\ufd59";
+		public const string Ic_fluent_play_circle_48_filled = "\u01ef";
+		public const string Ic_fluent_plug_connected_20_filled = "\u0242";
+		public const string Ic_fluent_plug_connected_24_filled = "\u0289";
+		public const string Ic_fluent_plug_disconnected_20_filled = "\uf613";
+		public const string Ic_fluent_plug_disconnected_24_filled = "\uf614";
+		public const string Ic_fluent_plug_disconnected_28_filled = "\uf615";
+		public const string Ic_fluent_point_scan_24_filled = "\uf616";
+		public const string Ic_fluent_poll_16_filled = "\u0190";
+		public const string Ic_fluent_poll_20_filled = "\ufa8b";
+		public const string Ic_fluent_poll_24_filled = "\uf617";
+		public const string Ic_fluent_port_hdmi_24_filled = "\uffb7";
+		public const string Ic_fluent_port_micro_usb_24_filled = "\uffb8";
+		public const string Ic_fluent_port_usb_a_24_filled = "\uffb9";
+		public const string Ic_fluent_port_usb_c_24_filled = "\uffba";
+		public const string Ic_fluent_position_backward_20_filled = "\ufc4c";
+		public const string Ic_fluent_position_backward_24_filled = "\ufc4d";
+		public const string Ic_fluent_position_forward_20_filled = "\ufc4e";
+		public const string Ic_fluent_position_forward_24_filled = "\ufc4f";
+		public const string Ic_fluent_position_to_back_20_filled = "\ufc50";
+		public const string Ic_fluent_position_to_back_24_filled = "\ufc51";
+		public const string Ic_fluent_position_to_front_20_filled = "\ufc52";
+		public const string Ic_fluent_position_to_front_24_filled = "\ufc53";
+		public const string Ic_fluent_power_20_filled = "\uf618";
+		public const string Ic_fluent_power_24_filled = "\uf619";
+		public const string Ic_fluent_power_28_filled = "\uf61a";
+		public const string Ic_fluent_predictions_24_filled = "\uf61b";
+		public const string Ic_fluent_premium_16_filled = "\uf61c";
+		public const string Ic_fluent_premium_20_filled = "\uf61d";
+		public const string Ic_fluent_premium_24_filled = "\uf61e";
+		public const string Ic_fluent_premium_28_filled = "\uf61f";
+		public const string Ic_fluent_premium_32_filled = "\ufcfb";
+		public const string Ic_fluent_premium_person_20_filled = "\ufe95";
+		public const string Ic_fluent_premium_person_24_filled = "\ufe96";
+		public const string Ic_fluent_presence_available_10_filled = "\uf620";
+		public const string Ic_fluent_presence_available_12_filled = "\uf621";
+		public const string Ic_fluent_presence_available_16_filled = "\uf622";
+		public const string Ic_fluent_presence_away_10_filled = "\uf623";
+		public const string Ic_fluent_presence_away_12_filled = "\uf624";
+		public const string Ic_fluent_presence_away_16_filled = "\uf625";
+		public const string Ic_fluent_presence_busy_10_filled = "\uf626";
+		public const string Ic_fluent_presence_dnd_10_filled = "\uf629";
+		public const string Ic_fluent_presence_dnd_12_filled = "\uf62a";
+		public const string Ic_fluent_presence_dnd_16_filled = "\uf62b";
+		public const string Ic_fluent_presenter_20_filled = "\ufb50";
+		public const string Ic_fluent_presenter_24_filled = "\uf62c";
+		public const string Ic_fluent_presenter_off_20_filled = "\ufb51";
+		public const string Ic_fluent_presenter_off_24_filled = "\uf62d";
+		public const string Ic_fluent_preview_link_16_filled = "\uf62e";
+		public const string Ic_fluent_preview_link_20_filled = "\uf62f";
+		public const string Ic_fluent_preview_link_24_filled = "\uf630";
+		public const string Ic_fluent_previous_16_filled = "\uf631";
+		public const string Ic_fluent_previous_20_filled = "\uf632";
+		public const string Ic_fluent_previous_24_filled = "\uf633";
+		public const string Ic_fluent_print_16_filled = "\uf703";
+		public const string Ic_fluent_print_20_filled = "\uf634";
+		public const string Ic_fluent_print_24_filled = "\uf635";
+		public const string Ic_fluent_print_48_filled = "\uf636";
+		public const string Ic_fluent_print_add_20_filled = "\uf705";
+		public const string Ic_fluent_print_add_24_filled = "\ufae5";
+		public const string Ic_fluent_production_20_filled = "\uf706";
+		public const string Ic_fluent_production_24_filled = "\uf707";
+		public const string Ic_fluent_production_checkmark_20_filled = "\uf70c";
+		public const string Ic_fluent_production_checkmark_24_filled = "\uf70d";
+		public const string Ic_fluent_prohibited_12_filled = "\uffbb";
+		public const string Ic_fluent_prohibited_16_filled = "\uf70e";
+		public const string Ic_fluent_prohibited_20_filled = "\uf637";
+		public const string Ic_fluent_prohibited_24_filled = "\uf638";
+		public const string Ic_fluent_prohibited_28_filled = "\uf639";
+		public const string Ic_fluent_prohibited_48_filled = "\uf63a";
+		public const string Ic_fluent_prohibited_multiple_16_filled = "\ufe97";
+		public const string Ic_fluent_prohibited_multiple_20_filled = "\ufe98";
+		public const string Ic_fluent_prohibited_multiple_24_filled = "\ufe99";
+		public const string Ic_fluent_projection_screen_16_filled = "\u01f0";
+		public const string Ic_fluent_projection_screen_20_filled = "\u01f1";
+		public const string Ic_fluent_projection_screen_24_filled = "\u01f2";
+		public const string Ic_fluent_projection_screen_28_filled = "\u01f3";
+		public const string Ic_fluent_projection_screen_dismiss_16_filled = "\u01f4";
+		public const string Ic_fluent_projection_screen_dismiss_20_filled = "\u01f5";
+		public const string Ic_fluent_projection_screen_dismiss_24_filled = "\u01f6";
+		public const string Ic_fluent_projection_screen_dismiss_28_filled = "\u01f7";
+		public const string Ic_fluent_protocol_handler_16_filled = "\uf63c";
+		public const string Ic_fluent_protocol_handler_20_filled = "\uf63d";
+		public const string Ic_fluent_protocol_handler_24_filled = "\uf63e";
+		public const string Ic_fluent_pulse_20_filled = "\ufba7";
+		public const string Ic_fluent_pulse_24_filled = "\ufa8c";
+		public const string Ic_fluent_pulse_28_filled = "\ufae6";
+		public const string Ic_fluent_pulse_32_filled = "\ufde8";
+		public const string Ic_fluent_pulse_square_24_filled = "\ufba8";
+		public const string Ic_fluent_puzzle_cube_16_filled = "\ufbc2";
+		public const string Ic_fluent_puzzle_cube_20_filled = "\ufbc3";
+		public const string Ic_fluent_puzzle_cube_24_filled = "\ufbc4";
+		public const string Ic_fluent_puzzle_cube_28_filled = "\ufbc5";
+		public const string Ic_fluent_puzzle_cube_48_filled = "\ufbc6";
+		public const string Ic_fluent_puzzle_piece_16_filled = "\u007e";
+		public const string Ic_fluent_puzzle_piece_20_filled = "\u007f";
+		public const string Ic_fluent_puzzle_piece_24_filled = "\u0080";
+		public const string Ic_fluent_qr_code_20_filled = "\ufa8d";
+		public const string Ic_fluent_qr_code_24_filled = "\uf63f";
+		public const string Ic_fluent_qr_code_28_filled = "\uf640";
+		public const string Ic_fluent_question_16_filled = "\uf641";
+		public const string Ic_fluent_question_20_filled = "\uf642";
+		public const string Ic_fluent_question_24_filled = "\uf643";
+		public const string Ic_fluent_question_28_filled = "\uf644";
+		public const string Ic_fluent_question_48_filled = "\uf645";
+		public const string Ic_fluent_question_circle_16_filled = "\uf646";
+		public const string Ic_fluent_question_circle_20_filled = "\uf647";
+		public const string Ic_fluent_question_circle_24_filled = "\uf648";
+		public const string Ic_fluent_question_circle_28_filled = "\uf649";
+		public const string Ic_fluent_question_circle_48_filled = "\uf64a";
+		public const string Ic_fluent_quiz_new_24_filled = "\uf64b";
+		public const string Ic_fluent_quiz_new_28_filled = "\uf64c";
+		public const string Ic_fluent_quiz_new_48_filled = "\uf64d";
+		public const string Ic_fluent_radio_button_20_filled = "\uf64e";
+		public const string Ic_fluent_radio_button_24_filled = "\uf64f";
+		public const string Ic_fluent_rating_mature_16_filled = "\uf650";
+		public const string Ic_fluent_rating_mature_20_filled = "\uf651";
+		public const string Ic_fluent_rating_mature_24_filled = "\uf652";
+		public const string Ic_fluent_ratio_one_to_one_20_filled = "\uf713";
+		public const string Ic_fluent_ratio_one_to_one_24_filled = "\uf714";
+		public const string Ic_fluent_re_order_16_filled = "\uf653";
+		public const string Ic_fluent_re_order_24_filled = "\uf654";
+		public const string Ic_fluent_re_order_dots_horizontal_16_filled = "\ufd5a";
+		public const string Ic_fluent_re_order_dots_horizontal_20_filled = "\ufd5b";
+		public const string Ic_fluent_re_order_dots_horizontal_24_filled = "\ufd5c";
+		public const string Ic_fluent_re_order_dots_vertical_16_filled = "\ufd5d";
+		public const string Ic_fluent_re_order_dots_vertical_20_filled = "\ufd5e";
+		public const string Ic_fluent_re_order_dots_vertical_24_filled = "\ufd5f";
+		public const string Ic_fluent_read_aloud_16_filled = "\ufe9a";
+		public const string Ic_fluent_read_aloud_20_filled = "\uf657";
+		public const string Ic_fluent_read_aloud_24_filled = "\uf658";
+		public const string Ic_fluent_read_aloud_28_filled = "\ufe9b";
+		public const string Ic_fluent_reading_list_16_filled = "\uf65b";
+		public const string Ic_fluent_reading_list_20_filled = "\uf65c";
+		public const string Ic_fluent_reading_list_24_filled = "\uf65d";
+		public const string Ic_fluent_reading_list_28_filled = "\uf65e";
+		public const string Ic_fluent_reading_list_add_16_filled = "\uf65f";
+		public const string Ic_fluent_reading_list_add_20_filled = "\uf660";
+		public const string Ic_fluent_reading_list_add_24_filled = "\uf661";
+		public const string Ic_fluent_reading_list_add_28_filled = "\uf662";
+		public const string Ic_fluent_reading_mode_mobile_20_filled = "\uf665";
+		public const string Ic_fluent_reading_mode_mobile_24_filled = "\uf666";
+		public const string Ic_fluent_real_estate_24_filled = "\ufa8e";
+		public const string Ic_fluent_receipt_20_filled = "\ufcfc";
+		public const string Ic_fluent_receipt_24_filled = "\ufcfd";
+		public const string Ic_fluent_receipt_add_20_filled = "\uf715";
+		public const string Ic_fluent_receipt_add_24_filled = "\ufae7";
+		public const string Ic_fluent_receipt_bag_20_filled = "\uf71e";
+		public const string Ic_fluent_receipt_bag_24_filled = "\ufae8";
+		public const string Ic_fluent_receipt_cube_20_filled = "\uf745";
+		public const string Ic_fluent_receipt_cube_24_filled = "\ufae9";
+		public const string Ic_fluent_receipt_money_20_filled = "\uf746";
+		public const string Ic_fluent_receipt_money_24_filled = "\u0030";
+		public const string Ic_fluent_receipt_play_20_filled = "\uffbc";
+		public const string Ic_fluent_receipt_play_24_filled = "\uffbd";
+		public const string Ic_fluent_record_12_filled = "\uf747";
+		public const string Ic_fluent_record_16_filled = "\uf66a";
+		public const string Ic_fluent_record_20_filled = "\uf66b";
+		public const string Ic_fluent_record_24_filled = "\uf66c";
+		public const string Ic_fluent_record_28_filled = "\uf74d";
+		public const string Ic_fluent_record_32_filled = "\uf74e";
+		public const string Ic_fluent_record_48_filled = "\uf74f";
+		public const string Ic_fluent_record_stop_12_filled = "\uf770";
+		public const string Ic_fluent_record_stop_16_filled = "\uf771";
+		public const string Ic_fluent_record_stop_20_filled = "\uf772";
+		public const string Ic_fluent_record_stop_24_filled = "\uf773";
+		public const string Ic_fluent_record_stop_28_filled = "\uf774";
+		public const string Ic_fluent_record_stop_32_filled = "\uf77c";
+		public const string Ic_fluent_record_stop_48_filled = "\uf77d";
+		public const string Ic_fluent_rectangle_landscape_12_filled = "\u0191";
+		public const string Ic_fluent_rectangle_landscape_16_filled = "\u0192";
+		public const string Ic_fluent_rectangle_landscape_20_filled = "\ufb52";
+		public const string Ic_fluent_rectangle_landscape_24_filled = "\u0193";
+		public const string Ic_fluent_rectangle_landscape_28_filled = "\u0194";
+		public const string Ic_fluent_rectangle_landscape_32_filled = "\u0195";
+		public const string Ic_fluent_rectangle_landscape_48_filled = "\u0196";
+		public const string Ic_fluent_remote_16_filled = "\ufde9";
+		public const string Ic_fluent_rename_16_filled = "\uf672";
+		public const string Ic_fluent_rename_20_filled = "\uf673";
+		public const string Ic_fluent_rename_24_filled = "\uf674";
+		public const string Ic_fluent_rename_28_filled = "\uf675";
+		public const string Ic_fluent_replay_20_filled = "\u00ec";
+		public const string Ic_fluent_resize_20_filled = "\uf676";
+		public const string Ic_fluent_resize_image_24_filled = "\uf677";
+		public const string Ic_fluent_resize_large_16_filled = "\ufc54";
+		public const string Ic_fluent_resize_large_20_filled = "\ufc55";
+		public const string Ic_fluent_resize_large_24_filled = "\ufc56";
+		public const string Ic_fluent_resize_small_16_filled = "\ufc57";
+		public const string Ic_fluent_resize_small_20_filled = "\ufc58";
+		public const string Ic_fluent_resize_small_24_filled = "\ufc59";
+		public const string Ic_fluent_resize_table_24_filled = "\uf678";
+		public const string Ic_fluent_resize_video_24_filled = "\uf679";
+		public const string Ic_fluent_reward_16_filled = "\uf67b";
+		public const string Ic_fluent_reward_20_filled = "\uf67c";
+		public const string Ic_fluent_reward_24_filled = "\uf67d";
+		public const string Ic_fluent_rewind_16_filled = "\u028a";
+		public const string Ic_fluent_rewind_20_filled = "\uf67e";
+		public const string Ic_fluent_rewind_24_filled = "\uf67f";
+		public const string Ic_fluent_rewind_28_filled = "\u028b";
+		public const string Ic_fluent_rhombus_32_filled = "\u01f8";
+		public const string Ic_fluent_ribbon_16_filled = "\ufba9";
+		public const string Ic_fluent_ribbon_20_filled = "\ufb53";
+		public const string Ic_fluent_ribbon_24_filled = "\ufa8f";
+		public const string Ic_fluent_ribbon_32_filled = "\ufdea";
+		public const string Ic_fluent_ribbon_add_20_filled = "\uf77e";
+		public const string Ic_fluent_ribbon_add_24_filled = "\uf77f";
+		public const string Ic_fluent_ribbon_star_20_filled = "\ufa90";
+		public const string Ic_fluent_ribbon_star_24_filled = "\ufa91";
+		public const string Ic_fluent_road_cone_16_filled = "\u0168";
+		public const string Ic_fluent_road_cone_20_filled = "\u0169";
+		public const string Ic_fluent_road_cone_24_filled = "\u016a";
+		public const string Ic_fluent_road_cone_28_filled = "\u016b";
+		public const string Ic_fluent_road_cone_32_filled = "\u016c";
+		public const string Ic_fluent_road_cone_48_filled = "\u016d";
+		public const string Ic_fluent_rocket_16_filled = "\uf680";
+		public const string Ic_fluent_rocket_20_filled = "\uf681";
+		public const string Ic_fluent_rocket_24_filled = "\uf682";
+		public const string Ic_fluent_rotate_left_24_filled = "\ufbaa";
+		public const string Ic_fluent_rotate_right_20_filled = "\ufbab";
+		public const string Ic_fluent_rotate_right_24_filled = "\ufbac";
+		public const string Ic_fluent_router_24_filled = "\uf683";
+		public const string Ic_fluent_row_triple_24_filled = "\uf684";
+		public const string Ic_fluent_rss_24_filled = "\ufcfe";
+		public const string Ic_fluent_ruler_16_filled = "\uf685";
+		public const string Ic_fluent_ruler_20_filled = "\uf686";
+		public const string Ic_fluent_ruler_24_filled = "\uf687";
+		public const string Ic_fluent_run_16_filled = "\ufa92";
+		public const string Ic_fluent_run_20_filled = "\ufa93";
+		public const string Ic_fluent_run_24_filled = "\uf688";
+		public const string Ic_fluent_sanitize_20_filled = "\u0243";
+		public const string Ic_fluent_sanitize_24_filled = "\u0244";
+		public const string Ic_fluent_save_16_filled = "\u0031";
+		public const string Ic_fluent_save_20_filled = "\uf689";
+		public const string Ic_fluent_save_24_filled = "\uf68a";
+		public const string Ic_fluent_save_arrow_right_20_filled = "\u01f9";
+		public const string Ic_fluent_save_arrow_right_24_filled = "\u01fa";
+		public const string Ic_fluent_save_copy_24_filled = "\uf68d";
+		public const string Ic_fluent_save_edit_20_filled = "\ufc5a";
+		public const string Ic_fluent_save_edit_24_filled = "\ufc5b";
+		public const string Ic_fluent_save_multiple_20_filled = "\u028c";
+		public const string Ic_fluent_save_multiple_24_filled = "\u028d";
+		public const string Ic_fluent_save_search_20_filled = "\uffbe";
+		public const string Ic_fluent_save_sync_20_filled = "\ufb54";
+		public const string Ic_fluent_savings_16_filled = "\uf68e";
+		public const string Ic_fluent_savings_20_filled = "\uf68f";
+		public const string Ic_fluent_savings_24_filled = "\uf690";
+		public const string Ic_fluent_scale_fill_20_filled = "\ufd60";
+		public const string Ic_fluent_scale_fill_24_filled = "\uf691";
+		public const string Ic_fluent_scale_fit_16_filled = "\uf692";
+		public const string Ic_fluent_scale_fit_20_filled = "\uf693";
+		public const string Ic_fluent_scale_fit_24_filled = "\uf694";
+		public const string Ic_fluent_scales_24_filled = "\ufa94";
+		public const string Ic_fluent_scales_32_filled = "\ufa95";
+		public const string Ic_fluent_scan_24_filled = "\uf695";
+		public const string Ic_fluent_scan_object_20_filled = "\ufaea";
+		public const string Ic_fluent_scan_object_24_filled = "\ufaeb";
+		public const string Ic_fluent_scan_table_24_filled = "\u0081";
+		public const string Ic_fluent_scan_text_24_filled = "\u0082";
+		public const string Ic_fluent_scan_thumb_up_16_filled = "\u016e";
+		public const string Ic_fluent_scan_thumb_up_20_filled = "\u016f";
+		public const string Ic_fluent_scan_thumb_up_24_filled = "\u0170";
+		public const string Ic_fluent_scan_thumb_up_28_filled = "\u0171";
+		public const string Ic_fluent_scan_thumb_up_48_filled = "\u0172";
+		public const string Ic_fluent_scan_thumb_up_off_16_filled = "\u0197";
+		public const string Ic_fluent_scan_thumb_up_off_20_filled = "\u0198";
+		public const string Ic_fluent_scan_thumb_up_off_24_filled = "\u0199";
+		public const string Ic_fluent_scan_thumb_up_off_28_filled = "\u019a";
+		public const string Ic_fluent_scan_thumb_up_off_48_filled = "\u019b";
+		public const string Ic_fluent_scan_type_20_filled = "\u0083";
+		public const string Ic_fluent_scan_type_24_filled = "\u0084";
+		public const string Ic_fluent_scan_type_checkmark_20_filled = "\u028e";
+		public const string Ic_fluent_scan_type_checkmark_24_filled = "\u028f";
+		public const string Ic_fluent_scratchpad_24_filled = "\uf696";
+		public const string Ic_fluent_screen_cut_20_filled = "\ufcff";
+		public const string Ic_fluent_screen_person_20_filled = "\ufd00";
+		public const string Ic_fluent_screen_share_start_48_filled = "\u0173";
+		public const string Ic_fluent_screenshot_20_filled = "\uf697";
+		public const string Ic_fluent_screenshot_24_filled = "\uf698";
+		public const string Ic_fluent_search_12_filled = "\ufb22";
+		public const string Ic_fluent_search_16_filled = "\ufe39";
+		public const string Ic_fluent_search_20_filled = "\uf699";
+		public const string Ic_fluent_search_24_filled = "\uf69a";
+		public const string Ic_fluent_search_28_filled = "\uf69b";
+		public const string Ic_fluent_search_32_filled = "\ufb25";
+		public const string Ic_fluent_search_48_filled = "\ufb2e";
+		public const string Ic_fluent_search_info_20_filled = "\ufc5c";
+		public const string Ic_fluent_search_info_24_filled = "\uf69c";
+		public const string Ic_fluent_search_settings_20_filled = "\uffbf";
+		public const string Ic_fluent_search_shield_20_filled = "\ufa96";
+		public const string Ic_fluent_search_square_24_filled = "\uf69d";
+		public const string Ic_fluent_search_visual_16_filled = "\ufc5d";
+		public const string Ic_fluent_search_visual_20_filled = "\ufc5e";
+		public const string Ic_fluent_search_visual_24_filled = "\ufc5f";
+		public const string Ic_fluent_select_all_off_24_filled = "\uf69f";
+		public const string Ic_fluent_select_all_on_24_filled = "\ufc60";
+		public const string Ic_fluent_select_object_20_filled = "\uf6a0";
+		public const string Ic_fluent_select_object_24_filled = "\uf6a1";
+		public const string Ic_fluent_select_object_skew_20_filled = "\u0290";
+		public const string Ic_fluent_select_object_skew_24_filled = "\u0291";
+		public const string Ic_fluent_select_object_skew_dismiss_20_filled = "\u0292";
+		public const string Ic_fluent_select_object_skew_dismiss_24_filled = "\u0293";
+		public const string Ic_fluent_select_object_skew_edit_20_filled = "\u0294";
+		public const string Ic_fluent_select_object_skew_edit_24_filled = "\u0295";
+		public const string Ic_fluent_send_16_filled = "\ufe3a";
+		public const string Ic_fluent_send_20_filled = "\uf6a2";
+		public const string Ic_fluent_send_24_filled = "\uf6a3";
+		public const string Ic_fluent_send_28_filled = "\uf6a4";
+		public const string Ic_fluent_send_clock_20_filled = "\uf6a5";
+		public const string Ic_fluent_send_clock_24_filled = "\u019c";
+		public const string Ic_fluent_send_copy_24_filled = "\uf6a6";
+		public const string Ic_fluent_serial_port_16_filled = "\uf6aa";
+		public const string Ic_fluent_serial_port_20_filled = "\uf6ab";
+		public const string Ic_fluent_serial_port_24_filled = "\uf6ac";
+		public const string Ic_fluent_server_20_filled = "\uf781";
+		public const string Ic_fluent_server_24_filled = "\uf784";
+		public const string Ic_fluent_service_bell_24_filled = "\uf6ad";
+		public const string Ic_fluent_settings_16_filled = "\uf6b1";
+		public const string Ic_fluent_settings_20_filled = "\uf6b2";
+		public const string Ic_fluent_settings_24_filled = "\uf6b3";
+		public const string Ic_fluent_settings_28_filled = "\uf6b4";
+		public const string Ic_fluent_settings_32_filled = "\u0245";
+		public const string Ic_fluent_settings_48_filled = "\u0246";
+		public const string Ic_fluent_shape_exclude_16_filled = "\ufd01";
+		public const string Ic_fluent_shape_exclude_20_filled = "\ufd02";
+		public const string Ic_fluent_shape_exclude_24_filled = "\ufd03";
+		public const string Ic_fluent_shape_intersect_16_filled = "\ufd04";
+		public const string Ic_fluent_shape_intersect_20_filled = "\ufd05";
+		public const string Ic_fluent_shape_intersect_24_filled = "\ufd06";
+		public const string Ic_fluent_shape_subtract_16_filled = "\ufd07";
+		public const string Ic_fluent_shape_subtract_20_filled = "\ufd08";
+		public const string Ic_fluent_shape_subtract_24_filled = "\ufd09";
+		public const string Ic_fluent_shape_union_16_filled = "\ufd0a";
+		public const string Ic_fluent_shape_union_20_filled = "\ufd0b";
+		public const string Ic_fluent_shape_union_24_filled = "\ufd0c";
+		public const string Ic_fluent_shapes_16_filled = "\uf6b5";
+		public const string Ic_fluent_shapes_20_filled = "\uf6b6";
+		public const string Ic_fluent_shapes_24_filled = "\uf6b7";
+		public const string Ic_fluent_shapes_28_filled = "\u0247";
+		public const string Ic_fluent_shapes_48_filled = "\u0248";
+		public const string Ic_fluent_share_16_filled = "\ufb36";
+		public const string Ic_fluent_share_20_filled = "\uf6b8";
+		public const string Ic_fluent_share_24_filled = "\uf6b9";
+		public const string Ic_fluent_share_48_filled = "\u0174";
+		public const string Ic_fluent_share_android_20_filled = "\uf6ba";
+		public const string Ic_fluent_share_android_24_filled = "\uf6bb";
+		public const string Ic_fluent_share_close_tray_20_filled = "\ufbad";
+		public const string Ic_fluent_share_close_tray_24_filled = "\uf6bc";
+		public const string Ic_fluent_share_ios_20_filled = "\uf6be";
+		public const string Ic_fluent_share_ios_24_filled = "\uf6bf";
+		public const string Ic_fluent_share_ios_28_filled = "\uf6c0";
+		public const string Ic_fluent_share_ios_48_filled = "\uf6c1";
+		public const string Ic_fluent_share_screen_person_16_filled = "\u019d";
+		public const string Ic_fluent_share_screen_person_20_filled = "\u019e";
+		public const string Ic_fluent_share_screen_person_24_filled = "\u019f";
+		public const string Ic_fluent_share_screen_person_28_filled = "\u01a0";
+		public const string Ic_fluent_share_screen_person_overlay_16_filled = "\u01a1";
+		public const string Ic_fluent_share_screen_person_overlay_20_filled = "\u01a2";
+		public const string Ic_fluent_share_screen_person_overlay_24_filled = "\u01a3";
+		public const string Ic_fluent_share_screen_person_overlay_28_filled = "\u01a4";
+		public const string Ic_fluent_share_screen_person_overlay_inside_16_filled = "\u01a5";
+		public const string Ic_fluent_share_screen_person_overlay_inside_20_filled = "\u01a6";
+		public const string Ic_fluent_share_screen_person_overlay_inside_24_filled = "\u01a7";
+		public const string Ic_fluent_share_screen_person_overlay_inside_28_filled = "\u01a8";
+		public const string Ic_fluent_share_screen_start_20_filled = "\ufc61";
+		public const string Ic_fluent_share_screen_start_24_filled = "\ufc62";
+		public const string Ic_fluent_share_screen_start_28_filled = "\ufc63";
+		public const string Ic_fluent_share_screen_stop_16_filled = "\ufc64";
+		public const string Ic_fluent_share_screen_stop_20_filled = "\ufc65";
+		public const string Ic_fluent_share_screen_stop_24_filled = "\ufc66";
+		public const string Ic_fluent_share_screen_stop_28_filled = "\ufc67";
+		public const string Ic_fluent_share_screen_stop_48_filled = "\ufc68";
+		public const string Ic_fluent_shield_16_filled = "\ufe9c";
+		public const string Ic_fluent_shield_20_filled = "\uf6c7";
+		public const string Ic_fluent_shield_24_filled = "\uf6c8";
+		public const string Ic_fluent_shield_28_filled = "\ufe9d";
+		public const string Ic_fluent_shield_48_filled = "\ufe9e";
+		public const string Ic_fluent_shield_badge_20_filled = "\uf785";
+		public const string Ic_fluent_shield_badge_24_filled = "\ufb37";
+		public const string Ic_fluent_shield_dismiss_16_filled = "\ufc69";
+		public const string Ic_fluent_shield_dismiss_20_filled = "\uf6c9";
+		public const string Ic_fluent_shield_dismiss_24_filled = "\uf6ca";
+		public const string Ic_fluent_shield_dismiss_shield_20_filled = "\ufa9a";
+		public const string Ic_fluent_shield_error_16_filled = "\u0032";
+		public const string Ic_fluent_shield_error_20_filled = "\uf6cb";
+		public const string Ic_fluent_shield_error_24_filled = "\uf6cc";
+		public const string Ic_fluent_shield_keyhole_16_filled = "\uf6cd";
+		public const string Ic_fluent_shield_keyhole_20_filled = "\uf6ce";
+		public const string Ic_fluent_shield_keyhole_24_filled = "\uf6cf";
+		public const string Ic_fluent_shield_lock_16_filled = "\ufb92";
+		public const string Ic_fluent_shield_lock_20_filled = "\uffc0";
+		public const string Ic_fluent_shield_prohibited_20_filled = "\uf6d0";
+		public const string Ic_fluent_shield_prohibited_24_filled = "\uf6d1";
+		public const string Ic_fluent_shield_task_16_filled = "\u0086";
+		public const string Ic_fluent_shield_task_20_filled = "\u0087";
+		public const string Ic_fluent_shield_task_24_filled = "\u0088";
+		public const string Ic_fluent_shield_task_28_filled = "\u0089";
+		public const string Ic_fluent_shield_task_48_filled = "\u008a";
+		public const string Ic_fluent_shield_video_24_filled = "\u0175";
+		public const string Ic_fluent_shield_video_28_filled = "\u0176";
+		public const string Ic_fluent_shield_video_48_filled = "\u0177";
+		public const string Ic_fluent_shifts_16_filled = "\ufd0d";
+		public const string Ic_fluent_shifts_20_filled = "\ufb55";
+		public const string Ic_fluent_shifts_24_filled = "\uf6d2";
+		public const string Ic_fluent_shifts_28_filled = "\uf6d5";
+		public const string Ic_fluent_shifts_30_minutes_24_filled = "\uf6d6";
+		public const string Ic_fluent_shifts_32_filled = "\ufdeb";
+		public const string Ic_fluent_shifts_activity_20_filled = "\uf6d7";
+		public const string Ic_fluent_shifts_activity_24_filled = "\uf6d8";
+		public const string Ic_fluent_shifts_add_24_filled = "\uf6d9";
+		public const string Ic_fluent_shifts_availability_24_filled = "\uf6db";
+		public const string Ic_fluent_shifts_checkmark_20_filled = "\ufb56";
+		public const string Ic_fluent_shifts_checkmark_24_filled = "\ufb57";
+		public const string Ic_fluent_shifts_day_20_filled = "\ufa9b";
+		public const string Ic_fluent_shifts_day_24_filled = "\ufa9c";
+		public const string Ic_fluent_shifts_open_20_filled = "\uf6dd";
+		public const string Ic_fluent_shifts_open_24_filled = "\uf6de";
+		public const string Ic_fluent_shifts_prohibited_24_filled = "\ufc6a";
+		public const string Ic_fluent_shifts_question_mark_24_filled = "\ufc6b";
+		public const string Ic_fluent_shifts_team_24_filled = "\uf6e0";
+		public const string Ic_fluent_shopping_bag_16_filled = "\uf786";
+		public const string Ic_fluent_shopping_bag_20_filled = "\uf787";
+		public const string Ic_fluent_shopping_bag_24_filled = "\uf788";
+		public const string Ic_fluent_shopping_bag_dismiss_20_filled = "\u0296";
+		public const string Ic_fluent_shopping_bag_dismiss_24_filled = "\u0297";
+		public const string Ic_fluent_shopping_bag_pause_20_filled = "\u0298";
+		public const string Ic_fluent_shopping_bag_pause_24_filled = "\u0299";
+		public const string Ic_fluent_shopping_bag_percent_20_filled = "\u0249";
+		public const string Ic_fluent_shopping_bag_percent_24_filled = "\u024a";
+		public const string Ic_fluent_shopping_bag_tag_20_filled = "\u024b";
+		public const string Ic_fluent_shopping_bag_tag_24_filled = "\u024c";
+		public const string Ic_fluent_shortpick_20_filled = "\u01fb";
+		public const string Ic_fluent_shortpick_24_filled = "\u01fc";
+		public const string Ic_fluent_sidebar_search_ltr_20_filled = "\ufa9d";
+		public const string Ic_fluent_sidebar_search_rtl_20_filled = "\ufa9e";
+		public const string Ic_fluent_sign_out_20_filled = "\ufa9f";
+		public const string Ic_fluent_sign_out_24_filled = "\uf6e3";
+		public const string Ic_fluent_signature_16_filled = "\uf6e4";
+		public const string Ic_fluent_signature_20_filled = "\uf6e5";
+		public const string Ic_fluent_signature_24_filled = "\uf6e6";
+		public const string Ic_fluent_signature_28_filled = "\uf6e7";
+		public const string Ic_fluent_sim_16_filled = "\uf6eb";
+		public const string Ic_fluent_sim_20_filled = "\uf6ec";
+		public const string Ic_fluent_sim_24_filled = "\uf6ed";
+		public const string Ic_fluent_skip_back_10_20_filled = "\ufd61";
+		public const string Ic_fluent_skip_backward_10_24_filled = "\ufdec";
+		public const string Ic_fluent_skip_backward_10_28_filled = "\ufded";
+		public const string Ic_fluent_skip_backward_10_32_filled = "\ufdee";
+		public const string Ic_fluent_skip_backward_10_48_filled = "\ufdef";
+		public const string Ic_fluent_skip_forward_10_20_filled = "\ufd62";
+		public const string Ic_fluent_skip_forward_10_24_filled = "\ufdf0";
+		public const string Ic_fluent_skip_forward_10_28_filled = "\ufdf1";
+		public const string Ic_fluent_skip_forward_10_32_filled = "\ufdf2";
+		public const string Ic_fluent_skip_forward_10_48_filled = "\ufdf3";
+		public const string Ic_fluent_skip_forward_30_20_filled = "\ufd63";
+		public const string Ic_fluent_skip_forward_30_24_filled = "\ufdf4";
+		public const string Ic_fluent_skip_forward_30_28_filled = "\ufdf5";
+		public const string Ic_fluent_skip_forward_30_32_filled = "\ufdf6";
+		public const string Ic_fluent_skip_forward_30_48_filled = "\ufdf7";
+		public const string Ic_fluent_skip_forward_tab_24_filled = "\ufef5";
+		public const string Ic_fluent_sleep_24_filled = "\uf6ee";
+		public const string Ic_fluent_slide_add_24_filled = "\uf6ef";
+		public const string Ic_fluent_slide_eraser_16_filled = "\ufb9d";
+		public const string Ic_fluent_slide_eraser_20_filled = "\ufbd5";
+		public const string Ic_fluent_slide_eraser_24_filled = "\ufd64";
+		public const string Ic_fluent_slide_grid_24_filled = "\ufbd6";
+		public const string Ic_fluent_slide_hide_24_filled = "\uf6f1";
+		public const string Ic_fluent_slide_layout_20_filled = "\uf6f2";
+		public const string Ic_fluent_slide_layout_24_filled = "\uf6f3";
+		public const string Ic_fluent_slide_microphone_24_filled = "\uf6f4";
+		public const string Ic_fluent_slide_microphone_32_filled = "\u01a9";
+		public const string Ic_fluent_slide_multiple_24_filled = "\ufb58";
+		public const string Ic_fluent_slide_multiple_arrow_right_24_filled = "\ufaa0";
+		public const string Ic_fluent_slide_multiple_search_20_filled = "\uf78b";
+		public const string Ic_fluent_slide_multiple_search_24_filled = "\uf78c";
+		public const string Ic_fluent_slide_search_24_filled = "\ufaa1";
+		public const string Ic_fluent_slide_search_28_filled = "\ufaa2";
+		public const string Ic_fluent_slide_settings_24_filled = "\ufd0e";
+		public const string Ic_fluent_slide_size_24_filled = "\ufaa3";
+		public const string Ic_fluent_slide_text_16_filled = "\ufaa4";
+		public const string Ic_fluent_slide_text_20_filled = "\ufaa5";
+		public const string Ic_fluent_slide_text_24_filled = "\uf6f5";
+		public const string Ic_fluent_slide_text_28_filled = "\ufaa6";
+		public const string Ic_fluent_slide_text_48_filled = "\ufaa7";
+		public const string Ic_fluent_slide_transition_24_filled = "\ufd0f";
+		public const string Ic_fluent_smartwatch_20_filled = "\uf78d";
+		public const string Ic_fluent_smartwatch_24_filled = "\uf78e";
+		public const string Ic_fluent_smartwatch_dot_20_filled = "\uf79e";
+		public const string Ic_fluent_smartwatch_dot_24_filled = "\uf79f";
+		public const string Ic_fluent_snooze_16_filled = "\uf6fd";
+		public const string Ic_fluent_snooze_20_filled = "\u01aa";
+		public const string Ic_fluent_snooze_24_filled = "\uf6fe";
+		public const string Ic_fluent_sound_source_24_filled = "\uf6ff";
+		public const string Ic_fluent_sound_source_28_filled = "\uf700";
+		public const string Ic_fluent_spacebar_24_filled = "\uf701";
+		public const string Ic_fluent_sparkle_16_filled = "\u01fd";
+		public const string Ic_fluent_sparkle_20_filled = "\u01fe";
+		public const string Ic_fluent_sparkle_24_filled = "\u01ff";
+		public const string Ic_fluent_sparkle_28_filled = "\u0200";
+		public const string Ic_fluent_sparkle_48_filled = "\u0201";
+		public const string Ic_fluent_speaker_0_16_filled = "\ufaa8";
+		public const string Ic_fluent_speaker_0_20_filled = "\ufaa9";
+		public const string Ic_fluent_speaker_0_24_filled = "\uf702";
+		public const string Ic_fluent_speaker_0_28_filled = "\ufaaa";
+		public const string Ic_fluent_speaker_0_32_filled = "\u0178";
+		public const string Ic_fluent_speaker_0_48_filled = "\ufaab";
+		public const string Ic_fluent_speaker_1_16_filled = "\ufaac";
+		public const string Ic_fluent_speaker_1_20_filled = "\ufaad";
+		public const string Ic_fluent_speaker_1_24_filled = "\uf704";
+		public const string Ic_fluent_speaker_1_28_filled = "\ufaae";
+		public const string Ic_fluent_speaker_1_32_filled = "\u0179";
+		public const string Ic_fluent_speaker_1_48_filled = "\ufaaf";
+		public const string Ic_fluent_speaker_2_16_filled = "\ufc6c";
+		public const string Ic_fluent_speaker_2_20_filled = "\ufc6d";
+		public const string Ic_fluent_speaker_2_24_filled = "\ufc6e";
+		public const string Ic_fluent_speaker_2_28_filled = "\ufc6f";
+		public const string Ic_fluent_speaker_2_32_filled = "\u017a";
+		public const string Ic_fluent_speaker_2_48_filled = "\ufc70";
+		public const string Ic_fluent_speaker_bluetooth_24_filled = "\uf708";
+		public const string Ic_fluent_speaker_bluetooth_28_filled = "\ufab1";
+		public const string Ic_fluent_speaker_edit_16_filled = "\uf709";
+		public const string Ic_fluent_speaker_edit_20_filled = "\uf70a";
+		public const string Ic_fluent_speaker_edit_24_filled = "\uf70b";
+		public const string Ic_fluent_speaker_mute_16_filled = "\ufc71";
+		public const string Ic_fluent_speaker_mute_20_filled = "\ufc72";
+		public const string Ic_fluent_speaker_mute_24_filled = "\ufc73";
+		public const string Ic_fluent_speaker_mute_28_filled = "\ufc74";
+		public const string Ic_fluent_speaker_mute_48_filled = "\ufc75";
+		public const string Ic_fluent_speaker_off_16_filled = "\ufab4";
+		public const string Ic_fluent_speaker_off_20_filled = "\ufab5";
+		public const string Ic_fluent_speaker_off_24_filled = "\uf70f";
+		public const string Ic_fluent_speaker_off_28_filled = "\uf710";
+		public const string Ic_fluent_speaker_off_48_filled = "\ufab6";
+		public const string Ic_fluent_speaker_settings_24_filled = "\uf711";
+		public const string Ic_fluent_speaker_usb_24_filled = "\ufab7";
+		public const string Ic_fluent_speaker_usb_28_filled = "\ufab8";
+		public const string Ic_fluent_spinner_ios_20_filled = "\uf712";
+		public const string Ic_fluent_split_horizontal_12_filled = "\ufd65";
+		public const string Ic_fluent_split_horizontal_16_filled = "\ufd66";
+		public const string Ic_fluent_split_horizontal_20_filled = "\ufd67";
+		public const string Ic_fluent_split_horizontal_24_filled = "\ufd68";
+		public const string Ic_fluent_split_horizontal_28_filled = "\ufd69";
+		public const string Ic_fluent_split_horizontal_32_filled = "\ufd6a";
+		public const string Ic_fluent_split_horizontal_48_filled = "\ufd6b";
+		public const string Ic_fluent_split_vertical_12_filled = "\ufd6c";
+		public const string Ic_fluent_split_vertical_16_filled = "\ufd6d";
+		public const string Ic_fluent_split_vertical_20_filled = "\ufd6e";
+		public const string Ic_fluent_split_vertical_24_filled = "\ufd6f";
+		public const string Ic_fluent_split_vertical_28_filled = "\ufd70";
+		public const string Ic_fluent_split_vertical_32_filled = "\ufd71";
+		public const string Ic_fluent_split_vertical_48_filled = "\ufd72";
+		public const string Ic_fluent_sport_16_filled = "\ufab9";
+		public const string Ic_fluent_sport_20_filled = "\ufaba";
+		public const string Ic_fluent_sport_24_filled = "\ufabb";
+		public const string Ic_fluent_sport_american_football_24_filled = "\ufabc";
+		public const string Ic_fluent_sport_baseball_24_filled = "\ufabd";
+		public const string Ic_fluent_sport_basketball_24_filled = "\ufabe";
+		public const string Ic_fluent_sport_hockey_24_filled = "\ufabf";
+		public const string Ic_fluent_sport_soccer_16_filled = "\u0033";
+		public const string Ic_fluent_sport_soccer_20_filled = "\ufd73";
+		public const string Ic_fluent_sport_soccer_24_filled = "\ufd74";
+		public const string Ic_fluent_square_12_filled = "\u00ed";
+		public const string Ic_fluent_square_16_filled = "\ufc76";
+		public const string Ic_fluent_square_20_filled = "\u0034";
+		public const string Ic_fluent_square_32_filled = "\u0202";
+		public const string Ic_fluent_square_add_16_filled = "\ufc77";
+		public const string Ic_fluent_square_add_20_filled = "\uffc1";
+		public const string Ic_fluent_square_arrow_forward_16_filled = "\ufef6";
+		public const string Ic_fluent_square_arrow_forward_20_filled = "\ufef7";
+		public const string Ic_fluent_square_arrow_forward_24_filled = "\ufef8";
+		public const string Ic_fluent_square_arrow_forward_28_filled = "\ufef9";
+		public const string Ic_fluent_square_arrow_forward_32_filled = "\ufefa";
+		public const string Ic_fluent_square_arrow_forward_48_filled = "\ufefb";
+		public const string Ic_fluent_square_dismiss_16_filled = "\u00ee";
+		public const string Ic_fluent_square_dismiss_20_filled = "\u00ef";
+		public const string Ic_fluent_square_hint_arrow_back_16_filled = "\ufc78";
+		public const string Ic_fluent_square_multiple_16_filled = "\u008b";
+		public const string Ic_fluent_square_multiple_20_filled = "\ufbae";
+		public const string Ic_fluent_square_multiple_24_filled = "\uf7a4";
+		public const string Ic_fluent_square_shadow_12_filled = "\u011e";
+		public const string Ic_fluent_stack_16_filled = "\uf7a5";
+		public const string Ic_fluent_stack_20_filled = "\uf7aa";
+		public const string Ic_fluent_stack_24_filled = "\uf7be";
+		public const string Ic_fluent_stack_arrow_forward_20_filled = "\u024d";
+		public const string Ic_fluent_stack_arrow_forward_24_filled = "\u024e";
+		public const string Ic_fluent_stack_star_16_filled = "\u008c";
+		public const string Ic_fluent_stack_star_20_filled = "\u008d";
+		public const string Ic_fluent_stack_star_24_filled = "\u008e";
+		public const string Ic_fluent_star_12_filled = "\uf716";
+		public const string Ic_fluent_star_16_filled = "\uf717";
+		public const string Ic_fluent_star_20_filled = "\uf718";
+		public const string Ic_fluent_star_24_filled = "\uf719";
+		public const string Ic_fluent_star_28_filled = "\uf71a";
+		public const string Ic_fluent_star_add_16_filled = "\uf71b";
+		public const string Ic_fluent_star_add_20_filled = "\uf71c";
+		public const string Ic_fluent_star_add_24_filled = "\uf71d";
+		public const string Ic_fluent_star_arrow_right_end_24_filled = "\ufc79";
+		public const string Ic_fluent_star_arrow_right_start_24_filled = "\uf71f";
+		public const string Ic_fluent_star_edit_24_filled = "\ufac0";
+		public const string Ic_fluent_star_emphasis_20_filled = "\ufbaf";
+		public const string Ic_fluent_star_emphasis_24_filled = "\uf720";
+		public const string Ic_fluent_star_emphasis_32_filled = "\ufd10";
+		public const string Ic_fluent_star_half_12_filled = "\uf721";
+		public const string Ic_fluent_star_half_16_filled = "\uf722";
+		public const string Ic_fluent_star_half_20_filled = "\uf723";
+		public const string Ic_fluent_star_half_24_filled = "\uf724";
+		public const string Ic_fluent_star_half_28_filled = "\uf725";
+		public const string Ic_fluent_star_line_horizontal_3_16_filled = "\uffc2";
+		public const string Ic_fluent_star_line_horizontal_3_20_filled = "\ufb59";
+		public const string Ic_fluent_star_line_horizontal_3_24_filled = "\ufb5a";
+		public const string Ic_fluent_star_off_12_filled = "\uf726";
+		public const string Ic_fluent_star_off_16_filled = "\uf727";
+		public const string Ic_fluent_star_off_20_filled = "\uf728";
+		public const string Ic_fluent_star_off_24_filled = "\uf729";
+		public const string Ic_fluent_star_off_28_filled = "\uf72a";
+		public const string Ic_fluent_star_one_quarter_12_filled = "\uf72b";
+		public const string Ic_fluent_star_one_quarter_16_filled = "\uf72c";
+		public const string Ic_fluent_star_one_quarter_20_filled = "\uf72d";
+		public const string Ic_fluent_star_one_quarter_24_filled = "\uf72e";
+		public const string Ic_fluent_star_one_quarter_28_filled = "\uf72f";
+		public const string Ic_fluent_star_prohibited_16_filled = "\uf730";
+		public const string Ic_fluent_star_prohibited_20_filled = "\uf731";
+		public const string Ic_fluent_star_prohibited_24_filled = "\uf732";
+		public const string Ic_fluent_star_settings_24_filled = "\uf733";
+		public const string Ic_fluent_star_three_quarter_12_filled = "\uf734";
+		public const string Ic_fluent_star_three_quarter_16_filled = "\uf735";
+		public const string Ic_fluent_star_three_quarter_20_filled = "\uf736";
+		public const string Ic_fluent_star_three_quarter_24_filled = "\uf737";
+		public const string Ic_fluent_star_three_quarter_28_filled = "\uf738";
+		public const string Ic_fluent_status_16_filled = "\uf739";
+		public const string Ic_fluent_status_20_filled = "\uf73a";
+		public const string Ic_fluent_status_24_filled = "\uf73b";
+		public const string Ic_fluent_steps_20_filled = "\uff00";
+		public const string Ic_fluent_steps_24_filled = "\uff01";
+		public const string Ic_fluent_stethoscope_20_filled = "\uf73c";
+		public const string Ic_fluent_stethoscope_24_filled = "\uf73d";
+		public const string Ic_fluent_sticker_12_filled = "\u017b";
+		public const string Ic_fluent_sticker_20_filled = "\uf73e";
+		public const string Ic_fluent_sticker_24_filled = "\uf73f";
+		public const string Ic_fluent_sticker_add_24_filled = "\uf740";
+		public const string Ic_fluent_stop_16_filled = "\uf741";
+		public const string Ic_fluent_stop_20_filled = "\uf742";
+		public const string Ic_fluent_stop_24_filled = "\uf743";
+		public const string Ic_fluent_storage_24_filled = "\uf744";
+		public const string Ic_fluent_store_microsoft_16_filled = "\uf748";
+		public const string Ic_fluent_store_microsoft_20_filled = "\uf749";
+		public const string Ic_fluent_store_microsoft_24_filled = "\uf74a";
+		public const string Ic_fluent_stream_20_filled = "\uffc3";
+		public const string Ic_fluent_stream_24_filled = "\uffc4";
+		public const string Ic_fluent_strikethrough_ga_na_16_filled = "\ufd75";
+		public const string Ic_fluent_strikethrough_ga_na_20_filled = "\ufd76";
+		public const string Ic_fluent_strikethrough_ga_na_24_filled = "\ufd77";
+		public const string Ic_fluent_style_guide_24_filled = "\uf74b";
+		public const string Ic_fluent_sub_grid_24_filled = "\uf74c";
+		public const string Ic_fluent_subtract_12_filled = "\ufc7a";
+		public const string Ic_fluent_subtract_16_filled = "\ufc7b";
+		public const string Ic_fluent_subtract_20_filled = "\ufc7c";
+		public const string Ic_fluent_subtract_24_filled = "\ufc7d";
+		public const string Ic_fluent_subtract_28_filled = "\ufc7e";
+		public const string Ic_fluent_subtract_48_filled = "\ufc7f";
+		public const string Ic_fluent_subtract_circle_12_filled = "\u00f0";
+		public const string Ic_fluent_subtract_circle_16_filled = "\uf7bf";
+		public const string Ic_fluent_subtract_circle_20_filled = "\uf7c8";
+		public const string Ic_fluent_subtract_circle_24_filled = "\uf7c9";
+		public const string Ic_fluent_subtract_circle_28_filled = "\uf7cc";
+		public const string Ic_fluent_subtract_circle_32_filled = "\uf7cd";
+		public const string Ic_fluent_subtract_circle_arrow_back_16_filled = "\u008f";
+		public const string Ic_fluent_subtract_circle_arrow_back_20_filled = "\u0090";
+		public const string Ic_fluent_subtract_circle_arrow_forward_16_filled = "\u0091";
+		public const string Ic_fluent_subtract_circle_arrow_forward_20_filled = "\u0092";
+		public const string Ic_fluent_subtract_square_24_filled = "\u0203";
+		public const string Ic_fluent_subtract_square_multiple_16_filled = "\ufdf8";
+		public const string Ic_fluent_subtract_square_multiple_20_filled = "\ufefc";
+		public const string Ic_fluent_surface_earbuds_20_filled = "\uf750";
+		public const string Ic_fluent_surface_earbuds_24_filled = "\uf751";
+		public const string Ic_fluent_surface_hub_20_filled = "\uf752";
+		public const string Ic_fluent_surface_hub_24_filled = "\uf753";
+		public const string Ic_fluent_swipe_down_24_filled = "\uf754";
+		public const string Ic_fluent_swipe_right_24_filled = "\uf755";
+		public const string Ic_fluent_swipe_up_24_filled = "\uf756";
+		public const string Ic_fluent_symbols_16_filled = "\ufe3b";
+		public const string Ic_fluent_symbols_20_filled = "\ufd78";
+		public const string Ic_fluent_symbols_24_filled = "\uf757";
+		public const string Ic_fluent_sync_off_16_filled = "\uf758";
+		public const string Ic_fluent_sync_off_20_filled = "\uf759";
+		public const string Ic_fluent_syringe_20_filled = "\uffc5";
+		public const string Ic_fluent_syringe_24_filled = "\uffc6";
+		public const string Ic_fluent_system_24_filled = "\uf75a";
+		public const string Ic_fluent_tab_16_filled = "\uf75b";
+		public const string Ic_fluent_tab_20_filled = "\uf75c";
+		public const string Ic_fluent_tab_24_filled = "\uf75d";
+		public const string Ic_fluent_tab_28_filled = "\uf75e";
+		public const string Ic_fluent_tab_add_20_filled = "\ufc80";
+		public const string Ic_fluent_tab_add_24_filled = "\ufc81";
+		public const string Ic_fluent_tab_arrow_left_24_filled = "\ufc82";
+		public const string Ic_fluent_tab_desktop_20_filled = "\uf75f";
+		public const string Ic_fluent_tab_desktop_arrow_clockwise_16_filled = "\uf760";
+		public const string Ic_fluent_tab_desktop_arrow_clockwise_20_filled = "\uf761";
+		public const string Ic_fluent_tab_desktop_arrow_clockwise_24_filled = "\uf762";
+		public const string Ic_fluent_tab_desktop_arrow_left_20_filled = "\ufac1";
+		public const string Ic_fluent_tab_desktop_bottom_24_filled = "\uff02";
+		public const string Ic_fluent_tab_desktop_clock_20_filled = "\uf763";
+		public const string Ic_fluent_tab_desktop_copy_20_filled = "\uf764";
+		public const string Ic_fluent_tab_desktop_image_16_filled = "\uf765";
+		public const string Ic_fluent_tab_desktop_image_20_filled = "\uf766";
+		public const string Ic_fluent_tab_desktop_image_24_filled = "\uf767";
+		public const string Ic_fluent_tab_desktop_multiple_20_filled = "\uf768";
+		public const string Ic_fluent_tab_desktop_multiple_bottom_24_filled = "\uff03";
+		public const string Ic_fluent_tab_desktop_new_page_20_filled = "\uf769";
+		public const string Ic_fluent_tab_in_private_16_filled = "\uf76a";
+		public const string Ic_fluent_tab_in_private_20_filled = "\uf76b";
+		public const string Ic_fluent_tab_in_private_24_filled = "\uf76c";
+		public const string Ic_fluent_tab_in_private_28_filled = "\uf76d";
+		public const string Ic_fluent_tab_inprivate_account_20_filled = "\uf76e";
+		public const string Ic_fluent_tab_inprivate_account_24_filled = "\uf76f";
+		public const string Ic_fluent_tab_prohibited_24_filled = "\ufac2";
+		public const string Ic_fluent_tab_shield_dismiss_20_filled = "\ufc83";
+		public const string Ic_fluent_tab_shield_dismiss_24_filled = "\ufc84";
+		public const string Ic_fluent_table_16_filled = "\ufac3";
+		public const string Ic_fluent_table_20_filled = "\uf775";
+		public const string Ic_fluent_table_24_filled = "\uf776";
+		public const string Ic_fluent_table_28_filled = "\ufac4";
+		public const string Ic_fluent_table_32_filled = "\ufd11";
+		public const string Ic_fluent_table_48_filled = "\ufac5";
+		public const string Ic_fluent_table_add_20_filled = "\ufb5b";
+		public const string Ic_fluent_table_add_24_filled = "\uf777";
+		public const string Ic_fluent_table_cell_edit_24_filled = "\ufd12";
+		public const string Ic_fluent_table_cells_merge_20_filled = "\uf778";
+		public const string Ic_fluent_table_cells_merge_24_filled = "\uf779";
+		public const string Ic_fluent_table_cells_split_20_filled = "\uf77a";
+		public const string Ic_fluent_table_cells_split_24_filled = "\uf77b";
+		public const string Ic_fluent_table_delete_column_20_filled = "\ufd79";
+		public const string Ic_fluent_table_delete_column_24_filled = "\ufc85";
+		public const string Ic_fluent_table_delete_row_20_filled = "\ufd7a";
+		public const string Ic_fluent_table_delete_row_24_filled = "\ufc86";
+		public const string Ic_fluent_table_dismiss_20_filled = "\ufb5c";
+		public const string Ic_fluent_table_dismiss_24_filled = "\ufb5d";
+		public const string Ic_fluent_table_edit_24_filled = "\uf780";
+		public const string Ic_fluent_table_freeze_column_24_filled = "\uf782";
+		public const string Ic_fluent_table_freeze_column_and_row_24_filled = "\ufc87";
+		public const string Ic_fluent_table_freeze_row_24_filled = "\uf783";
+		public const string Ic_fluent_table_insert_column_24_filled = "\ufc88";
+		public const string Ic_fluent_table_insert_row_24_filled = "\ufc89";
+		public const string Ic_fluent_table_lightning_20_filled = "\u024f";
+		public const string Ic_fluent_table_lightning_24_filled = "\u0250";
+		public const string Ic_fluent_table_link_20_filled = "\u0251";
+		public const string Ic_fluent_table_link_24_filled = "\u0252";
+		public const string Ic_fluent_table_move_above_24_filled = "\ufc8a";
+		public const string Ic_fluent_table_move_below_24_filled = "\ufc8b";
+		public const string Ic_fluent_table_move_left_24_filled = "\uf789";
+		public const string Ic_fluent_table_move_right_24_filled = "\uf78a";
+		public const string Ic_fluent_table_resize_column_24_filled = "\ufc8c";
+		public const string Ic_fluent_table_resize_row_24_filled = "\ufc8d";
+		public const string Ic_fluent_table_settings_24_filled = "\uf78f";
+		public const string Ic_fluent_table_simple_16_filled = "\ufac6";
+		public const string Ic_fluent_table_simple_20_filled = "\ufac7";
+		public const string Ic_fluent_table_simple_24_filled = "\ufac8";
+		public const string Ic_fluent_table_simple_28_filled = "\ufac9";
+		public const string Ic_fluent_table_simple_48_filled = "\ufaca";
+		public const string Ic_fluent_table_stack_above_20_filled = "\ufd7b";
+		public const string Ic_fluent_table_stack_above_24_filled = "\ufc8e";
+		public const string Ic_fluent_table_stack_below_24_filled = "\ufc8f";
+		public const string Ic_fluent_table_stack_down_20_filled = "\ufd7c";
+		public const string Ic_fluent_table_stack_left_20_filled = "\ufd7d";
+		public const string Ic_fluent_table_stack_left_24_filled = "\ufc90";
+		public const string Ic_fluent_table_stack_right_20_filled = "\ufd7e";
+		public const string Ic_fluent_table_stack_right_24_filled = "\ufc91";
+		public const string Ic_fluent_table_switch_24_filled = "\uf790";
+		public const string Ic_fluent_tablet_20_filled = "\uf791";
+		public const string Ic_fluent_tablet_24_filled = "\uf792";
+		public const string Ic_fluent_tablet_speaker_24_filled = "\ufd13";
+		public const string Ic_fluent_tabs_24_filled = "\uf793";
+		public const string Ic_fluent_tag_16_filled = "\ufacb";
+		public const string Ic_fluent_tag_20_filled = "\uf794";
+		public const string Ic_fluent_tag_24_filled = "\uf795";
+		public const string Ic_fluent_tag_32_filled = "\u01ab";
+		public const string Ic_fluent_tag_circle_20_filled = "\u00f1";
+		public const string Ic_fluent_tag_dismiss_16_filled = "\u01ac";
+		public const string Ic_fluent_tag_dismiss_20_filled = "\uffc7";
+		public const string Ic_fluent_tag_dismiss_24_filled = "\uffc8";
+		public const string Ic_fluent_tag_error_16_filled = "\u029a";
+		public const string Ic_fluent_tag_error_20_filled = "\u029b";
+		public const string Ic_fluent_tag_error_24_filled = "\u029c";
+		public const string Ic_fluent_tag_lock_16_filled = "\u01ad";
+		public const string Ic_fluent_tag_lock_20_filled = "\u01ae";
+		public const string Ic_fluent_tag_lock_24_filled = "\u01af";
+		public const string Ic_fluent_tag_lock_32_filled = "\u01b0";
+		public const string Ic_fluent_tag_lock_accent_16_filled = "\u01b1";
+		public const string Ic_fluent_tag_lock_accent_20_filled = "\u01b2";
+		public const string Ic_fluent_tag_lock_accent_24_filled = "\u01b3";
+		public const string Ic_fluent_tag_lock_accent_32_filled = "\u01b4";
+		public const string Ic_fluent_tag_multiple_16_filled = "\uf7ce";
+		public const string Ic_fluent_tag_multiple_20_filled = "\u0035";
+		public const string Ic_fluent_tag_multiple_24_filled = "\u029d";
+		public const string Ic_fluent_tag_question_mark_16_filled = "\ufc92";
+		public const string Ic_fluent_tag_question_mark_20_filled = "\u029e";
+		public const string Ic_fluent_tag_question_mark_24_filled = "\ufc93";
+		public const string Ic_fluent_tag_question_mark_32_filled = "\u029f";
+		public const string Ic_fluent_tap_double_20_filled = "\ufb5e";
+		public const string Ic_fluent_tap_double_24_filled = "\uf796";
+		public const string Ic_fluent_tap_single_20_filled = "\ufb5f";
+		public const string Ic_fluent_tap_single_24_filled = "\uf797";
+		public const string Ic_fluent_target_16_filled = "\uf798";
+		public const string Ic_fluent_target_20_filled = "\uf799";
+		public const string Ic_fluent_target_24_filled = "\uf79a";
+		public const string Ic_fluent_target_32_filled = "\ufd14";
+		public const string Ic_fluent_target_arrow_16_filled = "\uf7cf";
+		public const string Ic_fluent_target_arrow_20_filled = "\uf7d0";
+		public const string Ic_fluent_target_arrow_24_filled = "\uffc9";
+		public const string Ic_fluent_target_edit_16_filled = "\uf79b";
+		public const string Ic_fluent_target_edit_20_filled = "\uf79c";
+		public const string Ic_fluent_target_edit_24_filled = "\uf79d";
+		public const string Ic_fluent_task_list_add_20_filled = "\uf7a0";
+		public const string Ic_fluent_task_list_add_24_filled = "\uf7a1";
+		public const string Ic_fluent_task_list_ltr_20_filled = "\ufd7f";
+		public const string Ic_fluent_task_list_ltr_24_filled = "\ufd80";
+		public const string Ic_fluent_task_list_rtl_20_filled = "\ufd81";
+		public const string Ic_fluent_task_list_rtl_24_filled = "\ufd82";
+		public const string Ic_fluent_task_list_square_add_20_filled = "\uff04";
+		public const string Ic_fluent_task_list_square_add_24_filled = "\uff05";
+		public const string Ic_fluent_task_list_square_ltr_20_filled = "\uff06";
+		public const string Ic_fluent_task_list_square_ltr_24_filled = "\uff07";
+		public const string Ic_fluent_task_list_square_rtl_20_filled = "\uff08";
+		public const string Ic_fluent_task_list_square_rtl_24_filled = "\uff09";
+		public const string Ic_fluent_tasks_app_20_filled = "\ufacc";
+		public const string Ic_fluent_tasks_app_24_filled = "\uf7a2";
+		public const string Ic_fluent_tasks_app_28_filled = "\uf7a3";
+		public const string Ic_fluent_teddy_20_filled = "\ufe3c";
+		public const string Ic_fluent_teddy_24_filled = "\uf7a6";
+		public const string Ic_fluent_temperature_16_filled = "\uffca";
+		public const string Ic_fluent_temperature_20_filled = "\uf7a7";
+		public const string Ic_fluent_temperature_24_filled = "\uf7a8";
+		public const string Ic_fluent_tent_12_filled = "\ufacd";
+		public const string Ic_fluent_tent_16_filled = "\uface";
+		public const string Ic_fluent_tent_20_filled = "\ufacf";
+		public const string Ic_fluent_tent_24_filled = "\uf7a9";
+		public const string Ic_fluent_tent_28_filled = "\ufad0";
+		public const string Ic_fluent_tent_48_filled = "\ufad1";
+		public const string Ic_fluent_tetris_app_16_filled = "\ufd83";
+		public const string Ic_fluent_tetris_app_20_filled = "\ufd84";
+		public const string Ic_fluent_tetris_app_24_filled = "\ufd85";
+		public const string Ic_fluent_tetris_app_28_filled = "\ufd86";
+		public const string Ic_fluent_tetris_app_32_filled = "\ufd87";
+		public const string Ic_fluent_tetris_app_48_filled = "\ufd88";
+		public const string Ic_fluent_text_add_space_after_20_filled = "\uf7ad";
+		public const string Ic_fluent_text_add_space_after_24_filled = "\uf7ae";
+		public const string Ic_fluent_text_add_space_before_20_filled = "\uf7af";
+		public const string Ic_fluent_text_add_space_before_24_filled = "\uf7b0";
+		public const string Ic_fluent_text_add_t_24_filled = "\u0093";
+		public const string Ic_fluent_text_align_center_16_filled = "\u01b5";
+		public const string Ic_fluent_text_align_center_20_filled = "\uf7b1";
+		public const string Ic_fluent_text_align_center_24_filled = "\uf7b2";
+		public const string Ic_fluent_text_align_center_rotate_270_24_filled = "\uffdb";
+		public const string Ic_fluent_text_align_distributed_20_filled = "\uf7b3";
+		public const string Ic_fluent_text_align_distributed_24_filled = "\uf7b4";
+		public const string Ic_fluent_text_align_distributed_evenly_24_filled = "\uff0a";
+		public const string Ic_fluent_text_align_distributed_vertical_24_filled = "\uff0b";
+		public const string Ic_fluent_text_align_justify_20_filled = "\uf7b5";
+		public const string Ic_fluent_text_align_justify_24_filled = "\uf7b6";
+		public const string Ic_fluent_text_align_justify_low_24_filled = "\uff0c";
+		public const string Ic_fluent_text_align_justify_low_rotate_90_24_filled = "\uffdc";
+		public const string Ic_fluent_text_align_justify_rotate_90_24_filled = "\uffdd";
+		public const string Ic_fluent_text_align_left_16_filled = "\u01b6";
+		public const string Ic_fluent_text_align_left_20_filled = "\uf7b7";
+		public const string Ic_fluent_text_align_left_24_filled = "\uf7b8";
+		public const string Ic_fluent_text_align_left_rotate_270_24_filled = "\uffde";
+		public const string Ic_fluent_text_align_right_16_filled = "\u01b7";
+		public const string Ic_fluent_text_align_right_20_filled = "\uf7b9";
+		public const string Ic_fluent_text_align_right_24_filled = "\uf7ba";
+		public const string Ic_fluent_text_align_right_rotate_270_24_filled = "\uffdf";
+		public const string Ic_fluent_text_asterisk_20_filled = "\uf7bb";
+		public const string Ic_fluent_text_baseline_20_filled = "\u011f";
+		public const string Ic_fluent_text_bold_16_filled = "\ufad2";
+		public const string Ic_fluent_text_bold_20_filled = "\uf7bc";
+		public const string Ic_fluent_text_bold_24_filled = "\uf7bd";
+		public const string Ic_fluent_text_box_16_filled = "\u0036";
+		public const string Ic_fluent_text_bullet_list_add_20_filled = "\ufb60";
+		public const string Ic_fluent_text_bullet_list_add_24_filled = "\uf7c0";
+		public const string Ic_fluent_text_bullet_list_ltr_16_filled = "\u00f2";
+		public const string Ic_fluent_text_bullet_list_ltr_20_filled = "\ufd89";
+		public const string Ic_fluent_text_bullet_list_ltr_24_filled = "\ufd8a";
+		public const string Ic_fluent_text_bullet_list_rtl_16_filled = "\u00f3";
+		public const string Ic_fluent_text_bullet_list_rtl_20_filled = "\ufd8b";
+		public const string Ic_fluent_text_bullet_list_rtl_24_filled = "\ufd8c";
+		public const string Ic_fluent_text_bullet_list_square_20_filled = "\ufb61";
+		public const string Ic_fluent_text_bullet_list_square_24_filled = "\uf7c1";
+		public const string Ic_fluent_text_bullet_list_square_edit_20_filled = "\uf7d1";
+		public const string Ic_fluent_text_bullet_list_square_edit_24_filled = "\uf7d2";
+		public const string Ic_fluent_text_bullet_list_square_warning_16_filled = "\uf7c2";
+		public const string Ic_fluent_text_bullet_list_square_warning_20_filled = "\uf7c3";
+		public const string Ic_fluent_text_bullet_list_square_warning_24_filled = "\uf7c4";
+		public const string Ic_fluent_text_bullet_list_tree_16_filled = "\uf7c5";
+		public const string Ic_fluent_text_bullet_list_tree_20_filled = "\uf7c6";
+		public const string Ic_fluent_text_bullet_list_tree_24_filled = "\uf7c7";
+		public const string Ic_fluent_text_case_lowercase_16_filled = "\u0204";
+		public const string Ic_fluent_text_case_lowercase_20_filled = "\u0205";
+		public const string Ic_fluent_text_case_lowercase_24_filled = "\u0206";
+		public const string Ic_fluent_text_case_title_16_filled = "\u0207";
+		public const string Ic_fluent_text_case_title_20_filled = "\u0208";
+		public const string Ic_fluent_text_case_title_24_filled = "\u0209";
+		public const string Ic_fluent_text_case_uppercase_16_filled = "\u020a";
+		public const string Ic_fluent_text_case_uppercase_20_filled = "\u020b";
+		public const string Ic_fluent_text_case_uppercase_24_filled = "\u020c";
+		public const string Ic_fluent_text_change_case_16_filled = "\u01b8";
+		public const string Ic_fluent_text_change_case_20_filled = "\uf7ca";
+		public const string Ic_fluent_text_change_case_24_filled = "\uf7cb";
+		public const string Ic_fluent_text_clear_formatting_16_filled = "\u01b9";
+		public const string Ic_fluent_text_clear_formatting_20_filled = "\uf7d4";
+		public const string Ic_fluent_text_clear_formatting_24_filled = "\uf7d5";
+		public const string Ic_fluent_text_clear_formatting_ga_24_filled = "\uff0f";
+		public const string Ic_fluent_text_collapse_24_filled = "\uf7d6";
+		public const string Ic_fluent_text_color_16_filled = "\ufad3";
+		public const string Ic_fluent_text_color_20_filled = "\uf7d7";
+		public const string Ic_fluent_text_color_24_filled = "\uf7d8";
+		public const string Ic_fluent_text_color_accent_16_filled = "\u01ba";
+		public const string Ic_fluent_text_color_accent_20_filled = "\u01bb";
+		public const string Ic_fluent_text_color_accent_24_filled = "\u01bc";
+		public const string Ic_fluent_text_color_ga_24_filled = "\uff10";
+		public const string Ic_fluent_text_column_one_20_filled = "\uf7d9";
+		public const string Ic_fluent_text_column_one_24_filled = "\uf7da";
+		public const string Ic_fluent_text_column_one_narrow_20_filled = "\ufad4";
+		public const string Ic_fluent_text_column_one_narrow_24_filled = "\ufad5";
+		public const string Ic_fluent_text_column_one_wide_20_filled = "\ufad6";
+		public const string Ic_fluent_text_column_one_wide_24_filled = "\ufad7";
+		public const string Ic_fluent_text_column_one_wide_lightning_20_filled = "\u02a0";
+		public const string Ic_fluent_text_column_one_wide_lightning_24_filled = "\u02a1";
+		public const string Ic_fluent_text_column_three_20_filled = "\uf7db";
+		public const string Ic_fluent_text_column_three_24_filled = "\uf7dc";
+		public const string Ic_fluent_text_column_two_20_filled = "\uf7dd";
+		public const string Ic_fluent_text_column_two_24_filled = "\uf7de";
+		public const string Ic_fluent_text_column_two_left_20_filled = "\uf7df";
+		public const string Ic_fluent_text_column_two_left_24_filled = "\uf7e0";
+		public const string Ic_fluent_text_column_two_right_20_filled = "\uf7e1";
+		public const string Ic_fluent_text_column_two_right_24_filled = "\uf7e2";
+		public const string Ic_fluent_text_continuous_24_filled = "\ufad8";
+		public const string Ic_fluent_text_description_20_filled = "\uf7e3";
+		public const string Ic_fluent_text_description_24_filled = "\uf7e4";
+		public const string Ic_fluent_text_direction_horizontal_left_20_filled = "\u003e";
+		public const string Ic_fluent_text_direction_horizontal_left_24_filled = "\u003f";
+		public const string Ic_fluent_text_direction_horizontal_ltr_20_filled = "\u0040";
+		public const string Ic_fluent_text_direction_horizontal_ltr_24_filled = "\u0041";
+		public const string Ic_fluent_text_direction_rotate_270_ltr_20_filled = "\u0037";
+		public const string Ic_fluent_text_direction_rotate_270_ltr_24_filled = "\u0038";
+		public const string Ic_fluent_text_direction_rotate_90_left_20_filled = "\u0044";
+		public const string Ic_fluent_text_direction_rotate_90_left_24_filled = "\u0045";
+		public const string Ic_fluent_text_direction_rotate_90_ltr_20_filled = "\u0046";
+		public const string Ic_fluent_text_direction_rotate_90_ltr_24_filled = "\u0047";
+		public const string Ic_fluent_text_direction_vertical_20_filled = "\uf7ef";
+		public const string Ic_fluent_text_direction_vertical_24_filled = "\uf7f0";
+		public const string Ic_fluent_text_edit_style_20_filled = "\uf7f1";
+		public const string Ic_fluent_text_edit_style_24_filled = "\uf7f2";
+		public const string Ic_fluent_text_edit_style_ga_24_filled = "\uff15";
+		public const string Ic_fluent_text_effects_20_filled = "\uf7f3";
+		public const string Ic_fluent_text_effects_24_filled = "\uf7f4";
+		public const string Ic_fluent_text_effects_ga_24_filled = "\uff16";
+		public const string Ic_fluent_text_expand_24_filled = "\uf7f5";
+		public const string Ic_fluent_text_field_16_filled = "\uf7f6";
+		public const string Ic_fluent_text_field_20_filled = "\uf7f7";
+		public const string Ic_fluent_text_field_24_filled = "\uf7f8";
+		public const string Ic_fluent_text_first_line_20_filled = "\uf7f9";
+		public const string Ic_fluent_text_first_line_24_filled = "\uf7fa";
+		public const string Ic_fluent_text_font_16_filled = "\uf7fb";
+		public const string Ic_fluent_text_font_20_filled = "\uf7fc";
+		public const string Ic_fluent_text_font_24_filled = "\uf7fd";
+		public const string Ic_fluent_text_font_info_16_filled = "\u02a2";
+		public const string Ic_fluent_text_font_info_20_filled = "\u02a3";
+		public const string Ic_fluent_text_font_info_24_filled = "\u02a4";
+		public const string Ic_fluent_text_font_size_16_filled = "\u01bd";
+		public const string Ic_fluent_text_font_size_20_filled = "\uf7fe";
+		public const string Ic_fluent_text_font_size_24_filled = "\uf7ff";
+		public const string Ic_fluent_text_footnote_20_filled = "\uf800";
+		public const string Ic_fluent_text_footnote_24_filled = "\uf801";
+		public const string Ic_fluent_text_footnote_ga_na_24_filled = "\uff17";
+		public const string Ic_fluent_text_grammar_arrow_left_20_filled = "\ufc94";
+		public const string Ic_fluent_text_grammar_arrow_left_24_filled = "\ufc95";
+		public const string Ic_fluent_text_grammar_arrow_right_20_filled = "\ufc96";
+		public const string Ic_fluent_text_grammar_arrow_right_24_filled = "\ufc97";
+		public const string Ic_fluent_text_grammar_checkmark_20_filled = "\ufc98";
+		public const string Ic_fluent_text_grammar_checkmark_24_filled = "\ufc99";
+		public const string Ic_fluent_text_grammar_dismiss_20_filled = "\ufc9a";
+		public const string Ic_fluent_text_grammar_dismiss_24_filled = "\ufc9b";
+		public const string Ic_fluent_text_grammar_error_20_filled = "\ufb62";
+		public const string Ic_fluent_text_grammar_settings_20_filled = "\ufc9c";
+		public const string Ic_fluent_text_grammar_settings_24_filled = "\ufc9d";
+		public const string Ic_fluent_text_grammar_wand_16_filled = "\ufc9e";
+		public const string Ic_fluent_text_grammar_wand_20_filled = "\ufc9f";
+		public const string Ic_fluent_text_grammar_wand_24_filled = "\ufca0";
+		public const string Ic_fluent_text_hanging_20_filled = "\uf805";
+		public const string Ic_fluent_text_hanging_24_filled = "\uf806";
+		public const string Ic_fluent_text_header_1_20_filled = "\uf807";
+		public const string Ic_fluent_text_header_1_24_filled = "\u00f4";
+		public const string Ic_fluent_text_header_2_20_filled = "\uf808";
+		public const string Ic_fluent_text_header_2_24_filled = "\u00f5";
+		public const string Ic_fluent_text_header_3_20_filled = "\uf809";
+		public const string Ic_fluent_text_header_3_24_filled = "\u00f6";
+		public const string Ic_fluent_text_indent_decrease_16_filled = "\u01be";
+		public const string Ic_fluent_text_indent_decrease_20_filled = "\u01c0";
+		public const string Ic_fluent_text_indent_decrease_24_filled = "\u01c1";
+		public const string Ic_fluent_text_indent_decrease_rtl_16_filled = "\u01c2";
+		public const string Ic_fluent_text_indent_decrease_rtl_20_filled = "\u01c3";
+		public const string Ic_fluent_text_indent_decrease_rtl_24_filled = "\u01c4";
+		public const string Ic_fluent_text_indent_increase_16_filled = "\u01c5";
+		public const string Ic_fluent_text_indent_increase_20_filled = "\u01c7";
+		public const string Ic_fluent_text_indent_increase_24_filled = "\u01c8";
+		public const string Ic_fluent_text_indent_increase_rtl_16_filled = "\u01c9";
+		public const string Ic_fluent_text_indent_increase_rtl_20_filled = "\u01ca";
+		public const string Ic_fluent_text_indent_increase_rtl_24_filled = "\u01cb";
+		public const string Ic_fluent_text_italic_16_filled = "\ufadb";
+		public const string Ic_fluent_text_italic_20_filled = "\uf80c";
+		public const string Ic_fluent_text_italic_24_filled = "\uf80d";
+		public const string Ic_fluent_text_line_spacing_20_filled = "\uf80e";
+		public const string Ic_fluent_text_line_spacing_24_filled = "\uf80f";
+		public const string Ic_fluent_text_more_24_filled = "\u0094";
+		public const string Ic_fluent_text_number_format_20_filled = "\uf810";
+		public const string Ic_fluent_text_number_format_24_filled = "\uf811";
+		public const string Ic_fluent_text_number_format_ga_na_da_24_filled = "\uff18";
+		public const string Ic_fluent_text_number_list_ltr_16_filled = "\u01cc";
+		public const string Ic_fluent_text_number_list_ltr_20_filled = "\uf812";
+		public const string Ic_fluent_text_number_list_ltr_24_filled = "\uf813";
+		public const string Ic_fluent_text_number_list_rtl_16_filled = "\u01cd";
+		public const string Ic_fluent_text_number_list_rtl_20_filled = "\ufb63";
+		public const string Ic_fluent_text_number_list_rtl_24_filled = "\uf814";
+		public const string Ic_fluent_text_paragraph_20_filled = "\ufca1";
+		public const string Ic_fluent_text_paragraph_24_filled = "\ufca2";
+		public const string Ic_fluent_text_paragraph_direction_20_filled = "\ufca3";
+		public const string Ic_fluent_text_paragraph_direction_24_filled = "\ufca4";
+		public const string Ic_fluent_text_paragraph_direction_left_16_filled = "\u01ce";
+		public const string Ic_fluent_text_paragraph_direction_left_20_filled = "\u01cf";
+		public const string Ic_fluent_text_paragraph_direction_right_16_filled = "\u01d0";
+		public const string Ic_fluent_text_paragraph_direction_right_20_filled = "\u01d1";
+		public const string Ic_fluent_text_period_asterisk_20_filled = "\u00f7";
+		public const string Ic_fluent_text_position_behind_20_filled = "\ufca5";
+		public const string Ic_fluent_text_position_behind_24_filled = "\ufca6";
+		public const string Ic_fluent_text_position_front_20_filled = "\ufca7";
+		public const string Ic_fluent_text_position_front_24_filled = "\ufca8";
+		public const string Ic_fluent_text_position_line_20_filled = "\ufca9";
+		public const string Ic_fluent_text_position_line_24_filled = "\ufcaa";
+		public const string Ic_fluent_text_position_square_20_filled = "\ufcab";
+		public const string Ic_fluent_text_position_square_24_filled = "\ufcac";
+		public const string Ic_fluent_text_position_through_20_filled = "\ufcad";
+		public const string Ic_fluent_text_position_through_24_filled = "\ufcae";
+		public const string Ic_fluent_text_position_tight_20_filled = "\ufcaf";
+		public const string Ic_fluent_text_position_tight_24_filled = "\ufcb0";
+		public const string Ic_fluent_text_position_top_bottom_20_filled = "\ufcb1";
+		public const string Ic_fluent_text_position_top_bottom_24_filled = "\ufcb2";
+		public const string Ic_fluent_text_proofing_tools_20_filled = "\uf817";
+		public const string Ic_fluent_text_proofing_tools_24_filled = "\uf818";
+		public const string Ic_fluent_text_proofing_tools_ga_na_da_24_filled = "\uff19";
+		public const string Ic_fluent_text_quote_16_filled = "\u0039";
+		public const string Ic_fluent_text_quote_20_filled = "\uf819";
+		public const string Ic_fluent_text_quote_24_filled = "\uf81a";
+		public const string Ic_fluent_text_sort_ascending_16_filled = "\ufdfa";
+		public const string Ic_fluent_text_sort_ascending_20_filled = "\uf81b";
+		public const string Ic_fluent_text_sort_ascending_24_filled = "\ufdfb";
+		public const string Ic_fluent_text_sort_descending_16_filled = "\ufdfc";
+		public const string Ic_fluent_text_sort_descending_20_filled = "\uf81c";
+		public const string Ic_fluent_text_sort_descending_24_filled = "\ufdfd";
+		public const string Ic_fluent_text_strikethrough_16_filled = "\ufd8d";
+		public const string Ic_fluent_text_strikethrough_20_filled = "\ufd8e";
+		public const string Ic_fluent_text_strikethrough_24_filled = "\uffe4";
+		public const string Ic_fluent_text_strikethrough_s_24_filled = "\ufd8f";
+		public const string Ic_fluent_text_subscript_16_filled = "\u01d2";
+		public const string Ic_fluent_text_subscript_20_filled = "\uf81f";
+		public const string Ic_fluent_text_subscript_24_filled = "\uf820";
+		public const string Ic_fluent_text_superscript_16_filled = "\u01d3";
+		public const string Ic_fluent_text_superscript_20_filled = "\uf821";
+		public const string Ic_fluent_text_superscript_24_filled = "\uf822";
+		public const string Ic_fluent_text_t_20_filled = "\u0095";
+		public const string Ic_fluent_text_t_24_filled = "\u0096";
+		public const string Ic_fluent_text_t_28_filled = "\u0253";
+		public const string Ic_fluent_text_t_48_filled = "\u0254";
+		public const string Ic_fluent_text_underline_16_filled = "\ufadd";
+		public const string Ic_fluent_text_underline_20_filled = "\uf823";
+		public const string Ic_fluent_text_underline_24_filled = "\uf824";
+		public const string Ic_fluent_text_word_count_20_filled = "\uf825";
+		public const string Ic_fluent_text_word_count_24_filled = "\uf826";
+		public const string Ic_fluent_text_wrap_24_filled = "\uf827";
+		public const string Ic_fluent_textbox_20_filled = "\uf828";
+		public const string Ic_fluent_textbox_24_filled = "\uf829";
+		public const string Ic_fluent_textbox_align_bottom_20_filled = "\uf82c";
+		public const string Ic_fluent_textbox_align_bottom_24_filled = "\uf82d";
+		public const string Ic_fluent_textbox_align_bottom_rotate_90_24_filled = "\uffe5";
+		public const string Ic_fluent_textbox_align_center_20_filled = "\ufcb3";
+		public const string Ic_fluent_textbox_align_center_24_filled = "\ufcb4";
+		public const string Ic_fluent_textbox_align_middle_20_filled = "\uf82e";
+		public const string Ic_fluent_textbox_align_middle_24_filled = "\uf82f";
+		public const string Ic_fluent_textbox_align_middle_rotate_90_24_filled = "\uffe6";
+		public const string Ic_fluent_textbox_align_top_20_filled = "\uf830";
+		public const string Ic_fluent_textbox_align_top_24_filled = "\uf831";
+		public const string Ic_fluent_textbox_align_top_rotate_90_24_filled = "\uffe7";
+		public const string Ic_fluent_textbox_more_24_filled = "\uff1b";
+		public const string Ic_fluent_textbox_vertical_20_filled = "\uf832";
+		public const string Ic_fluent_textbox_vertical_24_filled = "\uf833";
+		public const string Ic_fluent_thinking_20_filled = "\uf834";
+		public const string Ic_fluent_thinking_24_filled = "\uf835";
+		public const string Ic_fluent_thumb_dislike_16_filled = "\uffcb";
+		public const string Ic_fluent_thumb_dislike_20_filled = "\uf836";
+		public const string Ic_fluent_thumb_dislike_24_filled = "\uf837";
+		public const string Ic_fluent_thumb_like_16_filled = "\ufcb5";
+		public const string Ic_fluent_thumb_like_20_filled = "\uf838";
+		public const string Ic_fluent_thumb_like_24_filled = "\uf839";
+		public const string Ic_fluent_thumb_like_28_filled = "\u0255";
+		public const string Ic_fluent_thumb_like_48_filled = "\u0256";
+		public const string Ic_fluent_ticket_diagonal_16_filled = "\ufaec";
+		public const string Ic_fluent_ticket_diagonal_20_filled = "\ufaed";
+		public const string Ic_fluent_ticket_diagonal_24_filled = "\ufaee";
+		public const string Ic_fluent_ticket_diagonal_28_filled = "\ufaef";
+		public const string Ic_fluent_ticket_horizontal_20_filled = "\ufcb6";
+		public const string Ic_fluent_ticket_horizontal_24_filled = "\ufcb7";
+		public const string Ic_fluent_time_and_weather_24_filled = "\uf83c";
+		public const string Ic_fluent_time_picker_24_filled = "\uf83d";
+		public const string Ic_fluent_timeline_20_filled = "\u00f8";
+		public const string Ic_fluent_timeline_24_filled = "\uf83e";
+		public const string Ic_fluent_timer_10_24_filled = "\uf83f";
+		public const string Ic_fluent_timer_16_filled = "\ufaf0";
+		public const string Ic_fluent_timer_20_filled = "\ufaf1";
+		public const string Ic_fluent_timer_24_filled = "\uf840";
+		public const string Ic_fluent_timer_2_24_filled = "\uf841";
+		public const string Ic_fluent_timer_3_24_filled = "\ufd15";
+		public const string Ic_fluent_timer_off_24_filled = "\uf842";
+		public const string Ic_fluent_toggle_left_16_filled = "\ufaf2";
+		public const string Ic_fluent_toggle_left_20_filled = "\ufaf3";
+		public const string Ic_fluent_toggle_left_24_filled = "\ufaf4";
+		public const string Ic_fluent_toggle_left_28_filled = "\ufaf5";
+		public const string Ic_fluent_toggle_left_48_filled = "\ufaf6";
+		public const string Ic_fluent_toggle_right_16_filled = "\uf843";
+		public const string Ic_fluent_toggle_right_20_filled = "\uf844";
+		public const string Ic_fluent_toggle_right_24_filled = "\uf845";
+		public const string Ic_fluent_toggle_right_28_filled = "\ufaf7";
+		public const string Ic_fluent_toggle_right_48_filled = "\ufaf8";
+		public const string Ic_fluent_toolbox_12_filled = "\u017c";
+		public const string Ic_fluent_toolbox_16_filled = "\uf846";
+		public const string Ic_fluent_toolbox_20_filled = "\uf847";
+		public const string Ic_fluent_toolbox_24_filled = "\uf848";
+		public const string Ic_fluent_toolbox_28_filled = "\uf849";
+		public const string Ic_fluent_tooltip_quote_20_filled = "\uf7d3";
+		public const string Ic_fluent_tooltip_quote_24_filled = "\uffcc";
+		public const string Ic_fluent_top_speed_20_filled = "\ufea4";
+		public const string Ic_fluent_top_speed_24_filled = "\uf84a";
+		public const string Ic_fluent_translate_20_filled = "\uf84b";
+		public const string Ic_fluent_translate_24_filled = "\uf84c";
+		public const string Ic_fluent_transmission_24_filled = "\ufefd";
+		public const string Ic_fluent_tray_item_add_20_filled = "\u02a5";
+		public const string Ic_fluent_tray_item_add_24_filled = "\u02a6";
+		public const string Ic_fluent_tray_item_remove_20_filled = "\u02a7";
+		public const string Ic_fluent_tray_item_remove_24_filled = "\u02a8";
+		public const string Ic_fluent_triangle_12_filled = "\u00f9";
+		public const string Ic_fluent_triangle_32_filled = "\u020d";
+		public const string Ic_fluent_trophy_16_filled = "\uf84d";
+		public const string Ic_fluent_trophy_20_filled = "\uf84e";
+		public const string Ic_fluent_trophy_24_filled = "\uf84f";
+		public const string Ic_fluent_tv_16_filled = "\ufaf9";
+		public const string Ic_fluent_tv_20_filled = "\ufafa";
+		public const string Ic_fluent_tv_24_filled = "\ufafb";
+		public const string Ic_fluent_tv_28_filled = "\ufafc";
+		public const string Ic_fluent_tv_48_filled = "\ufafd";
+		public const string Ic_fluent_tv_arrow_right_20_filled = "\ufbb0";
+		public const string Ic_fluent_tv_usb_16_filled = "\ufd9d";
+		public const string Ic_fluent_tv_usb_20_filled = "\ufd9e";
+		public const string Ic_fluent_tv_usb_24_filled = "\ufd9f";
+		public const string Ic_fluent_tv_usb_28_filled = "\ufda0";
+		public const string Ic_fluent_tv_usb_48_filled = "\ufda1";
+		public const string Ic_fluent_umbrella_20_filled = "\uffcd";
+		public const string Ic_fluent_umbrella_24_filled = "\uffce";
+		public const string Ic_fluent_uninstall_app_24_filled = "\uf850";
+		public const string Ic_fluent_usb_plug_20_filled = "\u0097";
+		public const string Ic_fluent_usb_plug_24_filled = "\u0098";
+		public const string Ic_fluent_usb_stick_20_filled = "\uf857";
+		public const string Ic_fluent_usb_stick_24_filled = "\uf858";
+		public const string Ic_fluent_vault_16_filled = "\uf859";
+		public const string Ic_fluent_vault_20_filled = "\uf85a";
+		public const string Ic_fluent_vault_24_filled = "\uf85b";
+		public const string Ic_fluent_vehicle_bicycle_16_filled = "\ufafe";
+		public const string Ic_fluent_vehicle_bicycle_20_filled = "\ufaff";
+		public const string Ic_fluent_vehicle_bicycle_24_filled = "\uf85c";
+		public const string Ic_fluent_vehicle_bus_16_filled = "\ufb00";
+		public const string Ic_fluent_vehicle_bus_20_filled = "\ufb01";
+		public const string Ic_fluent_vehicle_bus_24_filled = "\uf85d";
+		public const string Ic_fluent_vehicle_cab_16_filled = "\ufd90";
+		public const string Ic_fluent_vehicle_cab_20_filled = "\ufd91";
+		public const string Ic_fluent_vehicle_cab_24_filled = "\uf85e";
+		public const string Ic_fluent_vehicle_cab_28_filled = "\ufd92";
+		public const string Ic_fluent_vehicle_car_16_filled = "\uf85f";
+		public const string Ic_fluent_vehicle_car_20_filled = "\uf860";
+		public const string Ic_fluent_vehicle_car_24_filled = "\uf861";
+		public const string Ic_fluent_vehicle_car_28_filled = "\ufb02";
+		public const string Ic_fluent_vehicle_car_48_filled = "\ufb03";
+		public const string Ic_fluent_vehicle_car_collision_16_filled = "\u017d";
+		public const string Ic_fluent_vehicle_car_collision_20_filled = "\u017e";
+		public const string Ic_fluent_vehicle_car_collision_24_filled = "\u017f";
+		public const string Ic_fluent_vehicle_car_collision_48_filled = "\u0180";
+		public const string Ic_fluent_vehicle_car_profile_ltr_16_filled = "\uf7e5";
+		public const string Ic_fluent_vehicle_car_profile_ltr_20_filled = "\u003a";
+		public const string Ic_fluent_vehicle_car_profile_rtl_16_filled = "\uf7e6";
+		public const string Ic_fluent_vehicle_car_profile_rtl_20_filled = "\u003b";
+		public const string Ic_fluent_vehicle_ship_16_filled = "\ufb04";
+		public const string Ic_fluent_vehicle_ship_20_filled = "\ufb05";
+		public const string Ic_fluent_vehicle_ship_24_filled = "\ufb06";
+		public const string Ic_fluent_vehicle_subway_16_filled = "\ufb07";
+		public const string Ic_fluent_vehicle_subway_20_filled = "\ufb08";
+		public const string Ic_fluent_vehicle_subway_24_filled = "\ufb09";
+		public const string Ic_fluent_vehicle_truck_16_filled = "\ufb0a";
+		public const string Ic_fluent_vehicle_truck_20_filled = "\ufb0b";
+		public const string Ic_fluent_vehicle_truck_24_filled = "\uf862";
+		public const string Ic_fluent_vehicle_truck_bag_20_filled = "\u02a9";
+		public const string Ic_fluent_vehicle_truck_bag_24_filled = "\u02aa";
+		public const string Ic_fluent_vehicle_truck_profile_16_filled = "\uf802";
+		public const string Ic_fluent_vehicle_truck_profile_20_filled = "\uffcf";
+		public const string Ic_fluent_vehicle_truck_profile_24_filled = "\ufd93";
+		public const string Ic_fluent_video_16_filled = "\uf863";
+		public const string Ic_fluent_video_20_filled = "\uf864";
+		public const string Ic_fluent_video_24_filled = "\uf865";
+		public const string Ic_fluent_video_28_filled = "\uf866";
+		public const string Ic_fluent_video_32_filled = "\uff1c";
+		public const string Ic_fluent_video_360_20_filled = "\ufb64";
+		public const string Ic_fluent_video_360_24_filled = "\ufb65";
+		public const string Ic_fluent_video_360_off_20_filled = "\ufda2";
+		public const string Ic_fluent_video_48_filled = "\uff1d";
+		public const string Ic_fluent_video_add_20_filled = "\uffd0";
+		public const string Ic_fluent_video_add_24_filled = "\uffd1";
+		public const string Ic_fluent_video_background_effect_20_filled = "\ufb28";
+		public const string Ic_fluent_video_background_effect_24_filled = "\uf867";
+		public const string Ic_fluent_video_clip_16_filled = "\uff1e";
+		public const string Ic_fluent_video_clip_20_filled = "\ufb0c";
+		public const string Ic_fluent_video_clip_24_filled = "\uf868";
+		public const string Ic_fluent_video_off_20_filled = "\uf869";
+		public const string Ic_fluent_video_off_24_filled = "\uf86a";
+		public const string Ic_fluent_video_off_28_filled = "\uf86b";
+		public const string Ic_fluent_video_off_32_filled = "\u0257";
+		public const string Ic_fluent_video_off_48_filled = "\u0258";
+		public const string Ic_fluent_video_person_12_filled = "\ufb66";
+		public const string Ic_fluent_video_person_16_filled = "\ufb67";
+		public const string Ic_fluent_video_person_20_filled = "\ufb68";
+		public const string Ic_fluent_video_person_24_filled = "\uf86c";
+		public const string Ic_fluent_video_person_28_filled = "\ufb69";
+		public const string Ic_fluent_video_person_48_filled = "\ufb6a";
+		public const string Ic_fluent_video_person_call_16_filled = "\ufb6b";
+		public const string Ic_fluent_video_person_call_20_filled = "\ufb6c";
+		public const string Ic_fluent_video_person_call_24_filled = "\ufb6d";
+		public const string Ic_fluent_video_person_call_32_filled = "\ufdfe";
+		public const string Ic_fluent_video_person_off_24_filled = "\uf86d";
+		public const string Ic_fluent_video_person_sparkle_16_filled = "\u020e";
+		public const string Ic_fluent_video_person_sparkle_20_filled = "\u020f";
+		public const string Ic_fluent_video_person_sparkle_24_filled = "\u0210";
+		public const string Ic_fluent_video_person_sparkle_28_filled = "\u0211";
+		public const string Ic_fluent_video_person_sparkle_48_filled = "\u0212";
+		public const string Ic_fluent_video_person_star_20_filled = "\ufb6e";
+		public const string Ic_fluent_video_person_star_24_filled = "\uf86e";
+		public const string Ic_fluent_video_person_star_off_20_filled = "\ufbb1";
+		public const string Ic_fluent_video_person_star_off_24_filled = "\ufe3d";
+		public const string Ic_fluent_video_play_pause_24_filled = "\uf86f";
+		public const string Ic_fluent_video_prohibited_16_filled = "\ufda3";
+		public const string Ic_fluent_video_prohibited_20_filled = "\ufb6f";
+		public const string Ic_fluent_video_prohibited_24_filled = "\ufda4";
+		public const string Ic_fluent_video_prohibited_28_filled = "\ufda5";
+		public const string Ic_fluent_video_recording_20_filled = "\ufbb2";
+		public const string Ic_fluent_video_security_20_filled = "\uf870";
+		public const string Ic_fluent_video_security_24_filled = "\uf871";
+		public const string Ic_fluent_video_switch_20_filled = "\ufb70";
+		public const string Ic_fluent_video_switch_24_filled = "\uf872";
+		public const string Ic_fluent_video_sync_20_filled = "\ufbb3";
+		public const string Ic_fluent_view_desktop_20_filled = "\uf873";
+		public const string Ic_fluent_view_desktop_24_filled = "\uf874";
+		public const string Ic_fluent_view_desktop_mobile_20_filled = "\uf875";
+		public const string Ic_fluent_view_desktop_mobile_24_filled = "\uf876";
+		public const string Ic_fluent_voicemail_16_filled = "\uf87a";
+		public const string Ic_fluent_voicemail_20_filled = "\uf87b";
+		public const string Ic_fluent_voicemail_24_filled = "\uf87c";
+		public const string Ic_fluent_voicemail_28_filled = "\ufd16";
+		public const string Ic_fluent_voicemail_arrow_back_16_filled = "\uf803";
+		public const string Ic_fluent_voicemail_arrow_forward_16_filled = "\uf804";
+		public const string Ic_fluent_voicemail_subtract_16_filled = "\uf815";
+		public const string Ic_fluent_vote_20_filled = "\ufb0d";
+		public const string Ic_fluent_vote_24_filled = "\ufb0e";
+		public const string Ic_fluent_walkie_talkie_20_filled = "\ufd17";
+		public const string Ic_fluent_walkie_talkie_24_filled = "\uf87d";
+		public const string Ic_fluent_walkie_talkie_28_filled = "\uf87e";
+		public const string Ic_fluent_wallet_20_filled = "\u0181";
+		public const string Ic_fluent_wallet_24_filled = "\u0182";
+		public const string Ic_fluent_wallpaper_24_filled = "\uf87f";
+		public const string Ic_fluent_wand_16_filled = "\ufcb8";
+		public const string Ic_fluent_wand_20_filled = "\ufcb9";
+		public const string Ic_fluent_wand_24_filled = "\ufcba";
+		public const string Ic_fluent_wand_28_filled = "\ufcbb";
+		public const string Ic_fluent_wand_48_filled = "\ufcbc";
+		public const string Ic_fluent_warning_12_filled = "\uffd2";
+		public const string Ic_fluent_warning_16_filled = "\uf880";
+		public const string Ic_fluent_warning_20_filled = "\uf881";
+		public const string Ic_fluent_warning_24_filled = "\uf882";
+		public const string Ic_fluent_warning_shield_20_filled = "\ufd18";
+		public const string Ic_fluent_weather_blowing_snow_20_filled = "\uf883";
+		public const string Ic_fluent_weather_blowing_snow_24_filled = "\uf884";
+		public const string Ic_fluent_weather_blowing_snow_48_filled = "\uf885";
+		public const string Ic_fluent_weather_cloudy_20_filled = "\uf886";
+		public const string Ic_fluent_weather_cloudy_24_filled = "\uf887";
+		public const string Ic_fluent_weather_cloudy_48_filled = "\uf888";
+		public const string Ic_fluent_weather_drizzle_20_filled = "\ufb0f";
+		public const string Ic_fluent_weather_drizzle_24_filled = "\ufb10";
+		public const string Ic_fluent_weather_drizzle_48_filled = "\ufb11";
+		public const string Ic_fluent_weather_duststorm_20_filled = "\uf889";
+		public const string Ic_fluent_weather_duststorm_24_filled = "\uf88a";
+		public const string Ic_fluent_weather_duststorm_48_filled = "\uf88b";
+		public const string Ic_fluent_weather_fog_20_filled = "\uf88c";
+		public const string Ic_fluent_weather_fog_24_filled = "\uf88d";
+		public const string Ic_fluent_weather_fog_48_filled = "\uf88e";
+		public const string Ic_fluent_weather_hail_day_20_filled = "\uf88f";
+		public const string Ic_fluent_weather_hail_day_24_filled = "\uf890";
+		public const string Ic_fluent_weather_hail_day_48_filled = "\uf891";
+		public const string Ic_fluent_weather_hail_night_20_filled = "\uf892";
+		public const string Ic_fluent_weather_hail_night_24_filled = "\uf893";
+		public const string Ic_fluent_weather_hail_night_48_filled = "\uf894";
+		public const string Ic_fluent_weather_haze_20_filled = "\ufb12";
+		public const string Ic_fluent_weather_haze_24_filled = "\ufb13";
+		public const string Ic_fluent_weather_haze_48_filled = "\ufb14";
+		public const string Ic_fluent_weather_moon_16_filled = "\ufb15";
+		public const string Ic_fluent_weather_moon_20_filled = "\uf895";
+		public const string Ic_fluent_weather_moon_24_filled = "\uf896";
+		public const string Ic_fluent_weather_moon_28_filled = "\ufb16";
+		public const string Ic_fluent_weather_moon_48_filled = "\uf897";
+		public const string Ic_fluent_weather_moon_off_16_filled = "\ufb17";
+		public const string Ic_fluent_weather_moon_off_20_filled = "\ufb18";
+		public const string Ic_fluent_weather_moon_off_24_filled = "\ufb19";
+		public const string Ic_fluent_weather_moon_off_28_filled = "\ufb1a";
+		public const string Ic_fluent_weather_moon_off_48_filled = "\ufb1b";
+		public const string Ic_fluent_weather_partly_cloudy_day_16_filled = "\u003c";
+		public const string Ic_fluent_weather_partly_cloudy_day_20_filled = "\uf898";
+		public const string Ic_fluent_weather_partly_cloudy_day_24_filled = "\uf899";
+		public const string Ic_fluent_weather_partly_cloudy_day_48_filled = "\uf89a";
+		public const string Ic_fluent_weather_partly_cloudy_night_20_filled = "\uf89b";
+		public const string Ic_fluent_weather_partly_cloudy_night_24_filled = "\uf89c";
+		public const string Ic_fluent_weather_partly_cloudy_night_48_filled = "\uf89d";
+		public const string Ic_fluent_weather_rain_20_filled = "\uf89e";
+		public const string Ic_fluent_weather_rain_24_filled = "\uf89f";
+		public const string Ic_fluent_weather_rain_48_filled = "\uf8a0";
+		public const string Ic_fluent_weather_rain_showers_day_20_filled = "\uf8a1";
+		public const string Ic_fluent_weather_rain_showers_day_24_filled = "\uf8a2";
+		public const string Ic_fluent_weather_rain_showers_day_48_filled = "\uf8a3";
+		public const string Ic_fluent_weather_rain_showers_night_20_filled = "\uf8a4";
+		public const string Ic_fluent_weather_rain_showers_night_24_filled = "\uf8a5";
+		public const string Ic_fluent_weather_rain_showers_night_48_filled = "\uf8a6";
+		public const string Ic_fluent_weather_rain_snow_20_filled = "\uf8a7";
+		public const string Ic_fluent_weather_rain_snow_24_filled = "\uf8a8";
+		public const string Ic_fluent_weather_rain_snow_48_filled = "\uf8a9";
+		public const string Ic_fluent_weather_snow_20_filled = "\uf8aa";
+		public const string Ic_fluent_weather_snow_24_filled = "\uf8ab";
+		public const string Ic_fluent_weather_snow_48_filled = "\uf8ac";
+		public const string Ic_fluent_weather_snow_shower_day_20_filled = "\uf8ad";
+		public const string Ic_fluent_weather_snow_shower_day_24_filled = "\uf8ae";
+		public const string Ic_fluent_weather_snow_shower_day_48_filled = "\uf8af";
+		public const string Ic_fluent_weather_snow_shower_night_20_filled = "\uf8b0";
+		public const string Ic_fluent_weather_snow_shower_night_24_filled = "\uf8b1";
+		public const string Ic_fluent_weather_snow_shower_night_48_filled = "\uf8b2";
+		public const string Ic_fluent_weather_snowflake_20_filled = "\uf8b3";
+		public const string Ic_fluent_weather_snowflake_24_filled = "\uf8b4";
+		public const string Ic_fluent_weather_snowflake_48_filled = "\uf8b5";
+		public const string Ic_fluent_weather_squalls_20_filled = "\uf8b6";
+		public const string Ic_fluent_weather_squalls_24_filled = "\uf8b7";
+		public const string Ic_fluent_weather_squalls_48_filled = "\uf8b8";
+		public const string Ic_fluent_weather_sunny_16_filled = "\u003d";
+		public const string Ic_fluent_weather_sunny_20_filled = "\uf8b9";
+		public const string Ic_fluent_weather_sunny_24_filled = "\uf8ba";
+		public const string Ic_fluent_weather_sunny_32_filled = "\ufdff";
+		public const string Ic_fluent_weather_sunny_48_filled = "\uf8bb";
+		public const string Ic_fluent_weather_sunny_high_20_filled = "\ufb1c";
+		public const string Ic_fluent_weather_sunny_high_24_filled = "\ufb1d";
+		public const string Ic_fluent_weather_sunny_high_48_filled = "\ufb1e";
+		public const string Ic_fluent_weather_sunny_low_20_filled = "\ufb1f";
+		public const string Ic_fluent_weather_sunny_low_24_filled = "\ufb20";
+		public const string Ic_fluent_weather_sunny_low_48_filled = "\ufb21";
+		public const string Ic_fluent_weather_thunderstorm_20_filled = "\uf8bc";
+		public const string Ic_fluent_weather_thunderstorm_24_filled = "\uf8bd";
+		public const string Ic_fluent_weather_thunderstorm_48_filled = "\uf8be";
+		public const string Ic_fluent_web_asset_24_filled = "\uf8bf";
+		public const string Ic_fluent_whiteboard_20_filled = "\uf8c2";
+		public const string Ic_fluent_whiteboard_24_filled = "\uf8c3";
+		public const string Ic_fluent_whiteboard_48_filled = "\u0183";
+		public const string Ic_fluent_wifi_1_20_filled = "\uf8c4";
+		public const string Ic_fluent_wifi_1_24_filled = "\uf8c5";
+		public const string Ic_fluent_wifi_2_20_filled = "\uf8c6";
+		public const string Ic_fluent_wifi_2_24_filled = "\uf8c7";
+		public const string Ic_fluent_wifi_3_20_filled = "\uf8c8";
+		public const string Ic_fluent_wifi_3_24_filled = "\uf8c9";
+		public const string Ic_fluent_wifi_4_20_filled = "\uf8ca";
+		public const string Ic_fluent_wifi_4_24_filled = "\uf8cb";
+		public const string Ic_fluent_wifi_lock_24_filled = "\u0099";
+		public const string Ic_fluent_wifi_off_20_filled = "\ufefe";
+		public const string Ic_fluent_wifi_off_24_filled = "\ufeff";
+		public const string Ic_fluent_wifi_settings_20_filled = "\u00fa";
+		public const string Ic_fluent_wifi_warning_20_filled = "\ufb71";
+		public const string Ic_fluent_wifi_warning_24_filled = "\uf816";
+		public const string Ic_fluent_window_16_filled = "\u00fb";
+		public const string Ic_fluent_window_20_filled = "\uf8cd";
+		public const string Ic_fluent_window_24_filled = "\u00fc";
+		public const string Ic_fluent_window_ad_20_filled = "\uf8ce";
+		public const string Ic_fluent_window_ad_off_20_filled = "\u00fd";
+		public const string Ic_fluent_window_ad_person_20_filled = "\uff1f";
+		public const string Ic_fluent_window_arrow_up_16_filled = "\u00fe";
+		public const string Ic_fluent_window_arrow_up_20_filled = "\u00ff";
+		public const string Ic_fluent_window_arrow_up_24_filled = "\ufcbd";
+		public const string Ic_fluent_window_console_20_filled = "\u0100";
+		public const string Ic_fluent_window_dev_edit_16_filled = "\uff20";
+		public const string Ic_fluent_window_dev_edit_20_filled = "\uffd3";
+		public const string Ic_fluent_window_dev_tools_16_filled = "\uf8cf";
+		public const string Ic_fluent_window_dev_tools_20_filled = "\uf8d0";
+		public const string Ic_fluent_window_dev_tools_24_filled = "\uf8d1";
+		public const string Ic_fluent_window_edit_16_filled = "\uf81d";
+		public const string Ic_fluent_window_header_horizontal_20_filled = "\ufcbe";
+		public const string Ic_fluent_window_header_horizontal_off_20_filled = "\u0101";
+		public const string Ic_fluent_window_header_vertical_20_filled = "\ufcbf";
+		public const string Ic_fluent_window_inprivate_20_filled = "\uf8d2";
+		public const string Ic_fluent_window_inprivate_account_20_filled = "\uf8d3";
+		public const string Ic_fluent_window_multiple_16_filled = "\u0102";
+		public const string Ic_fluent_window_multiple_20_filled = "\uf8d4";
+		public const string Ic_fluent_window_new_16_filled = "\ufb23";
+		public const string Ic_fluent_window_new_20_filled = "\uf8d5";
+		public const string Ic_fluent_window_new_24_filled = "\ufb24";
+		public const string Ic_fluent_window_shield_16_filled = "\uf8d6";
+		public const string Ic_fluent_window_shield_20_filled = "\uf8d7";
+		public const string Ic_fluent_window_shield_24_filled = "\uf8d8";
+		public const string Ic_fluent_wrench_16_filled = "\ufb26";
+		public const string Ic_fluent_wrench_20_filled = "\ufb27";
+		public const string Ic_fluent_wrench_24_filled = "\uf8d9";
+		public const string Ic_fluent_xbox_console_20_filled = "\uf8da";
+		public const string Ic_fluent_xbox_console_24_filled = "\uf8db";
+		public const string Ic_fluent_xray_20_filled = "\uffd4";
+		public const string Ic_fluent_xray_24_filled = "\uffd5";
+		public const string Ic_fluent_zoom_in_16_filled = "\u0103";
+		public const string Ic_fluent_zoom_in_20_filled = "\uf8dc";
+		public const string Ic_fluent_zoom_in_24_filled = "\uf8dd";
+		public const string Ic_fluent_zoom_out_16_filled = "\u0104";
+		public const string Ic_fluent_zoom_out_20_filled = "\uf8de";
+		public const string Ic_fluent_zoom_out_24_filled = "\uf8df";
 
 
-        public static readonly List<string> All = new List<string>()
-        {
-            "\uf101",
-            "\uf102",
-            "\uf103",
-            "\uf104",
-            "\uf105",
-            "\ufcc0",
-            "\ufcc1",
-            "\uf107",
-            "\uf108",
-            "\uf109",
-            "\uf10a",
-            "\uf10b",
-            "\ufcc2",
-            "\uf10c",
-            "\uf10d",
-            "\uf10e",
-            "\ufcc3",
-            "\uf8e2",
-            "\ufea6",
-            "\ufea7",
-            "\ufd19",
-            "\ufd1a",
-            "\ufd1b",
-            "\ufd1c",
-            "\ufd1d",
-            "\uf10f",
-            "\uf110",
-            "\uf111",
-            "\uf112",
-            "\uf113",
-            "\ufb72",
-            "\ufb73",
-            "\ufb29",
-            "\uf114",
-            "\uf115",
-            "\uf116",
-            "\ufda6",
-            "\uf117",
-            "\uf118",
-            "\uf119",
-            "\uf11a",
-            "\uf11b",
-            "\uf11c",
-            "\uf11d",
-            "\ufb74",
-            "\uf11e",
-            "\uf11f",
-            "\ufe00",
-            "\ufe01",
-            "\ufe02",
-            "\ufe03",
-            "\ufe04",
-            "\ufe05",
-            "\ufe06",
-            "\ufe07",
-            "\ufe08",
-            "\ufe09",
-            "\ufe0a",
-            "\ufe0b",
-            "\ufe0c",
-            "\ufe0d",
-            "\ufe0e",
-            "\ufe0f",
-            "\ufe10",
-            "\ufe11",
-            "\ufe12",
-            "\ufe13",
-            "\ufe14",
-            "\ufe15",
-            "\ufe16",
-            "\ufe17",
-            "\ufe18",
-            "\ufe19",
-            "\ufe1a",
-            "\ufe1b",
-            "\ufe1c",
-            "\ufe1d",
-            "\ufe1e",
-            "\ufe1f",
-            "\ufe20",
-            "\ufe21",
-            "\ufe22",
-            "\ufe23",
-            "\uf106",
-            "\uf126",
-            "\uf127",
-            "\uf128",
-            "\uf120",
-            "\uf121",
-            "\ufcc4",
-            "\ufcc5",
-            "\ufcc6",
-            "\ufcc7",
-            "\ufcc8",
-            "\ufcc9",
-            "\ufcca",
-            "\ufccb",
-            "\uf122",
-            "\uf123",
-            "\uf124",
-            "\uf125",
-            "\uf12a",
-            "\uf12b",
-            "\ufda7",
-            "\ufb2a",
-            "\ufb2b",
-            "\uf130",
-            "\uf131",
-            "\uf132",
-            "\uf133",
-            "\uf134",
-            "\uf135",
-            "\ufe3e",
-            "\uf136",
-            "\uf137",
-            "\ufe3f",
-            "\uf8e3",
-            "\uf138",
-            "\uf8e4",
-            "\uf139",
-            "\uf13a",
-            "\uf13b",
-            "\uf13c",
-            "\uf129",
-            "\uf8e5",
-            "\uff21",
-            "\uf8e6",
-            "\uff22",
-            "\ufb2c",
-            "\ufb2d",
-            "\uf12c",
-            "\uf12d",
-            "\uf12e",
-            "\uf12f",
-            "\ufbc7",
-            "\ufbc8",
-            "\uf143",
-            "\uf144",
-            "\ufbc9",
-            "\ufbca",
-            "\ufbcb",
-            "\ufbcc",
-            "\ufbcd",
-            "\uf13d",
-            "\uf13e",
-            "\uf13f",
-            "\uf140",
-            "\uf8e7",
-            "\ufe40",
-            "\uf141",
-            "\ufe41",
-            "\ufe42",
-            "\uf142",
-            "\uf145",
-            "\uf146",
-            "\uf8e8",
-            "\uf147",
-            "\uf148",
-            "\uf149",
-            "\uf14a",
-            "\uf14c",
-            "\uf14d",
-            "\uf8e9",
-            "\ufda8",
-            "\uf14b",
-            "\uf14f",
-            "\uf150",
-            "\uf151",
-            "\uf152",
-            "\ufbce",
-            "\ufbcf",
-            "\ufb2f",
-            "\ufb30",
-            "\uf154",
-            "\ufbd0",
-            "\ufbd1",
-            "\uf8ea",
-            "\uf14e",
-            "\uf156",
-            "\uf157",
-            "\uf158",
-            "\ufea8",
-            "\uf153",
-            "\uf155",
-            "\uf8ed",
-            "\uf8ee",
-            "\uf8ef",
-            "\uf8f0",
-            "\uf8f1",
-            "\uf8f2",
-            "\uf8f3",
-            "\uf8f4",
-            "\uf8f5",
-            "\uf8f6",
-            "\uf8f7",
-            "\uf8f8",
-            "\uf8f9",
-            "\uf8fa",
-            "\uf8fb",
-            "\uf8fc",
-            "\uf159",
-            "\uf15a",
-            "\uf184",
-            "\uf15b",
-            "\uf15c",
-            "\uf15d",
-            "\uf189",
-            "\uf19e",
-            "\uf15e",
-            "\uf15f",
-            "\uf160",
-            "\uf161",
-            "\uf162",
-            "\uf163",
-            "\uf164",
-            "\uf165",
-            "\uf166",
-            "\uf167",
-            "\uf168",
-            "\uf8fd",
-            "\uf169",
-            "\uf16a",
-            "\uf16b",
-            "\uf16c",
-            "\uf16d",
-            "\uf16e",
-            "\uf16f",
-            "\uf8fe",
-            "\uf8ff",
-            "\uf170",
-            "\uf171",
-            "\uf172",
-            "\uf173",
-            "\uf174",
-            "\uf175",
-            "\uf176",
-            "\uf177",
-            "\uf178",
-            "\uf179",
-            "\uf17a",
-            "\uf17b",
-            "\uf17c",
-            "\uf17d",
-            "\uf17e",
-            "\uf17f",
-            "\uf180",
-            "\uf19f",
-            "\uf1a0",
-            "\ufb75",
-            "\uf181",
-            "\uf182",
-            "\uf183",
-            "\uf1a2",
-            "\uf1a7",
-            "\uf185",
-            "\uf186",
-            "\uf187",
-            "\uf188",
-            "\uf1ab",
-            "\uf18a",
-            "\uf18b",
-            "\uf18c",
-            "\uf1ac",
-            "\uf81e",
-            "\uf82a",
-            "\uf1ad",
-            "\uf1b3",
-            "\uf82b",
-            "\uf83a",
-            "\ufbd2",
-            "\ufda9",
-            "\ufdaa",
-            "\ufdab",
-            "\ufdac",
-            "\uf18d",
-            "\uf18e",
-            "\uf18f",
-            "\ufea9",
-            "\uf190",
-            "\uf191",
-            "\uf192",
-            "\uf193",
-            "\uf194",
-            "\uf195",
-            "\uf196",
-            "\uf197",
-            "\uf198",
-            "\uf83b",
-            "\uf851",
-            "\ufb76",
-            "\uf199",
-            "\uf19a",
-            "\ufbd3",
-            "\ufbd4",
-            "\uf1b4",
-            "\uf19b",
-            "\uf19c",
-            "\uf19d",
-            "\uf1b8",
-            "\uf1b9",
-            "\ufb77",
-            "\ufb78",
-            "\uf1a1",
-            "\uf903",
-            "\ufdad",
-            "\uf1a3",
-            "\ufe43",
-            "\uf1a4",
-            "\uf1a5",
-            "\uf1a6",
-            "\ufe44",
-            "\uf1a8",
-            "\uf1a9",
-            "\uf1aa",
-            "\uf904",
-            "\uf905",
-            "\uf906",
-            "\ufbd7",
-            "\ufbd8",
-            "\uf1ae",
-            "\uf907",
-            "\uf1af",
-            "\uf1b0",
-            "\uf908",
-            "\uf909",
-            "\uf90a",
-            "\uf90b",
-            "\uf90c",
-            "\ufdae",
-            "\uf90d",
-            "\ufb79",
-            "\ufb7a",
-            "\ufb7b",
-            "\ufb7c",
-            "\uf1b1",
-            "\uf1b2",
-            "\uf1b5",
-            "\uf90e",
-            "\uf1b6",
-            "\uf1b7",
-            "\uf1ba",
-            "\uf1e4",
-            "\uf1bb",
-            "\uf1bc",
-            "\uf1bd",
-            "\uf1be",
-            "\uf1bf",
-            "\uf1c0",
-            "\uf1c1",
-            "\uf1c2",
-            "\uf1c3",
-            "\uf1c4",
-            "\uf1c5",
-            "\uf1c6",
-            "\uf1c7",
-            "\uf1c8",
-            "\uf1c9",
-            "\uf1ca",
-            "\uf1cb",
-            "\uf1cc",
-            "\uf1cd",
-            "\uf1ce",
-            "\uf1cf",
-            "\uf1d0",
-            "\uf1d1",
-            "\uf1d2",
-            "\uf1d3",
-            "\uf1d4",
-            "\uf1d5",
-            "\ufd1e",
-            "\ufd1f",
-            "\ufd20",
-            "\ufd21",
-            "\uf1d6",
-            "\uf1d7",
-            "\uf1d8",
-            "\uf1e5",
-            "\uf1e6",
-            "\uf90f",
-            "\uf1d9",
-            "\uf1da",
-            "\uf1db",
-            "\uf1dc",
-            "\uf1dd",
-            "\uf1de",
-            "\uf1df",
-            "\uf910",
-            "\uf1e0",
-            "\uf1e1",
-            "\uf1e2",
-            "\uf911",
-            "\uf912",
-            "\uf913",
-            "\uf914",
-            "\ufe45",
-            "\ufe46",
-            "\uf1e3",
-            "\ufe47",
-            "\ufe48",
-            "\ufe49",
-            "\ufe4a",
-            "\ufe4b",
-            "\ufe4c",
-            "\uf915",
-            "\uf916",
-            "\uf917",
-            "\uf918",
-            "\uf919",
-            "\uf91a",
-            "\uf91b",
-            "\ufccc",
-            "\ufccd",
-            "\ufcce",
-            "\ufdaf",
-            "\uf91c",
-            "\uf91d",
-            "\uf1f0",
-            "\uf91e",
-            "\uf91f",
-            "\uf1f1",
-            "\uf1f2",
-            "\uf1f3",
-            "\uf920",
-            "\uf921",
-            "\ufeaa",
-            "\ufeab",
-            "\ufeac",
-            "\ufccf",
-            "\uf922",
-            "\ufead",
-            "\ufeae",
-            "\ufeaf",
-            "\ufeb0",
-            "\ufeb1",
-            "\uf923",
-            "\uf924",
-            "\uf852",
-            "\uf925",
-            "\uf926",
-            "\uf927",
-            "\uf1e7",
-            "\uf1f4",
-            "\uf1f5",
-            "\uf1f6",
-            "\uf1f7",
-            "\ufdb0",
-            "\uf1e8",
-            "\uf1e9",
-            "\ufb31",
-            "\ufdb1",
-            "\uf1f8",
-            "\ufbd9",
-            "\uf928",
-            "\uf929",
-            "\uf92a",
-            "\uf92b",
-            "\uf92c",
-            "\uf92e",
-            "\uf92f",
-            "\uf930",
-            "\uf931",
-            "\uf932",
-            "\uf933",
-            "\uf934",
-            "\ufb7d",
-            "\uf1f9",
-            "\ufd94",
-            "\uf1fa",
-            "\uf1ea",
-            "\uf1eb",
-            "\uf1ec",
-            "\uf1ed",
-            "\uf1ee",
-            "\uf853",
-            "\uf1fb",
-            "\ufdb2",
-            "\ufdb3",
-            "\ufdb4",
-            "\ufdb5",
-            "\ufdb6",
-            "\ufdb7",
-            "\ufbb4",
-            "\uf935",
-            "\uf1fc",
-            "\uf1fd",
-            "\ufb32",
-            "\uf936",
-            "\ufb33",
-            "\uf1ef",
-            "\ufbda",
-            "\ufbdb",
-            "\ufeb2",
-            "\ufeb3",
-            "\ufeb4",
-            "\ufeb5",
-            "\ufeb6",
-            "\ufeb7",
-            "\uf200",
-            "\uf1fe",
-            "\uf201",
-            "\uf202",
-            "\uf939",
-            "\uf93a",
-            "\uf93b",
-            "\ufd22",
-            "\ufb34",
-            "\uf205",
-            "\uf93c",
-            "\uf93d",
-            "\uf93e",
-            "\ufeb8",
-            "\ufeb9",
-            "\ufeba",
-            "\ufebb",
-            "\ufebc",
-            "\ufebd",
-            "\ufebe",
-            "\uf1ff",
-            "\uf854",
-            "\ufbdc",
-            "\uf93f",
-            "\uf940",
-            "\uf941",
-            "\uf209",
-            "\uf942",
-            "\uf943",
-            "\uf944",
-            "\uf945",
-            "\uf946",
-            "\uf947",
-            "\uf20a",
-            "\ufe24",
-            "\uf20e",
-            "\uf20f",
-            "\uf210",
-            "\uf211",
-            "\uf212",
-            "\uf213",
-            "\uf214",
-            "\uf215",
-            "\ufbdd",
-            "\uf216",
-            "\uf217",
-            "\uf218",
-            "\uf948",
-            "\uf219",
-            "\uf21a",
-            "\uf21b",
-            "\uf21c",
-            "\uf8e1",
-            "\uf877",
-            "\uf949",
-            "\uf21d",
-            "\uf21e",
-            "\uf222",
-            "\uf223",
-            "\uf224",
-            "\ufd23",
-            "\ufd24",
-            "\ufd25",
-            "\uf225",
-            "\uf226",
-            "\uf227",
-            "\uf228",
-            "\ufe4d",
-            "\uf203",
-            "\ufe4e",
-            "\ufdb8",
-            "\ufd26",
-            "\ufd27",
-            "\ufd28",
-            "\ufdb9",
-            "\ufebf",
-            "\uf94a",
-            "\uf22a",
-            "\uf22b",
-            "\uf22c",
-            "\uf204",
-            "\uf22d",
-            "\uf22e",
-            "\ufe4f",
-            "\uf22f",
-            "\uf206",
-            "\uf230",
-            "\uf94b",
-            "\uf94c",
-            "\uf94d",
-            "\uf94e",
-            "\uf231",
-            "\uf232",
-            "\uf233",
-            "\uf234",
-            "\ufec0",
-            "\ufec1",
-            "\ufd29",
-            "\ufd2a",
-            "\ufd2b",
-            "\ufdba",
-            "\uf878",
-            "\uf235",
-            "\uf236",
-            "\uf237",
-            "\uf238",
-            "\uf239",
-            "\uf23a",
-            "\uf23b",
-            "\uf23c",
-            "\uf23d",
-            "\uf23e",
-            "\uf23f",
-            "\uf240",
-            "\uf241",
-            "\uf242",
-            "\uf243",
-            "\uf244",
-            "\uf245",
-            "\ufbde",
-            "\ufbdf",
-            "\ufbe0",
-            "\ufbe1",
-            "\ufdbb",
-            "\uf246",
-            "\uf207",
-            "\ufb7e",
-            "\uf208",
-            "\uf20b",
-            "\uf247",
-            "\uf248",
-            "\uf249",
-            "\ufb7f",
-            "\uf954",
-            "\uf955",
-            "\uf24a",
-            "\uf956",
-            "\uf957",
-            "\uf24b",
-            "\uf958",
-            "\uf24c",
-            "\uf959",
-            "\uf95a",
-            "\uf24d",
-            "\ufbe2",
-            "\uf24e",
-            "\uf95b",
-            "\uf95c",
-            "\uf24f",
-            "\uf95d",
-            "\uf250",
-            "\uf95e",
-            "\uf95f",
-            "\uf960",
-            "\uf961",
-            "\uf251",
-            "\uf962",
-            "\uf879",
-            "\uf963",
-            "\uf20c",
-            "\uf20d",
-            "\ufbe3",
-            "\ufbe4",
-            "\ufbe5",
-            "\ufbe6",
-            "\ufbe7",
-            "\ufb80",
-            "\uf252",
-            "\uf253",
-            "\ufcd0",
-            "\ufdbc",
-            "\ufcd1",
-            "\ufe25",
-            "\uf254",
-            "\uf255",
-            "\uf256",
-            "\uf257",
-            "\uf258",
-            "\uf259",
-            "\uf964",
-            "\ufb81",
-            "\uf25a",
-            "\uf25b",
-            "\uf25c",
-            "\uf25d",
-            "\uf25e",
-            "\uf25f",
-            "\uf260",
-            "\uf261",
-            "\uf262",
-            "\ufbeb",
-            "\uf263",
-            "\uf264",
-            "\uf265",
-            "\uf266",
-            "\uf267",
-            "\uf268",
-            "\uf269",
-            "\uf26a",
-            "\uf965",
-            "\uf966",
-            "\uf967",
-            "\uf968",
-            "\uf969",
-            "\uf96a",
-            "\uf26b",
-            "\uf26c",
-            "\uf26d",
-            "\uf26e",
-            "\uf26f",
-            "\uf270",
-            "\ufcd2",
-            "\uf271",
-            "\uf272",
-            "\uf273",
-            "\uf274",
-            "\uf275",
-            "\uf276",
-            "\uf277",
-            "\uf278",
-            "\uf279",
-            "\uf27a",
-            "\ufbec",
-            "\ufbed",
-            "\uf21f",
-            "\ufbee",
-            "\ufbef",
-            "\uf27e",
-            "\uf27f",
-            "\uf280",
-            "\uf281",
-            "\uf282",
-            "\uf96d",
-            "\uf96e",
-            "\uf96f",
-            "\uf970",
-            "\uf971",
-            "\uf972",
-            "\uf973",
-            "\uf974",
-            "\uf975",
-            "\uf976",
-            "\uf977",
-            "\uf978",
-            "\uf979",
-            "\uf97a",
-            "\uf97b",
-            "\uf97c",
-            "\uf97d",
-            "\uf97e",
-            "\uf97f",
-            "\uf980",
-            "\uf981",
-            "\uf982",
-            "\ufbb9",
-            "\ufbba",
-            "\ufbbb",
-            "\ufbbc",
-            "\ufbbd",
-            "\ufbbe",
-            "\ufd95",
-            "\ufd96",
-            "\ufd97",
-            "\ufd98",
-            "\uf983",
-            "\uf286",
-            "\uf287",
-            "\uf288",
-            "\ufdbd",
-            "\ufb35",
-            "\uf8c0",
-            "\ufb82",
-            "\uf289",
-            "\uf220",
-            "\uf28a",
-            "\ufb83",
-            "\uf8c1",
-            "\uf8e0",
-            "\uf8eb",
-            "\ufb84",
-            "\uf28b",
-            "\uf221",
-            "\uf229",
-            "\uf28c",
-            "\uf27b",
-            "\ufcd3",
-            "\ufcd4",
-            "\ufcd5",
-            "\uf27c",
-            "\uf28d",
-            "\uf28e",
-            "\uf27d",
-            "\ufcd6",
-            "\uf28f",
-            "\uf290",
-            "\uf291",
-            "\uf292",
-            "\ufcd7",
-            "\uf293",
-            "\uf984",
-            "\uf294",
-            "\uf295",
-            "\uf296",
-            "\uf8ec",
-            "\ufb85",
-            "\ufea5",
-            "\uf297",
-            "\uf298",
-            "\uf299",
-            "\uf900",
-            "\uf29a",
-            "\uf29b",
-            "\uf29c",
-            "\uf29d",
-            "\uf29e",
-            "\uf283",
-            "\uf29f",
-            "\uf2a0",
-            "\ufbf0",
-            "\ufbf1",
-            "\uf284",
-            "\uf285",
-            "\uf2a7",
-            "\ufec2",
-            "\ufec3",
-            "\uf2a1",
-            "\uf2a2",
-            "\uf2a3",
-            "\uf2a4",
-            "\uf2a5",
-            "\uf2a6",
-            "\uf2a8",
-            "\uf2a9",
-            "\uf2aa",
-            "\uf2ab",
-            "\uf2ac",
-            "\uf2ad",
-            "\uf2ae",
-            "\uf2af",
-            "\uf2b0",
-            "\uf2b1",
-            "\uf2b2",
-            "\uf2b3",
-            "\uf2b4",
-            "\uf2b5",
-            "\uf2b6",
-            "\uf2b7",
-            "\uf2b8",
-            "\uf2b9",
-            "\ufe50",
-            "\ufe51",
-            "\ufe52",
-            "\uf2ba",
-            "\uf2bb",
-            "\uf2bc",
-            "\ufcd8",
-            "\ufe53",
-            "\uf30a",
-            "\uf2bd",
-            "\uf2be",
-            "\ufe54",
-            "\uf2bf",
-            "\ufd2c",
-            "\uf2c0",
-            "\uf901",
-            "\uf902",
-            "\uf2c1",
-            "\uf2c2",
-            "\uf2c3",
-            "\uf2c4",
-            "\uf2c5",
-            "\uf2c6",
-            "\uf2c7",
-            "\uf2c8",
-            "\ufd2d",
-            "\uf2c9",
-            "\uf2ca",
-            "\ufd2e",
-            "\ufd2f",
-            "\ufd30",
-            "\uf92d",
-            "\uf937",
-            "\uf2cb",
-            "\uf2cc",
-            "\uf2cd",
-            "\ufdbe",
-            "\uf30b",
-            "\ufbf2",
-            "\uf2ce",
-            "\uf2cf",
-            "\uf2d0",
-            "\uf2d1",
-            "\uf2d2",
-            "\uf2d3",
-            "\uf2d4",
-            "\uf986",
-            "\uf2d5",
-            "\uf2d6",
-            "\uf322",
-            "\uf2d7",
-            "\uf2d8",
-            "\uf32d",
-            "\ufd31",
-            "\ufd32",
-            "\ufd33",
-            "\ufd34",
-            "\uf2db",
-            "\uf2dc",
-            "\uf2dd",
-            "\uf2de",
-            "\uf2df",
-            "\ufcd9",
-            "\uf2e0",
-            "\uf2e1",
-            "\uf2e2",
-            "\ufdbf",
-            "\uf32e",
-            "\uf987",
-            "\uf988",
-            "\uf989",
-            "\uf2e3",
-            "\uf98a",
-            "\uf98b",
-            "\ufe55",
-            "\ufe56",
-            "\ufe57",
-            "\ufe58",
-            "\ufe59",
-            "\ufcda",
-            "\uf2e4",
-            "\uf2e5",
-            "\ufec4",
-            "\ufcdb",
-            "\uf2e6",
-            "\uf32f",
-            "\ufec5",
-            "\ufec6",
-            "\uf2e7",
-            "\ufec7",
-            "\ufec8",
-            "\uf2e8",
-            "\ufe5a",
-            "\ufe5b",
-            "\uf2e9",
-            "\ufec9",
-            "\uf98c",
-            "\uf98d",
-            "\uf330",
-            "\uf337",
-            "\uf338",
-            "\ufeca",
-            "\ufecb",
-            "\uf2ea",
-            "\ufecc",
-            "\ufecd",
-            "\uf2eb",
-            "\uf2ec",
-            "\ufece",
-            "\ufb86",
-            "\ufecf",
-            "\ufed0",
-            "\ufed1",
-            "\ufed2",
-            "\ufed3",
-            "\ufed4",
-            "\uf2ed",
-            "\ufed5",
-            "\ufed6",
-            "\uf2ee",
-            "\uf339",
-            "\uf2ef",
-            "\uf2f0",
-            "\uf2f1",
-            "\uf2f2",
-            "\uf2f3",
-            "\uf2f4",
-            "\uf2f5",
-            "\uf2f6",
-            "\uf2f7",
-            "\uf2f8",
-            "\uf2f9",
-            "\uf2fa",
-            "\uf98e",
-            "\uf2fb",
-            "\uf2fc",
-            "\uf938",
-            "\uf94f",
-            "\uf2fd",
-            "\uf98f",
-            "\uf2fe",
-            "\uf2ff",
-            "\uf300",
-            "\uf990",
-            "\uf991",
-            "\uf992",
-            "\uf993",
-            "\uf994",
-            "\uf301",
-            "\uf995",
-            "\uf996",
-            "\uf997",
-            "\uf998",
-            "\uf999",
-            "\ufbf3",
-            "\uf99a",
-            "\uf99b",
-            "\uf99c",
-            "\uf99d",
-            "\uf99e",
-            "\ufbf4",
-            "\uf99f",
-            "\uf9a0",
-            "\uf9a1",
-            "\uf9a2",
-            "\uf9a3",
-            "\uf9a4",
-            "\uf9a5",
-            "\uf9a6",
-            "\ufbf5",
-            "\uf9a7",
-            "\uf9a8",
-            "\uf350",
-            "\uf351",
-            "\uf361",
-            "\uf303",
-            "\uf304",
-            "\uf305",
-            "\uf306",
-            "\uf307",
-            "\uf308",
-            "\ufcdc",
-            "\uf9a9",
-            "\uf9aa",
-            "\uf9ab",
-            "\uf9ac",
-            "\uf9ad",
-            "\uf30c",
-            "\uf30d",
-            "\uf30e",
-            "\uf30f",
-            "\uf310",
-            "\uf311",
-            "\uf312",
-            "\ufbf6",
-            "\ufbf7",
-            "\uf313",
-            "\uf314",
-            "\uf315",
-            "\uf316",
-            "\uf317",
-            "\uf318",
-            "\uf319",
-            "\uf31a",
-            "\uf31b",
-            "\uf31c",
-            "\uf31d",
-            "\uf31e",
-            "\uf362",
-            "\uf31f",
-            "\uf320",
-            "\uf950",
-            "\uf951",
-            "\uf952",
-            "\uf9ae",
-            "\uf9af",
-            "\uf321",
-            "\uf9b0",
-            "\uf9b1",
-            "\uf363",
-            "\uf323",
-            "\uf324",
-            "\uf325",
-            "\ufcdd",
-            "\ufb87",
-            "\ufdc0",
-            "\ufbb5",
-            "\uf364",
-            "\uf373",
-            "\uf374",
-            "\uf375",
-            "\uf37b",
-            "\uf397",
-            "\uf9b2",
-            "\uf326",
-            "\uf327",
-            "\ufd35",
-            "\ufd36",
-            "\ufd99",
-            "\uf328",
-            "\uf329",
-            "\uf32a",
-            "\uf32b",
-            "\uf32c",
-            "\uf9b3",
-            "\ufbf8",
-            "\ufbf9",
-            "\uf9b4",
-            "\uf9b5",
-            "\uf9b6",
-            "\uf398",
-            "\uf9b7",
-            "\uf331",
-            "\uf332",
-            "\uf333",
-            "\uf334",
-            "\uf335",
-            "\uf336",
-            "\ufb88",
-            "\ufd37",
-            "\ufbfa",
-            "\ufbfb",
-            "\ufbfc",
-            "\uf9b8",
-            "\uf9b9",
-            "\uf9ba",
-            "\uf9bb",
-            "\uf9bc",
-            "\uf9bd",
-            "\uf9be",
-            "\uf9bf",
-            "\uf9c0",
-            "\uf9c1",
-            "\uf9c2",
-            "\uf9c3",
-            "\uf9c4",
-            "\uf9c5",
-            "\uf9c6",
-            "\uf9c7",
-            "\uf33a",
-            "\uf33b",
-            "\uf33c",
-            "\uf33d",
-            "\uf39b",
-            "\uf33e",
-            "\uf33f",
-            "\uf340",
-            "\uf9c8",
-            "\uf341",
-            "\uf342",
-            "\ufb89",
-            "\uf343",
-            "\uf344",
-            "\uf345",
-            "\uf346",
-            "\uf347",
-            "\uf348",
-            "\uf9c9",
-            "\uf349",
-            "\uf3b2",
-            "\uf34a",
-            "\uf34b",
-            "\uf9ca",
-            "\uf9cb",
-            "\uf9cc",
-            "\uf34c",
-            "\uf34d",
-            "\uf34e",
-            "\uf34f",
-            "\ufbfd",
-            "\ufbfe",
-            "\uf352",
-            "\uf353",
-            "\uf9cd",
-            "\uf9ce",
-            "\uf9cf",
-            "\uf354",
-            "\uf9d0",
-            "\uf9d1",
-            "\uf355",
-            "\uf356",
-            "\uf357",
-            "\uf358",
-            "\uf359",
-            "\uf35a",
-            "\uf35b",
-            "\ufdc1",
-            "\ufb38",
-            "\ufb39",
-            "\ufb3a",
-            "\ufcde",
-            "\ufcdf",
-            "\ufe5c",
-            "\ufe5d",
-            "\ufe5e",
-            "\ufe5f",
-            "\ufe60",
-            "\ufe61",
-            "\ufb3b",
-            "\ufb3c",
-            "\ufb3d",
-            "\ufb3e",
-            "\uf3b3",
-            "\ufe62",
-            "\uf35c",
-            "\uf35d",
-            "\uf3b4",
-            "\ufb8a",
-            "\uf3b5",
-            "\uf3b6",
-            "\uf3b7",
-            "\uf3bc",
-            "\uf3bd",
-            "\ufb8b",
-            "\uf3c2",
-            "\uf3cd",
-            "\uf3ec",
-            "\uf3ed",
-            "\uf953",
-            "\uf35e",
-            "\uf35f",
-            "\uf360",
-            "\uf365",
-            "\uf366",
-            "\uf367",
-            "\uf368",
-            "\uf369",
-            "\uf36a",
-            "\uf36b",
-            "\uf3f2",
-            "\uf3ff",
-            "\uf36c",
-            "\uf36d",
-            "\uf36e",
-            "\uf9d2",
-            "\uf96b",
-            "\uf36f",
-            "\ufed7",
-            "\ufe63",
-            "\ufdc2",
-            "\uf370",
-            "\uf371",
-            "\uf372",
-            "\ufbff",
-            "\ufc00",
-            "\ufc01",
-            "\ufc02",
-            "\ufc03",
-            "\ufc04",
-            "\ufc05",
-            "\ufc06",
-            "\ufc07",
-            "\ufc08",
-            "\uf376",
-            "\uf9da",
-            "\uf9db",
-            "\uf9dc",
-            "\uf377",
-            "\uf9dd",
-            "\uf9de",
-            "\uf9df",
-            "\uf378",
-            "\uf379",
-            "\uf37a",
-            "\ufdc3",
-            "\uf9e0",
-            "\uf9e1",
-            "\uf9e2",
-            "\uf9e3",
-            "\uf9e4",
-            "\uf9e5",
-            "\uf96c",
-            "\uf9e6",
-            "\uf9e7",
-            "\uf9e8",
-            "\uf9e9",
-            "\uf9ea",
-            "\ufce0",
-            "\uf400",
-            "\uf37c",
-            "\uf37d",
-            "\uf401",
-            "\uf402",
-            "\uf985",
-            "\uf9d3",
-            "\uf9d4",
-            "\uf9eb",
-            "\uf9ec",
-            "\uf37e",
-            "\ufce1",
-            "\uf37f",
-            "\uf380",
-            "\uf381",
-            "\uf382",
-            "\uf383",
-            "\uf384",
-            "\uf385",
-            "\uf386",
-            "\uf387",
-            "\uf388",
-            "\uf389",
-            "\uf38a",
-            "\uf38b",
-            "\uf38c",
-            "\ufed8",
-            "\uf38d",
-            "\ufed9",
-            "\uf38e",
-            "\ufeda",
-            "\uf38f",
-            "\ufedb",
-            "\ufedc",
-            "\ufedd",
-            "\uf390",
-            "\uf391",
-            "\uf392",
-            "\uf393",
-            "\uf394",
-            "\uf9ed",
-            "\uf9ee",
-            "\uf9ef",
-            "\uf403",
-            "\uf404",
-            "\uf395",
-            "\uf396",
-            "\uf9d5",
-            "\uf399",
-            "\uf39a",
-            "\uf39c",
-            "\uf39d",
-            "\uf39e",
-            "\uf39f",
-            "\uf3a0",
-            "\uf3a1",
-            "\uf9f0",
-            "\uf3a2",
-            "\uf3a3",
-            "\uf3a4",
-            "\uf3a5",
-            "\uf3a6",
-            "\uf3a7",
-            "\uf3a8",
-            "\uf3a9",
-            "\uf3aa",
-            "\uf3ab",
-            "\uf3ac",
-            "\uf3ad",
-            "\ufdc4",
-            "\uf425",
-            "\uf9d6",
-            "\uf9d7",
-            "\ufc09",
-            "\ufc0a",
-            "\ufd38",
-            "\ufd39",
-            "\ufd3a",
-            "\ufede",
-            "\ufedf",
-            "\ufee0",
-            "\ufee1",
-            "\ufee2",
-            "\ufee3",
-            "\uf9d8",
-            "\uf9d9",
-            "\uf3ae",
-            "\uf3af",
-            "\uf426",
-            "\uf427",
-            "\uf428",
-            "\ufc0b",
-            "\uf3b0",
-            "\uf3b1",
-            "\uf3b8",
-            "\uf3b9",
-            "\ufa06",
-            "\ufee4",
-            "\ufd3b",
-            "\ufe64",
-            "\ufbb6",
-            "\uf3ba",
-            "\uf3bb",
-            "\uf3be",
-            "\uf3bf",
-            "\uf3c0",
-            "\uf3c1",
-            "\ufb8c",
-            "\ufb8d",
-            "\uf9f1",
-            "\uf9f2",
-            "\uf3c3",
-            "\uf9f3",
-            "\uf3c4",
-            "\uf3c5",
-            "\uf9f4",
-            "\uf9f5",
-            "\uf3c6",
-            "\ufc0c",
-            "\uf9f6",
-            "\uf9f7",
-            "\uf3c7",
-            "\ufee5",
-            "\ufd3c",
-            "\ufd3d",
-            "\ufd3e",
-            "\ufd3f",
-            "\ufd40",
-            "\ufd41",
-            "\uf3c8",
-            "\uf3c9",
-            "\uf3ca",
-            "\ufa07",
-            "\uf3cb",
-            "\ufa08",
-            "\uf3cc",
-            "\ufce2",
-            "\uf3ce",
-            "\ufc0d",
-            "\uf3cf",
-            "\uf3d0",
-            "\uf3d1",
-            "\uf3d2",
-            "\uf9f8",
-            "\ufce3",
-            "\uf3d3",
-            "\uf3d4",
-            "\uf3d5",
-            "\uf3d6",
-            "\uf3d7",
-            "\ufd42",
-            "\ufd43",
-            "\ufd44",
-            "\ufd45",
-            "\uf3d8",
-            "\uf3d9",
-            "\uf3da",
-            "\uf3db",
-            "\uf3dc",
-            "\uf3dd",
-            "\uf9f9",
-            "\uf42d",
-            "\uf9fa",
-            "\ufd46",
-            "\uf9fb",
-            "\uf9fc",
-            "\uf3de",
-            "\uf3df",
-            "\uf3e0",
-            "\uf9fd",
-            "\ufb3f",
-            "\uf3e1",
-            "\uf3e2",
-            "\uf3e3",
-            "\ufe65",
-            "\uf9fe",
-            "\uf9ff",
-            "\uf3e4",
-            "\uf3e5",
-            "\uf3e6",
-            "\uf3e7",
-            "\ufa18",
-            "\ufa47",
-            "\uf3e8",
-            "\uf3e9",
-            "\uf3ea",
-            "\uf3eb",
-            "\ufee6",
-            "\uf42e",
-            "\ufa00",
-            "\ufa01",
-            "\ufa02",
-            "\ufa03",
-            "\ufa04",
-            "\uf3ee",
-            "\ufa05",
-            "\uf3ef",
-            "\uf3f0",
-            "\uf3f1",
-            "\uf42f",
-            "\uf430",
-            "\uf435",
-            "\uf436",
-            "\uf437",
-            "\uf44f",
-            "\uf450",
-            "\uf453",
-            "\uf454",
-            "\uf471",
-            "\uf49c",
-            "\uf49d",
-            "\uf49e",
-            "\uf3f3",
-            "\uf3f4",
-            "\uf3f5",
-            "\uf3f6",
-            "\uf3f7",
-            "\uf3f8",
-            "\uf3f9",
-            "\uf3fa",
-            "\uf3fb",
-            "\ufa09",
-            "\ufa0a",
-            "\ufa0b",
-            "\ufc0e",
-            "\ufc0f",
-            "\ufc10",
-            "\ufd47",
-            "\ufd48",
-            "\ufa0c",
-            "\ufa0d",
-            "\ufa0e",
-            "\ufa0f",
-            "\uf3fc",
-            "\uf3fd",
-            "\uf3fe",
-            "\uf4b8",
-            "\ufe66",
-            "\uf405",
-            "\uf406",
-            "\uf407",
-            "\ufce4",
-            "\ufce5",
-            "\uf408",
-            "\ufa10",
-            "\ufa11",
-            "\uf409",
-            "\uf40a",
-            "\uf40b",
-            "\uf40c",
-            "\uf40d",
-            "\ufd49",
-            "\ufd4a",
-            "\uf40e",
-            "\uf40f",
-            "\uf410",
-            "\uf411",
-            "\uf412",
-            "\uf413",
-            "\uf414",
-            "\uf415",
-            "\ufe67",
-            "\ufe68",
-            "\uf416",
-            "\ufe69",
-            "\ufe6a",
-            "\ufe6b",
-            "\ufe6c",
-            "\uf417",
-            "\uf418",
-            "\uf419",
-            "\uf41a",
-            "\uf41b",
-            "\ufa12",
-            "\ufa13",
-            "\uf4b9",
-            "\ufc11",
-            "\ufa14",
-            "\ufa15",
-            "\ufa16",
-            "\ufa17",
-            "\ufce6",
-            "\uf41c",
-            "\uf41d",
-            "\uf41e",
-            "\ufce7",
-            "\uf41f",
-            "\uf420",
-            "\uf421",
-            "\uf422",
-            "\uf423",
-            "\ufc12",
-            "\ufc13",
-            "\ufc14",
-            "\ufc15",
-            "\ufc16",
-            "\ufb8e",
-            "\ufb8f",
-            "\ufb90",
-            "\ufb91",
-            "\ufc17",
-            "\uf424",
-            "\uf4bb",
-            "\uf429",
-            "\uf42a",
-            "\uf42b",
-            "\uf42c",
-            "\ufee7",
-            "\uf431",
-            "\uf432",
-            "\uf433",
-            "\uf434",
-            "\uf4d0",
-            "\ufe6d",
-            "\ufc18",
-            "\ufc19",
-            "\ufc1a",
-            "\ufc1b",
-            "\ufc1c",
-            "\ufc1d",
-            "\ufc1e",
-            "\ufee8",
-            "\uf438",
-            "\uf439",
-            "\uf43a",
-            "\uf43b",
-            "\uf43c",
-            "\uf43d",
-            "\uf43e",
-            "\uf43f",
-            "\uf440",
-            "\uf441",
-            "\uf442",
-            "\uf443",
-            "\uf444",
-            "\uf445",
-            "\uf446",
-            "\uf447",
-            "\uf448",
-            "\ufb40",
-            "\uf449",
-            "\ufa19",
-            "\ufa1a",
-            "\uf44a",
-            "\ufdc5",
-            "\ufdc6",
-            "\ufa1b",
-            "\ufa1c",
-            "\uf44b",
-            "\uf44c",
-            "\uf44d",
-            "\uf44e",
-            "\ufd4b",
-            "\ufd4c",
-            "\ufd4d",
-            "\uf451",
-            "\ufb93",
-            "\ufb94",
-            "\ufb95",
-            "\ufb96",
-            "\ufb97",
-            "\ufb98",
-            "\ufb99",
-            "\ufb9a",
-            "\ufb9b",
-            "\ufb9c",
-            "\uf452",
-            "\ufc1f",
-            "\ufc20",
-            "\uf455",
-            "\ufa48",
-            "\ufa49",
-            "\ufee9",
-            "\ufeea",
-            "\uf4d1",
-            "\uf4d2",
-            "\ufa1d",
-            "\ufa1e",
-            "\uf456",
-            "\uf457",
-            "\uf458",
-            "\uf459",
-            "\uf45a",
-            "\uf4d7",
-            "\uf4d8",
-            "\uf4d9",
-            "\ufa4a",
-            "\uf45b",
-            "\ufa1f",
-            "\ufa20",
-            "\uf45c",
-            "\ufa21",
-            "\ufa22",
-            "\ufa23",
-            "\ufa24",
-            "\uf45d",
-            "\ufa25",
-            "\ufa26",
-            "\ufa27",
-            "\uf45e",
-            "\uf45f",
-            "\ufdc7",
-            "\uf460",
-            "\uf461",
-            "\uf462",
-            "\uf4e6",
-            "\uf463",
-            "\ufce8",
-            "\uf464",
-            "\uf4f5",
-            "\uf507",
-            "\uf465",
-            "\ufe6e",
-            "\uf466",
-            "\uf467",
-            "\uf468",
-            "\ufb41",
-            "\uf469",
-            "\uf46a",
-            "\ufe26",
-            "\uf46b",
-            "\ufe27",
-            "\uf46c",
-            "\uf46d",
-            "\uf46e",
-            "\uf46f",
-            "\uf470",
-            "\ufd4e",
-            "\ufd4f",
-            "\ufd50",
-            "\ufd51",
-            "\ufa58",
-            "\ufe28",
-            "\ufa28",
-            "\ufe29",
-            "\ufe2a",
-            "\ufe2b",
-            "\ufb42",
-            "\ufa29",
-            "\ufa2a",
-            "\ufb43",
-            "\uf472",
-            "\uf473",
-            "\uf474",
-            "\ufa2b",
-            "\ufa2c",
-            "\ufa2d",
-            "\ufa2e",
-            "\ufa2f",
-            "\ufa30",
-            "\uf475",
-            "\ufe6f",
-            "\uf476",
-            "\uf477",
-            "\ufe70",
-            "\ufe71",
-            "\ufe72",
-            "\ufe73",
-            "\ufe74",
-            "\ufe75",
-            "\ufe76",
-            "\ufa31",
-            "\ufa32",
-            "\uf478",
-            "\uf479",
-            "\ufdc8",
-            "\ufa33",
-            "\uf508",
-            "\uf509",
-            "\uf47a",
-            "\uf47b",
-            "\uf47c",
-            "\uf47d",
-            "\uf47e",
-            "\uf50a",
-            "\uf50b",
-            "\ufdc9",
-            "\ufa34",
-            "\ufa35",
-            "\uf47f",
-            "\uf480",
-            "\uf481",
-            "\uf482",
-            "\uf483",
-            "\uf484",
-            "\uf485",
-            "\uf486",
-            "\ufe2c",
-            "\ufa36",
-            "\uf487",
-            "\uf488",
-            "\uf489",
-            "\ufa37",
-            "\ufa38",
-            "\uf48a",
-            "\ufe77",
-            "\ufe78",
-            "\uf48b",
-            "\ufb9e",
-            "\ufce9",
-            "\uf48c",
-            "\uf48d",
-            "\uf48e",
-            "\uf48f",
-            "\uf490",
-            "\uf491",
-            "\uf492",
-            "\uf493",
-            "\uf494",
-            "\uf495",
-            "\ufa59",
-            "\ufa39",
-            "\ufa5a",
-            "\uf496",
-            "\uf497",
-            "\uf498",
-            "\uf499",
-            "\uf49a",
-            "\uf49b",
-            "\ufcea",
-            "\ufa5b",
-            "\ufc21",
-            "\ufc22",
-            "\ufc23",
-            "\ufb9f",
-            "\uf49f",
-            "\ufa5c",
-            "\uf4a0",
-            "\uf4a1",
-            "\ufa5d",
-            "\uf4a2",
-            "\uf4a3",
-            "\uf4a4",
-            "\uf4a5",
-            "\uf4a6",
-            "\uf4a7",
-            "\uf4a8",
-            "\uf4a9",
-            "\uf4aa",
-            "\uf4ab",
-            "\uf4ac",
-            "\ufa3a",
-            "\ufe79",
-            "\ufe7a",
-            "\uf4ad",
-            "\uf4ae",
-            "\uf4af",
-            "\ufceb",
-            "\uf4b0",
-            "\uf4b1",
-            "\uf4b2",
-            "\uf4b3",
-            "\uf4b4",
-            "\uf4b5",
-            "\uf4b6",
-            "\uf4b7",
-            "\uf4ba",
-            "\uf4bc",
-            "\uf4bd",
-            "\uf4be",
-            "\uf4bf",
-            "\ufcec",
-            "\uf4c0",
-            "\uf4c1",
-            "\ufced",
-            "\ufd52",
-            "\ufa3b",
-            "\uf4c2",
-            "\uf4c3",
-            "\uf4c4",
-            "\uf4c5",
-            "\uf4c6",
-            "\uf4c7",
-            "\uf4c8",
-            "\ufe2d",
-            "\ufe2e",
-            "\uf4c9",
-            "\uf4ca",
-            "\uf4cb",
-            "\uf4cc",
-            "\uf4cd",
-            "\uf4ce",
-            "\uf4cf",
-            "\uf50f",
-            "\ufba0",
-            "\uf4d3",
-            "\uf4d4",
-            "\uf4d5",
-            "\uf4d6",
-            "\ufc24",
-            "\ufc25",
-            "\ufc26",
-            "\ufba1",
-            "\ufba2",
-            "\ufba3",
-            "\uf4da",
-            "\uf4db",
-            "\uf4dc",
-            "\ufb44",
-            "\ufb45",
-            "\ufe7b",
-            "\ufe7c",
-            "\uf4dd",
-            "\uf4de",
-            "\uf4df",
-            "\uf4e0",
-            "\uf4e1",
-            "\uf4e2",
-            "\uf4e3",
-            "\uf4e4",
-            "\uf4e5",
-            "\uf4e7",
-            "\uf4e8",
-            "\uf4e9",
-            "\uf4ea",
-            "\uf4eb",
-            "\uf4ec",
-            "\ufa3c",
-            "\ufcee",
-            "\uf4ed",
-            "\uf4ee",
-            "\uf4ef",
-            "\uf4f0",
-            "\uf4f1",
-            "\ufc27",
-            "\uf4f2",
-            "\uf4f3",
-            "\uf4f4",
-            "\ufa3d",
-            "\ufa3e",
-            "\ufe2f",
-            "\uf4f6",
-            "\ufe7d",
-            "\uf4f7",
-            "\uf4f8",
-            "\uf4f9",
-            "\uf4fa",
-            "\uf4fb",
-            "\ufb46",
-            "\ufb47",
-            "\uf4fc",
-            "\uf4fd",
-            "\uf4fe",
-            "\uf4ff",
-            "\ufa61",
-            "\uf500",
-            "\uf501",
-            "\uf502",
-            "\uf503",
-            "\uf504",
-            "\ufa3f",
-            "\ufe7e",
-            "\ufe7f",
-            "\ufe80",
-            "\ufc28",
-            "\uf505",
-            "\uf506",
-            "\ufa40",
-            "\ufa41",
-            "\ufa42",
-            "\ufa43",
-            "\ufa44",
-            "\ufc29",
-            "\ufc2a",
-            "\ufc2b",
-            "\ufc2c",
-            "\ufa45",
-            "\ufc2d",
-            "\ufc2e",
-            "\ufc2f",
-            "\uf50c",
-            "\uf50d",
-            "\uf50e",
-            "\ufa46",
-            "\ufbb7",
-            "\ufa4b",
-            "\uf510",
-            "\uf511",
-            "\uf512",
-            "\uf513",
-            "\uf517",
-            "\uf529",
-            "\uf514",
-            "\uf52a",
-            "\uf534",
-            "\uf535",
-            "\ufeeb",
-            "\uf515",
-            "\uf516",
-            "\uf518",
-            "\uf519",
-            "\ufa62",
-            "\uf536",
-            "\ufa63",
-            "\uf537",
-            "\uf555",
-            "\ufa64",
-            "\uf556",
-            "\uf55b",
-            "\uf51a",
-            "\uf55c",
-            "\uf51b",
-            "\uf51c",
-            "\ufeec",
-            "\uf55d",
-            "\uf55e",
-            "\uf55f",
-            "\uf567",
-            "\uf51d",
-            "\uf51e",
-            "\uf51f",
-            "\uf520",
-            "\uf521",
-            "\uf522",
-            "\uf523",
-            "\uf524",
-            "\ufc30",
-            "\uf568",
-            "\ufc31",
-            "\ufc32",
-            "\ufc33",
-            "\ufe30",
-            "\ufe31",
-            "\ufe32",
-            "\ufe81",
-            "\uf525",
-            "\uf526",
-            "\uf527",
-            "\uf528",
-            "\uf58f",
-            "\uf596",
-            "\ufc34",
-            "\uf5b0",
-            "\ufeed",
-            "\uf5d5",
-            "\uf5ec",
-            "\ufa4c",
-            "\uf52b",
-            "\uf52c",
-            "\uf52d",
-            "\uf52e",
-            "\uf5ed",
-            "\uf5f2",
-            "\uf5f3",
-            "\uf5f7",
-            "\uf52f",
-            "\uf530",
-            "\uf531",
-            "\uf532",
-            "\uf533",
-            "\uf5f8",
-            "\ufe82",
-            "\uf538",
-            "\uf539",
-            "\uf53a",
-            "\uf53b",
-            "\uf53c",
-            "\ufa4d",
-            "\ufa4e",
-            "\ufcef",
-            "\ufa4f",
-            "\ufcf0",
-            "\ufa50",
-            "\ufa52",
-            "\ufa53",
-            "\ufa54",
-            "\uf53e",
-            "\uf53f",
-            "\uf600",
-            "\uf601",
-            "\uf63b",
-            "\uf540",
-            "\uf541",
-            "\uf542",
-            "\uf543",
-            "\uf655",
-            "\uf544",
-            "\uf545",
-            "\uf546",
-            "\uf547",
-            "\uf548",
-            "\uf549",
-            "\uf54a",
-            "\ufa55",
-            "\uf54b",
-            "\uf54c",
-            "\ufa56",
-            "\uf54d",
-            "\uf54e",
-            "\uf54f",
-            "\uf550",
-            "\ufd53",
-            "\uf551",
-            "\ufd9a",
-            "\ufb48",
-            "\ufa57",
-            "\ufd9b",
-            "\ufd9c",
-            "\uf552",
-            "\ufeee",
-            "\ufeef",
-            "\ufef0",
-            "\ufba4",
-            "\uf656",
-            "\uf659",
-            "\uf553",
-            "\uf554",
-            "\uf557",
-            "\uf65a",
-            "\uf663",
-            "\uf664",
-            "\uf667",
-            "\uf668",
-            "\uf669",
-            "\uf558",
-            "\uf559",
-            "\uf55a",
-            "\ufa5e",
-            "\ufc35",
-            "\ufc36",
-            "\ufc37",
-            "\ufc38",
-            "\ufa7e",
-            "\ufc39",
-            "\ufd54",
-            "\uf560",
-            "\uf561",
-            "\uf562",
-            "\ufa8a",
-            "\uf563",
-            "\ufa5f",
-            "\ufa60",
-            "\uf564",
-            "\ufdca",
-            "\ufdcb",
-            "\ufdcc",
-            "\ufdcd",
-            "\ufdce",
-            "\ufdcf",
-            "\ufdd0",
-            "\ufdd1",
-            "\ufdd2",
-            "\ufdd3",
-            "\ufdd4",
-            "\ufdd5",
-            "\ufdd6",
-            "\ufdd7",
-            "\ufdd8",
-            "\ufdd9",
-            "\ufdda",
-            "\ufddb",
-            "\ufddc",
-            "\ufddd",
-            "\ufdde",
-            "\ufddf",
-            "\ufde0",
-            "\ufde1",
-            "\ufde2",
-            "\ufe83",
-            "\ufe84",
-            "\ufe85",
-            "\ufe86",
-            "\ufe87",
-            "\ufa97",
-            "\uf565",
-            "\uf566",
-            "\uff23",
-            "\ufc3a",
-            "\ufc3b",
-            "\ufc3c",
-            "\ufe33",
-            "\ufc3d",
-            "\ufe88",
-            "\ufe34",
-            "\ufde3",
-            "\ufde4",
-            "\uf569",
-            "\uf56a",
-            "\uf56b",
-            "\ufa65",
-            "\uf56c",
-            "\uf56d",
-            "\uf56e",
-            "\uf56f",
-            "\uf570",
-            "\uf571",
-            "\uf572",
-            "\uf573",
-            "\uf574",
-            "\uf66d",
-            "\uf575",
-            "\uf576",
-            "\uf577",
-            "\uf578",
-            "\uf579",
-            "\uf66e",
-            "\uf57a",
-            "\ufcf1",
-            "\uf57b",
-            "\uf57c",
-            "\uf57d",
-            "\ufb49",
-            "\uf57e",
-            "\ufcf2",
-            "\ufba5",
-            "\ufcf3",
-            "\uf57f",
-            "\ufe89",
-            "\uf66f",
-            "\uf580",
-            "\uf581",
-            "\uf582",
-            "\ufde5",
-            "\uf670",
-            "\ufef1",
-            "\ufef2",
-            "\uf583",
-            "\uf584",
-            "\uf585",
-            "\uf586",
-            "\uf587",
-            "\uf588",
-            "\ufa66",
-            "\ufe35",
-            "\ufe36",
-            "\uf589",
-            "\uf58a",
-            "\uf58b",
-            "\uf58c",
-            "\uf58d",
-            "\ufa67",
-            "\uf671",
-            "\ufa68",
-            "\ufa69",
-            "\ufa6a",
-            "\uf58e",
-            "\ufa6b",
-            "\ufa6c",
-            "\ufa6d",
-            "\ufa6e",
-            "\ufa6f",
-            "\ufa70",
-            "\ufa71",
-            "\uf590",
-            "\uf591",
-            "\uf592",
-            "\ufe8a",
-            "\ufa98",
-            "\uf593",
-            "\uf594",
-            "\uf595",
-            "\ufa99",
-            "\ufab0",
-            "\ufcf4",
-            "\ufab2",
-            "\uf68b",
-            "\uf68c",
-            "\uf69e",
-            "\uf6a7",
-            "\uf6a8",
-            "\uf6a9",
-            "\uf6bd",
-            "\uf6c2",
-            "\uf597",
-            "\uf598",
-            "\uf599",
-            "\uf59a",
-            "\uf59b",
-            "\uf59c",
-            "\uf59d",
-            "\ufa72",
-            "\ufa73",
-            "\uf59e",
-            "\uf59f",
-            "\uf5a0",
-            "\uf5a1",
-            "\uf5a2",
-            "\uf5a3",
-            "\uf5a4",
-            "\uf5a5",
-            "\uf5a6",
-            "\uf5a7",
-            "\uf5a8",
-            "\uf6c3",
-            "\uf6c4",
-            "\uf5a9",
-            "\ufde6",
-            "\ufa74",
-            "\uf5aa",
-            "\uf5ab",
-            "\uf5ac",
-            "\uf5ad",
-            "\uf6c5",
-            "\ufa75",
-            "\uf5ae",
-            "\uf5af",
-            "\ufa76",
-            "\uf5b1",
-            "\uf5b2",
-            "\uf5b3",
-            "\uf5b4",
-            "\ufcf5",
-            "\uf5b5",
-            "\uf5b6",
-            "\uf5b7",
-            "\ufb4a",
-            "\uf5b8",
-            "\ufb4b",
-            "\ufb4c",
-            "\ufd55",
-            "\ufd56",
-            "\uf5b9",
-            "\uf5ba",
-            "\uf5bb",
-            "\uf5bc",
-            "\ufe8b",
-            "\uf5bd",
-            "\ufe8c",
-            "\ufbb8",
-            "\ufbbf",
-            "\ufbc0",
-            "\ufbc1",
-            "\ufab3",
-            "\ufadc",
-            "\ufade",
-            "\ufa77",
-            "\uf5be",
-            "\uf5bf",
-            "\uf5c0",
-            "\ufa78",
-            "\ufa79",
-            "\ufa7a",
-            "\ufa7b",
-            "\uf6c6",
-            "\uf5c1",
-            "\uf5c2",
-            "\uf5c3",
-            "\uf5c4",
-            "\ufde7",
-            "\ufa7c",
-            "\ufa7d",
-            "\ufc3e",
-            "\uf6d3",
-            "\uf5c5",
-            "\uf5c6",
-            "\uf5c7",
-            "\uf5c8",
-            "\uf5c9",
-            "\ufe37",
-            "\uf5ca",
-            "\ufe38",
-            "\ufe8d",
-            "\uf5cb",
-            "\ufe8e",
-            "\uf5cc",
-            "\uf5cd",
-            "\ufe8f",
-            "\uf5ce",
-            "\uf5cf",
-            "\uf5d0",
-            "\uf5d1",
-            "\uf5d2",
-            "\uf5d3",
-            "\ufa7f",
-            "\uf5d4",
-            "\uf5d6",
-            "\uf5d7",
-            "\uf5d8",
-            "\ufb4d",
-            "\ufb4e",
-            "\uf5d9",
-            "\uf6d4",
-            "\uf6da",
-            "\uf6dc",
-            "\ufba6",
-            "\ufa80",
-            "\ufa81",
-            "\ufa82",
-            "\uf5da",
-            "\ufa83",
-            "\uf5db",
-            "\uf5dc",
-            "\uf5dd",
-            "\uf6df",
-            "\uf6e1",
-            "\uf6e2",
-            "\ufa84",
-            "\ufa85",
-            "\ufa86",
-            "\ufa87",
-            "\ufa88",
-            "\ufcf6",
-            "\ufadf",
-            "\ufae0",
-            "\ufe90",
-            "\uf5de",
-            "\ufa89",
-            "\ufe91",
-            "\uf5df",
-            "\uf5e0",
-            "\uf5e1",
-            "\ufae1",
-            "\uf6f6",
-            "\uf5e2",
-            "\uf5e3",
-            "\uf5e4",
-            "\uf5e5",
-            "\uf5e6",
-            "\uf5e7",
-            "\uf5e8",
-            "\uf5e9",
-            "\uf6f7",
-            "\uf5ea",
-            "\uf5eb",
-            "\ufc3f",
-            "\ufc40",
-            "\ufc41",
-            "\uf6f8",
-            "\uf5ee",
-            "\uf5ef",
-            "\uf5f0",
-            "\uf5f1",
-            "\ufb4f",
-            "\ufc42",
-            "\ufcf7",
-            "\uf5f4",
-            "\uf5f5",
-            "\ufcf8",
-            "\uf5f6",
-            "\ufc43",
-            "\uf5f9",
-            "\uf5fa",
-            "\uf5fb",
-            "\uf5fc",
-            "\ufc44",
-            "\ufc45",
-            "\ufc46",
-            "\ufc47",
-            "\ufc48",
-            "\ufc49",
-            "\ufc4a",
-            "\ufc4b",
-            "\ufcf9",
-            "\uf5fd",
-            "\uf5fe",
-            "\uf5ff",
-            "\uf602",
-            "\uf603",
-            "\uf604",
-            "\uf605",
-            "\ufcfa",
-            "\uf606",
-            "\uf607",
-            "\uf608",
-            "\uf6f9",
-            "\uf6fa",
-            "\uf6fb",
-            "\uf6fc",
-            "\uf609",
-            "\uf60a",
-            "\uf60b",
-            "\uf60c",
-            "\ufe92",
-            "\ufe93",
-            "\ufe94",
-            "\ufef3",
-            "\uf60d",
-            "\uf60e",
-            "\ufef4",
-            "\ufae2",
-            "\ufae3",
-            "\ufae4",
-            "\uf60f",
-            "\uf610",
-            "\uf611",
-            "\ufd57",
-            "\ufd58",
-            "\uf612",
-            "\ufd59",
-            "\uf613",
-            "\uf614",
-            "\uf615",
-            "\uf616",
-            "\ufa8b",
-            "\uf617",
-            "\ufc4c",
-            "\ufc4d",
-            "\ufc4e",
-            "\ufc4f",
-            "\ufc50",
-            "\ufc51",
-            "\ufc52",
-            "\ufc53",
-            "\uf618",
-            "\uf619",
-            "\uf61a",
-            "\uf61b",
-            "\uf61c",
-            "\uf61d",
-            "\uf61e",
-            "\uf61f",
-            "\ufcfb",
-            "\ufe95",
-            "\ufe96",
-            "\uf620",
-            "\uf621",
-            "\uf622",
-            "\uf623",
-            "\uf624",
-            "\uf625",
-            "\uf626",
-            "\uf629",
-            "\uf62a",
-            "\uf62b",
-            "\ufb50",
-            "\uf62c",
-            "\ufb51",
-            "\uf62d",
-            "\uf62e",
-            "\uf62f",
-            "\uf630",
-            "\uf631",
-            "\uf632",
-            "\uf633",
-            "\uf703",
-            "\uf634",
-            "\uf635",
-            "\uf636",
-            "\uf705",
-            "\ufae5",
-            "\uf706",
-            "\uf707",
-            "\uf70c",
-            "\uf70d",
-            "\uf70e",
-            "\uf637",
-            "\uf638",
-            "\uf639",
-            "\uf63a",
-            "\ufe97",
-            "\ufe98",
-            "\ufe99",
-            "\uf63c",
-            "\uf63d",
-            "\uf63e",
-            "\ufba7",
-            "\ufa8c",
-            "\ufae6",
-            "\ufde8",
-            "\ufba8",
-            "\ufbc2",
-            "\ufbc3",
-            "\ufbc4",
-            "\ufbc5",
-            "\ufbc6",
-            "\ufa8d",
-            "\uf63f",
-            "\uf640",
-            "\uf641",
-            "\uf642",
-            "\uf643",
-            "\uf644",
-            "\uf645",
-            "\uf646",
-            "\uf647",
-            "\uf648",
-            "\uf649",
-            "\uf64a",
-            "\uf64b",
-            "\uf64c",
-            "\uf64d",
-            "\uf64e",
-            "\uf64f",
-            "\uf650",
-            "\uf651",
-            "\uf652",
-            "\uf713",
-            "\uf714",
-            "\uf653",
-            "\uf654",
-            "\ufd5a",
-            "\ufd5b",
-            "\ufd5c",
-            "\ufd5d",
-            "\ufd5e",
-            "\ufd5f",
-            "\ufe9a",
-            "\uf657",
-            "\uf658",
-            "\ufe9b",
-            "\uf65b",
-            "\uf65c",
-            "\uf65d",
-            "\uf65e",
-            "\uf65f",
-            "\uf660",
-            "\uf661",
-            "\uf662",
-            "\uf665",
-            "\uf666",
-            "\ufa8e",
-            "\ufcfc",
-            "\ufcfd",
-            "\uf715",
-            "\ufae7",
-            "\uf71e",
-            "\ufae8",
-            "\uf745",
-            "\ufae9",
-            "\uf746",
-            "\uf747",
-            "\uf66a",
-            "\uf66b",
-            "\uf66c",
-            "\uf74d",
-            "\uf74e",
-            "\uf74f",
-            "\uf770",
-            "\uf771",
-            "\uf772",
-            "\uf773",
-            "\uf774",
-            "\uf77c",
-            "\uf77d",
-            "\ufb52",
-            "\ufde9",
-            "\uf672",
-            "\uf673",
-            "\uf674",
-            "\uf675",
-            "\uf676",
-            "\uf677",
-            "\ufc54",
-            "\ufc55",
-            "\ufc56",
-            "\ufc57",
-            "\ufc58",
-            "\ufc59",
-            "\uf678",
-            "\uf679",
-            "\uf67a",
-            "\uf67b",
-            "\uf67c",
-            "\uf67d",
-            "\uf67e",
-            "\uf67f",
-            "\ufba9",
-            "\ufb53",
-            "\ufa8f",
-            "\ufdea",
-            "\uf77e",
-            "\uf77f",
-            "\ufa90",
-            "\ufa91",
-            "\uf680",
-            "\uf681",
-            "\uf682",
-            "\ufbaa",
-            "\ufbab",
-            "\ufbac",
-            "\uf683",
-            "\uf684",
-            "\ufcfe",
-            "\uf685",
-            "\uf686",
-            "\uf687",
-            "\ufa92",
-            "\ufa93",
-            "\uf688",
-            "\uf689",
-            "\uf68a",
-            "\uf68d",
-            "\ufc5a",
-            "\ufc5b",
-            "\ufb54",
-            "\uf68e",
-            "\uf68f",
-            "\uf690",
-            "\ufd60",
-            "\uf691",
-            "\uf692",
-            "\uf693",
-            "\uf694",
-            "\ufa94",
-            "\ufa95",
-            "\uf695",
-            "\ufaea",
-            "\ufaeb",
-            "\uf696",
-            "\ufcff",
-            "\ufd00",
-            "\uf697",
-            "\uf698",
-            "\ufb22",
-            "\ufe39",
-            "\uf699",
-            "\uf69a",
-            "\uf69b",
-            "\ufb25",
-            "\ufb2e",
-            "\ufc5c",
-            "\uf69c",
-            "\ufa96",
-            "\uf69d",
-            "\ufc5d",
-            "\ufc5e",
-            "\ufc5f",
-            "\uf69f",
-            "\ufc60",
-            "\uf6a0",
-            "\uf6a1",
-            "\ufe3a",
-            "\uf6a2",
-            "\uf6a3",
-            "\uf6a4",
-            "\uf6a5",
-            "\uf6a6",
-            "\uf6aa",
-            "\uf6ab",
-            "\uf6ac",
-            "\uf781",
-            "\uf784",
-            "\uf6ad",
-            "\uf6ae",
-            "\uf6af",
-            "\uf6b0",
-            "\uf6b1",
-            "\uf6b2",
-            "\uf6b3",
-            "\uf6b4",
-            "\ufd01",
-            "\ufd02",
-            "\ufd03",
-            "\ufd04",
-            "\ufd05",
-            "\ufd06",
-            "\ufd07",
-            "\ufd08",
-            "\ufd09",
-            "\ufd0a",
-            "\ufd0b",
-            "\ufd0c",
-            "\uf6b5",
-            "\uf6b6",
-            "\uf6b7",
-            "\ufb36",
-            "\uf6b8",
-            "\uf6b9",
-            "\uf6ba",
-            "\uf6bb",
-            "\ufbad",
-            "\uf6bc",
-            "\uf6be",
-            "\uf6bf",
-            "\uf6c0",
-            "\uf6c1",
-            "\ufc61",
-            "\ufc62",
-            "\ufc63",
-            "\ufc64",
-            "\ufc65",
-            "\ufc66",
-            "\ufc67",
-            "\ufc68",
-            "\ufe9c",
-            "\uf6c7",
-            "\uf6c8",
-            "\ufe9d",
-            "\ufe9e",
-            "\uf785",
-            "\ufb37",
-            "\ufe9f",
-            "\ufea0",
-            "\ufea1",
-            "\ufea2",
-            "\ufea3",
-            "\ufc69",
-            "\uf6c9",
-            "\uf6ca",
-            "\ufa9a",
-            "\uf6cb",
-            "\uf6cc",
-            "\uf6cd",
-            "\uf6ce",
-            "\uf6cf",
-            "\ufb92",
-            "\uf6d0",
-            "\uf6d1",
-            "\ufd0d",
-            "\ufb55",
-            "\uf6d2",
-            "\uf6d5",
-            "\uf6d6",
-            "\ufdeb",
-            "\uf6d7",
-            "\uf6d8",
-            "\uf6d9",
-            "\uf6db",
-            "\ufb56",
-            "\ufb57",
-            "\ufa9b",
-            "\ufa9c",
-            "\uf6dd",
-            "\uf6de",
-            "\ufc6a",
-            "\ufc6b",
-            "\uf6e0",
-            "\uf786",
-            "\uf787",
-            "\uf788",
-            "\ufa9d",
-            "\ufa9e",
-            "\ufa9f",
-            "\uf6e3",
-            "\uf6e4",
-            "\uf6e5",
-            "\uf6e6",
-            "\uf6e7",
-            "\uf6e8",
-            "\uf6e9",
-            "\uf6ea",
-            "\uf6eb",
-            "\uf6ec",
-            "\uf6ed",
-            "\ufd61",
-            "\ufdec",
-            "\ufded",
-            "\ufdee",
-            "\ufdef",
-            "\ufd62",
-            "\ufdf0",
-            "\ufdf1",
-            "\ufdf2",
-            "\ufdf3",
-            "\ufd63",
-            "\ufdf4",
-            "\ufdf5",
-            "\ufdf6",
-            "\ufdf7",
-            "\ufef5",
-            "\uf6ee",
-            "\uf6ef",
-            "\uf6f0",
-            "\ufb9d",
-            "\ufbd5",
-            "\ufd64",
-            "\ufbd6",
-            "\uf6f1",
-            "\uf6f2",
-            "\uf6f3",
-            "\uf6f4",
-            "\ufb58",
-            "\ufaa0",
-            "\uf78b",
-            "\uf78c",
-            "\ufaa1",
-            "\ufaa2",
-            "\ufd0e",
-            "\ufaa3",
-            "\ufaa4",
-            "\ufaa5",
-            "\uf6f5",
-            "\ufaa6",
-            "\ufaa7",
-            "\ufd0f",
-            "\uf78d",
-            "\uf78e",
-            "\uf79e",
-            "\uf79f",
-            "\uf6fd",
-            "\uf6fe",
-            "\uf6ff",
-            "\uf700",
-            "\uf701",
-            "\ufaa8",
-            "\ufaa9",
-            "\uf702",
-            "\ufaaa",
-            "\ufaab",
-            "\ufaac",
-            "\ufaad",
-            "\uf704",
-            "\ufaae",
-            "\ufaaf",
-            "\ufc6c",
-            "\ufc6d",
-            "\ufc6e",
-            "\ufc6f",
-            "\ufc70",
-            "\uf708",
-            "\ufab1",
-            "\uf709",
-            "\uf70a",
-            "\uf70b",
-            "\ufc71",
-            "\ufc72",
-            "\ufc73",
-            "\ufc74",
-            "\ufc75",
-            "\ufab4",
-            "\ufab5",
-            "\uf70f",
-            "\uf710",
-            "\ufab6",
-            "\uf711",
-            "\ufab7",
-            "\ufab8",
-            "\uf712",
-            "\ufd65",
-            "\ufd66",
-            "\ufd67",
-            "\ufd68",
-            "\ufd69",
-            "\ufd6a",
-            "\ufd6b",
-            "\ufd6c",
-            "\ufd6d",
-            "\ufd6e",
-            "\ufd6f",
-            "\ufd70",
-            "\ufd71",
-            "\ufd72",
-            "\ufab9",
-            "\ufaba",
-            "\ufabb",
-            "\ufabc",
-            "\ufabd",
-            "\ufabe",
-            "\ufabf",
-            "\ufd73",
-            "\ufd74",
-            "\ufc76",
-            "\ufc77",
-            "\ufef6",
-            "\ufef7",
-            "\ufef8",
-            "\ufef9",
-            "\ufefa",
-            "\ufefb",
-            "\ufc78",
-            "\ufbae",
-            "\uf7a4",
-            "\uf7a5",
-            "\uf7aa",
-            "\uf7be",
-            "\uf716",
-            "\uf717",
-            "\uf718",
-            "\uf719",
-            "\uf71a",
-            "\uf71b",
-            "\uf71c",
-            "\uf71d",
-            "\ufc79",
-            "\uf71f",
-            "\ufac0",
-            "\ufbaf",
-            "\uf720",
-            "\ufd10",
-            "\uf721",
-            "\uf722",
-            "\uf723",
-            "\uf724",
-            "\uf725",
-            "\ufb59",
-            "\ufb5a",
-            "\uf726",
-            "\uf727",
-            "\uf728",
-            "\uf729",
-            "\uf72a",
-            "\uf72b",
-            "\uf72c",
-            "\uf72d",
-            "\uf72e",
-            "\uf72f",
-            "\uf730",
-            "\uf731",
-            "\uf732",
-            "\uf733",
-            "\uf734",
-            "\uf735",
-            "\uf736",
-            "\uf737",
-            "\uf738",
-            "\uf739",
-            "\uf73a",
-            "\uf73b",
-            "\uff00",
-            "\uff01",
-            "\uf73c",
-            "\uf73d",
-            "\uf73e",
-            "\uf73f",
-            "\uf740",
-            "\uf741",
-            "\uf742",
-            "\uf743",
-            "\uf744",
-            "\uf748",
-            "\uf749",
-            "\uf74a",
-            "\ufd75",
-            "\ufd76",
-            "\ufd77",
-            "\uf74b",
-            "\uf74c",
-            "\ufc7a",
-            "\ufc7b",
-            "\ufc7c",
-            "\ufc7d",
-            "\ufc7e",
-            "\ufc7f",
-            "\uf7bf",
-            "\uf7c8",
-            "\uf7c9",
-            "\uf7cc",
-            "\uf7cd",
-            "\ufdf8",
-            "\ufefc",
-            "\uf750",
-            "\uf751",
-            "\uf752",
-            "\uf753",
-            "\uf754",
-            "\uf755",
-            "\uf756",
-            "\ufe3b",
-            "\ufd78",
-            "\uf757",
-            "\uf758",
-            "\uf759",
-            "\uf75a",
-            "\uf75b",
-            "\uf75c",
-            "\uf75d",
-            "\uf75e",
-            "\ufc80",
-            "\ufc81",
-            "\ufc82",
-            "\uf75f",
-            "\uf760",
-            "\uf761",
-            "\uf762",
-            "\ufac1",
-            "\uff02",
-            "\uf763",
-            "\uf764",
-            "\uf765",
-            "\uf766",
-            "\uf767",
-            "\uf768",
-            "\uff03",
-            "\uf769",
-            "\uf76a",
-            "\uf76b",
-            "\uf76c",
-            "\uf76d",
-            "\uf76e",
-            "\uf76f",
-            "\ufac2",
-            "\ufc83",
-            "\ufc84",
-            "\ufac3",
-            "\uf775",
-            "\uf776",
-            "\ufac4",
-            "\ufd11",
-            "\ufac5",
-            "\ufb5b",
-            "\uf777",
-            "\ufd12",
-            "\uf778",
-            "\uf779",
-            "\uf77a",
-            "\uf77b",
-            "\ufd79",
-            "\ufc85",
-            "\ufd7a",
-            "\ufc86",
-            "\ufb5c",
-            "\ufb5d",
-            "\uf780",
-            "\uf782",
-            "\ufc87",
-            "\uf783",
-            "\ufc88",
-            "\ufc89",
-            "\ufc8a",
-            "\ufc8b",
-            "\uf789",
-            "\uf78a",
-            "\ufc8c",
-            "\ufc8d",
-            "\uf78f",
-            "\ufac6",
-            "\ufac7",
-            "\ufac8",
-            "\ufac9",
-            "\ufaca",
-            "\ufd7b",
-            "\ufc8e",
-            "\ufc8f",
-            "\ufd7c",
-            "\ufd7d",
-            "\ufc90",
-            "\ufd7e",
-            "\ufc91",
-            "\uf790",
-            "\uf791",
-            "\uf792",
-            "\ufd13",
-            "\uf793",
-            "\ufacb",
-            "\uf794",
-            "\uf795",
-            "\uf7ce",
-            "\ufc92",
-            "\ufc93",
-            "\ufb5e",
-            "\uf796",
-            "\ufb5f",
-            "\uf797",
-            "\uf798",
-            "\uf799",
-            "\uf79a",
-            "\ufd14",
-            "\uf7cf",
-            "\uf7d0",
-            "\uf79b",
-            "\uf79c",
-            "\uf79d",
-            "\uf7a0",
-            "\uf7a1",
-            "\ufd7f",
-            "\ufd80",
-            "\ufd81",
-            "\ufd82",
-            "\uff04",
-            "\uff05",
-            "\uff06",
-            "\uff07",
-            "\uff08",
-            "\uff09",
-            "\ufacc",
-            "\uf7a2",
-            "\uf7a3",
-            "\ufe3c",
-            "\uf7a6",
-            "\uf7a7",
-            "\uf7a8",
-            "\ufacd",
-            "\uface",
-            "\ufacf",
-            "\uf7a9",
-            "\ufad0",
-            "\ufad1",
-            "\ufd83",
-            "\ufd84",
-            "\ufd85",
-            "\ufd86",
-            "\ufd87",
-            "\ufd88",
-            "\ufdf9",
-            "\uf7ab",
-            "\uf7ac",
-            "\uf7ad",
-            "\uf7ae",
-            "\uf7af",
-            "\uf7b0",
-            "\uf7b1",
-            "\uf7b2",
-            "\uf7b3",
-            "\uf7b4",
-            "\uff0a",
-            "\uff0b",
-            "\uf7b5",
-            "\uf7b6",
-            "\uff0c",
-            "\uf7b7",
-            "\uf7b8",
-            "\uf7b9",
-            "\uf7ba",
-            "\uf7bb",
-            "\ufad2",
-            "\uf7bc",
-            "\uf7bd",
-            "\uff0d",
-            "\uff0e",
-            "\ufb60",
-            "\uf7c0",
-            "\ufd89",
-            "\ufd8a",
-            "\ufd8b",
-            "\ufd8c",
-            "\ufb61",
-            "\uf7c1",
-            "\uf7d1",
-            "\uf7d2",
-            "\uf7c2",
-            "\uf7c3",
-            "\uf7c4",
-            "\uf7c5",
-            "\uf7c6",
-            "\uf7c7",
-            "\uf7ca",
-            "\uf7cb",
-            "\uf7d4",
-            "\uf7d5",
-            "\uff0f",
-            "\uf7d6",
-            "\ufad3",
-            "\uf7d7",
-            "\uf7d8",
-            "\uff10",
-            "\uf7d9",
-            "\uf7da",
-            "\ufad4",
-            "\ufad5",
-            "\ufad6",
-            "\ufad7",
-            "\uf7db",
-            "\uf7dc",
-            "\uf7dd",
-            "\uf7de",
-            "\uf7df",
-            "\uf7e0",
-            "\uf7e1",
-            "\uf7e2",
-            "\ufad8",
-            "\uf7e3",
-            "\uf7e4",
-            "\uf7e7",
-            "\uf7e8",
-            "\uff24",
-            "\uff25",
-            "\uff11",
-            "\uff12",
-            "\uf7e9",
-            "\uf7ea",
-            "\uf7eb",
-            "\uf7ec",
-            "\uf7ed",
-            "\uf7ee",
-            "\uff13",
-            "\uff26",
-            "\uff27",
-            "\uf7ef",
-            "\uf7f0",
-            "\uff14",
-            "\uf7f1",
-            "\uf7f2",
-            "\uff15",
-            "\uf7f3",
-            "\uf7f4",
-            "\uff16",
-            "\uf7f5",
-            "\uf7f6",
-            "\uf7f7",
-            "\uf7f8",
-            "\uf7f9",
-            "\uf7fa",
-            "\uf7fb",
-            "\uf7fc",
-            "\uf7fd",
-            "\uf7fe",
-            "\uf7ff",
-            "\uf800",
-            "\uf801",
-            "\uff17",
-            "\ufc94",
-            "\ufc95",
-            "\ufc96",
-            "\ufc97",
-            "\ufc98",
-            "\ufc99",
-            "\ufc9a",
-            "\ufc9b",
-            "\ufb62",
-            "\ufc9c",
-            "\ufc9d",
-            "\ufc9e",
-            "\ufc9f",
-            "\ufca0",
-            "\uf805",
-            "\uf806",
-            "\uf807",
-            "\uf808",
-            "\uf809",
-            "\ufad9",
-            "\uf80a",
-            "\ufada",
-            "\uf80b",
-            "\ufadb",
-            "\uf80c",
-            "\uf80d",
-            "\uf80e",
-            "\uf80f",
-            "\uf810",
-            "\uf811",
-            "\uff18",
-            "\uf812",
-            "\uf813",
-            "\ufb63",
-            "\uf814",
-            "\ufca1",
-            "\ufca2",
-            "\ufca3",
-            "\ufca4",
-            "\ufca5",
-            "\ufca6",
-            "\ufca7",
-            "\ufca8",
-            "\ufca9",
-            "\ufcaa",
-            "\ufcab",
-            "\ufcac",
-            "\ufcad",
-            "\ufcae",
-            "\ufcaf",
-            "\ufcb0",
-            "\ufcb1",
-            "\ufcb2",
-            "\uf817",
-            "\uf818",
-            "\uff19",
-            "\uff1a",
-            "\uf819",
-            "\uf81a",
-            "\ufdfa",
-            "\uf81b",
-            "\ufdfb",
-            "\ufdfc",
-            "\uf81c",
-            "\ufdfd",
-            "\ufd8d",
-            "\ufd8e",
-            "\ufd8f",
-            "\uf81f",
-            "\uf820",
-            "\uf821",
-            "\uf822",
-            "\ufadd",
-            "\uf823",
-            "\uf824",
-            "\uf825",
-            "\uf826",
-            "\uf827",
-            "\uf828",
-            "\uf829",
-            "\uf82c",
-            "\uf82d",
-            "\ufcb3",
-            "\ufcb4",
-            "\uf82e",
-            "\uf82f",
-            "\uf830",
-            "\uf831",
-            "\uff1b",
-            "\uf832",
-            "\uf833",
-            "\uf834",
-            "\uf835",
-            "\uf836",
-            "\uf837",
-            "\ufcb5",
-            "\uf838",
-            "\uf839",
-            "\ufaec",
-            "\ufaed",
-            "\ufaee",
-            "\ufaef",
-            "\ufcb6",
-            "\ufcb7",
-            "\uf83c",
-            "\uf83d",
-            "\uf83e",
-            "\uf83f",
-            "\ufaf0",
-            "\ufaf1",
-            "\uf840",
-            "\uf841",
-            "\ufd15",
-            "\uf842",
-            "\ufaf2",
-            "\ufaf3",
-            "\ufaf4",
-            "\ufaf5",
-            "\ufaf6",
-            "\uf843",
-            "\uf844",
-            "\uf845",
-            "\ufaf7",
-            "\ufaf8",
-            "\uf846",
-            "\uf847",
-            "\uf848",
-            "\uf849",
-            "\uf7d3",
-            "\ufea4",
-            "\uf84a",
-            "\uf84b",
-            "\uf84c",
-            "\ufefd",
-            "\uf84d",
-            "\uf84e",
-            "\uf84f",
-            "\ufaf9",
-            "\ufafa",
-            "\ufafb",
-            "\ufafc",
-            "\ufafd",
-            "\ufbb0",
-            "\ufd9d",
-            "\ufd9e",
-            "\ufd9f",
-            "\ufda0",
-            "\ufda1",
-            "\uf850",
-            "\uf855",
-            "\uf856",
-            "\uf857",
-            "\uf858",
-            "\uf859",
-            "\uf85a",
-            "\uf85b",
-            "\ufafe",
-            "\ufaff",
-            "\uf85c",
-            "\ufb00",
-            "\ufb01",
-            "\uf85d",
-            "\ufd90",
-            "\ufd91",
-            "\uf85e",
-            "\ufd92",
-            "\uf85f",
-            "\uf860",
-            "\uf861",
-            "\ufb02",
-            "\ufb03",
-            "\uf7e5",
-            "\uf7e6",
-            "\ufb04",
-            "\ufb05",
-            "\ufb06",
-            "\ufb07",
-            "\ufb08",
-            "\ufb09",
-            "\ufb0a",
-            "\ufb0b",
-            "\uf862",
-            "\uf802",
-            "\ufd93",
-            "\uf863",
-            "\uf864",
-            "\uf865",
-            "\uf866",
-            "\uff1c",
-            "\ufb64",
-            "\ufb65",
-            "\ufda2",
-            "\uff1d",
-            "\ufb28",
-            "\uf867",
-            "\uff1e",
-            "\ufb0c",
-            "\uf868",
-            "\uf869",
-            "\uf86a",
-            "\uf86b",
-            "\ufb66",
-            "\ufb67",
-            "\ufb68",
-            "\uf86c",
-            "\ufb69",
-            "\ufb6a",
-            "\ufb6b",
-            "\ufb6c",
-            "\ufb6d",
-            "\ufdfe",
-            "\uf86d",
-            "\ufb6e",
-            "\uf86e",
-            "\ufbb1",
-            "\ufe3d",
-            "\uf86f",
-            "\ufda3",
-            "\ufb6f",
-            "\ufda4",
-            "\ufda5",
-            "\ufbb2",
-            "\uf870",
-            "\uf871",
-            "\ufb70",
-            "\uf872",
-            "\ufbb3",
-            "\uf873",
-            "\uf874",
-            "\uf875",
-            "\uf876",
-            "\uf87a",
-            "\uf87b",
-            "\uf87c",
-            "\ufd16",
-            "\uf803",
-            "\uf804",
-            "\uf815",
-            "\ufb0d",
-            "\ufb0e",
-            "\ufd17",
-            "\uf87d",
-            "\uf87e",
-            "\uf87f",
-            "\ufcb8",
-            "\ufcb9",
-            "\ufcba",
-            "\ufcbb",
-            "\ufcbc",
-            "\uf880",
-            "\uf881",
-            "\uf882",
-            "\ufd18",
-            "\uf883",
-            "\uf884",
-            "\uf885",
-            "\uf886",
-            "\uf887",
-            "\uf888",
-            "\ufb0f",
-            "\ufb10",
-            "\ufb11",
-            "\uf889",
-            "\uf88a",
-            "\uf88b",
-            "\uf88c",
-            "\uf88d",
-            "\uf88e",
-            "\uf88f",
-            "\uf890",
-            "\uf891",
-            "\uf892",
-            "\uf893",
-            "\uf894",
-            "\ufb12",
-            "\ufb13",
-            "\ufb14",
-            "\ufb15",
-            "\uf895",
-            "\uf896",
-            "\ufb16",
-            "\uf897",
-            "\ufb17",
-            "\ufb18",
-            "\ufb19",
-            "\ufb1a",
-            "\ufb1b",
-            "\uf898",
-            "\uf899",
-            "\uf89a",
-            "\uf89b",
-            "\uf89c",
-            "\uf89d",
-            "\uf89e",
-            "\uf89f",
-            "\uf8a0",
-            "\uf8a1",
-            "\uf8a2",
-            "\uf8a3",
-            "\uf8a4",
-            "\uf8a5",
-            "\uf8a6",
-            "\uf8a7",
-            "\uf8a8",
-            "\uf8a9",
-            "\uf8aa",
-            "\uf8ab",
-            "\uf8ac",
-            "\uf8ad",
-            "\uf8ae",
-            "\uf8af",
-            "\uf8b0",
-            "\uf8b1",
-            "\uf8b2",
-            "\uf8b3",
-            "\uf8b4",
-            "\uf8b5",
-            "\uf8b6",
-            "\uf8b7",
-            "\uf8b8",
-            "\uf8b9",
-            "\uf8ba",
-            "\ufdff",
-            "\uf8bb",
-            "\ufb1c",
-            "\ufb1d",
-            "\ufb1e",
-            "\ufb1f",
-            "\ufb20",
-            "\ufb21",
-            "\uf8bc",
-            "\uf8bd",
-            "\uf8be",
-            "\uf8bf",
-            "\uf8c2",
-            "\uf8c3",
-            "\uf8c4",
-            "\uf8c5",
-            "\uf8c6",
-            "\uf8c7",
-            "\uf8c8",
-            "\uf8c9",
-            "\uf8ca",
-            "\uf8cb",
-            "\ufefe",
-            "\ufeff",
-            "\uf8cc",
-            "\ufb71",
-            "\uf816",
-            "\uf8cd",
-            "\uf8ce",
-            "\uff1f",
-            "\ufcbd",
-            "\uff20",
-            "\uf8cf",
-            "\uf8d0",
-            "\uf8d1",
-            "\uf81d",
-            "\ufcbe",
-            "\ufcbf",
-            "\uf8d2",
-            "\uf8d3",
-            "\uf8d4",
-            "\ufb23",
-            "\uf8d5",
-            "\ufb24",
-            "\uf8d6",
-            "\uf8d7",
-            "\uf8d8",
-            "\ufb26",
-            "\ufb27",
-            "\uf8d9",
-            "\uf8da",
-            "\uf8db",
-            "\uf8dc",
-            "\uf8dd",
-            "\uf8de",
-            "\uf8df"
-        };
-    }
+
+		public static readonly List<string> All = new List<string>()
+		{
+			"\uf101","\uf102","\uf103","\uf104","\uf105","\ufcc0","\u0213","\ufcc1","\uf107","\uf108","\uf109","\uf10a","\uf10b","\ufcc2","\uf10c","\uf10d","\uf10e","\ufcc3","\uf8e2","\ufea6","\ufea7","\ufd19","\ufd1a","\ufd1b","\ufd1c","\ufd1d","\uf10f","\uf110","\uf111","\uf112","\uf113","\ufb72","\ufb73","\ufb29","\uf114","\uf115","\uf116","\ufda6","\uf117","\uf118","\uf119","\uf11a","\uf11b","\uf11c","\uf11d","\ufb74","\uf11e","\uf11f","\ufe00","\ufe01","\ufe02","\ufe03","\ufe04","\ufe05","\ufe06","\ufe07","\ufe08","\ufe09","\ufe0a","\ufe0b","\ufe0c","\ufe0d","\ufe0e","\ufe0f","\ufe10","\ufe11","\u0105","\u0106","\ufe12","\ufe13","\ufe14","\ufe15","\ufe16","\ufe17","\ufe18","\ufe19","\ufe1a","\ufe1b","\ufe1c","\ufe1d","\u0107","\u0108","\u0109","\u010a","\u010b","\u010c","\u010d","\u010e","\u010f","\u0110","\u0111","\ufe1e","\ufe1f","\ufe20","\ufe21","\ufe22","\ufe23","\uf106","\uf126","\uf127","\uf128","\uff28","\uf120","\uf121","\ufcc4","\ufcc5","\ufcc6","\ufcc7","\ufcc8","\ufcc9","\ufcca","\ufccb","\uf122","\uf123","\uf124","\uf125","\uf12a","\uf12b","\ufda7","\ufb2a","\ufb2b","\uf130","\uf131","\uf132","\uf133","\uf134","\uf135","\ufe3e","\uf136","\uf137","\ufe3f","\uf8e3","\uf138","\u01d4","\u01d5","\uf8e4","\uf139","\uf13a","\uf13b","\uf13c","\u0214","\u0215","\u0216","\uf129","\uff29","\u0048","\uffd6","\uf8e5","\uff21","\uffd7","\uf8e6","\uff22","\u009a","\u009b","\u009c","\u009d","\ufb2c","\ufb2d","\u0120","\u0121","\uf12c","\uf12d","\u0122","\u0123","\u0124","\uf12e","\uf12f","\ufbc7","\ufbc8","\uf143","\uf144","\u009e","\u009f","\u00a0","\u0125","\u0126","\u0127","\u0128","\u0129","\u00a1","\u00a2","\u012a","\ufbc9","\u012b","\u012c","\u012d","\u012e","\ufbca","\ufbcb","\ufbcc","\u012f","\u0130","\u0131","\ufbcd","\uffea","\uff2a","\uf13d","\uf13e","\uffeb","\uffec","\uffed","\uff2b","\uff2c","\u0112","\u0113","\uffee","\uffef","\uf13f","\uf140","\uf8e7","\ufff0","\ufff1","\uff2d","\uff2e","\ufe40","\uf141","\ufe41","\ufe42","\uf142","\uf145","\uf146","\uf8e8","\uf147","\uf148","\uf149","\uf14a","\uf14c","\uf14d","\uf8e9","\ufda8","\uf14b","\uf14f","\uf150","\uf151","\uf152","\u00a3","\ufbce","\ufbcf","\ufb2f","\ufb30","\uf154","\uff2f","\ufbd0","\ufbd1","\u00a4","\uf8ea","\uff30","\uff31","\uf14e","\uf156","\uf157","\uf158","\ufea8","\uf8ed","\uf8ee","\uf8ef","\uf8f0","\uf8f1","\uf8f2","\uf8f3","\uf8f4","\uf8f5","\uf8f6","\uf8f7","\uf8f8","\uf8f9","\uf8fa","\uf8fb","\uf8fc","\uf159","\uf15a","\u00a5","\uf184","\uf15b","\uf15c","\uf15d","\uf189","\uf19e","\uf15e","\uf15f","\uf160","\uf161","\u01d6","\uf162","\uf163","\uf164","\uf165","\uf166","\uf167","\uf168","\uf8fd","\uf169","\u00a6","\uf16a","\uf16b","\u01d7","\uf16c","\uf16d","\u00a7","\uf16e","\uf16f","\uf8fe","\uf8ff","\uf170","\uf171","\uf172","\uf173","\uf174","\uf175","\uf176","\uf177","\uf178","\uf179","\uf17a","\uf17b","\uf17c","\uf17d","\uf17e","\uf17f","\uf180","\uf19f","\uf1a0","\u0217","\u0218","\u00a8","\ufb75","\uf181","\uf182","\uf183","\uf1a2","\uf1a7","\ufff2","\uf185","\uf186","\uf187","\uf188","\uff32","\uff33","\uff34","\uff35","\uf1ab","\uf18a","\uf18b","\uf18c","\uf1ac","\uf81e","\uf82a","\ufff3","\uf1ad","\uf1b3","\uf82b","\uf83a","\ufff4","\ufbd2","\ufda9","\u00a9","\ufdaa","\u00aa","\u00ab","\u00ac","\u00ad","\u00ae","\ufdab","\ufdac","\uf18d","\uf18e","\uf18f","\ufea9","\uf190","\uf191","\uf192","\uf193","\uf194","\uf195","\u00af","\u00b0","\uf196","\uf197","\uf198","\u0132","\u0133","\u0049","\u004a","\u0134","\u0135","\uf83b","\uf851","\ufb76","\uf199","\uf19a","\ufbd3","\ufbd4","\u00b1","\uf1b4","\uf19b","\uf19c","\uf19d","\uf1b8","\uf1b9","\ufb77","\ufb78","\uf1a1","\uf903","\ufdad","\uf1a3","\u01d8","\ufe43","\uf1a4","\uf1a5","\u0114","\u0115","\uf1a6","\ufe44","\uf1a8","\uf1a9","\uf1aa","\uf904","\uf905","\uf906","\ufbd7","\ufbd8","\uf1ae","\uf1af","\uf1b0","\uf908","\uf909","\uf90a","\uf90b","\uf90c","\ufdae","\uf90d","\ufb79","\ufb7a","\ufb7b","\ufb7c","\uf1b1","\uf1b2","\uf1b5","\u0136","\uf90e","\uf1b6","\uf1b7","\uf1ba","\uf1e4","\uf1bb","\uf1bc","\uf1bd","\uf1be","\uf1bf","\uf1c0","\uf1c1","\uf1c2","\uf1c3","\uf1c4","\uf1c5","\uf1c6","\uf1c7","\uf1c8","\uf1c9","\uf1ca","\uf1cb","\uf1cc","\uf1cd","\uf1ce","\uf1cf","\uf1d0","\ufff5","\uf1d1","\uf1d2","\uf1d3","\uf1d4","\uf1d5","\ufd1e","\ufd1f","\ufd20","\ufd21","\uf1d6","\uf1d7","\uf1d8","\uf1e5","\uf1e6","\uf90f","\uf1d9","\uf1da","\u00b2","\uff36","\uff37","\uf1db","\uf1dc","\uf1dd","\uf1de","\uf1df","\uf910","\uf1e0","\uf1e1","\uf1e2","\uf911","\uf912","\uf913","\uf914","\ufe45","\ufe46","\uf1e3","\ufe47","\ufe48","\ufe49","\ufe4a","\ufe4b","\ufe4c","\uf915","\uf916","\uf917","\uf918","\uf919","\uf91a","\uf91b","\ufccc","\ufccd","\ufcce","\ufdaf","\uf91c","\uf91d","\uf1f0","\uf91e","\uf91f","\uf1f1","\uf1f2","\uf1f3","\ufff6","\uf920","\uf921","\ufeaa","\ufeab","\ufeac","\ufccf","\uf922","\ufead","\ufeae","\ufeaf","\ufeb0","\ufeb1","\uf923","\uf924","\uf852","\uf925","\uf926","\uf927","\uf1e7","\uff38","\uf1f4","\uf1f5","\uf1f6","\uf1f7","\ufdb0","\uf1e8","\uf1e9","\ufb31","\ufdb1","\uf1f8","\u0259","\u025a","\ufbd9","\u00b3","\u00b4","\uf928","\uf929","\uf92a","\uf92b","\uf92c","\uf92e","\uf92f","\uf930","\uf931","\uf932","\uf933","\uf934","\ufb7d","\uf1f9","\ufd94","\uf1fa","\uf1ea","\uf1eb","\uf1ec","\uf1ed","\uff39","\u0219","\u021a","\u021b","\u021c","\u01d9","\u01da","\u01db","\u01dc","\u00b5","\uff3a","\uff3b","\uf1ee","\uf853","\uf1fb","\ufdb2","\ufdb3","\ufdb4","\ufdb5","\ufdb6","\ufdb7","\ufbb4","\uf935","\uff3c","\uf1fc","\uf1fd","\ufb32","\uf936","\ufb33","\uff3d","\uf1ef","\ufbda","\ufbdb","\ufeb2","\ufeb3","\ufeb4","\ufeb5","\ufeb6","\ufeb7","\ufff7","\ufff8","\uf200","\uf1fe","\uf201","\uf202","\uf939","\uf93a","\uf93b","\ufd22","\ufb34","\uf205","\uf93c","\uf93d","\uf93e","\ufeb8","\ufeb9","\ufeba","\ufebb","\ufebc","\ufebd","\ufebe","\uf1ff","\uf854","\u025b","\u025c","\ufbdc","\u025d","\u025e","\u025f","\uf93f","\uf940","\u00b6","\uf941","\uff3e","\uf209","\uff3f","\uff40","\uff41","\uff42","\uff43","\uff44","\uf942","\uf943","\uf944","\uf945","\uf946","\uf947","\uf20a","\ufe24","\uff45","\uff46","\uff47","\uf20e","\uf20f","\uf210","\uf211","\uf212","\uf213","\uf214","\uf215","\ufbdd","\uff48","\uf216","\u00b7","\uf217","\uf218","\uf948","\uf219","\uf21a","\u0260","\u0261","\uf21b","\uf21c","\uf8e1","\uf877","\uf949","\uf21d","\uf21e","\uff49","\uf222","\uf223","\uf224","\ufd23","\ufd24","\ufd25","\uf225","\uf226","\uf227","\uf228","\ufe4d","\u004b","\uf203","\uff4a","\ufe4e","\ufdb8","\ufd26","\ufd27","\ufd28","\ufdb9","\ufebf","\uf94a","\uf22a","\uf22b","\uf22c","\uf204","\uf22d","\uf22e","\ufe4f","\ufff9","\uf206","\ufffa","\uf230","\uf94b","\ufffb","\ufffc","\uf94c","\uf94d","\uf94e","\uf231","\uf232","\uf233","\uf234","\ufec0","\ufec1","\ufd29","\ufd2a","\ufd2b","\ufdba","\uf878","\ufffd","\uff4b","\uf235","\ufffe","\uf236","\uf237","\uf238","\uf239","\uf23a","\uf23b","\uf23c","\uf23d","\uf23e","\u0262","\u0263","\uf23f","\uf240","\uf241","\uf242","\uf243","\uf244","\uf245","\u0137","\ufbde","\ufbdf","\ufbe0","\ufbe1","\ufdbb","\u0184","\uf246","\uf207","\uff4c","\ufb7e","\uf208","\uf20b","\uff4d","\uf247","\uf248","\uf249","\ufb7f","\uf954","\uf955","\uf24a","\uf956","\uf957","\uf24b","\uf958","\uf24c","\uf959","\uf95a","\uf24d","\ufbe2","\uf24e","\uf95b","\uf95c","\uf24f","\uf95d","\uf250","\uf95e","\uf95f","\uf960","\uf961","\uf251","\uf962","\uf879","\uf963","\uf20c","\uf20d","\ufbe3","\ufbe4","\ufbe5","\ufbe6","\ufbe7","\ufb80","\uf252","\uf253","\ufcd0","\ufdbc","\ufcd1","\ufe25","\uf254","\uf255","\uf256","\uf257","\uf258","\uf259","\uff4e","\uff4f","\uff50","\uff51","\uff52","\uf964","\ufb81","\u0264","\uf25a","\uf25b","\uf25c","\uf25d","\uf25e","\uf25f","\uf260","\uf261","\uf262","\ufbeb","\uf263","\uf264","\uf265","\uf266","\uf267","\uf268","\uf269","\uf26a","\uf965","\uf966","\uf967","\uf968","\uf969","\uf96a","\uf26b","\uf26c","\uf26d","\uf26e","\uf26f","\uf270","\ufcd2","\uf271","\uf272","\uf273","\uf274","\uf275","\uf276","\uf277","\uf278","\uf279","\uf27a","\ufbec","\ufbed","\u004c","\u0116","\ufbee","\u00b8","\ufbef","\uf27e","\uf27f","\uf280","\uf281","\uf282","\uf96d","\uf96e","\uf96f","\uf970","\uf971","\uf972","\uf973","\uf974","\uf975","\uf976","\uf977","\uf978","\uf979","\uf97a","\uf97b","\uf97c","\uf97d","\uf97e","\uf97f","\uf980","\uf981","\uf982","\ufbb9","\ufbba","\ufbbb","\ufbbc","\ufbbd","\ufbbe","\u0138","\u0139","\u013a","\u013b","\u013c","\ufd95","\ufd96","\ufd97","\ufd98","\uff53","\uf983","\uf286","\uf287","\uf288","\ufdbd","\ufb35","\uffff","\u0001","\u0002","\uf8c0","\ufb82","\uf289","\u00b9","\uf220","\uf28a","\ufb83","\uf8c1","\uf8e0","\uf8eb","\ufb84","\uf28b","\uf221","\uf229","\u01dd","\u01de","\u00ba","\uf28c","\uf27b","\u0003","\ufcd3","\ufcd4","\ufcd5","\uf27c","\uf28d","\uf28e","\uf27d","\u0004","\u00bb","\u00bc","\u00bd","\ufcd6","\uf28f","\uf290","\uf291","\uf292","\ufcd7","\uf293","\uf984","\uf294","\uf295","\uf296","\uf8ec","\ufb85","\ufea5","\uf297","\uf298","\uf299","\uf900","\uf29a","\uf29b","\uf29c","\uf29d","\uf29e","\uf283","\u02ab","\u02ac","\uf29f","\uf2a0","\ufbf0","\u00be","\ufbf1","\uf284","\uff54","\uf285","\uff55","\uf2a7","\uff56","\ufec2","\ufec3","\uf2a1","\uf2a2","\uf2a3","\uf2a4","\uf2a5","\uf2a6","\uf2a8","\uf2a9","\uf2aa","\uf2ab","\uf2ac","\uf2ad","\uf2ae","\uf2af","\uf2b0","\uf2b1","\uf2b2","\uf2b3","\uf2b4","\uf2b5","\uf2b6","\uf2b7","\uf2b8","\uf2b9","\u0005","\ufe50","\ufe51","\ufe52","\uf2ba","\uf2bb","\uf2bc","\u01df","\ufcd8","\ufe53","\uf30a","\uf2bd","\uf2be","\ufe54","\uf2bf","\u00bf","\ufd2c","\uf2c0","\uf2c1","\uf2c2","\uf2c3","\uf2c4","\uf2c5","\uf2c6","\uf2c7","\u021d","\u021e","\uf2c8","\ufd2d","\uf2c9","\uf2ca","\ufd2e","\ufd2f","\ufd30","\uf92d","\uff57","\uf937","\uff58","\uff59","\uff5a","\u021f","\u0220","\uf2cb","\uf2cc","\uf2cd","\ufdbe","\uff5b","\uff5c","\uf30b","\uff5d","\ufbf2","\uf2ce","\uf2cf","\uf2d0","\uf2d1","\uf2d2","\uf2d3","\uf2d4","\uf986","\uf2d5","\uf2d6","\uf322","\u00c0","\uf2d7","\uf2d8","\uf32d","\u013d","\uff5e","\uff5f","\uff60","\uff61","\uff62","\uff63","\uffd8","\uffd9","\ufd31","\ufd32","\ufd33","\ufd34","\uf2db","\uf2dc","\uf2dd","\uf2de","\uf2df","\ufcd9","\uf2e0","\uff64","\uf2e1","\uf2e2","\ufdbf","\uf32e","\u00c1","\uf987","\uf988","\uf989","\uf2e3","\uf98a","\u0185","\uf98b","\ufe55","\ufe56","\ufe57","\ufe58","\ufe59","\ufcda","\uf2e4","\uf2e5","\ufec4","\ufcdb","\uf2e6","\u013e","\u013f","\u0221","\u0222","\u0223","\u0224","\u004d","\u004e","\u004f","\u0050","\u0051","\u0052","\u0053","\u0054","\u0055","\u0056","\u0057","\u0058","\u0059","\u005a","\u005b","\u005c","\u005d","\u005e","\u005f","\u0060","\u0061","\u0062","\u0063","\u0064","\uf330","\uff66","\uf337","\u00c2","\uf338","\uff67","\ufeca","\ufecb","\uf2ea","\ufecc","\ufecd","\uf2eb","\u00c3","\u00c4","\ufece","\ufb86","\ufecf","\ufed0","\ufed1","\ufed2","\u0140","\u0141","\u0142","\u0143","\u0144","\u0145","\uf339","\uf2ef","\uf2f0","\u00c5","\uf2f1","\uf2f2","\uf2f3","\uf2f4","\uff68","\uf2f5","\uf2f6","\uf2f7","\uf2f8","\uf2f9","\uf2fa","\uf98e","\uf2fb","\uf2fc","\u0146","\uf938","\uf94f","\uff69","\uf2fd","\uff6a","\uff6b","\uffda","\uf98f","\uf2fe","\uf2ff","\uf300","\uf990","\uf991","\uf992","\uf993","\uf994","\uf301","\uf995","\uf996","\uf997","\uf998","\uf999","\ufbf3","\uf99a","\uf99b","\uf99c","\uf99d","\uf99e","\ufbf4","\uf99f","\uf9a0","\uf9a1","\uf9a2","\uf9a3","\uf9a4","\uf9a5","\uf9a6","\ufbf5","\uf9a7","\uf9a8","\uf350","\uff6c","\uf351","\uf361","\uf303","\uf304","\uf305","\uf306","\uf307","\uf308","\u00c6","\u0265","\u00c7","\u00c8","\u00c9","\u00ca","\u0266","\u0267","\u0268","\u0269","\u026a","\ufcdc","\uf9a9","\uf9aa","\uf9ab","\uf9ac","\uf9ad","\uf30c","\uf30d","\uf30e","\uff6d","\uff6e","\uf30f","\uf310","\uf311","\uf312","\ufbf6","\ufbf7","\uf313","\uf314","\uf315","\uf316","\uf317","\uf318","\uf319","\uf31a","\uf31b","\uf31c","\uf31d","\uf31e","\uf362","\uf31f","\uf320","\uf950","\uf951","\uf952","\uf9ae","\uf9af","\uf321","\uf9b0","\uf9b1","\uf363","\uff6f","\u026b","\u026c","\u026d","\u026e","\u026f","\u0270","\uf323","\uf324","\uf325","\ufcdd","\ufb87","\ufdc0","\ufbb5","\uf364","\uf373","\uf374","\uf375","\uf37b","\uf397","\u0147","\u0148","\uf9b2","\u0085","\uf328","\uf329","\uf32a","\uf32b","\uf32c","\uf9b3","\ufbf8","\ufbf9","\uf9b4","\uf9b5","\uf9b6","\u0149","\u014a","\uf398","\u014b","\uf9b7","\uf331","\uf332","\uf333","\u00cb","\uf334","\uf335","\uf336","\u014c","\ufb88","\ufd37","\ufbfa","\ufbfb","\ufbfc","\uf9b8","\uf9b9","\uf9ba","\uf9bb","\uf9bc","\u0008","\u0009","\uf9bd","\uf9be","\uf9bf","\uf9c0","\uf9c1","\uf9c2","\uf9c3","\uf9c4","\uf9c5","\uf9c6","\uf9c7","\uf33a","\uf33b","\uf33c","\uf33d","\uf39b","\uf33e","\uf33f","\uf340","\uf9c8","\uf341","\uf342","\ufb89","\uf343","\uf344","\uf345","\uf346","\uf347","\uf348","\uff70","\uff71","\uff72","\uf9c9","\uf349","\uf3b2","\uff73","\uf34a","\uf34b","\uff74","\uff75","\u01e0","\u01e1","\u0271","\u0272","\uff76","\uff77","\uf9ca","\uf9cb","\uf9cc","\uf34c","\uf34d","\uf34e","\uf34f","\uff78","\ufbfd","\ufbfe","\u014d","\uf352","\uf353","\uf9cd","\uf9ce","\uf9cf","\uf354","\uf9d0","\uf9d1","\uf355","\uf356","\uf357","\uf358","\uf359","\uf35a","\uf35b","\ufdc1","\ufb38","\ufb39","\ufb3a","\uff79","\u0186","\u0187","\u0188","\u0189","\ufcde","\ufcdf","\ufe5c","\ufe5d","\ufe5e","\ufe5f","\ufe60","\ufe61","\ufb3b","\ufb3c","\ufb3d","\ufb3e","\uf3b3","\ufe62","\uf35c","\u00cc","\uf35d","\uf3b4","\ufb8a","\uf3b5","\uf3b6","\uf3b7","\uf3bc","\uf3bd","\ufb8b","\uf3c2","\uf3cd","\uf3ec","\uf3ed","\uf953","\uf35e","\uf35f","\u014e","\u014f","\u0150","\uf360","\u01e2","\u000a","\uf365","\uf366","\uf367","\uf368","\uf369","\uf36a","\uf36b","\uf3f2","\uf3ff","\uff7a","\uf36c","\uf36d","\uf36e","\uf9d2","\uf96b","\uf36f","\ufed7","\ufe63","\ufdc2","\u0151","\u0152","\u0153","\u0154","\uf370","\uff7b","\u000b","\uf371","\uf372","\uf376","\uf9da","\uf9db","\uf9dc","\uf377","\uf9dd","\uf9de","\uf9df","\uf378","\uf379","\uf37a","\ufdc3","\uf9e0","\uf9e1","\uf9e2","\uf9e3","\uf9e4","\uf9e5","\uf96c","\uff7d","\uf9e6","\uf9e7","\uf9e8","\uf9e9","\uf9ea","\u00cd","\ufce0","\uf400","\u000c","\uf37c","\uf37d","\uf401","\uf402","\uf985","\uf9d3","\uf9d4","\uf9eb","\uf9ec","\uf37e","\ufce1","\u00ce","\uf37f","\uf380","\uf381","\uf382","\u00cf","\u000d","\uf383","\uf384","\uf385","\uf386","\uf387","\uf388","\uf389","\uf38a","\uf38b","\uf38c","\u0273","\u0274","\ufed8","\uf38d","\ufed9","\uf38e","\ufeda","\uf38f","\ufedb","\ufedc","\ufedd","\uf390","\uf391","\uff7e","\uff7f","\uff80","\uff81","\u00d0","\uf393","\uf394","\uf9ed","\uf9ee","\uf9ef","\u000e","\uf403","\uf404","\uf395","\uf396","\uf9d5","\uff82","\u0117","\u00d1","\u0118","\uff83","\uff84","\uf399","\uf39a","\uf39c","\uf39d","\uf39e","\uf39f","\uf3a0","\uf3a1","\uf9f0","\uf3a2","\uf3a3","\uf3a4","\uf3a5","\uf3a6","\uf3a7","\uf3a8","\uf3a9","\uf3aa","\uf3ab","\uf3ac","\uf3ad","\ufdc4","\u00d2","\u00d3","\uf425","\u000f","\uf9d6","\uf9d7","\ufc09","\ufc0a","\ufd38","\ufd39","\ufd3a","\ufede","\ufedf","\ufee0","\ufee1","\ufee2","\ufee3","\uf9d8","\uf9d9","\uff85","\uf3ae","\uf3af","\uf426","\u00d4","\u00d5","\u00d6","\uf427","\uf428","\u00d7","\u00d8","\ufc0b","\u0119","\u011a","\u011b","\u0225","\u0226","\u0227","\u0228","\u0275","\u0276","\u01e3","\u01e4","\u0229","\u022a","\u0277","\u0278","\u01e5","\u01e6","\uf3b0","\uf3b1","\uf3b8","\uf3b9","\ufa06","\uff86","\ufee4","\ufd3b","\ufe64","\u00d9","\u00da","\ufbb6","\uf3ba","\uf3bb","\uf3be","\uf3bf","\uf3c0","\uf3c1","\ufb8c","\ufb8d","\uf9f1","\uf9f2","\uf3c3","\uf9f3","\uf3c4","\uf3c5","\uf9f4","\uf9f5","\uf3c6","\ufc0c","\uf9f6","\uf9f7","\uf3c7","\ufee5","\ufd3c","\ufd3d","\ufd3e","\ufd3f","\ufd40","\ufd41","\u00db","\uf3c8","\uf3c9","\uf3ca","\ufa07","\uf3cb","\ufa08","\uf3cc","\ufce2","\uf3ce","\ufc0d","\uf3cf","\uf3d0","\uf3d1","\uf3d2","\uf9f8","\ufce3","\uf3d3","\uf3d4","\uf3d5","\uf3d6","\uf3d7","\ufd42","\ufd43","\ufd44","\ufd45","\uf3d8","\uf3d9","\uf3da","\uf3db","\uf3dc","\uf3dd","\uf9f9","\uf42d","\u0010","\uf9fa","\ufd46","\uf9fb","\uf9fc","\uf3de","\uf3df","\uf3e0","\uf9fd","\ufb3f","\uf3e1","\uf3e2","\uf3e3","\ufe65","\uf9fe","\uf9ff","\uff87","\uf3e4","\uf3e5","\uf3e6","\uf3e7","\ufa18","\ufa47","\u0011","\uf3e8","\uf3e9","\uf3ea","\uf3eb","\ufee6","\uf42e","\uff88","\ufa00","\ufa01","\ufa02","\ufa03","\ufa04","\uf3ee","\ufa05","\uf3ef","\uf3f0","\uf3f1","\uf42f","\uff89","\uf430","\uf435","\uf436","\uf437","\uf44f","\uf450","\uf453","\uf454","\uf471","\uf49c","\uf49d","\uf49e","\uf3f3","\uf3f6","\uf3f7","\uff8a","\uf3f8","\uf3f9","\uf3fa","\uf3fb","\ufa09","\ufa0a","\ufa0b","\ufc0e","\ufc0f","\ufc10","\ufd47","\ufd48","\ufa0c","\ufa0d","\ufa0e","\ufa0f","\uf3fc","\u0279","\uf3fd","\uf3fe","\u027a","\uf4b8","\uff8b","\ufe66","\uf405","\uf406","\uf407","\uff8c","\uff8d","\ufce4","\ufce5","\uf408","\ufa10","\ufa11","\uf409","\uf40a","\uf40b","\uf40c","\uf40d","\ufd49","\ufd4a","\uf40e","\uf40f","\uf410","\uf411","\uf412","\uf413","\uf414","\uf415","\ufe67","\ufe68","\uf416","\ufe69","\ufe6a","\ufe6b","\ufe6c","\uf417","\uf418","\uf419","\u022b","\u022c","\uff8e","\uff8f","\uf41a","\uf41b","\ufa12","\ufa13","\uf4b9","\uff90","\u027b","\u027c","\u027d","\u027e","\ufc11","\ufa14","\ufa15","\uff91","\ufa16","\ufa17","\ufce6","\uf41c","\uf41d","\uf41e","\ufce7","\uf41f","\uff92","\uf420","\uf421","\uf422","\uf423","\ufc12","\ufc13","\ufc14","\ufc15","\ufc16","\ufb8e","\ufb8f","\ufb90","\ufb91","\ufc17","\uf424","\uf4bb","\uff93","\uf429","\uf42a","\uf42b","\uf42c","\ufee7","\uff94","\uf431","\uf432","\uf433","\uf434","\uf4d0","\uff95","\ufe6d","\ufc18","\ufc19","\ufc1a","\ufc1b","\ufc1c","\ufc1d","\ufc1e","\ufee8","\uff96","\u027f","\uf438","\uf439","\uf43a","\uf43b","\uf43c","\uf43d","\uf43e","\uf43f","\uf440","\uf441","\uf442","\uf443","\uf444","\uf445","\uf446","\uff97","\uf447","\uf448","\u0155","\uff98","\ufb40","\uf449","\ufa19","\ufa1a","\uf44a","\ufdc5","\ufdc6","\ufa1b","\ufa1c","\uf44b","\uf44c","\uf44d","\uf44e","\ufd4b","\ufd4c","\ufd4d","\uf451","\ufb93","\ufb94","\ufb95","\ufb96","\ufb97","\ufb98","\ufb99","\ufb9a","\ufb9b","\ufb9c","\uf452","\uff99","\uff9a","\ufc1f","\ufc20","\u022d","\u022e","\uf455","\u022f","\u0230","\u0231","\ufa48","\ufa49","\ufee9","\ufeea","\uf4d1","\uf4d2","\ufa1d","\ufa1e","\uf456","\uff9b","\uf457","\uf458","\uff9c","\uf459","\uf45a","\uf4d7","\uf4d8","\uf4d9","\ufa4a","\u00dc","\uf45b","\u011c","\u00dd","\ufa1f","\ufa20","\uf45c","\ufa21","\ufa22","\ufa23","\ufa24","\uf45d","\ufa25","\ufa26","\ufa27","\uf45e","\uf45f","\ufdc7","\uf460","\u0013","\u0014","\uf461","\uf462","\uf4e6","\uf463","\ufce8","\u0156","\u0157","\uf464","\u01e7","\u01e8","\uf4f5","\uff9d","\uff9e","\uff9f","\uf507","\uf465","\u0158","\u0159","\u015a","\ufe6e","\uf466","\uf467","\uf468","\u0065","\u0066","\u0067","\ufb41","\uf469","\uf46a","\ufe26","\uf46b","\ufe27","\u015b","\u015c","\u015d","\u015e","\uf46c","\uf46d","\uf46e","\uf46f","\uf470","\ufd4e","\ufd4f","\ufd50","\ufd51","\ufa58","\u0232","\ufe28","\ufa28","\ufe29","\ufe2a","\ufe2b","\ufb42","\ufa29","\ufa2a","\ufb43","\uf472","\uf473","\uf474","\u015f","\ufa2b","\ufa2c","\ufa2d","\ufa2e","\ufa2f","\ufa30","\uf475","\ufe6f","\uf476","\uf477","\ufe70","\ufe71","\ufe72","\ufe73","\ufe74","\ufe75","\ufe76","\ufa31","\ufa32","\uf478","\uf479","\ufdc8","\ufa33","\uf508","\uf509","\uf47a","\uf47b","\u018a","\uf47c","\uf47d","\uf47e","\uf50a","\uf50b","\uffa0","\u0280","\u0281","\u0282","\ufdc9","\ufa34","\ufa35","\uf47f","\uf480","\uf481","\uf482","\uf483","\uf484","\u00de","\uffa1","\uf485","\uf486","\ufe2c","\ufa36","\uf487","\uf488","\uf489","\ufa37","\ufa38","\uf48a","\ufe77","\ufe78","\uf48b","\ufb9e","\ufce9","\uf48c","\uf48d","\uf48e","\uf48f","\uf490","\uf491","\uf492","\uf493","\u018b","\uf494","\uf495","\ufa59","\ufa39","\ufa5a","\uf496","\uf497","\uf498","\uf499","\uf49a","\uf49b","\ufcea","\ufa5b","\ufc21","\ufc22","\ufc23","\ufb9f","\uf49f","\uffa2","\uffa3","\ufa5c","\uf4a0","\uf4a1","\ufa5d","\u0015","\uf4a2","\uf4a3","\uf4a4","\uf4a5","\uf4a6","\uf4a7","\uf4a8","\uffa4","\uf4a9","\uf4aa","\uf4ab","\uf4ac","\ufa3a","\ufe79","\ufe7a","\uf4ad","\uf4ae","\uf4af","\ufceb","\uf4b0","\uf4b1","\uf4b2","\u018c","\uf4b3","\uf4b4","\uf4b5","\uf4b6","\uf4b7","\u0068","\u0069","\uf4bc","\uffa5","\uffa6","\uf4bd","\uf4be","\uf4bf","\ufcec","\uf4c0","\uf4c1","\ufced","\ufd52","\ufa3b","\u00df","\uf4c2","\uf4c3","\uf4c4","\uf4c5","\uf4c6","\uf4c7","\uf4c8","\ufe2d","\ufe2e","\uf4c9","\uf4ca","\uf4cb","\uf4cc","\uf4cd","\uf4ce","\uf4cf","\uf50f","\u00e0","\ufba0","\uf4d3","\u0233","\uf4d4","\uf4d5","\uf4d6","\ufc24","\ufc25","\ufc26","\ufba1","\ufba2","\ufba3","\uf4da","\uf4db","\uf4dc","\ufb44","\ufb45","\ufe7b","\ufe7c","\uf4dd","\uf4de","\uf4df","\uf4e0","\uf4e1","\uf4e2","\uf4e3","\uf4e4","\uf4e5","\uf4e7","\uf4e8","\uf4e9","\u01e9","\u01ea","\uf4ea","\uf4eb","\uf4ec","\ufa3c","\ufcee","\uf4ed","\uf4ee","\uf4ef","\uf4f0","\uf4f1","\u0017","\ufc27","\u00e1","\uf4f2","\uf4f3","\uf4f4","\ufa3d","\ufa3e","\ufe2f","\uf4f6","\ufe7d","\uf4f7","\uf4f8","\uf4f9","\uf4fa","\uf4fb","\ufb46","\ufb47","\uf4fc","\uf4fd","\uf4fe","\uf4ff","\ufa61","\uf500","\uf501","\uf502","\uf503","\uf504","\ufa3f","\ufe7e","\ufe7f","\ufe80","\ufc28","\uf505","\uf506","\ufa40","\ufa41","\ufa42","\ufa43","\ufa44","\ufc29","\ufc2a","\ufc2b","\ufc2c","\u0160","\ufa45","\u0018","\ufc2d","\ufc2e","\ufc2f","\uf50c","\uf50d","\uf50e","\ufa46","\u0019","\u001a","\ufbb7","\u018d","\ufa4b","\uf510","\uf511","\uf512","\uf513","\uf517","\uf529","\uf514","\uf52a","\uf534","\uf535","\uf518","\uf519","\ufa62","\u001b","\uf536","\u001c","\ufa63","\u001d","\uf537","\uf555","\ufa64","\u001e","\uf556","\u001f","\uf55b","\uf51a","\uf55c","\uf51b","\uf51c","\ufeec","\uf55d","\uf55e","\u0020","\uf55f","\uf567","\uf51d","\uf51e","\uf51f","\uf520","\uf521","\uf522","\uf523","\uf524","\ufc30","\uf568","\u0021","\ufc31","\ufc32","\ufc33","\ufe30","\ufe31","\ufe32","\ufe81","\uf525","\uf526","\uf527","\uf528","\uf58f","\uf596","\u006a","\u006b","\u006c","\ufc34","\uffa7","\uf5b0","\u0022","\ufeed","\uf5d5","\uf5ec","\ufa4c","\uf52b","\uf52c","\uf52d","\uf52e","\uf5ed","\u0023","\uf5f2","\u0024","\uffa8","\uf5f3","\uf5f7","\uf52f","\uf530","\uf531","\uf532","\uf533","\uf5f8","\ufe82","\uf538","\uf539","\uf53a","\uf53b","\uf53c","\ufa4d","\ufa4e","\ufcef","\ufa4f","\ufcf0","\ufa50","\ufa52","\ufa53","\ufa54","\uf53e","\uf53f","\uf600","\uf601","\uf63b","\uf540","\uf541","\uf542","\uf543","\uf655","\u0283","\uf544","\uf545","\uf546","\uf547","\uf548","\uf549","\uf54a","\ufa55","\uf54b","\uf54c","\ufa56","\uf54d","\uf54e","\uf54f","\uf550","\ufd53","\uf551","\ufd9a","\ufb48","\ufa57","\ufd9b","\ufd9c","\uf552","\ufeee","\ufeef","\ufef0","\ufba4","\uf656","\uf659","\uf553","\uf554","\uf557","\uf65a","\uf663","\uf664","\uf667","\uf668","\uf669","\uf558","\uf559","\uf55a","\u0161","\u0162","\u0234","\u0235","\u0236","\u0237","\u0163","\ufa5e","\u018e","\ufc35","\ufc36","\ufc37","\ufc38","\ufa7e","\ufc39","\ufd54","\uf560","\uf561","\uf562","\ufa8a","\uf563","\ufa5f","\ufa60","\uf564","\ufdca","\ufdcb","\ufdcc","\ufdcd","\ufdce","\ufdcf","\ufdd0","\ufdd1","\ufdd2","\ufdd3","\ufdd4","\ufdd5","\ufdd6","\ufdd7","\ufdd8","\ufdd9","\ufdda","\ufddb","\ufddc","\ufddd","\ufdde","\ufddf","\ufde0","\ufde1","\ufde2","\ufe83","\ufe84","\ufe85","\ufe86","\ufe87","\ufa97","\uf565","\uf566","\u0025","\uff23","\ufc3a","\ufc3b","\ufc3c","\ufe33","\ufc3d","\ufe88","\ufe34","\ufde3","\ufde4","\uf569","\uffa9","\uf56b","\ufa65","\uf56c","\uf56d","\uf56e","\uffaa","\uf56f","\uf570","\uf571","\uf572","\uf573","\uf574","\uf66d","\uf575","\uf576","\u0238","\u0239","\uf577","\uf578","\uf579","\uffab","\uffac","\uf66e","\u0026","\uf57a","\ufcf1","\uf57b","\uf57c","\uf57d","\ufb49","\uf57e","\ufcf2","\ufba5","\ufcf3","\uf57f","\ufe89","\uf66f","\uf580","\uf581","\uf582","\ufde5","\uf670","\uffad","\ufef1","\ufef2","\uf583","\uf584","\uf585","\uf586","\uf587","\uf588","\u01eb","\u018f","\u01ec","\ufa66","\ufe35","\ufe36","\uf58b","\uf58c","\uf58d","\ufa67","\uf671","\ufa68","\ufa69","\ufa6a","\uf58e","\ufa6b","\ufa6c","\ufa6d","\ufa6e","\ufa6f","\ufa70","\ufa71","\uf590","\uf591","\uf592","\u0164","\ufe8a","\ufa98","\uf593","\uf594","\uf595","\ufa99","\ufab0","\ufcf4","\ufab2","\u01ed","\uf68b","\uf68c","\uf69e","\uf6a7","\uf6a8","\uf6a9","\uf6bd","\uf6c2","\uf597","\uf598","\uf599","\uf59a","\uf59b","\uf59c","\uf59d","\ufa72","\ufa73","\uf59e","\uf59f","\uf5a0","\uf5a1","\u006d","\u00e2","\u00e3","\u006e","\u006f","\u0070","\u0071","\u0072","\u011d","\u00e4","\u0073","\u0074","\u0075","\u0076","\u0077","\u0078","\u0079","\u007a","\u007b","\u007c","\u007d","\u00e5","\u00e6","\u00e7","\uf5a8","\uf6c3","\uf6c4","\uf5a9","\ufde6","\ufa74","\uf5aa","\uf5ab","\uf5ac","\uf5ad","\uf6c5","\u0027","\u00e8","\u0165","\ufa75","\uf5ae","\uf5af","\ufa76","\u01ee","\uf5b1","\uf5b2","\uf5b3","\uf5b4","\ufcf5","\uf5b5","\uf5b6","\uf5b7","\ufb4a","\uf5b8","\ufb4b","\ufb4c","\u0028","\ufd55","\ufd56","\uf5b9","\uf5ba","\uf5bb","\uf5bc","\ufe8b","\uf5bd","\ufe8c","\ufbb8","\ufbbf","\ufbc0","\ufbc1","\ufab3","\uffaf","\u0284","\u0285","\ufadc","\ufade","\ufa77","\uf5be","\uf5bf","\uf5c0","\uffb0","\ufa78","\ufa79","\ufa7a","\ufa7b","\uf6c6","\u0029","\uf5c1","\uf5c2","\uf5c3","\uf5c4","\ufde7","\ufa7c","\ufa7d","\ufc3e","\uffb1","\uffb2","\uf6d3","\u002a","\uf5c5","\uf5c6","\uf5c7","\uf5c8","\uf5c9","\ufe37","\uf5ca","\ufe38","\ufe8d","\uf5cb","\ufe8e","\uf5cc","\uf5cd","\ufe8f","\uf5ce","\uf5cf","\uf5d0","\uf5d1","\uf5d2","\uf5d3","\ufa7f","\uf5d4","\uf5d6","\uf5d7","\uf5d8","\ufb4d","\ufb4e","\uf5d9","\uf6d4","\uf6da","\uf6dc","\u00e9","\ufba6","\u0286","\ufa80","\ufa81","\ufa82","\uf5da","\ufa83","\uf5db","\uffb3","\uf5dc","\uf5dd","\uf6df","\u00ea","\u023a","\u023b","\uf6e1","\uf6e2","\u0166","\ufa84","\ufa85","\ufa86","\ufa87","\ufa88","\uffb4","\uffb5","\u0167","\ufcf6","\ufadf","\ufae0","\ufe90","\uf5de","\ufa89","\ufe91","\uf5df","\uf5e0","\uf5e1","\ufae1","\u002b","\uf6f6","\uf5e2","\uf5e3","\uf5e4","\uf5e5","\uf5e6","\uf5e7","\uf5e8","\uf5e9","\u00eb","\uf6f7","\uf5ea","\uf5eb","\ufc3f","\ufc40","\ufc41","\uf6f8","\u002c","\uf5ee","\uf5ef","\uf5f0","\uf5f1","\ufb4f","\ufc42","\uffb6","\ufcf7","\uf5f4","\uf5f5","\ufcf8","\uf5f6","\ufc43","\uf5f9","\uf5fa","\uf5fb","\uf5fc","\ufc44","\ufc45","\ufc46","\ufc47","\ufc48","\ufc49","\ufc4a","\ufc4b","\ufcf9","\uf5fd","\uf5fe","\uf5ff","\uf602","\u0287","\u0288","\uf603","\uf604","\uf605","\ufcfa","\uf606","\uf607","\uf608","\u023c","\u023d","\u023e","\u023f","\u0240","\u0241","\uf6f9","\uf6fa","\uf6fb","\uf6fc","\uf609","\uf60a","\uf60b","\uf60c","\ufe92","\ufe93","\ufe94","\ufef3","\uf60d","\uf60e","\ufef4","\ufae2","\ufae3","\ufae4","\u002d","\uf60f","\uf610","\u002e","\u002f","\uf611","\ufd57","\ufd58","\uf612","\ufd59","\u01ef","\u0242","\u0289","\uf613","\uf614","\uf615","\uf616","\u0190","\ufa8b","\uf617","\uffb7","\uffb8","\uffb9","\uffba","\ufc4c","\ufc4d","\ufc4e","\ufc4f","\ufc50","\ufc51","\ufc52","\ufc53","\uf618","\uf619","\uf61a","\uf61b","\uf61c","\uf61d","\uf61e","\uf61f","\ufcfb","\ufe95","\ufe96","\uf620","\uf621","\uf622","\uf623","\uf624","\uf625","\uf626","\uf629","\uf62a","\uf62b","\ufb50","\uf62c","\ufb51","\uf62d","\uf62e","\uf62f","\uf630","\uf631","\uf632","\uf633","\uf703","\uf634","\uf635","\uf636","\uf705","\ufae5","\uf706","\uf707","\uf70c","\uf70d","\uffbb","\uf70e","\uf637","\uf638","\uf639","\uf63a","\ufe97","\ufe98","\ufe99","\u01f0","\u01f1","\u01f2","\u01f3","\u01f4","\u01f5","\u01f6","\u01f7","\uf63c","\uf63d","\uf63e","\ufba7","\ufa8c","\ufae6","\ufde8","\ufba8","\ufbc2","\ufbc3","\ufbc4","\ufbc5","\ufbc6","\u007e","\u007f","\u0080","\ufa8d","\uf63f","\uf640","\uf641","\uf642","\uf643","\uf644","\uf645","\uf646","\uf647","\uf648","\uf649","\uf64a","\uf64b","\uf64c","\uf64d","\uf64e","\uf64f","\uf650","\uf651","\uf652","\uf713","\uf714","\uf653","\uf654","\ufd5a","\ufd5b","\ufd5c","\ufd5d","\ufd5e","\ufd5f","\ufe9a","\uf657","\uf658","\ufe9b","\uf65b","\uf65c","\uf65d","\uf65e","\uf65f","\uf660","\uf661","\uf662","\uf665","\uf666","\ufa8e","\ufcfc","\ufcfd","\uf715","\ufae7","\uf71e","\ufae8","\uf745","\ufae9","\uf746","\u0030","\uffbc","\uffbd","\uf747","\uf66a","\uf66b","\uf66c","\uf74d","\uf74e","\uf74f","\uf770","\uf771","\uf772","\uf773","\uf774","\uf77c","\uf77d","\u0191","\u0192","\ufb52","\u0193","\u0194","\u0195","\u0196","\ufde9","\uf672","\uf673","\uf674","\uf675","\u00ec","\uf676","\uf677","\ufc54","\ufc55","\ufc56","\ufc57","\ufc58","\ufc59","\uf678","\uf679","\uf67b","\uf67c","\uf67d","\u028a","\uf67e","\uf67f","\u028b","\u01f8","\ufba9","\ufb53","\ufa8f","\ufdea","\uf77e","\uf77f","\ufa90","\ufa91","\u0168","\u0169","\u016a","\u016b","\u016c","\u016d","\uf680","\uf681","\uf682","\ufbaa","\ufbab","\ufbac","\uf683","\uf684","\ufcfe","\uf685","\uf686","\uf687","\ufa92","\ufa93","\uf688","\u0243","\u0244","\u0031","\uf689","\uf68a","\u01f9","\u01fa","\uf68d","\ufc5a","\ufc5b","\u028c","\u028d","\uffbe","\ufb54","\uf68e","\uf68f","\uf690","\ufd60","\uf691","\uf692","\uf693","\uf694","\ufa94","\ufa95","\uf695","\ufaea","\ufaeb","\u0081","\u0082","\u016e","\u016f","\u0170","\u0171","\u0172","\u0197","\u0198","\u0199","\u019a","\u019b","\u0083","\u0084","\u028e","\u028f","\uf696","\ufcff","\ufd00","\u0173","\uf697","\uf698","\ufb22","\ufe39","\uf699","\uf69a","\uf69b","\ufb25","\ufb2e","\ufc5c","\uf69c","\uffbf","\ufa96","\uf69d","\ufc5d","\ufc5e","\ufc5f","\uf69f","\ufc60","\uf6a0","\uf6a1","\u0290","\u0291","\u0292","\u0293","\u0294","\u0295","\ufe3a","\uf6a2","\uf6a3","\uf6a4","\uf6a5","\u019c","\uf6a6","\uf6aa","\uf6ab","\uf6ac","\uf781","\uf784","\uf6ad","\uf6b1","\uf6b2","\uf6b3","\uf6b4","\u0245","\u0246","\ufd01","\ufd02","\ufd03","\ufd04","\ufd05","\ufd06","\ufd07","\ufd08","\ufd09","\ufd0a","\ufd0b","\ufd0c","\uf6b5","\uf6b6","\uf6b7","\u0247","\u0248","\ufb36","\uf6b8","\uf6b9","\u0174","\uf6ba","\uf6bb","\ufbad","\uf6bc","\uf6be","\uf6bf","\uf6c0","\uf6c1","\u019d","\u019e","\u019f","\u01a0","\u01a1","\u01a2","\u01a3","\u01a4","\u01a5","\u01a6","\u01a7","\u01a8","\ufc61","\ufc62","\ufc63","\ufc64","\ufc65","\ufc66","\ufc67","\ufc68","\ufe9c","\uf6c7","\uf6c8","\ufe9d","\ufe9e","\uf785","\ufb37","\ufc69","\uf6c9","\uf6ca","\ufa9a","\u0032","\uf6cb","\uf6cc","\uf6cd","\uf6ce","\uf6cf","\ufb92","\uffc0","\uf6d0","\uf6d1","\u0086","\u0087","\u0088","\u0089","\u008a","\u0175","\u0176","\u0177","\ufd0d","\ufb55","\uf6d2","\uf6d5","\uf6d6","\ufdeb","\uf6d7","\uf6d8","\uf6d9","\uf6db","\ufb56","\ufb57","\ufa9b","\ufa9c","\uf6dd","\uf6de","\ufc6a","\ufc6b","\uf6e0","\uf786","\uf787","\uf788","\u0296","\u0297","\u0298","\u0299","\u0249","\u024a","\u024b","\u024c","\u01fb","\u01fc","\ufa9d","\ufa9e","\ufa9f","\uf6e3","\uf6e4","\uf6e5","\uf6e6","\uf6e7","\uf6eb","\uf6ec","\uf6ed","\ufd61","\ufdec","\ufded","\ufdee","\ufdef","\ufd62","\ufdf0","\ufdf1","\ufdf2","\ufdf3","\ufd63","\ufdf4","\ufdf5","\ufdf6","\ufdf7","\ufef5","\uf6ee","\uf6ef","\ufb9d","\ufbd5","\ufd64","\ufbd6","\uf6f1","\uf6f2","\uf6f3","\uf6f4","\u01a9","\ufb58","\ufaa0","\uf78b","\uf78c","\ufaa1","\ufaa2","\ufd0e","\ufaa3","\ufaa4","\ufaa5","\uf6f5","\ufaa6","\ufaa7","\ufd0f","\uf78d","\uf78e","\uf79e","\uf79f","\uf6fd","\u01aa","\uf6fe","\uf6ff","\uf700","\uf701","\u01fd","\u01fe","\u01ff","\u0200","\u0201","\ufaa8","\ufaa9","\uf702","\ufaaa","\u0178","\ufaab","\ufaac","\ufaad","\uf704","\ufaae","\u0179","\ufaaf","\ufc6c","\ufc6d","\ufc6e","\ufc6f","\u017a","\ufc70","\uf708","\ufab1","\uf709","\uf70a","\uf70b","\ufc71","\ufc72","\ufc73","\ufc74","\ufc75","\ufab4","\ufab5","\uf70f","\uf710","\ufab6","\uf711","\ufab7","\ufab8","\uf712","\ufd65","\ufd66","\ufd67","\ufd68","\ufd69","\ufd6a","\ufd6b","\ufd6c","\ufd6d","\ufd6e","\ufd6f","\ufd70","\ufd71","\ufd72","\ufab9","\ufaba","\ufabb","\ufabc","\ufabd","\ufabe","\ufabf","\u0033","\ufd73","\ufd74","\u00ed","\ufc76","\u0034","\u0202","\ufc77","\uffc1","\ufef6","\ufef7","\ufef8","\ufef9","\ufefa","\ufefb","\u00ee","\u00ef","\ufc78","\u008b","\ufbae","\uf7a4","\u011e","\uf7a5","\uf7aa","\uf7be","\u024d","\u024e","\u008c","\u008d","\u008e","\uf716","\uf717","\uf718","\uf719","\uf71a","\uf71b","\uf71c","\uf71d","\ufc79","\uf71f","\ufac0","\ufbaf","\uf720","\ufd10","\uf721","\uf722","\uf723","\uf724","\uf725","\uffc2","\ufb59","\ufb5a","\uf726","\uf727","\uf728","\uf729","\uf72a","\uf72b","\uf72c","\uf72d","\uf72e","\uf72f","\uf730","\uf731","\uf732","\uf733","\uf734","\uf735","\uf736","\uf737","\uf738","\uf739","\uf73a","\uf73b","\uff00","\uff01","\uf73c","\uf73d","\u017b","\uf73e","\uf73f","\uf740","\uf741","\uf742","\uf743","\uf744","\uf748","\uf749","\uf74a","\uffc3","\uffc4","\ufd75","\ufd76","\ufd77","\uf74b","\uf74c","\ufc7a","\ufc7b","\ufc7c","\ufc7d","\ufc7e","\ufc7f","\u00f0","\uf7bf","\uf7c8","\uf7c9","\uf7cc","\uf7cd","\u008f","\u0090","\u0091","\u0092","\u0203","\ufdf8","\ufefc","\uf750","\uf751","\uf752","\uf753","\uf754","\uf755","\uf756","\ufe3b","\ufd78","\uf757","\uf758","\uf759","\uffc5","\uffc6","\uf75a","\uf75b","\uf75c","\uf75d","\uf75e","\ufc80","\ufc81","\ufc82","\uf75f","\uf760","\uf761","\uf762","\ufac1","\uff02","\uf763","\uf764","\uf765","\uf766","\uf767","\uf768","\uff03","\uf769","\uf76a","\uf76b","\uf76c","\uf76d","\uf76e","\uf76f","\ufac2","\ufc83","\ufc84","\ufac3","\uf775","\uf776","\ufac4","\ufd11","\ufac5","\ufb5b","\uf777","\ufd12","\uf778","\uf779","\uf77a","\uf77b","\ufd79","\ufc85","\ufd7a","\ufc86","\ufb5c","\ufb5d","\uf780","\uf782","\ufc87","\uf783","\ufc88","\ufc89","\u024f","\u0250","\u0251","\u0252","\ufc8a","\ufc8b","\uf789","\uf78a","\ufc8c","\ufc8d","\uf78f","\ufac6","\ufac7","\ufac8","\ufac9","\ufaca","\ufd7b","\ufc8e","\ufc8f","\ufd7c","\ufd7d","\ufc90","\ufd7e","\ufc91","\uf790","\uf791","\uf792","\ufd13","\uf793","\ufacb","\uf794","\uf795","\u01ab","\u00f1","\u01ac","\uffc7","\uffc8","\u029a","\u029b","\u029c","\u01ad","\u01ae","\u01af","\u01b0","\u01b1","\u01b2","\u01b3","\u01b4","\uf7ce","\u0035","\u029d","\ufc92","\u029e","\ufc93","\u029f","\ufb5e","\uf796","\ufb5f","\uf797","\uf798","\uf799","\uf79a","\ufd14","\uf7cf","\uf7d0","\uffc9","\uf79b","\uf79c","\uf79d","\uf7a0","\uf7a1","\ufd7f","\ufd80","\ufd81","\ufd82","\uff04","\uff05","\uff06","\uff07","\uff08","\uff09","\ufacc","\uf7a2","\uf7a3","\ufe3c","\uf7a6","\uffca","\uf7a7","\uf7a8","\ufacd","\uface","\ufacf","\uf7a9","\ufad0","\ufad1","\ufd83","\ufd84","\ufd85","\ufd86","\ufd87","\ufd88","\uf7ad","\uf7ae","\uf7af","\uf7b0","\u0093","\u01b5","\uf7b1","\uf7b2","\uffdb","\uf7b3","\uf7b4","\uff0a","\uff0b","\uf7b5","\uf7b6","\uff0c","\uffdc","\uffdd","\u01b6","\uf7b7","\uf7b8","\uffde","\u01b7","\uf7b9","\uf7ba","\uffdf","\uf7bb","\u011f","\ufad2","\uf7bc","\uf7bd","\u0036","\ufb60","\uf7c0","\u00f2","\ufd89","\ufd8a","\u00f3","\ufd8b","\ufd8c","\ufb61","\uf7c1","\uf7d1","\uf7d2","\uf7c2","\uf7c3","\uf7c4","\uf7c5","\uf7c6","\uf7c7","\u0204","\u0205","\u0206","\u0207","\u0208","\u0209","\u020a","\u020b","\u020c","\u01b8","\uf7ca","\uf7cb","\u01b9","\uf7d4","\uf7d5","\uff0f","\uf7d6","\ufad3","\uf7d7","\uf7d8","\u01ba","\u01bb","\u01bc","\uff10","\uf7d9","\uf7da","\ufad4","\ufad5","\ufad6","\ufad7","\u02a0","\u02a1","\uf7db","\uf7dc","\uf7dd","\uf7de","\uf7df","\uf7e0","\uf7e1","\uf7e2","\ufad8","\uf7e3","\uf7e4","\u003e","\u003f","\u0040","\u0041","\u0037","\u0038","\u0044","\u0045","\u0046","\u0047","\uf7ef","\uf7f0","\uf7f1","\uf7f2","\uff15","\uf7f3","\uf7f4","\uff16","\uf7f5","\uf7f6","\uf7f7","\uf7f8","\uf7f9","\uf7fa","\uf7fb","\uf7fc","\uf7fd","\u02a2","\u02a3","\u02a4","\u01bd","\uf7fe","\uf7ff","\uf800","\uf801","\uff17","\ufc94","\ufc95","\ufc96","\ufc97","\ufc98","\ufc99","\ufc9a","\ufc9b","\ufb62","\ufc9c","\ufc9d","\ufc9e","\ufc9f","\ufca0","\uf805","\uf806","\uf807","\u00f4","\uf808","\u00f5","\uf809","\u00f6","\u01be","\u01c0","\u01c1","\u01c2","\u01c3","\u01c4","\u01c5","\u01c7","\u01c8","\u01c9","\u01ca","\u01cb","\ufadb","\uf80c","\uf80d","\uf80e","\uf80f","\u0094","\uf810","\uf811","\uff18","\u01cc","\uf812","\uf813","\u01cd","\ufb63","\uf814","\ufca1","\ufca2","\ufca3","\ufca4","\u01ce","\u01cf","\u01d0","\u01d1","\u00f7","\ufca5","\ufca6","\ufca7","\ufca8","\ufca9","\ufcaa","\ufcab","\ufcac","\ufcad","\ufcae","\ufcaf","\ufcb0","\ufcb1","\ufcb2","\uf817","\uf818","\uff19","\u0039","\uf819","\uf81a","\ufdfa","\uf81b","\ufdfb","\ufdfc","\uf81c","\ufdfd","\ufd8d","\ufd8e","\uffe4","\ufd8f","\u01d2","\uf81f","\uf820","\u01d3","\uf821","\uf822","\u0095","\u0096","\u0253","\u0254","\ufadd","\uf823","\uf824","\uf825","\uf826","\uf827","\uf828","\uf829","\uf82c","\uf82d","\uffe5","\ufcb3","\ufcb4","\uf82e","\uf82f","\uffe6","\uf830","\uf831","\uffe7","\uff1b","\uf832","\uf833","\uf834","\uf835","\uffcb","\uf836","\uf837","\ufcb5","\uf838","\uf839","\u0255","\u0256","\ufaec","\ufaed","\ufaee","\ufaef","\ufcb6","\ufcb7","\uf83c","\uf83d","\u00f8","\uf83e","\uf83f","\ufaf0","\ufaf1","\uf840","\uf841","\ufd15","\uf842","\ufaf2","\ufaf3","\ufaf4","\ufaf5","\ufaf6","\uf843","\uf844","\uf845","\ufaf7","\ufaf8","\u017c","\uf846","\uf847","\uf848","\uf849","\uf7d3","\uffcc","\ufea4","\uf84a","\uf84b","\uf84c","\ufefd","\u02a5","\u02a6","\u02a7","\u02a8","\u00f9","\u020d","\uf84d","\uf84e","\uf84f","\ufaf9","\ufafa","\ufafb","\ufafc","\ufafd","\ufbb0","\ufd9d","\ufd9e","\ufd9f","\ufda0","\ufda1","\uffcd","\uffce","\uf850","\u0097","\u0098","\uf857","\uf858","\uf859","\uf85a","\uf85b","\ufafe","\ufaff","\uf85c","\ufb00","\ufb01","\uf85d","\ufd90","\ufd91","\uf85e","\ufd92","\uf85f","\uf860","\uf861","\ufb02","\ufb03","\u017d","\u017e","\u017f","\u0180","\uf7e5","\u003a","\uf7e6","\u003b","\ufb04","\ufb05","\ufb06","\ufb07","\ufb08","\ufb09","\ufb0a","\ufb0b","\uf862","\u02a9","\u02aa","\uf802","\uffcf","\ufd93","\uf863","\uf864","\uf865","\uf866","\uff1c","\ufb64","\ufb65","\ufda2","\uff1d","\uffd0","\uffd1","\ufb28","\uf867","\uff1e","\ufb0c","\uf868","\uf869","\uf86a","\uf86b","\u0257","\u0258","\ufb66","\ufb67","\ufb68","\uf86c","\ufb69","\ufb6a","\ufb6b","\ufb6c","\ufb6d","\ufdfe","\uf86d","\u020e","\u020f","\u0210","\u0211","\u0212","\ufb6e","\uf86e","\ufbb1","\ufe3d","\uf86f","\ufda3","\ufb6f","\ufda4","\ufda5","\ufbb2","\uf870","\uf871","\ufb70","\uf872","\ufbb3","\uf873","\uf874","\uf875","\uf876","\uf87a","\uf87b","\uf87c","\ufd16","\uf803","\uf804","\uf815","\ufb0d","\ufb0e","\ufd17","\uf87d","\uf87e","\u0181","\u0182","\uf87f","\ufcb8","\ufcb9","\ufcba","\ufcbb","\ufcbc","\uffd2","\uf880","\uf881","\uf882","\ufd18","\uf883","\uf884","\uf885","\uf886","\uf887","\uf888","\ufb0f","\ufb10","\ufb11","\uf889","\uf88a","\uf88b","\uf88c","\uf88d","\uf88e","\uf88f","\uf890","\uf891","\uf892","\uf893","\uf894","\ufb12","\ufb13","\ufb14","\ufb15","\uf895","\uf896","\ufb16","\uf897","\ufb17","\ufb18","\ufb19","\ufb1a","\ufb1b","\u003c","\uf898","\uf899","\uf89a","\uf89b","\uf89c","\uf89d","\uf89e","\uf89f","\uf8a0","\uf8a1","\uf8a2","\uf8a3","\uf8a4","\uf8a5","\uf8a6","\uf8a7","\uf8a8","\uf8a9","\uf8aa","\uf8ab","\uf8ac","\uf8ad","\uf8ae","\uf8af","\uf8b0","\uf8b1","\uf8b2","\uf8b3","\uf8b4","\uf8b5","\uf8b6","\uf8b7","\uf8b8","\u003d","\uf8b9","\uf8ba","\ufdff","\uf8bb","\ufb1c","\ufb1d","\ufb1e","\ufb1f","\ufb20","\ufb21","\uf8bc","\uf8bd","\uf8be","\uf8bf","\uf8c2","\uf8c3","\u0183","\uf8c4","\uf8c5","\uf8c6","\uf8c7","\uf8c8","\uf8c9","\uf8ca","\uf8cb","\u0099","\ufefe","\ufeff","\u00fa","\ufb71","\uf816","\u00fb","\uf8cd","\u00fc","\uf8ce","\u00fd","\uff1f","\u00fe","\u00ff","\ufcbd","\u0100","\uff20","\uffd3","\uf8cf","\uf8d0","\uf8d1","\uf81d","\ufcbe","\u0101","\ufcbf","\uf8d2","\uf8d3","\u0102","\uf8d4","\ufb23","\uf8d5","\ufb24","\uf8d6","\uf8d7","\uf8d8","\ufb26","\ufb27","\uf8d9","\uf8da","\uf8db","\uffd4","\uffd5","\u0103","\uf8dc","\uf8dd","\u0104","\uf8de","\uf8df"
+		};
+	}
 }

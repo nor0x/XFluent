@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFluent"
              x:Class="XFluent.MainPage">
+    <ContentPage.Resources>
+        <local:RandomColorConverter x:Key="RandomColorConverter" />
+
+    </ContentPage.Resources>
     <ScrollView>
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="{Binding ., Converter={StaticResource RandomColorConverter}}" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms + Fluent Icons!" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="here are some fluent icons with random oclors" FontSize="Title" Padding="30,10,30,10"/>
         <Label FontSize="16" Padding="30,24,30,0">
             <Label.FormattedText>
                 <FormattedString>
@@ -26,7 +30,9 @@
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
                             <Label Text="{Binding .}"
-                                   FontFamily="Fluent-Regular" FontSize="34" />
+                                   TextColor="{Binding ., Converter={StaticResource RandomColorConverter}}"
+                                   FontFamily="Fluent-Regular"
+                                   FontSize="40" />
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
                 </StackLayout>
@@ -35,7 +41,10 @@
                              HorizontalOptions="Fill">
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
-                        <Label Text="{Binding .}" FontFamily="Fluent-Filled" FontSize="34" />
+                        <Label Text="{Binding .}"
+                               TextColor="{Binding ., Converter={StaticResource RandomColorConverter}}"
+                               FontFamily="Fluent-Filled"
+                               FontSize="40" />
                     </DataTemplate>
                 </BindableLayout.ItemTemplate>
             </StackLayout>
